@@ -42,7 +42,7 @@
                     <div class="nav-collapse collapse pull-right">
                         <ul class="nav">
                             <li class="active">
-                                <a href="#welcome">Home</a>
+                                <a href="#Home">Home</a>
                             </li>
                             <li>
                                 <a href="#Vision">Vision</a>
@@ -73,7 +73,9 @@
         </div>
         <div class="container-fluid clearfix">
             <div class="row-fluid">
-                <div id="welcome">
+                
+                <!-- START HOME -->
+                <div id="home">
                     <div class="container-fluid clearfix" style="padding:0; overflow:hidden">                        
                         <!-- Start WOWSlider.com BODY section -->
                         <div id="wowslider-container1">
@@ -89,8 +91,22 @@
                         <!-- End WOWSlider.com BODY section -->                            
                     </div>
                 </div>
+                <!-- END HOME -->
 
+                <!-- first did you know -->
+                <div id="first" class="Parallax">
+                    <div class="ParallaxText">
+                        <h2>DID <span>YOU</span> KNOW?</h2>
+                        <div class="clearfix"></div>
+                        <blockquote>Apple Passed 45,000,000,000 Total Unique App Downloads At A Rate Of 800 Per Second With Over $9,000,000,000 Paid To Devs</blockquote>             
+                        <div class="clearfix"></div>
+                        <p>source: <a href="http://techcrunch.com/2013/04/23/app-store-45-billion-downloads/" target="_blank">http://techcrunch.com/2013/04/23/app-store-45-billion-downloads/</a></p>
+                    </div>
+                </div>
                 
+                
+<?php 
+/*
                 <div id="About">
                     <div class="container-fluid clearfix About">
                         <div class="container clearfix">
@@ -188,20 +204,9 @@
                         </div>
                     </div>
                 </div>
-                <!--/Vision-->                
-
-                <!-- first did you know -->
-                <div id="intro" class="Parallax">
-                    <div class="ParallaxText">
-                        <h2>DID <span>YOU</span> KNOW?</h2>
-
-                        <div class="clearfix"></div>
-                        <blockquote>A man must be big enough to admit his mistakes, smart enough to profit
-                            from them, and strong enough to correct them.</blockquote>
-                        <div class="clearfix"></div>
-                        <p>- Jason Adams -</p>
-                    </div>
-                </div>
+                <!-- END OF ABOUT -->                
+*/ ?>
+                
                 
                 
                 <!--#second-->
