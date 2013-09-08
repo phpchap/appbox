@@ -45,12 +45,6 @@
                                 <a href="#welcome">Home</a>
                             </li>
                             <li>
-                                <a target="_blank" href="#">Presentation</a>
-                            </li>
-                            <li>
-                                <a href="#EISCalculator">EIS Calculator</a>
-                            </li>
-                            <li>
                                 <a href="#Vision">Vision</a>
                             </li>
                             <li>
@@ -59,11 +53,18 @@
                             
                             <li>
                                 <a href="#Team">Team</a>
-                            </li>                            
-                            
+                            </li>                                                        
+                            <li>
+                                <a href="#EISCalculator">EIS Calculator</a>
+                            </li>
+                             
                             <li>
                                 <a href="#Contact">Contact</a>
                             </li>
+                            <li>
+                                <a target="_blank" href="#">Presentation</a>
+                            </li>
+                            
                         </ul>
                     </div>
                     <!--/.nav-collapse -->
@@ -73,59 +74,23 @@
         <div class="container-fluid clearfix">
             <div class="row-fluid">
                 <div id="welcome">
-                    <div class="container-fluid clearfix" style="padding:0; overflow:hidden">
-                        
-<!-- Start WOWSlider.com BODY section -->
-	<div id="wowslider-container1">
-	<div class="ws_images"><ul>
-<li><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/images/houses.jpg" alt="Bright houses: javascript slider" title="Bright houses" id="wows1_0"/>Venice, Italy</li>
-<li><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/images/cannaregio.jpg" alt="Cannaregio district: javascript image slider" title="Cannaregio district" id="wows1_1"/>The northernmost of the six historic sestieri (districts) of Venice</li>
-<li><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/images/street.jpg" alt="Narrow street: javascript slider free" title="Narrow street" id="wows1_2"/>Venice, Italy</li>
-<li><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/images/constitutionbridge.jpg" alt="Constitution bridge: javascript slider bar" title="Constitution bridge" id="wows1_3"/>The Ponte della Costituzione (English: Constitution Bridge)</li>
-<li><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/images/night.jpg" alt="Night lights: javascript slider control" title="Night lights" id="wows1_4"/>Venice, Italy</li>
-<li><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/images/dorsoduro.jpg" alt="Dorsoduro: javascript slider example" title="Dorsoduro" id="wows1_5"/>Dorsoduro is one of the six sestieri of Venice, northern Italy.</li>
-<li><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/images/canal.jpg" alt="Canal: javascript slider gallery" title="Canal" id="wows1_6"/>Venice, Italy</li>
-</ul></div>
-<div class="ws_bullets"><div>
-<a href="#" title="Bright houses"><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/tooltips/houses.jpg" alt="Bright houses"/>1</a>
-<a href="#" title="Cannaregio district"><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/tooltips/cannaregio.jpg" alt="Cannaregio district"/>2</a>
-<a href="#" title="Narrow street"><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/tooltips/street.jpg" alt="Narrow street"/>3</a>
-<a href="#" title="Constitution bridge"><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/tooltips/constitutionbridge.jpg" alt="Constitution bridge"/>4</a>
-<a href="#" title="Night lights"><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/tooltips/night.jpg" alt="Night lights"/>5</a>
-<a href="#" title="Dorsoduro"><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/tooltips/dorsoduro.jpg" alt="Dorsoduro"/>6</a>
-<a href="#" title="Canal"><img src="http://wowslider.com/images/demo/ionosphere-stack/data1/tooltips/canal.jpg" alt="Canal"/>7</a>
-</div></div>
-<a style="display: none;" href="http://wowslider.com">javascript slider jquery</a>
-	<div class="ws_shadow"></div>
-	</div>
-	<!-- End WOWSlider.com BODY section -->
-
-        
-        
-                        
-<?php /* 
-                        <ul class="cb-slideshow">
-                            <li><span>Image 01</span>
-                                <div>
-                                    <h3>AppBox Media PLC is a mobile application and video game software development company for Apple IOS, Google Android, Xbox OS and Orbis operating platforms.</h3>
-                                </div>
-                            </li>
-                            <li><span>Image 02</span>
-                                <div>
-                                    <h3>The Company’s upcoming release titles will be accessible for instant download on smart phone, tablet, smart TV, PlayStation 4, Xbox One and Google GLΛSS devices. </h3>
-                                </div>
-                            </li>
-                            <li><span>Image 03</span>
-                                <div>
-                                    <h3>The Company undertakes the role of the brain child, designer and developer of mobile applications and digital games which demonstrate a high propensity to be monetised via global digital distribution channels. </h3>
-                                </div>
-                            </li>
-                        </ul>
- * 
- */
-?>
+                    <div class="container-fluid clearfix" style="padding:0; overflow:hidden">                        
+                        <!-- Start WOWSlider.com BODY section -->
+                        <div id="wowslider-container1">
+                            <div class="ws_images">
+                                <ul id="homepage_slide_overlay">
+                                    <li><img src="WOWSlider/home_slider/1.jpg" alt="App Box Media" title="AppBox Media PLC is a mobile application and video game software development company for Apple IOS, Google Android, Xbox OS and Orbis operating platforms." id="wows1_0"/></li>
+                                    <li><img src="WOWSlider/home_slider/2.jpg" alt="App Box Media" title="The Company’s upcoming release titles will be accessible for instant download on smart phone, tablet, smart TV, PlayStation 4, Xbox One and Google GLΛSS devices. " id="wows1_1"/></li>
+                                    <li><img src="WOWSlider/home_slider/3.jpg" alt="App Box Media" title="The Company undertakes the role of the brain child, designer and developer of mobile applications and digital games which demonstrate a high propensity to be monetised via global digital distribution channels. " id="wows1_2"/></li>
+                                </ul>
+                            </div>
+                            <div class="ws_shadow"></div>
+                        </div>
+                        <!-- End WOWSlider.com BODY section -->                            
                     </div>
                 </div>
+
+                
                 <div id="About">
                     <div class="container-fluid clearfix About">
                         <div class="container clearfix">
@@ -223,10 +188,12 @@
                         </div>
                     </div>
                 </div>
-                <!--#About-->
+                <!--/Vision-->                
+
+                <!-- first did you know -->
                 <div id="intro" class="Parallax">
                     <div class="ParallaxText">
-                        <h2>WORD <span>OF</span> THE <span>WISE</span></h2>
+                        <h2>DID <span>YOU</span> KNOW?</h2>
 
                         <div class="clearfix"></div>
                         <blockquote>A man must be big enough to admit his mistakes, smart enough to profit
@@ -235,236 +202,8 @@
                         <p>- Jason Adams -</p>
                     </div>
                 </div>
-                <!--#intro-->
-                <div id="EISCalculator">
-                    <div class="container-fluid clearfix Services">
-                        <div class="container clearfix TitleSection">
-
-                            <h1>Our <span>Services</span> </h1> 
-
-                            <h1><span>Lorem</span> ipsum <span>dolor</span> sit <span>amet</span></h1>
-
-                        </div>
-                        <div class="container clearfix">
-                            <div class="row-fluid">
-                                <div class="span12">
-                                    <div class="slider-wrapper">
-                                        <div id="slider">
-                                            <div class="slide1">
-                                                <img src="images/1.jpg" alt="" />
-                                            </div>
-                                            <div class="slide2">
-                                                <img src="images/2.jpg" alt="" />
-                                            </div>
-                                            <div class="slide3">
-                                                <img src="images/3.jpg" alt="" />
-                                            </div>
-                                            <div class="slide4">
-                                                <img src="images/4.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                        <div id="slider-direction-nav"></div>
-                                        <div id="slider-control-nav"></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="container clearfix TitleSection">
-
-                                <h1><span>We</span> make <span>our</span> clients <span>happy!</span></h1>
-
-                            </div>
-                            <div class="row-fluid">
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">A</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Web Design</h2>
-
-                                                    <h3 class="ca-sub">Personalized to your needs</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">I</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Web Development</h2>
-
-                                                    <h3 class="ca-sub">Advanced use of technology</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row-fluid">
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">C</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Wordpress</h2>
-
-                                                    <h3 class="ca-sub">Understanding visually</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">S</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Sophisticated Team</h2>
-
-                                                    <h3 class="ca-sub">Professionals in action</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row-fluid">
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">d</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Brand Creation</h2>
-
-                                                    <h3 class="ca-sub">24/7 for you needs</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">O</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Corporate Identity</h2>
-
-                                                    <h3 class="ca-sub">Lorem ipsum dolor</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row-fluid">
-                                <h2>Pricing Tables </h2>
-
-                            </div>
-                            <div class="row-fluid">
-                                <div class="span4">
-                                    <div class="well PricingTables Standard">
-                                        <h2>Standard</h2>
-
-                                        <h3>$15.99 / month</h3>
-
-                                        <p><span class="label">POPULAR</span>
-                                        </p>
-                                        <ul>
-                                            <li><i class="icon-ok-sign"></i>10 users</li>
-                                            <li><i class="icon-ok-sign"></i>5TB of space</li>
-                                            <li><i class="icon-ok-sign"></i>About Us</li>
-                                            <li><i class="icon-ok-sign"></i>News Archive</li>
-                                            <li><i class="icon-ok-sign"></i>Our Service</li>
-                                            <li><i class="icon-ok-sign"></i>Our Team</li>
-                                            <li><i class="icon-ok-sign"></i>Clients Testimonials</li>
-                                            <li><i class="icon-ok-sign"></i>Job Opportunities</li>
-                                            <li><i class="icon-ok-sign"></i>F.A.Q</li>
-                                        </ul>
-                                        <p class="Special">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <p>
-                                            <a class="btn btn-large" href="#"><i class="icon-ok icon-white"></i> Select plan</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="span4">
-                                    <div class="well PricingTables Professional">
-                                        <h2>Professional</h2>
-
-                                        <h3>$10.99 / month</h3>
-
-                                        <p><span class="label label-success">POPULAR</span>
-                                        </p>
-                                        <ul>
-                                            <li><i class="icon-ok-sign"></i>10 users</li>
-                                            <li><i class="icon-ok-sign"></i>5TB of space</li>
-                                            <li><i class="icon-ok-sign"></i>About Us</li>
-                                            <li><i class="icon-ok-sign"></i>News Archive</li>
-                                            <li><i class="icon-ok-sign"></i>Our Service</li>
-                                            <li><i class="icon-ok-sign"></i>Our Team</li>
-                                            <li><i class="icon-ok-sign"></i>Clients Testimonials</li>
-                                            <li><i class="icon-ok-sign"></i>Job Opportunities</li>
-                                            <li><i class="icon-ok-sign"></i>F.A.Q</li>
-                                        </ul>
-                                        <p class="Special">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <p>
-                                            <a class="btn btn-success btn-large" href="#"><i class="icon-ok icon-white"></i> Select plan</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="span4">
-                                    <div class="well PricingTables Premium">
-                                        <h2>Premium</h2>
-
-                                        <h3>$8.99 / month</h3>
-
-                                        <p><span class="label label-info">BUDGET</span>
-                                        </p>
-                                        <ul>
-                                            <li><i class="icon-ok-sign"></i>10 users</li>
-                                            <li><i class="icon-ok-sign"></i>5TB of space</li>
-                                            <li><i class="icon-ok-sign"></i>About Us</li>
-                                            <li><i class="icon-ok-sign"></i>News Archive</li>
-                                            <li><i class="icon-ok-sign"></i>Our Service</li>
-                                            <li><i class="icon-ok-sign"></i>Our Team</li>
-                                            <li><i class="icon-ok-sign"></i>Clients Testimonials</li>
-                                            <li><i class="icon-ok-sign"></i>Job Opportunities</li>
-                                            <li><i class="icon-ok-sign"></i>F.A.Q</li>
-                                        </ul>
-                                        <p class="Special">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <p>
-                                            <a class="btn btn-large" href="#"><i class="icon-ok icon-white"></i> Select plan</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--#Services-->
-                <div id="second" class="Parallax">
-                    <div class="ParallaxText">
-                        <h2>WORD <span>OF</span> THE <span>WISE</span></h2>
-
-                        <div class="clearfix"></div>
-                        <blockquote>A man must be big enough to admit his mistakes, smart enough to profit
-                            from them, and strong enough to correct them.</blockquote>
-                        <div class="clearfix"></div>
-                        <p>- Jason Adams -</p>
-                    </div>
-                </div>
+                
+                
                 <!--#second-->
                 <div id="Vision">
                     <div class="container-fluid clearfix Portfolio">
@@ -726,16 +465,13 @@
                 <div id="fourth" class="Parallax">
                     <div class="ParallaxText">
                         <h2>WORD <span>OF</span> THE <span>WISE</span></h2>
-
                         <div class="clearfix"></div>
                         <blockquote>A man must be big enough to admit his mistakes, smart enough to profit
                             from them, and strong enough to correct them.</blockquote>
                         <div class="clearfix"></div>
                         <p>- Jason Adams -</p>
                     </div>
-                </div>
-                
-                
+                </div>                               
                 <!--#second-->
                 <div id="Team">
                     <div class="container-fluid clearfix Portfolio">
@@ -927,6 +663,234 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                
+                <!--START EIS CALCULATOR -->
+                <div id="EISCalculator">
+                    <div class="container-fluid clearfix Services">
+                        <div class="container clearfix TitleSection">
+                            <h1>Our <span>Services</span> </h1> 
+                            <h1><span>Lorem</span> ipsum <span>dolor</span> sit <span>amet</span></h1>
+                        </div>
+                        <div class="container clearfix">
+                            <div class="row-fluid">
+                                <div class="span12">
+                                    <div class="slider-wrapper">
+                                        <div id="slider">
+                                            <div class="slide1">
+                                                <img src="images/1.jpg" alt="" />
+                                            </div>
+                                            <div class="slide2">
+                                                <img src="images/2.jpg" alt="" />
+                                            </div>
+                                            <div class="slide3">
+                                                <img src="images/3.jpg" alt="" />
+                                            </div>
+                                            <div class="slide4">
+                                                <img src="images/4.jpg" alt="" />
+                                            </div>
+                                        </div>
+                                        <div id="slider-direction-nav"></div>
+                                        <div id="slider-control-nav"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="container clearfix TitleSection">
+                                <h1><span>We</span> make <span>our</span> clients <span>happy!</span></h1>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span6">
+                                    <div class="ca-menu">
+                                        <div>
+                                            <a href="#"> <span class="ca-icon">A</span>
+
+                                                <div class="ca-content">
+                                                    <h2 class="ca-main">Web Design</h2>
+
+                                                    <h3 class="ca-sub">Personalized to your needs</h3>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="span6">
+                                    <div class="ca-menu">
+                                        <div>
+                                            <a href="#"> <span class="ca-icon">I</span>
+
+                                                <div class="ca-content">
+                                                    <h2 class="ca-main">Web Development</h2>
+
+                                                    <h3 class="ca-sub">Advanced use of technology</h3>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span6">
+                                    <div class="ca-menu">
+                                        <div>
+                                            <a href="#"> <span class="ca-icon">C</span>
+
+                                                <div class="ca-content">
+                                                    <h2 class="ca-main">Wordpress</h2>
+
+                                                    <h3 class="ca-sub">Understanding visually</h3>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="span6">
+                                    <div class="ca-menu">
+                                        <div>
+                                            <a href="#"> <span class="ca-icon">S</span>
+
+                                                <div class="ca-content">
+                                                    <h2 class="ca-main">Sophisticated Team</h2>
+
+                                                    <h3 class="ca-sub">Professionals in action</h3>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span6">
+                                    <div class="ca-menu">
+                                        <div>
+                                            <a href="#"> <span class="ca-icon">d</span>
+
+                                                <div class="ca-content">
+                                                    <h2 class="ca-main">Brand Creation</h2>
+
+                                                    <h3 class="ca-sub">24/7 for you needs</h3>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="span6">
+                                    <div class="ca-menu">
+                                        <div>
+                                            <a href="#"> <span class="ca-icon">O</span>
+
+                                                <div class="ca-content">
+                                                    <h2 class="ca-main">Corporate Identity</h2>
+
+                                                    <h3 class="ca-sub">Lorem ipsum dolor</h3>
+
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row-fluid">
+                                <h2>Pricing Tables </h2>
+
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span4">
+                                    <div class="well PricingTables Standard">
+                                        <h2>Standard</h2>
+
+                                        <h3>$15.99 / month</h3>
+
+                                        <p><span class="label">POPULAR</span>
+                                        </p>
+                                        <ul>
+                                            <li><i class="icon-ok-sign"></i>10 users</li>
+                                            <li><i class="icon-ok-sign"></i>5TB of space</li>
+                                            <li><i class="icon-ok-sign"></i>About Us</li>
+                                            <li><i class="icon-ok-sign"></i>News Archive</li>
+                                            <li><i class="icon-ok-sign"></i>Our Service</li>
+                                            <li><i class="icon-ok-sign"></i>Our Team</li>
+                                            <li><i class="icon-ok-sign"></i>Clients Testimonials</li>
+                                            <li><i class="icon-ok-sign"></i>Job Opportunities</li>
+                                            <li><i class="icon-ok-sign"></i>F.A.Q</li>
+                                        </ul>
+                                        <p class="Special">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p>
+                                            <a class="btn btn-large" href="#"><i class="icon-ok icon-white"></i> Select plan</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="span4">
+                                    <div class="well PricingTables Professional">
+                                        <h2>Professional</h2>
+
+                                        <h3>$10.99 / month</h3>
+
+                                        <p><span class="label label-success">POPULAR</span>
+                                        </p>
+                                        <ul>
+                                            <li><i class="icon-ok-sign"></i>10 users</li>
+                                            <li><i class="icon-ok-sign"></i>5TB of space</li>
+                                            <li><i class="icon-ok-sign"></i>About Us</li>
+                                            <li><i class="icon-ok-sign"></i>News Archive</li>
+                                            <li><i class="icon-ok-sign"></i>Our Service</li>
+                                            <li><i class="icon-ok-sign"></i>Our Team</li>
+                                            <li><i class="icon-ok-sign"></i>Clients Testimonials</li>
+                                            <li><i class="icon-ok-sign"></i>Job Opportunities</li>
+                                            <li><i class="icon-ok-sign"></i>F.A.Q</li>
+                                        </ul>
+                                        <p class="Special">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p>
+                                            <a class="btn btn-success btn-large" href="#"><i class="icon-ok icon-white"></i> Select plan</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="span4">
+                                    <div class="well PricingTables Premium">
+                                        <h2>Premium</h2>
+
+                                        <h3>$8.99 / month</h3>
+
+                                        <p><span class="label label-info">BUDGET</span>
+                                        </p>
+                                        <ul>
+                                            <li><i class="icon-ok-sign"></i>10 users</li>
+                                            <li><i class="icon-ok-sign"></i>5TB of space</li>
+                                            <li><i class="icon-ok-sign"></i>About Us</li>
+                                            <li><i class="icon-ok-sign"></i>News Archive</li>
+                                            <li><i class="icon-ok-sign"></i>Our Service</li>
+                                            <li><i class="icon-ok-sign"></i>Our Team</li>
+                                            <li><i class="icon-ok-sign"></i>Clients Testimonials</li>
+                                            <li><i class="icon-ok-sign"></i>Job Opportunities</li>
+                                            <li><i class="icon-ok-sign"></i>F.A.Q</li>
+                                        </ul>
+                                        <p class="Special">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <p>
+                                            <a class="btn btn-large" href="#"><i class="icon-ok icon-white"></i> Select plan</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--END EIS CALCULATOR -->                
+                
+                <!-- SECOND DID YOU KNOW -->
+                <div id="second" class="Parallax">
+                    <div class="ParallaxText">
+                        <h2>WORD <span>OF</span> THE <span>WISE</span></h2>
+
+                        <div class="clearfix"></div>
+                        <blockquote>A man must be big enough to admit his mistakes, smart enough to profit
+                            from them, and strong enough to correct them.</blockquote>
+                        <div class="clearfix"></div>
+                        <p>- Jason Adams -</p>
                     </div>
                 </div>
                 
