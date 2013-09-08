@@ -58,7 +58,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #first{
-    background:url("../images/first.jpg") 50% 50% no-repeat fixed!important;
+    background:url("../images/didyouknow/first.jpg") 50% 50% no-repeat fixed!important;
     color: white;
     height: 500px;
     margin: 0 auto;
@@ -66,7 +66,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 }
 
 #second{
-    background: url("../images/second.jpg") 50% 50% no-repeat fixed!important;
+    background: url("../images/didyouknow/second.jpg") 50% 50% no-repeat fixed!important;
     color: white;
     height: 500px;
     margin: 0 auto;
@@ -74,7 +74,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
     padding: 150px 0 40px;
 }
 #third{
-    background: url("../images/third.jpg") 50% 50% no-repeat fixed!important;
+    background: url("../images/didyouknow/third.jpg") 50% 50% no-repeat fixed!important;
     color: white;
     height: 500px;
     margin: 0 auto;
@@ -82,7 +82,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
     padding: 150px 0 40px;
 }
 #fourth{
-    background: url("../images/fourth.jpg") 50% 50% no-repeat fixed!important;
+    background: url("../images/didyouknow/fourth.jpg") 50% 50% no-repeat fixed!important;
     color: white;
     height: 500px;
     margin: 0 auto;
@@ -90,7 +90,7 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
     padding: 150px 0 40px;
 }
 #fifth{
-    background: url("../images/fifth.jpg") 50% 50% no-repeat fixed!important;
+    background: url("../images/didyouknow/fifth.jpg") 50% 50% no-repeat fixed!important;
     color: white;
     height: 500px;
     margin: 0 auto;
@@ -101,19 +101,19 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 /*******media query********/
 @media (min-width: 768px) and (max-width: 979px) {
     #first{
-        background:url("../images/Intro.jpg") 50% 50% no-repeat fixed!important;
+        background:url("../images/didyouknow/first.jpg") 50% 50% no-repeat fixed!important;
     }
     #second{
-        background: url("../images/second.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/second.jpg") 50% 50% no-repeat fixed!important;
     }
     #third{
-        background: url("../images/third.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/third.jpg") 50% 50% no-repeat fixed!important;
     }
     #fourth{
-        background: url("../images/fourth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fourth.jpg") 50% 50% no-repeat fixed!important;
     }
     #fifth{
-        background: url("../images/fifth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fifth.jpg") 50% 50% no-repeat fixed!important;
     }
     .cb-slideshow li div h3 {
         font-size: 25px !important;
@@ -123,19 +123,19 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 @media (max-width: 767px) {
     #first{
-        background:url("../images/Intro.jpg") 50% 50% no-repeat fixed!important;
+        background:url("../images/didyouknow/first.jpg") 50% 50% no-repeat fixed!important;
     }
     #second{
-        background: url("../images/second.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/second.jpg") 50% 50% no-repeat fixed!important;
     }
     #third{
-        background: url("../images/third.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/third.jpg") 50% 50% no-repeat fixed!important;
     }
     #fourth{
-        background: url("../images/fourth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fourth.jpg") 50% 50% no-repeat fixed!important;
     }
     #fifth{
-        background: url("../images/fifth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fifth.jpg") 50% 50% no-repeat fixed!important;
     }
     .cb-slideshow li div h3 {
         font-size: 25px !important;
@@ -145,19 +145,19 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 @media (max-width: 480px) {
     #first{
-        background:url("../images/Intro.jpg") 50% 50% no-repeat fixed!important;
+        background:url("../images/didyouknow/first.jpg") 50% 50% no-repeat fixed!important;
     }
     #second{
-        background: url("../images/second.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/second.jpg") 50% 50% no-repeat fixed!important;
     }
     #third{
-        background: url("../images/third.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/third.jpg") 50% 50% no-repeat fixed!important;
     }
     #fourth{
-        background: url("../images/fourth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fourth.jpg") 50% 50% no-repeat fixed!important;
     }
     #fifth{
-        background: url("../images/fifth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fifth.jpg") 50% 50% no-repeat fixed!important;
     }
     .cb-slideshow li div h3 {
         font-size: 25px !important;
@@ -167,19 +167,19 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 @media (min-width: 768px) and (max-width: 979px) {	
     #first{
-        background:url("../images/Intro.jpg") 50% 50% no-repeat fixed!important;
+        background:url("../images/didyouknow/first.jpg") 50% 50% no-repeat fixed!important;
     }
     #second{
-        background: url("../images/second.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/second.jpg") 50% 50% no-repeat fixed!important;
     }
     #third{
-        background: url("../images/third.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/third.jpg") 50% 50% no-repeat fixed!important;
     }
     #fourth{
-        background: url("../images/fourth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fourth.jpg") 50% 50% no-repeat fixed!important;
     }
     #fifth{
-        background: url("../images/fifth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fifth.jpg") 50% 50% no-repeat fixed!important;
     }
     .cb-slideshow li div h3 {
         font-size: 30px !important;
@@ -189,37 +189,37 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 
 @media (min-width: 1200px) {	
     #first{
-        background:url("../images/Intro.jpg") 50% 50% no-repeat fixed!important;
+        background:url("../images/didyouknow/first.jpg") 50% 50% no-repeat fixed!important;
     }
     #second{
-        background: url("../images/second.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/second.jpg") 50% 50% no-repeat fixed!important;
     }
     #third{
-        background: url("../images/third.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/third.jpg") 50% 50% no-repeat fixed!important;
     }
     #fourth{
-        background: url("../images/fourth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fourth.jpg") 50% 50% no-repeat fixed!important;
     }
     #fifth{
-        background: url("../images/fifth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fifth.jpg") 50% 50% no-repeat fixed!important;
     }
 }
 
 @media (max-width: 979px) {	
     #first{
-        background:url("../images/Intro.jpg") 50% 50% no-repeat fixed!important;
+        background:url("../images/didyouknow/first.jpg") 50% 50% no-repeat fixed!important;
     }
     #second{
-        background: url("../images/second.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/second.jpg") 50% 50% no-repeat fixed!important;
     }
     #third{
-        background: url("../images/third.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/third.jpg") 50% 50% no-repeat fixed!important;
     }
     #fourth{
-        background: url("../images/fourth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fourth.jpg") 50% 50% no-repeat fixed!important;
     }
     #fifth{
-        background: url("../images/fifth.jpg") 50% 50% no-repeat fixed!important;
+        background: url("../images/didyouknow/fifth.jpg") 50% 50% no-repeat fixed!important;
     }
     .cb-slideshow li div h3 {
         font-size: 35px !important;

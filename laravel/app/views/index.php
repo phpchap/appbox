@@ -3,9 +3,9 @@
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
-        <title>App Box Media</title>
+        <title>AppBox Media</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="">
+        <meta name="description" content="Mobile Apps Company looking at towards the future">
         <meta name="author" content="">
         <link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'>
         <link href="css/reset.css" rel="stylesheet">
@@ -33,12 +33,10 @@
     <body class="clearfix" data-spy="scroll" data-target="#navbar" data-offset="10">
         <div id="navbar" class="navbar navbar-fixed-top">
             <div class="navbar-inner">
-                <div class="container">
-                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </a>
-                    <a class="brand" href="#"><img src="/images/logo.png"/></a>
+                <div class="container">                    
+                    <!-- LOGO -->
+                    <a class="brand" href="#Home"><img src="/images/logo.png"/></a>
+                    <!-- START NAVIGATION -->
                     <div class="nav-collapse collapse pull-right">
                         <ul class="nav">
                             <li class="active">
@@ -49,22 +47,19 @@
                             </li>
                             <li>
                                 <a href="#Opportunities">Opportunities</a>
-                            </li>
-                            
+                            </li>                            
                             <li>
                                 <a href="#Team">Team</a>
                             </li>                                                        
                             <li>
                                 <a href="#EISCalculator">EIS Calculator</a>
-                            </li>
-                             
+                            </li>                             
                             <li>
                                 <a href="#Contact">Contact</a>
                             </li>
                             <li>
                                 <a target="_blank" href="#">Presentation</a>
-                            </li>
-                            
+                            </li>                            
                         </ul>
                     </div>
                     <!--/.nav-collapse -->
@@ -72,10 +67,9 @@
             </div>
         </div>
         <div class="container-fluid clearfix">
-            <div class="row-fluid">
-                
+            <div class="row-fluid">                
                 <!-- START HOME -->
-                <div id="home">
+                <div id="Home">
                     <div class="container-fluid clearfix" style="padding:0; overflow:hidden">                        
                         <!-- Start WOWSlider.com BODY section -->
                         <div id="wowslider-container1">
@@ -92,8 +86,7 @@
                     </div>
                 </div>
                 <!-- END HOME -->
-
-                <!-- first did you know -->
+                <!-- FIRST DID YOU KNOW -->
                 <div id="first" class="Parallax">
                     <div class="ParallaxText">
                         <h2>DID <span>YOU</span> KNOW?</h2>
@@ -102,122 +95,212 @@
                         <div class="clearfix"></div>
                         <p>source: <a href="http://techcrunch.com/2013/04/23/app-store-45-billion-downloads/" target="_blank">http://techcrunch.com/2013/04/23/app-store-45-billion-downloads/</a></p>
                     </div>
-                </div>
+                </div>                
+                <!-- START OF VISION -->
+                <div id="Vision">
+                    <div class="container-fluid clearfix Services">
+                        <div class="container clearfix TitleSection">
+                            <h1>Vision</h1> 
+                        </div>
+                        <div class="container clearfix">
+                            <div class="row-fluid">
+                                <!-- LEFT HAND SIDE TEXT -->
+                                <div class="span6">
+                                    <p>AppBox Media aim to deliver exciting and creative mobile applications and games which embrace users both visually and interactively on a globally connected landscape. 
+                                    <p>It is the vision of the Company to become one of the world’s leading mobile application and game software developers within 5 years. 
+                                    <p>Our mobile applications and digital games will aim to integrate and feature the following qualities:</p>
+                                    <ul>
+                                        <li>Fun/ Entertaining</li>  
+                                        <li>Practical</li>
+                                        <li>Intuitive</li> 
+                                        <li>Engaging</li> 
+                                        <li>Addictive</li> 
+                                        <li>Cross Cultural</li>
+                                        <li>Great Graphics</li>
+                                        <li>High Quality Audio</li>
+                                    </ul>
+                                </div>
+                                <!-- RIGHT HAND SIDE IMAGE -->
+                                <div class="span6">
+                                    <img src="http://www.newscientist.com/blogs/culturelab/Iron3.jpg"/>
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <!-- END OF VISION -->                                                
+                <!-- SECOND DID YOU KNOW -->
+                <div id="second" class="Parallax">
+                    <div class="ParallaxText">
+                        <h2>DID <span>YOU</span> KNOW?</h2>
+                        <div class="clearfix"></div>
+                        <blockquote>Google Play Exceeds iOS App Store in App Downloads by 10% in Q2 2013. The iOS App Store still generated 2.3x the revenue.</blockquote>             
+                        <div class="clearfix"></div>
+                        <p>source: <a href="http://blog.appannie.com/app-annie-index-market-q2-2013/" target="_blank">http://blog.appannie.com/app-annie-index-market-q2-2013/</a></p>
+                    </div>
+                </div>                                                
+                <!-- START OF OPPORTUNITIES -->
+                <div id="Opportunities">
+                    <div class="container-fluid clearfix Services">
+                        <div class="container clearfix TitleSection">
+                            <h1>Opportunities</h1> 
+                        </div>
+                        <div class="container clearfix">
+                            <div class="row-fluid">
+                                <!-- LEFT HAND SIDE TEXT -->
+                                <div class="span6">
+                                    <p>AppBox Media enters the market at an opportune time. The games industry is worth an estimated $80 billion worldwide, about the same as the global film industry, and the biggest titles comfortably out earn blockbuster movies</p>
+                                    <p>The overall global app economy was worth $53Bn in 2012, and expected to rise to $68Bn in 2013 and forecast to rise to $143Bn in 2016, according to research by Developer Economics. Recent studies by Portio Research indicate app downloads are anticipated to grow at 35% CAGR. </p>
+                                    <p>The US and China tower over the next group of top markets by way of countries with greatest number of active IOS  and Android devices by at least five times.  </p>
+                                    <p>While the U.S. has added 55 million net active devices since October 2011, China has added 125 million, a figure that totals the sum of the UK, Japan and South Korea’s combined, current active user base.</p> 
+                                    <p>China leads the world with an impressive 293% year-over-year growth rate, spurred by the potent combination of its vast population and rapidly growing middle class with plenty of opportunity to achieve further growth.  </p>                                   
+                                </div>
+                                
+                                <!-- Include Graphs -->                                
+                                <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
+                                <script type="text/javascript" src="/data/data.json"></script>        
+                                <script type="text/javascript" src="/barchartjs/chart.js"></script>                                
+                                
+                                <!-- RIGHT HAND SIDE GRAPHICS -->
+                                <div class="span6">                                   
+                                    <div id="demo">
+                                        <?php /* 
+                                        <div id="buttons">
+                                            <button id="data1">Set Data to data 1</button>
+                                            <button id="data2">Set Data to data 2</button>
+                                            <br>
+                                            <button id="random">Make Random Data</button>
+                                            <input id="num" value=10></input>
+                                        </div>
+                                         * 
+                                         */
+                                        ?>
+                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg"></svg>
+                                    </div>
+                                    <script type="text/javascript">
+                                        init();
+                                    </script>              
+                                </div>                                
+                            </div>
+                        </div>
+                    </div>
+                </div>                
+                <!-- END OF OPPORTUNITIES -->
                 
-                
-<?php 
-/*
-                <div id="About">
+                <!-- THIRD DID YOU KNOW -->
+                <div id="third" class="Parallax">
+                    <div class="ParallaxText">
+                        <h2>DID <span>YOU</span> KNOW?</h2>
+                        <div class="clearfix"></div>
+                        <blockquote>PlayStation 4 pre orders have already topped PlayStation 3 launch sale. 1.6m Playstation 3’s were sold at launch.</blockquote>             
+                        <div class="clearfix"></div>
+                        <p>source: <a href="http://www.forbes.com/sites/davidthier/2013/08/21/ps4-pre-orders-already-beating-ps3-holiday-sales/" target="_blank">http://www.forbes.com/sites/davidthier/2013/08/21/ps4-pre-orders-already-beating-ps3-holiday-sales/</a></p>
+                    </div>
+                </div>                
+                                
+                <div id="Team">
                     <div class="container-fluid clearfix About">
                         <div class="container clearfix">
-                            <div class="container clearfix TitleSection">
-                                <h1>About <span>Parallax606</span> </h1> 
-                                <h1><span>AND</span> WHAT <span>MAKES</span> IT <span>UNIQUE</span></h1>
+                            <div class="container clearfix TitleSection">                                
+                                <h1>Team</h1>         
                             </div>
                             <div class="container clearfix">
+                                <!-- FIRST ROW -->
                                 <div class="span12">
-                                    <div class="span4">
+                                    <div class="span6">
                                         <div class="Team clearfix">
                                             <div class="round-thumb-container">
                                                 <div class="round-thumb"> <span><img src="images/circlegallery/1.jpg"></span>
                                                 </div>
                                             </div>
-                                            <h2>John Doe</h2>
-                                            <h3>Creative Director</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat,
-                                                sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis
-                                                vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
-                                            <ul class="Social">
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Facebook" title="Facebook">Facebook</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Twitter" title="Twitter">Twitter</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Dribbble" title="Dribbble">Dribbble</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Behance" title="Behance">Behance</a>
-                                                </li>
-                                            </ul>
+                                            <h2>Dean Hall</h2>
+                                            <h3>Director of Delivery</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
                                         </div>
                                     </div>
-                                    <div class="span4">
+                                    <div class="span6">
                                         <div class="Team clearfix">
                                             <div class="round-thumb-container">
-                                                <div class="round-thumb"> <span><img src="images/circlegallery/2.jpg"></span></div>
-                                            </div>
-                                            <h2>John Doe</h2>
-                                            <h3>Art-Director</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat,
-                                                sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis
-                                                vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
-                                            <ul class="Social">
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Pinterest" title="Pinterest">Pinterest</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Googleplus" title="Googleplus">Googleplus</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Forrst" title="Forrst">Forrst</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Instagram" title="Instagram">Instagram</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="span4">
-                                        <div class="Team clearfix">
-                                            <div class="round-thumb-container">
-                                                <div class="round-thumb"> <span><img src="images/circlegallery/3.jpg"></span>
-
+                                                <div class="round-thumb"> <span><img src="images/circlegallery/2.jpg"></span>
                                                 </div>
                                             </div>
-                                            <h2>John Doe</h2>
-
-                                            <h3>Chief Executive Officer</h3>
-
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat,
-                                                sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis
-                                                vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
-                                            <ul class="Social">
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Instagram" title="Instagram">Instagram</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Deviantart" title="Deviantart">Deviantart</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Soundcloud" title="Soundcloud">Soundcloud</a>
-                                                </li>
-                                                <li>
-                                                    <a href="#" rel="tooltip" class="Wordpress" title="Wordpress">Wordpress</a>
-                                                </li>
-                                            </ul>
+                                            <h2>Bryan ???</h2>
+                                            <h3>Director of Business Direction</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
                                         </div>
                                     </div>
+                                    <!-- END OF FIRST ROW -->                                   
                                 </div>
+                                
+                                <!-- SECOND ROW -->
+                                <div class="span12">                                
+                                    <div class="span3">
+                                        <div class="Team clearfix">
+                                            <div class="round-thumb-container">
+                                                <div class="round-thumb"> <span><img src="images/circlegallery/3.jpg"></span></div>
+                                            </div>
+                                            <h2>Justen Doherty</h2>
+                                            <h3>Head of Web Technologies</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="span3">
+                                        <div class="Team clearfix">
+                                            <div class="round-thumb-container">
+                                                <div class="round-thumb"> <span><img src="images/circlegallery/3.jpg"></span></div>
+                                            </div>
+                                            <h2>Martin Columbia</h2>
+                                            <h3>Head of Projects</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="span3">
+                                        <div class="Team clearfix">
+                                            <div class="round-thumb-container">
+                                                <div class="round-thumb"> <span><img src="images/circlegallery/3.jpg"></span></div>
+                                            </div>
+                                            <h2>Polak</h2>
+                                            <h3>Head of Donuts</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
+                                        </div>
+                                    </div>                                    
+                                    
+                                    <div class="span3">
+                                        <div class="Team clearfix">
+                                            <div class="round-thumb-container">
+                                                <div class="round-thumb"> <span><img src="images/circlegallery/3.jpg"></span></div>
+                                            </div>
+                                            <h2>Another Dude</h2>
+                                            <h3>Head of Testing</h3>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
+                                        </div>
+                                    </div>                                                                        
+                                </div>
+                                <!-- END OF SECOND ROW -->
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- END OF ABOUT -->                
-*/ ?>
                 
+                <!-- FOURTH DID YOU KNOW -->
+                <div id="fourth" class="Parallax">
+                    <div class="ParallaxText">
+                        <h2>DID <span>YOU</span> KNOW?</h2>
+                        <div class="clearfix"></div>
+                        <blockquote>Google Play Exceeds iOS App Store in App Downloads by 10% in Q2 2013. The iOS App Store still generated 2.3x the revenue. </blockquote>             
+                        <div class="clearfix"></div>
+                        <p>source: <a href="http://blog.appannie.com/app-annie-index-market-q2-2013/" target="_blank">http://blog.appannie.com/app-annie-index-market-q2-2013/</a></p>
+                    </div>
+                </div>                                
                 
-                
-                <!--#second-->
+                <?php /* 
                 <div id="Vision">
                     <div class="container-fluid clearfix Portfolio">
                         <div class="container clearfix TitleSection">
-
                             <h1>Our <span>Portfolio</span> </h1> 
-
                             <h1><span>Lorem</span> ipsum <span>dolor</span> sit <span>amet</span></h1>
-
                         </div>
                         <div class="container clearfix">
                             <div class="span12">
@@ -232,9 +315,7 @@
                                         <ul id="stage">
                                             <li data-tags="Photographies">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/1.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/1.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -243,9 +324,7 @@
                                             </li>
                                             <li data-tags="Video,Photographies">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/2.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/2.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -254,9 +333,7 @@
                                             </li>
                                             <li data-tags="Web Design,Video">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/3.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/3.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -265,9 +342,7 @@
                                             </li>
                                             <li data-tags="Web Design,Photographies">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/4.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/4.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -276,9 +351,7 @@
                                             </li>
                                             <li data-tags="Video">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/5.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/5.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -287,9 +360,7 @@
                                             </li>
                                             <li data-tags="Web Design,Video,Photographies">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/6.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/6.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -298,9 +369,7 @@
                                             </li>
                                             <li data-tags="Video,Photographies">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/7.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/7.jpg" alt="Portfolio Filter" /></span>                                                    </div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -309,9 +378,7 @@
                                             </li>
                                             <li data-tags="Web Design">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/8.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/8.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -320,9 +387,7 @@
                                             </li>
                                             <li data-tags="Web Design,Video">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/9.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/9.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -331,9 +396,7 @@
                                             </li>
                                             <li data-tags="Web Design">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/10.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/10.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -342,9 +405,7 @@
                                             </li>
                                             <li data-tags="Video,Photographies">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/11.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/11.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -353,9 +414,7 @@
                                             </li>
                                             <li data-tags="Video,Photographies">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/12.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/12.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -364,9 +423,7 @@
                                             </li>
                                             <li data-tags="Photographies">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/13.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/13.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -375,9 +432,7 @@
                                             </li>
                                             <li data-tags="Web Design,Video">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/14.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/14.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -386,9 +441,7 @@
                                             </li>
                                             <li data-tags="Audio">
                                                 <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/18.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
+                                                    <div class="filter-thumb"> <span><img src="images/portfolio/18.jpg" alt="Portfolio Filter" /></span></div>
                                                 </div>
                                                 <div>
                                                     <h4>Lorem ipsum dolor </h4> 
@@ -403,6 +456,7 @@
                     </div>
                 </div>
                 
+                
                 <!--#Portfolio-->
                 <div id="third" class="Parallax">
                     <div class="ParallaxText">
@@ -415,6 +469,7 @@
                         <p>- Jason Adams -</p>
                     </div>
                 </div>
+                
                 <!--#third-->
                 <div id="Opportunities">
                     <div class="container-fluid clearfix LargeSlider">
@@ -477,6 +532,9 @@
                         <p>- Jason Adams -</p>
                     </div>
                 </div>                               
+                 * 
+                 */
+                ?>
                 <!--#second-->
                 <div id="Team">
                     <div class="container-fluid clearfix Portfolio">
@@ -1091,7 +1149,7 @@
                     imagePath: '../images/'
                 });
             });
-        </script>
+        </script>        
     </body>
 
 </html>
