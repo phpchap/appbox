@@ -65,7 +65,7 @@
                     <!--/.nav-collapse -->
                 </div>
             </div>
-        </div>
+        </div>        
         <div class="container-fluid clearfix">
             <div class="row-fluid">                
                 <!-- START HOME -->
@@ -91,7 +91,7 @@
                     <div class="ParallaxText">
                         <h2>DID <span>YOU</span> KNOW?</h2>
                         <div class="clearfix"></div>
-                        <blockquote>Apple Passed 45,000,000,000 Total Unique App Downloads At A Rate Of 800 Per Second With Over $9,000,000,000 Paid To Devs</blockquote>             
+                        <blockquote>Apple Passed 45,000,000,000 Total Unique App Downloads At A Rate Of 800 Per Second With Over $9,000,000,000 Paid To Developers</blockquote>             
                         <div class="clearfix"></div>
                         <p>source: <a href="http://techcrunch.com/2013/04/23/app-store-45-billion-downloads/" target="_blank">http://techcrunch.com/2013/04/23/app-store-45-billion-downloads/</a></p>
                     </div>
@@ -198,6 +198,7 @@
                     </div>
                 </div>                
                                 
+                <!-- START OF TEAM -->
                 <div id="Team">
                     <div class="container-fluid clearfix About">
                         <div class="container clearfix">
@@ -283,6 +284,7 @@
                         </div>
                     </div>
                 </div>
+                <!-- END OF TEAM -->
                 
                 <!-- FOURTH DID YOU KNOW -->
                 <div id="fourth" class="Parallax">
@@ -295,724 +297,54 @@
                     </div>
                 </div>                                
                 
-                <?php /* 
-                <div id="Vision">
-                    <div class="container-fluid clearfix Portfolio">
-                        <div class="container clearfix TitleSection">
-                            <h1>Our <span>Portfolio</span> </h1> 
-                            <h1><span>Lorem</span> ipsum <span>dolor</span> sit <span>amet</span></h1>
-                        </div>
-                        <div class="container clearfix">
-                            <div class="span12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat,
-                                    sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis
-                                    vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
-                            </div>
-                            <div class="row-fluid">
-                                <div class="span12">
-                                    <nav id="filter"></nav>
-                                    <section id="container">
-                                        <ul id="stage">
-                                            <li data-tags="Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/1.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Video,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/2.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design,Video">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/3.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/4.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Video">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/5.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design,Video,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/6.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Video,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/7.jpg" alt="Portfolio Filter" /></span>                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/8.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design,Video">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/9.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/10.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Video,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/11.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Video,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/12.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/13.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design,Video">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/14.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Audio">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/18.jpg" alt="Portfolio Filter" /></span></div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                
-                <!--#Portfolio-->
-                <div id="third" class="Parallax">
-                    <div class="ParallaxText">
-                        <h2>WORD <span>OF</span> THE <span>WISE</span></h2>
-
-                        <div class="clearfix"></div>
-                        <blockquote>A man must be big enough to admit his mistakes, smart enough to profit
-                            from them, and strong enough to correct them.</blockquote>
-                        <div class="clearfix"></div>
-                        <p>- Jason Adams -</p>
-                    </div>
-                </div>
-                
-                <!--#third-->
-                <div id="Opportunities">
-                    <div class="container-fluid clearfix LargeSlider">
-                        <div class="camera_wrap camera_emboss" id="camera_wrap_3">
-                            <div data-src="images/camera/slides/1.jpg">
-                                <div class="fadeIn camera_effected Caption">" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh
-                                    erat, sagittis sit amet congue at, aliquam eu libero "</div>
-                            </div>
-                            <div data-src="images/camera/slides/3.jpg" data-time="1500" data-trasPeriod="4000"
-                                 data-link="#" data-target="_blank">
-                                <div class="fadeIn camera_effected Caption">" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh
-                                    erat, sagittis sit amet congue at, aliquam eu libero "</div>
-                            </div>
-                            <div data-src="images/camera/slides/poster.jpg">
-                                <iframe width="100%" height="100%" src="http://www.youtube.com/embed/EokWzMUJcCU?feature=player_detailpage"
-                                        frameborder="0" allowfullscreen></iframe>
-                            </div>
-                            <div data-src="images/camera/slides/4.jpg" data-time="1500" data-trasPeriod="4000"
-                                 data-link="#" data-target="_blank">
-                                <div class="fadeIn camera_effected Caption">" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh
-                                    erat, sagittis sit amet congue at, aliquam eu libero "</div>
-                            </div>
-                            <div data-src="images/camera/slides/5.jpg" data-time="1500" data-trasPeriod="4000"
-                                 data-link="#" data-target="_blank">
-                                <div class="fadeIn camera_effected Caption">" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh
-                                    erat, sagittis sit amet congue at, aliquam eu libero "</div>
-                            </div>
-                            <div data-src="images/camera/slides/6.jpg" data-time="1500" data-trasPeriod="4000"
-                                 data-link="#" data-target="_blank">
-                                <div class="fadeIn camera_effected Caption">" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh
-                                    erat, sagittis sit amet congue at, aliquam eu libero "</div>
-                            </div>
-                            <div data-src="images/camera/slides/7.jpg" data-time="1500" data-trasPeriod="4000"
-                                 data-link="#" data-target="_blank">
-                                <div class="fadeIn camera_effected Caption">" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh
-                                    erat, sagittis sit amet congue at, aliquam eu libero "</div>
-                            </div>
-                            <div data-src="images/camera/slides/8.jpg" data-time="1500" data-trasPeriod="4000"
-                                 data-link="#" data-target="_blank">
-                                <div class="fadeIn camera_effected Caption">" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh
-                                    erat, sagittis sit amet congue at, aliquam eu libero "</div>
-                            </div>
-                            <div data-src="images/camera/slides/9.jpg" data-time="1500" data-trasPeriod="4000"
-                                 data-link="#" data-target="_blank">
-                                <div class="fadeIn camera_effected Caption">" Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh
-                                    erat, sagittis sit amet congue at, aliquam eu libero "</div>
-                            </div>
-                        </div>
-                        <!-- #camera_wrap_3 -->
-                    </div>
-                </div>
-                <!--#LargeSlider-->
-                <div id="fourth" class="Parallax">
-                    <div class="ParallaxText">
-                        <h2>WORD <span>OF</span> THE <span>WISE</span></h2>
-                        <div class="clearfix"></div>
-                        <blockquote>A man must be big enough to admit his mistakes, smart enough to profit
-                            from them, and strong enough to correct them.</blockquote>
-                        <div class="clearfix"></div>
-                        <p>- Jason Adams -</p>
-                    </div>
-                </div>                               
-                 * 
-                 */
-                ?>
-                <!--#second-->
-                <div id="Team">
-                    <div class="container-fluid clearfix Portfolio">
-                        <div class="container clearfix TitleSection">
-
-                            <h1>Our <span>Portfolio</span> </h1> 
-
-                            <h1><span>Lorem</span> ipsum <span>dolor</span> sit <span>amet</span></h1>
-
-                        </div>
-                        <div class="container clearfix">
-                            <div class="span12">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat,
-                                    sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis
-                                    vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
-                            </div>
-                            <div class="row-fluid">
-                                <div class="span12">
-                                    <nav id="filter"></nav>
-                                    <section id="container">
-                                        <ul id="stage">
-                                            <li data-tags="Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/1.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Video,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/2.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design,Video">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/3.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/4.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Video">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/5.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design,Video,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/6.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Video,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/7.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/8.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design,Video">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/9.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/10.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Video,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/11.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Video,Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/12.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Photographies">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/13.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Web Design,Video">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/14.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                            <li data-tags="Audio">
-                                                <div class="filter-thumb-container">
-                                                    <div class="filter-thumb"> <span><img src="images/portfolio/18.jpg" alt="Portfolio Filter" /></span>
-
-                                                    </div>
-                                                </div>
-                                                <div>
-                                                    <h4>Lorem ipsum dolor </h4> 
-                                                    <p>Lorem ipsum</p>
-                                                </div>
-                                            </li>
-                                        </ul>
-                                    </section>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
                 <!--START EIS CALCULATOR -->
                 <div id="EISCalculator">
                     <div class="container-fluid clearfix Services">
                         <div class="container clearfix TitleSection">
-                            <h1>Our <span>Services</span> </h1> 
-                            <h1><span>Lorem</span> ipsum <span>dolor</span> sit <span>amet</span></h1>
+                            <h1>EIS Calculator</h1> 
                         </div>
                         <div class="container clearfix">
                             <div class="row-fluid">
                                 <div class="span12">
-                                    <div class="slider-wrapper">
-                                        <div id="slider">
-                                            <div class="slide1">
-                                                <img src="images/1.jpg" alt="" />
-                                            </div>
-                                            <div class="slide2">
-                                                <img src="images/2.jpg" alt="" />
-                                            </div>
-                                            <div class="slide3">
-                                                <img src="images/3.jpg" alt="" />
-                                            </div>
-                                            <div class="slide4">
-                                                <img src="images/4.jpg" alt="" />
-                                            </div>
-                                        </div>
-                                        <div id="slider-direction-nav"></div>
-                                        <div id="slider-control-nav"></div>
-                                    </div>
                                 </div>
                             </div>
                             <div class="container clearfix TitleSection">
                                 <h1><span>We</span> make <span>our</span> clients <span>happy!</span></h1>
-                            </div>
-                            <div class="row-fluid">
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">A</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Web Design</h2>
-
-                                                    <h3 class="ca-sub">Personalized to your needs</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">I</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Web Development</h2>
-
-                                                    <h3 class="ca-sub">Advanced use of technology</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row-fluid">
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">C</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Wordpress</h2>
-
-                                                    <h3 class="ca-sub">Understanding visually</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">S</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Sophisticated Team</h2>
-
-                                                    <h3 class="ca-sub">Professionals in action</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row-fluid">
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">d</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Brand Creation</h2>
-
-                                                    <h3 class="ca-sub">24/7 for you needs</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="span6">
-                                    <div class="ca-menu">
-                                        <div>
-                                            <a href="#"> <span class="ca-icon">O</span>
-
-                                                <div class="ca-content">
-                                                    <h2 class="ca-main">Corporate Identity</h2>
-
-                                                    <h3 class="ca-sub">Lorem ipsum dolor</h3>
-
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row-fluid">
-                                <h2>Pricing Tables </h2>
-
-                            </div>
-                            <div class="row-fluid">
-                                <div class="span4">
-                                    <div class="well PricingTables Standard">
-                                        <h2>Standard</h2>
-
-                                        <h3>$15.99 / month</h3>
-
-                                        <p><span class="label">POPULAR</span>
-                                        </p>
-                                        <ul>
-                                            <li><i class="icon-ok-sign"></i>10 users</li>
-                                            <li><i class="icon-ok-sign"></i>5TB of space</li>
-                                            <li><i class="icon-ok-sign"></i>About Us</li>
-                                            <li><i class="icon-ok-sign"></i>News Archive</li>
-                                            <li><i class="icon-ok-sign"></i>Our Service</li>
-                                            <li><i class="icon-ok-sign"></i>Our Team</li>
-                                            <li><i class="icon-ok-sign"></i>Clients Testimonials</li>
-                                            <li><i class="icon-ok-sign"></i>Job Opportunities</li>
-                                            <li><i class="icon-ok-sign"></i>F.A.Q</li>
-                                        </ul>
-                                        <p class="Special">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <p>
-                                            <a class="btn btn-large" href="#"><i class="icon-ok icon-white"></i> Select plan</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="span4">
-                                    <div class="well PricingTables Professional">
-                                        <h2>Professional</h2>
-
-                                        <h3>$10.99 / month</h3>
-
-                                        <p><span class="label label-success">POPULAR</span>
-                                        </p>
-                                        <ul>
-                                            <li><i class="icon-ok-sign"></i>10 users</li>
-                                            <li><i class="icon-ok-sign"></i>5TB of space</li>
-                                            <li><i class="icon-ok-sign"></i>About Us</li>
-                                            <li><i class="icon-ok-sign"></i>News Archive</li>
-                                            <li><i class="icon-ok-sign"></i>Our Service</li>
-                                            <li><i class="icon-ok-sign"></i>Our Team</li>
-                                            <li><i class="icon-ok-sign"></i>Clients Testimonials</li>
-                                            <li><i class="icon-ok-sign"></i>Job Opportunities</li>
-                                            <li><i class="icon-ok-sign"></i>F.A.Q</li>
-                                        </ul>
-                                        <p class="Special">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <p>
-                                            <a class="btn btn-success btn-large" href="#"><i class="icon-ok icon-white"></i> Select plan</a>
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="span4">
-                                    <div class="well PricingTables Premium">
-                                        <h2>Premium</h2>
-
-                                        <h3>$8.99 / month</h3>
-
-                                        <p><span class="label label-info">BUDGET</span>
-                                        </p>
-                                        <ul>
-                                            <li><i class="icon-ok-sign"></i>10 users</li>
-                                            <li><i class="icon-ok-sign"></i>5TB of space</li>
-                                            <li><i class="icon-ok-sign"></i>About Us</li>
-                                            <li><i class="icon-ok-sign"></i>News Archive</li>
-                                            <li><i class="icon-ok-sign"></i>Our Service</li>
-                                            <li><i class="icon-ok-sign"></i>Our Team</li>
-                                            <li><i class="icon-ok-sign"></i>Clients Testimonials</li>
-                                            <li><i class="icon-ok-sign"></i>Job Opportunities</li>
-                                            <li><i class="icon-ok-sign"></i>F.A.Q</li>
-                                        </ul>
-                                        <p class="Special">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                        <p>
-                                            <a class="btn btn-large" href="#"><i class="icon-ok icon-white"></i> Select plan</a>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
+                            </div>                            
                         </div>
                     </div>
                 </div>
                 <!--END EIS CALCULATOR -->                
                 
-                <!-- SECOND DID YOU KNOW -->
-                <div id="second" class="Parallax">
+                <!-- FIFTH DID YOU KNOW -->
+                <div id="fifth" class="Parallax">
                     <div class="ParallaxText">
-                        <h2>WORD <span>OF</span> THE <span>WISE</span></h2>
-
+                        <h2>DID <span>YOU</span> KNOW?</h2>
                         <div class="clearfix"></div>
-                        <blockquote>A man must be big enough to admit his mistakes, smart enough to profit
-                            from them, and strong enough to correct them.</blockquote>
+                        <blockquote>The Oculus Rift VR Headset announced a Kickstarter campaign to further development of the product. Within four hours, Oculus secured its intended amount of $250,000, less than 36 hours, the campaign surpassed $1m in funding, eventually ending with $2.4m</blockquote>             
                         <div class="clearfix"></div>
-                        <p>- Jason Adams -</p>
+                        <p>source: <a href="http://en.wikipedia.org/wiki/Oculus_Rift" target="_blank">http://en.wikipedia.org/wiki/Oculus_Rift</a></p>
                     </div>
-                </div>
+                </div                
                 
-                
-                <!--#fourth-->
+                <!-- START OF CONTACT -->
                 <div id="Contact">
                     <div class="container-fluid clearfix Contact">
                         <div class="container clearfix TitleSection">
-
-                            <h1>CONTACT <span>US</span> </h1> 
-
-                            <h1><span>LET'S</span> HAVE  <span>A</span> DISCUSSION 	</h1>
-
+                            <h1>CONTACT US</h1> 
                         </div>
                         <div class="container clearfix">
                             <div class="container">
-                                <div class="span8" style="margin-top:20px">
-                                    <iframe width="100%" height="374" frameborder="0" scrolling="no" marginheight="0"
-                                            marginwidth="0" src="https://maps.google.com.eg/maps?f=q&amp;source=s_q&amp;hl=ar&amp;geocode=&amp;q=%D8%B1%D8%B4%D8%AF%D9%8A,+%D8%A7%D9%84%D8%A5%D8%B3%D9%83%D9%86%D8%AF%D8%B1%D9%8A%D8%A9&amp;aq=1&amp;oq=%D8%B1%D8%B4%D8%AF%D9%89+%D8%A7%D9%84%D8%A7%D8%B3%D9%83&amp;sll=26.9061,30.876198&amp;sspn=8.889374,21.643066&amp;ie=UTF8&amp;hq=&amp;hnear=%D8%B1%D8%B4%D8%AF%D9%8A&amp;t=m&amp;ll=31.239591,29.949589&amp;spn=0.036693,0.171661&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe>
+                                <div class="span12" style="margin-top:20px">
+                                    <iframe width="100%" height="374" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=EC1A+4HD&amp;aq=&amp;ie=UTF8&amp;hq=&amp;hnear=EC1A+4HD,+United+Kingdom&amp;t=m&amp;z=18&amp;iwloc=near&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=EC1A+4HD&amp;aq=&amp;sll=37.09024,-95.712891&amp;sspn=38.775203,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=EC1A+4HD,+United+Kingdom&amp;t=m&amp;z=14&amp;iwloc=near&output=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>                                    
                                     <br />
-                                </div>
-                                <div class="span4">
-                                    <h2>Contact Info</h2>
-
-                                    <div class="well">
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                                            ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes.</p>
-                                        <hr>
-                                        <div class="contact-info">
-                                            <ul>
-                                                <li> <i class="icon-globe" style="margin-right:10px"></i>Lorem ipsum dolor</li>
-                                                <br>
-                                                <li> <i class="icon-bullhorn" style="margin-right:10px"></i>+(20) (0) 491.27.29</li>
-                                                <br>
-                                                <li> <i class="icon-envelope" style="margin-right:10px"></i>
-
-                                                    <a href="mailto:ahmedeabbas@yahoo.com">Some@yahoo.com</a>
-                                                </li>
-                                                <br>
-                                                <li> <i class="icon-map-marker" style="margin-right:10px"></i>Lorem ipsum dolor
-                                                    consectetuer adipiscing elit.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
                                 </div>
                             </div>
                             <div class="container">
-                                <div class="span12">
-
+                                <div class="span6">
                                     <h2>Get In Touch With Us</h2>
-
-                                    <div class="well">
-                                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo
-                                            ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis
-                                            dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies
-                                            nec, pellentesque eu, pretium quis, sem.</p>
-                                        <form class="form-horizontal"
-                                              id="registerHere" method='post' action=''>
+                                    <div class="well">                 
+                                        <form class="form-horizontal" id="registerHere" method='post' action=''>
                                             <fieldset>
                                                 <div class="control-group">
                                                     <label class="control-label" for="input01">Name</label>
@@ -1048,80 +380,70 @@
                                         </form>
                                     </div>
                                 </div>
+                                <div class="span6">
+                                    <h2>Contact</h2>
+                                    <div class="well">
+                                        <p>AppBox Media PLC</p>
+                                        <p>200 Aldersgate</p> 
+                                        <p>London</p>
+                                        <p>EC1A 4HD</p>
+                                        <hr>
+                                        <div class="contact-info">
+                                            <ul>
+                                                <li> <i class="icon-bullhorn" style="margin-right:10px"></i>0207 710 6160</li>
+                                                <br>
+                                                <li><i class="icon-envelope" style="margin-right:10px"></i><a target="_blank" href="mailto:hello@appboxmedia.com">hello@appboxmedia.com</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>                                
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--#Contact-->
-                <div id="fifth" class="Parallax">
-                    <div class="ParallaxText">
-                        <h2>WORD <span>OF</span> THE <span>WISE</span></h2>
-
-                        <div class="clearfix"></div>
-                        <blockquote>A man must be big enough to admit his mistakes, smart enough to profit
-                            from them, and strong enough to correct them.</blockquote>
-                        <div class="clearfix"></div>
-                        <p>- Jason Adams -</p>
-                    </div>
-                </div>
-                <!--#fifth-->
+                
+                <!-- END OF CONTACT -->                 
                 <div class="container-fluid Footer">
                     <div class="container">
                         <footer>
                             <ul class="Social">
-                                <li>
-                                    <a rel="tooltip" class="Rss" href="#" data-placement="top" data-original-title="RSS">Rss</a>
-                                </li>
                                 <li>
                                     <a class="Facebook" rel="tooltip" href="#" data-original-title="Facebook">Facebook</a>
                                 </li>
                                 <li>
                                     <a class="Twitter" rel="tooltip" href="#" data-original-title="Twitter">Twitter</a>
                                 </li>
-                                <li>
-                                    <a class="Dribbble" rel="tooltip" href="#" data-original-title="Dribbble">Dribbble</a>
-                                </li>
-                                <li>
-                                    <a class="YouTube" rel="tooltip" href="#" data-original-title="YouTube">YouTube</a>
-                                </li>
-                                <li>
+                                 <li>
                                     <a class="Pinterest" rel="tooltip" href="#" data-original-title="Pinterest">Pinterest</a>
-                                </li>
-                                <li>
-                                    <a class="Behance" rel="tooltip" href="#" data-original-title="Behance">Behance</a>
-                                </li>
-                                <li>
-                                    <a class="Googleplus" rel="tooltip" href="#" data-original-title="Googleplus">Googleplus</a>
-                                </li>
-                                <li>
-                                    <a class="Forrst" rel="tooltip" href="#" data-original-title="Forrst">Forrst</a>
-                                </li>
-                                <li>
-                                    <a class="Instagram" rel="tooltip" href="#" data-original-title="Instagram">Instagram</a>
-                                </li>
-                                <li>
-                                    <a class="Deviantart" rel="tooltip" href="#" data-original-title="Deviantart">Deviantart</a>
-                                </li>
-                                <li>
-                                    <a class="Soundcloud" rel="tooltip" href="#" data-original-title="Soundcloud">Soundcloud</a>
-                                </li>
-                                <li>
-                                    <a class="Wordpress" rel="tooltip" href="#" data-original-title="Wordpress">Wordpress</a>
-                                </li>
-                                <li>
-                                    <a class="Picasa" rel="tooltip" href="#" data-original-title="Picasa">Picasa</a>
                                 </li>
                             </ul>
                             <a href="#welcome" class="brand">App Box Media</a>
-                            <p><a href="mailto:ahmedeabbas@yahoo.com">Coyier</a></p>
+                            <p><a href="">Terms & Conditions</a> - <a href="">Privacy Policy</a> - <a href="">Important Notice</a> - <a href="">Risk Warning</a></p>
                         </footer>
                     </div>
                 </div>
+                
             </div>
             <!-- /Row -->
         </div>
         <!-- /container -->
         <div id="toTop">To Top</div>
+        
+        <!-- Modal -->
+        <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h3 id="myModalLabel">Modal header</h3>
+            </div>
+            <div class="modal-body">
+                <p>One fine body…</p>
+            </div>
+            <div class="modal-footer">
+                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+                <button class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+        
         <!-- Le javascript==================================================-->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="js/jquery-1.8.2.min.js"></script>
@@ -1138,9 +460,8 @@
         <script src="js/jquery.localscroll-1.2.7-min.js"></script><!--  parallax-->
         <!-- WOWSLIDER -->
 	<script type="text/javascript" src="WOWSlider/js/wowslider.js"></script>
-	<script type="text/javascript" src="WOWSlider/js/init.js"></script>
-        
-        <script>
+	<script type="text/javascript" src="WOWSlider/js/init.js"></script>        
+        <script>            
             jQuery(function () {
                 jQuery('#camera_wrap_3').camera({
                     height: '65%',
