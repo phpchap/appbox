@@ -110,19 +110,19 @@
                                     <p>It is the vision of the Company to become one of the world’s leading mobile application and game software developers within 5 years. 
                                     <p>Our mobile applications and digital games will aim to integrate and feature the following qualities:</p>
                                     <ul>
-                                        <li>Fun/ Entertaining</li>  
-                                        <li>Practical</li>
-                                        <li>Intuitive</li> 
-                                        <li>Engaging</li> 
-                                        <li>Addictive</li> 
-                                        <li>Cross Cultural</li>
-                                        <li>Great Graphics</li>
-                                        <li>High Quality Audio</li>
+                                        <li>&middot; Fun/ Entertaining</li>  
+                                        <li>&middot; Practical</li>
+                                        <li>&middot; Intuitive</li> 
+                                        <li>&middot; Engaging</li> 
+                                        <li>&middot; Addictive</li> 
+                                        <li>&middot; Cross Cultural</li>
+                                        <li>&middot; Great Graphics</li>
+                                        <li>&middot; High Quality Audio</li>
                                     </ul>
                                 </div>
                                 <!-- RIGHT HAND SIDE IMAGE -->
                                 <div class="span6">
-                                    <img src="http://www.newscientist.com/blogs/culturelab/Iron3.jpg"/>
+                                    <img class="img-polaroid" src="http://www.newscientist.com/blogs/culturelab/Iron3.jpg"/>
                                 </div>                                
                             </div>
                         </div>
@@ -290,10 +290,9 @@
                 <div id="fourth" class="Parallax">
                     <div class="ParallaxText">
                         <h2>DID <span>YOU</span> KNOW?</h2>
+                        <blockquote>Smart TV shipments climbed 27% in 2012 to reach 66 million units. By 2015, the smart TVs will make up 55% of the market as global shipments climb to 141 million units.</blockquote>             
                         <div class="clearfix"></div>
-                        <blockquote>Google Play Exceeds iOS App Store in App Downloads by 10% in Q2 2013. The iOS App Store still generated 2.3x the revenue. </blockquote>             
-                        <div class="clearfix"></div>
-                        <p>source: <a href="http://blog.appannie.com/app-annie-index-market-q2-2013/" target="_blank">http://blog.appannie.com/app-annie-index-market-q2-2013/</a></p>
+                        <p>source: <a href="http://www.twice.com/articletype/news/ihs-smart-tvs-rise-27-tv-shipments/105108" target="_blank">http://www.twice.com/articletype/news/ihs-smart-tvs-rise-27-tv-shipments/105108</a></p>
                     </div>
                 </div>                                
                 
