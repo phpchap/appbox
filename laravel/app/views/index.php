@@ -304,12 +304,100 @@
                         </div>
                         <div class="container clearfix">
                             <div class="row-fluid">
-                                <div class="span12">
+                                <div class="span6">
+                                    <p>The Enterprise Investment Scheme (EIS) is designed to encourage individuals to invest in smaller trading companies by offering a range of tax reliefs to individuals who purchase new shares in those companies. </p>
+                                    <p>EIS relief is available where a qualifying company issues new shares. The EIS shares must be subscribed wholly in cash (which includes payment by cheque and other means) and the cash must be paid in full by the time the shares are issued. </p>
+                                    <p>In order to benefit from the relief, the relevant shares must be held for at least three years after issue or, if later, three years after the company begins to trade.</p>
+                                    <p>The individual's income tax liability for the year of the share issue will be reduced by 30% of the amount used to subscribe for shares. In effect, this means that up to 30% of the cost of the individual's share investment will be paid for by HM Revenue & Customs (HMRC).</p>
+                                    <p>EIS relief applies only to individuals over 18 years of age and not, for example, companies or trusts. The individual does not need to be resident and ordinarily resident in the UK for tax purposes when the shares are issued but will need to be liable for UK income tax.</p>
+                                    <p>To find out more about tax relief you can contact our in house EIS expert <a href="mailto:bryan@appboxmedia.com" target="_blank">Bryan</a></p>
                                 </div>
-                            </div>
-                            <div class="container clearfix TitleSection">
-                                <h1><span>We</span> make <span>our</span> clients <span>happy!</span></h1>
-                            </div>                            
+                                <div class="span6">
+                                    <!-- BEGIN EIS CALCULATION FORM -->
+                                    <form id="parameters" >
+                                        <div class="control-group">
+                                            <label>How much do you plan to invest?</label>            
+                                            <div class="controls">
+                                                <div class="input-prepend input-append">
+                                                    <span class="add-on">£</span>
+                                                    <input class="span2" name="n1" id="appendedPrependedInput" type="text">
+                                                    <span class="add-on">.00</span>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="control-group">
+                                            <label>Are you expecting any capital gains in the year 2012-13? If so how much?</label>            
+                                            <div class="controls">
+                                                <div class="input-prepend input-append">
+                                                    <span class="add-on">£</span>
+                                                    <input class="span2" name="n2" id="appendedPrependedInput" type="text">
+                                                    <span class="add-on">.00</span>
+                                                </div>                
+                                            </div>
+                                        </div>
+
+                                        <div class="control-group">
+                                            <label>See what happens if your returns are: £</label>
+                                            <div class="controls">
+                                                <div class="input-prepend input-append">
+                                                    <span class="add-on">£</span>
+                                                    <input class="span2" name="n3" id="appendedPrependedInput" type="text">
+                                                    <span class="add-on">.00</span>
+                                                </div>                                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="output">
+                                            <div class="well">
+                                                <label>After claiming income tax relief and capital gains re-investment relief, your investment will cost you</label>
+                                                <span class="output-n4"></span>
+                                            </div>
+                                            <div class="well">
+                                                <label>Initial Value</label>
+                                                <span class="output-n5"></span>
+                                            </div>
+                                            <div class="well">
+                                                <label>Exit Value</label>
+                                                <span class="output-n6"></span>
+                                            </div>
+                                            <div class="well">
+                                                <label>Disclaimer</label>
+                                                <span class="output-n7"></span>
+                                            </div>
+                                        </div>
+                                        
+                                    </form>
+
+<script id="script" type="text/plain">
+n8:=10600
+n9:=max(0,(n2-n8))
+n10:=min(n1,100000)
+n11:=0.28
+n12:=max(0,(n9-n10))
+n13:=(n12*n11)
+n14:=(n9*n11)
+n15:=(n14-n13)
+n16:=0.5
+n17:=(min(n10,100000)*n16)
+n18:=((n1-n17)-n15)
+n19:=(n18-n3)
+n20:=.4
+n21:=(n19*(1-n20))
+n22:=if((n18=0),0,(((n3/n18)-1)*100))
+n23:=((n21/n1)*100)
+n6:=((("If on exit your investment pays you £"+round(n3,2))+", you will have made ")+if(((n18=0) and (n3<>0)),"free money. You should take this bet.",if((n22=0),"no gain and no loss",if((n22>0),(((("a tax-free gain of "+round(abs(n22)))+"% of the £")+round(n18,2))+" it cost you to invest"),(((((("loss of £"+round((n18-n3),2))+" but after you offset the loss against income tax, the total loss (if you are a higher rate tax payer with taxable income of at least that much) will be reduced to £")+round(n21,2))+", which is ")+round(n23))+"% of the value of your investment.")))))
+n7:=(("This calculation assumes you have a total income tax liability for the year 2012 of more than £"+round(n17,2))+". It is based on rules available on the HMRC website which MAY not have been interpreted correctly. Please check there or with an accountant before basing decisions on these results.")
+n4:=("£"+n18)
+n5:=(("On the day you invest, your investment will be worth "+round((n1/n18),1))+" times the cost to you.")
+
+</script>
+
+                                        
+                                        
+                                    </form>  
+                                </div>
+                            </div>                          
                         </div>
                     </div>
                 </div>
