@@ -447,12 +447,10 @@
             <div id="caluculator_content">
                 <div id="calculator">
                     <div id="bg_calculator"></div>
-                                            <h2>SEIS Calculator</h2>
-<p>For an illustration of how the potential benefits of SEIS may apply in your<br>personal situation, try out our SEIS calculator.</p>
-<p></p>
-<h2>In the Tax Year ending 5 April 2014:</h2>
-                                        <table width="699" border="0" cellspacing="0" cellpadding="0">
-                        <tbody><tr>
+                        <h2>In the Tax Year ending 5 April 2014:</h2>
+                        <table width="699" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                        <tr>
                             <td height="45" width="546"><span class="bold">What is your Taxable Income?</span><span class="required">*</span></td>
                             <td width="13"><strong>£</strong></td>
                             <td width="140"><input name="tax_income" id="tax_income" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()"></td>
