@@ -409,253 +409,152 @@
                                     <p>EIS relief applies only to individuals over 18 years of age and not, for example, companies or trusts. The individual does not need to be resident and ordinarily resident in the UK for tax purposes when the shares are issued but will need to be liable for UK income tax.</p>
                                  </div>
                                 <div class="span6">
-                                    
-<div id="primary_content">
-        <form name="seis-calculator" id="seis-calculator" method="post">
-            <!--Assumptions for Tax Year 2012/13: -->
-            <input type="hidden" name="basic_rate_band_limit" id="basic_rate_band_limit" value="34370">
-            <input type="hidden" name="higher_rate_band_limit" id="higher_rate_band_limit" value="150000">
-            <input type="hidden" name="basic_rate" id="basic_rate" value="20">
-            <input type="hidden" name="higher_rate" id="higher_rate" value="40">
-            <input type="hidden" name="add_rate" id="add_rate" value="50">
-            <input type="hidden" name="basic_rate_inc_tax_payer" id="basic_rate_inc_tax_payer" value="18">
-            <input type="hidden" name="above_basic_rate_inc_tax_payer" id="above_basic_rate_inc_tax_payer" value="28">
-            <input type="hidden" name="income_tax_allowance" id="income_tax_allowance" value="8105">
-            <input type="hidden" name="min_income_tax_allowance" id="min_income_tax_allowance" value="100000">
-            <input type="hidden" name="cgt_amt" id="cgt_amt" value="10600">
-
-            <!--Calculations (not for displaying on the website):-->
-            <input type="hidden" name="taxable_income" id="taxable_income" value="100000">
-            <input type="hidden" name="taxable_income_allowance" id="taxable_income_allowance" value="-8105">
-            <input type="hidden" name="red_income_tax_allowance1" id="red_income_tax_allowance1" value="0">
-            <input type="hidden" name="red_income_tax_allowance2" id="red_income_tax_allowance2" value="0">
-            <input type="hidden" name="taxable_income_after_income_tax_allowance" id="taxable_income_after_income_tax_allowance" value="91895">
-            <input type="hidden" name="basic_rate_band" id="basic_rate_band" value="6874">
-            <input type="hidden" name="higher_rate_band" id="higher_rate_band" value="23010">
-            <input type="hidden" name="add_rate_band" id="add_rate_band" value="0">
-            <input type="hidden" name="income_tax_liability" id="income_tax_liability" value="29884">
-            <input type="hidden" name="max_seis_inv_allowance" id="max_seis_inv_allowance" value="100000">
-            <input type="hidden" name="seis_rate" id="seis_rate" value="50">
-            <input type="hidden" name="max_seis_tax_relief_pos" id="max_seis_tax_relief_pos" value="50000">
-            <input type="hidden" name="max_seis_tax_relief_pos_avail" id="max_seis_tax_relief_pos_avail" value="29884">
-            <input type="hidden" name="invest_max_seis_tax_relief" id="invest_max_seis_tax_relief" value="59768">
-            <input type="hidden" name="unused_basic_rate_band" id="unused_basic_rate_band" value="0">
-            <input type="hidden" name="basic_rate_band_capital_gain" id="basic_rate_band_capital_gain" value="0">
-            <input type="hidden" name="capital_gain_tax_liability" id="capital_gain_tax_liability" value="2800">
-            <input type="hidden" name="seis_reinv_rel_cap" id="seis_reinv_rel_cap" value="2800">
-            <input type="hidden" name="seis_reinv_rel" id="seis_reinv_rel" value="2800">
-            <div id="caluculator_content">
-                <div id="calculator">
-                    <div id="bg_calculator"></div>
-                        <h2>In the Tax Year ending 5 April 2014:</h2>
-                        <table width="699" border="0" cellspacing="0" cellpadding="0">
-                        <tbody>
-                        <tr>
-                            <td height="45" width="546"><span class="bold">What is your Taxable Income?</span><span class="required">*</span></td>
-                            <td width="13"><strong>£</strong></td>
-                            <td width="140"><input name="tax_income" id="tax_income" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()"></td>
-                        </tr>
-                        <tr>
-                            <td height="45" width="546"><span class="bold">What are your expected Capital Gains?</span><span class="required">*</span></td>
-                            <td width="13"><strong>£</strong></td>
-                            <td width="140"><input name="capital_gain" id="capital_gain" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()"></td>
-                        </tr>
-                        <tr>
-                            <td height="45" width="546"><span class="bold">How much do you plan to invest in the SEIS?</span><span class="required">*</span></td>
-                            <td width="13"><strong>£</strong></td>
-                            <td width="140"><input name="invest" id="invest" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()"></td>
-                        </tr>
-                        <tr>
-                            <td height="45" width="546"><span class="required">* Fields are mandatory</span></td>
-                            <td width="13">&nbsp;</td>
-                            <td width="140"></td>
-                        </tr>
-                    </tbody></table>
-                    <div class="horiz_ruler"></div>
-                    <table width="699" border="0" cellspacing="0" cellpadding="0">
-                        <tbody><tr>
-                            <td height="45" width="546"><span class="lightcolortext">The Income Tax that you may save through claiming SEIS Income Tax Relief is:</span></td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="140"><input name="output_1" id="output_1" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                        </tr>
-                        <tr>
-                            <td height="45" width="546"><span class="lightcolortext">The net cost, after SEIS Income Tax relief, of your investment is:</span></td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="140"><input name="output_2" id="output_2" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                        </tr>
-                        <tr>
-                            <td height="45" width="546"><span class="lightcolortext">The Capital Gains Tax that you may save by claiming SEIS Reinvestment Relief is:</span></td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="140"><input name="output_3" id="output_3" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                        </tr>
-                        <tr>
-                            <td height="45" width="546"><span class="lightcolortext">The net cost, after tax SEIS Income Tax Relief and SEIS Reinvestment Relief, of your investment is:</span></td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="140"><input name="output_4" id="output_4" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                        </tr>
-                        <tr>
-                            <td height="45" width="546"><span class="lightcolortext">On day one the investment is worth to you, as a percentage of your net cost:</span></td>
-                            <td width="13"><strong class="lightcolor">%</strong></td>
-                            <td width="140"><input name="output_5" id="output_5" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                        </tr>
-                    </tbody></table>
-                    <div class="horiz_ruler"></div>
-                    <h2>Returns:</h2>
-                    <table width="699" border="0" cellspacing="0" cellpadding="0">
-                        <tbody><tr>
-                            <td height="45" width="220"><span class="lightcolortext">Your original investment was:</span></td>
-                            <td width="15">&nbsp;</td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="145"><input name="returns_1_1" id="returns_1_1" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="145"><input name="returns_1_2" id="returns_1_2" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="145"><input name="returns_1_3" id="returns_1_3" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13">&nbsp;</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                    </tbody></table>
-                    <table width="699" border="0" cellspacing="0" cellpadding="0">
-                        <tbody><tr>
-                            <td height="45" width="205"><span class="lightcolortext">On disposal of the SEIS shares after three years, if the investment returns, as a percentage of original investment is:</span></td>
-                            <td width="10">&nbsp;</td>
-                            <td width="130"><input name="returns_2_1" id="returns_2_1" type="text" value="50" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">%</strong></td>
-                            <td width="9">&nbsp;</td>
-                            <td width="130"><input name="returns_2_2" id="returns_2_2" type="text" value="100" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">%</strong></td>
-                            <td width="9">&nbsp;</td>
-                            <td width="130"><input name="returns_2_3" id="returns_2_3" type="text" value="200" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">%</strong></td>
-                        </tr>
-                    </tbody></table>
-                    <table width="699" border="0" cellspacing="0" cellpadding="0">
-                        <tbody><tr>
-                            <td height="45" width="220"><span class="lightcolortext">And therefore after 3 years your investment is worth:</span></td>
-                            <td width="15">&nbsp;</td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="145"><input name="returns_3_1" id="returns_3_1" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="145"><input name="returns_3_2" id="returns_3_2" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="145"><input name="returns_3_3" id="returns_3_3" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13">&nbsp;</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td height="45" width="200"><span class="lightcolortext">The tax free gain on your net investment would be:</span></td>
-                            <td width="15">&nbsp;</td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="145"><input name="returns_4_1" id="returns_4_1" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="145"><input name="returns_4_2" id="returns_4_2" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">£</strong></td>
-                            <td width="145"><input name="returns_4_3" id="returns_4_3" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13">&nbsp;</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                    </tbody></table>
-                    <table width="699" border="0" cellspacing="0" cellpadding="0">
-                        <tbody><tr>
-                            <td height="45" width="205"><span class="lightcolortext">Which in percentage terms would be:</span></td>
-                            <td width="10">&nbsp;</td>
-                            <td width="130"><input name="returns_5_1" id="returns_5_1" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">%</strong></td>
-                            <td width="9">&nbsp;</td>
-                            <td width="130"><input name="returns_5_2" id="returns_5_2" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">%</strong></td>
-                            <td width="9">&nbsp;</td>
-                            <td width="130"><input name="returns_5_3" id="returns_5_3" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">%</strong></td>
-                        </tr>
-                        <tr>
-                            <td height="45" width="205"><span class="lightcolortext">The annualised return on your net investment in percentage terms (assuming 3 years), would be, per annum:</span></td>
-                            <td width="10">&nbsp;</td>
-                            <td width="130"><input name="returns_6_1" id="returns_6_1" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">%</strong></td>
-                            <td width="9">&nbsp;</td>
-                            <td width="130"><input name="returns_6_2" id="returns_6_2" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">%</strong></td>
-                            <td width="9">&nbsp;</td>
-                            <td width="130"><input name="returns_6_3" id="returns_6_3" type="text" value="" class="text_area_simple" placeholder="0" readonly="true"></td>
-                            <td width="13"><strong class="lightcolor">%</strong></td>
-                        </tr>
-                    </tbody></table>
-
-                    <div class="horiz_ruler"></div>
-                    <div class="clearfix" id="note">
-                        <h6>Notes</h6>
-                        <ol>
-                            <li>
-                                <p>The return is the amount the investment is worth after 3 years LESS the net cost after Reliefs of the investment</p>
-                            </li>
-                            <li>
-                                <p>Your return after 3 years is tax free, your gross equivalent return will be higher</p>
-                            </li>
-                        </ol>
-                        <span><a href="http://www.seiswindow.org.uk/disclaimer/">*Disclaimer</a></span>
-                    </div>
-                </div>
-            </div>
-        </form>
-    </div>
-                                    
-                                    
-                                    <!-- BEGIN EIS CALCULATION FORM -->
-                                    <form id="parameters" >
-                                        <div class="control-group">
-                                            <label>How much do you plan to invest?</label>            
-                                            <div class="controls">
-                                                <div class="input-prepend input-append">
-                                                    <span class="add-on">£</span>
-                                                    <input class="span2" name="n1" id="appendedPrependedInput" type="text">
-                                                    <span class="add-on">.00</span>
+                                    <!-- EIS CALCULATOR -->
+                                    <form name="seis-calculator" id="seis-calculator" method="post">
+                                        <!--Assumptions for Tax Year 2012/13: -->
+                                        <input type="hidden" name="basic_rate_band_limit" id="basic_rate_band_limit" value="34370">
+                                        <input type="hidden" name="higher_rate_band_limit" id="higher_rate_band_limit" value="150000">
+                                        <input type="hidden" name="basic_rate" id="basic_rate" value="20">
+                                        <input type="hidden" name="higher_rate" id="higher_rate" value="40">
+                                        <input type="hidden" name="add_rate" id="add_rate" value="50">
+                                        <input type="hidden" name="basic_rate_inc_tax_payer" id="basic_rate_inc_tax_payer" value="18">
+                                        <input type="hidden" name="above_basic_rate_inc_tax_payer" id="above_basic_rate_inc_tax_payer" value="28">
+                                        <input type="hidden" name="income_tax_allowance" id="income_tax_allowance" value="8105">
+                                        <input type="hidden" name="min_income_tax_allowance" id="min_income_tax_allowance" value="100000">
+                                        <input type="hidden" name="cgt_amt" id="cgt_amt" value="10600">
+                                        <!--Calculations (not for displaying on the website):-->
+                                        <input type="hidden" name="taxable_income" id="taxable_income" value="100000">
+                                        <input type="hidden" name="taxable_income_allowance" id="taxable_income_allowance" value="-8105">
+                                        <input type="hidden" name="red_income_tax_allowance1" id="red_income_tax_allowance1" value="0">
+                                        <input type="hidden" name="red_income_tax_allowance2" id="red_income_tax_allowance2" value="0">
+                                        <input type="hidden" name="taxable_income_after_income_tax_allowance" id="taxable_income_after_income_tax_allowance" value="91895">
+                                        <input type="hidden" name="basic_rate_band" id="basic_rate_band" value="6874">
+                                        <input type="hidden" name="higher_rate_band" id="higher_rate_band" value="23010">
+                                        <input type="hidden" name="add_rate_band" id="add_rate_band" value="0">
+                                        <input type="hidden" name="income_tax_liability" id="income_tax_liability" value="29884">
+                                        <input type="hidden" name="max_seis_inv_allowance" id="max_seis_inv_allowance" value="100000">
+                                        <input type="hidden" name="seis_rate" id="seis_rate" value="50">
+                                        <input type="hidden" name="max_seis_tax_relief_pos" id="max_seis_tax_relief_pos" value="50000">
+                                        <input type="hidden" name="max_seis_tax_relief_pos_avail" id="max_seis_tax_relief_pos_avail" value="29884">
+                                        <input type="hidden" name="invest_max_seis_tax_relief" id="invest_max_seis_tax_relief" value="59768">
+                                        <input type="hidden" name="unused_basic_rate_band" id="unused_basic_rate_band" value="0">
+                                        <input type="hidden" name="basic_rate_band_capital_gain" id="basic_rate_band_capital_gain" value="0">
+                                        <input type="hidden" name="capital_gain_tax_liability" id="capital_gain_tax_liability" value="2800">
+                                        <input type="hidden" name="seis_reinv_rel_cap" id="seis_reinv_rel_cap" value="2800">
+                                        <input type="hidden" name="seis_reinv_rel" id="seis_reinv_rel" value="2800">
+                                        <div id="caluculator_content">
+                                            <div id="calculator">
+                                                <div id="bg_calculator"></div>
+                                                    <h2>In the Tax Year ending 5 April 2014:</h2>
+                                                    <table width="699" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>
+                                                            What is your Taxable Income? <font color="red">*</font>          
+                                                            <div class="input-prepend input-append">
+                                                            <span class="add-on">£</span>
+                                                            <input name="tax_income" id="tax_income" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
+                                                            <span class="add-on">.00</span>
+                                                            </div>                         
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            What are your expected Capital Gains? <font color="red">*</font>          
+                                                            <div class="input-prepend input-append">
+                                                            <span class="add-on">£</span>
+                                                            <input name="capital_gain" id="capital_gain" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
+                                                            <span class="add-on">.00</span>
+                                                            </div>                                
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            How much do you plan to invest ? <font color="red">*</font>           
+                                                            <div class="input-prepend input-append">
+                                                            <span class="add-on">£</span>
+                                                            <input name="invest" id="invest" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
+                                                            <span class="add-on">.00</span>
+                                                            </div>                                
+                                                        </td>                               
+                                                </tbody>
+                                                </table>
+                                                <hr>                        
+                                                <table width="699" border="0" cellspacing="0" cellpadding="0">
+                                                    <tbody><tr>
+                                                            <td>
+                                                                The Income Tax that you may save through claiming EIS Income Tax Relief is    
+                                                                <div class="input-prepend input-append">
+                                                                <span class="add-on">£</span>
+                                                                <input name="output_1" id="output_1" type="text" value="" placeholder="0" readonly="true">
+                                                                <span class="add-on">.00</span>
+                                                                </div>
+                                                            </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            The net cost, after EIS Income Tax relief, of your investment is:
+                                                            <div class="input-prepend input-append">
+                                                            <span class="add-on">£</span>
+                                                            <input name="output_2" id="output_2" type="text" value="" placeholder="0" readonly="true">
+                                                            <span class="add-on">.00</span>
+                                                            </div>                                
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            The Capital Gains Tax that you may save by claiming EIS Reinvestment Relief is:                                
+                                                            <div class="input-prepend input-append">
+                                                            <span class="add-on">£</span>
+                                                            <input name="output_2" id="output_2" type="text" value="" placeholder="0" readonly="true">
+                                                            <span class="add-on">.00</span>
+                                                            </div>                                                                                           
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            The net cost, after tax EIS Income Tax Relief and EIS Reinvestment Relief, of your investment is:                           
+                                                            <div class="input-prepend input-append">
+                                                            <span class="add-on">£</span>
+                                                            <input name="output_4" id="output_4" type="text" value="" placeholder="0" readonly="true">
+                                                            <span class="add-on">.00</span>
+                                                            </div>                                                           
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            On day one the investment is worth to you, as a percentage of your net cost:                                
+                                                            <div class="input-prepend input-append">
+                                                            <span class="add-on">£</span>
+                                                            <input name="output_4" id="output_4" type="text" value="" placeholder="0" readonly="true">
+                                                            <span class="add-on">.00</span>
+                                                            </div>                                                           
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                                <input name="returns_1_1" id="returns_1_1" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_1_2" id="returns_1_2" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_1_3" id="returns_1_3" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_2_1" id="returns_2_1" type="hidden" value="50"  placeholder="0" readonly="true">
+                                                <input name="returns_2_2" id="returns_2_2" type="hidden" value="100"  placeholder="0" readonly="true">
+                                                <input name="returns_2_3" id="returns_2_3" type="hidden" value="200"  placeholder="0" readonly="true">
+                                                <input name="returns_3_1" id="returns_3_1" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_3_2" id="returns_3_2" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_3_3" id="returns_3_3" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_4_1" id="returns_4_1" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_4_2" id="returns_4_2" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_4_3" id="returns_4_3" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_5_1" id="returns_5_1" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_5_2" id="returns_5_2" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_5_3" id="returns_5_3" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_6_1" id="returns_6_1" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_6_2" id="returns_6_2" type="hidden" value="" placeholder="0" readonly="true">
+                                                <input name="returns_6_3" id="returns_6_3" type="hidden" value="" placeholder="0" readonly="true">
                                                 </div>
                                             </div>
-                                        </div>
+        </form>
+                                    
 
-                                        <div class="control-group">
-                                            <label>Are you expecting any capital gains in the year 2012-13? If so how much?</label>            
-                                            <div class="controls">
-                                                <div class="input-prepend input-append">
-                                                    <span class="add-on">£</span>
-                                                    <input class="span2" name="n2" id="appendedPrependedInput" type="text">
-                                                    <span class="add-on">.00</span>
-                                                </div>                
-                                            </div>
-                                        </div>
-
-                                        <div class="control-group">
-                                            <label>See what happens if your returns are:</label>
-                                            <div class="controls">
-                                                <div class="input-prepend input-append">
-                                                    <span class="add-on">£</span>
-                                                    <input class="span2" name="n3" id="appendedPrependedInput" type="text">
-                                                    <span class="add-on">.00</span>
-                                                </div>                                                                
-                                            </div>
-                                        </div>
-
-                                        <div class="output">
-                                            <div class="well">
-                                                <label>After claiming income tax relief and capital gains re-investment relief, your investment will cost you</label>
-                                                <span class="output-n4"></span>
-                                            </div>
-                                            <div class="well">
-                                                <label>Initial Value</label>
-                                                <span class="output-n5"></span>
-                                            </div>
-                                            <div class="well">
-                                                <label>Exit Value</label>
-                                                <span class="output-n6"></span>
-                                            </div>
-                                            <div class="well">
-                                                <label>Disclaimer</label>
-                                                <span class="output-n7"></span>
-                                            </div>
-                                        </div>
-                                        
-                                    </form>  
                                 </div>
                             </div>                          
                         </div>
@@ -802,7 +701,7 @@
         <script src="js/jquery.quicksand.min.js"></script>
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/jquery.mobile.customized.min.js"></script><!-- camera Slider-->
-        <script src="js/camera.min.js"></script><!-- camera Slider-->
+<!--        <script src="js/camera.min.js"></script> -->
         <script src="js/jquery.parallax-1.1.3.min.js"></script><!--  parallax-->
         <script src="js/jquery.localscroll-1.2.7-min.js"></script><!--  parallax-->
         <!-- EIS Calculator -->
@@ -810,6 +709,7 @@
         <!-- WOWSLIDER -->
 	<script type="text/javascript" src="WOWSlider/js/wowslider.js"></script>
 	<script type="text/javascript" src="WOWSlider/js/init.js"></script>        
+        <!-- 
         <script>            
             jQuery(function () {
                 jQuery('#camera_wrap_3').camera({
@@ -819,7 +719,8 @@
                     imagePath: '../images/'
                 });
             });
-        </script>        
+        </script>
+        -->
     </body>
 
 </html>
