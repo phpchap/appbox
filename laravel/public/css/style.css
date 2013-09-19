@@ -688,7 +688,7 @@ a.btn:hover ,button.btn:hover {
     font-size: 35px;
     font-weight: lighter;
     margin: 10px 0 6px 0;
-    padding: 24px 0 16px 0;
+    padding: 0px 0 16px 0;
     text-shadow: 2px 1px 0 #000;
     filter: dropshadow(color=#000, offx=2, offy=1);
     text-transform: uppercase;
@@ -700,7 +700,7 @@ a.btn:hover ,button.btn:hover {
 }
 
 .Footer	.Social {
-    margin: 55px 44% 20px!important;
+    margin: 10px 44% 20px!important;
 }
 
 .Footer p {

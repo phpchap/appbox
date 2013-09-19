@@ -625,7 +625,7 @@
                                         <hr>
                                         <div class="contact-info">
                                             <ul>
-                                                <li> <i class="icon-bullhorn" style="margin-right:10px"></i>0207 710 6160</li>
+                                                <li><i class="icon-bullhorn" style="margin-right:10px"></i>0203 440 4110</li>
                                                 <br>
                                                 <li><i class="icon-envelope" style="margin-right:10px"></i><a target="_blank" href="mailto:hello@appboxmedia.com">hello@appboxmedia.com</a></li>
                                             </ul>
@@ -652,7 +652,7 @@
                                     <a class="Pinterest" rel="tooltip" href="#" data-original-title="Pinterest">Pinterest</a>
                                 </li>
                             </ul>
-                            <a href="#welcome" class="brand">App Box Media</a>
+                            <a href="#Home" class="brand"><img src="/images/logo.png"></a>                            
                             <p><a href="">Terms & Conditions</a> - <a href="">Privacy Policy</a> - <a href="">Important Notice</a> - <a href="">Risk Warning</a></p>
                         </footer>
                     </div>
