@@ -160,8 +160,6 @@
                         <h2>DID <span>YOU</span> KNOW?</h2>
                         <div class="clearfix"></div>
                         <blockquote>Apple Passed 45,000,000,000 Total Unique App Downloads At A Rate Of 800 Per Second With Over $9,000,000,000 Paid To Developers</blockquote>             
-                        <div class="clearfix"></div>
-                        <p>source: <a href="http://techcrunch.com/2013/04/23/app-store-45-billion-downloads/" target="_blank">http://techcrunch.com/2013/04/23/app-store-45-billion-downloads/</a></p>
                     </div>
                 </div>                
                 <!-- START OF VISION -->
@@ -203,8 +201,6 @@
                         <h2>DID <span>YOU</span> KNOW?</h2>
                         <div class="clearfix"></div>
                         <blockquote>Google Play Exceeds iOS App Store in App Downloads by 10% in Q2 2013. The iOS App Store still generated 2.3x the revenue.</blockquote>             
-                        <div class="clearfix"></div>
-                        <p>source: <a href="http://blog.appannie.com/app-annie-index-market-q2-2013/" target="_blank">http://blog.appannie.com/app-annie-index-market-q2-2013/</a></p>
                     </div>
                 </div>                                                
                 <!-- START OF OPPORTUNITIES -->
@@ -290,8 +286,6 @@
                         <h2>DID <span>YOU</span> KNOW?</h2>
                         <div class="clearfix"></div>
                         <blockquote>PlayStation 4 pre orders have already topped PlayStation 3 launch sale. 1.6m Playstation 3’s were sold at launch.</blockquote>             
-                        <div class="clearfix"></div>
-                        <p>source: <a href="http://www.forbes.com/sites/davidthier/2013/08/21/ps4-pre-orders-already-beating-ps3-holiday-sales/" target="_blank">http://www.forbes.com/sites/davidthier/2013/08/21/ps4-pre-orders-already-beating-ps3-holiday-sales/</a></p>
                     </div>
                 </div>                
                                 
@@ -388,8 +382,6 @@
                     <div class="ParallaxText">
                         <h2>DID <span>YOU</span> KNOW?</h2>
                         <blockquote>Smart TV shipments climbed 27% in 2012 to reach 66 million units. By 2015, the smart TVs will make up 55% of the market as global shipments climb to 141 million units.</blockquote>             
-                        <div class="clearfix"></div>
-                        <p>source: <a href="http://www.twice.com/articletype/news/ihs-smart-tvs-rise-27-tv-shipments/105108" target="_blank">http://www.twice.com/articletype/news/ihs-smart-tvs-rise-27-tv-shipments/105108</a></p>
                     </div>
                 </div>                                
                 
@@ -407,7 +399,7 @@
                                     <p>In order to benefit from the relief, the relevant shares must be held for at least three years after issue or, if later, three years after the company begins to trade.</p>
                                     <p>The individual's income tax liability for the year of the share issue will be reduced by 30% of the amount used to subscribe for shares. In effect, this means that up to 30% of the cost of the individual's share investment will be paid for by HM Revenue & Customs (HMRC).</p>
                                     <p>EIS relief applies only to individuals over 18 years of age and not, for example, companies or trusts. The individual does not need to be resident and ordinarily resident in the UK for tax purposes when the shares are issued but will need to be liable for UK income tax.</p>
-                                 </div>
+                                </div>
                                 <div class="span6">
                                     <!-- EIS CALCULATOR -->
                                     <form name="seis-calculator" id="seis-calculator" method="post">
@@ -445,93 +437,93 @@
                                         <div id="caluculator_content">
                                             <div id="calculator">
                                                 <div id="bg_calculator"></div>
-                                                    <h2>In the Tax Year ending 5 April 2014:</h2>
-                                                    <table width="699" border="0" cellspacing="0" cellpadding="0">
+                                                <h2>In the Tax Year ending 5 April 2014:</h2>
+                                                <table border="0" cellspacing="0" cellpadding="0">
                                                     <tbody>
-                                                    <tr>
-                                                        <td>
-                                                            What is your Taxable Income? <font color="red">*</font>          
-                                                            <div class="input-prepend input-append">
-                                                            <span class="add-on">£</span>
-                                                            <input name="tax_income" id="tax_income" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
-                                                            <span class="add-on">.00</span>
-                                                            </div>                         
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            What are your expected Capital Gains? <font color="red">*</font>          
-                                                            <div class="input-prepend input-append">
-                                                            <span class="add-on">£</span>
-                                                            <input name="capital_gain" id="capital_gain" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
-                                                            <span class="add-on">.00</span>
-                                                            </div>                                
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            How much do you plan to invest ? <font color="red">*</font>           
-                                                            <div class="input-prepend input-append">
-                                                            <span class="add-on">£</span>
-                                                            <input name="invest" id="invest" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
-                                                            <span class="add-on">.00</span>
-                                                            </div>                                
-                                                        </td>                               
-                                                </tbody>
+                                                        <tr>
+                                                            <td>
+                                                                What is your Taxable Income? <font color="red">*</font>          
+                                                                <div class="input-prepend input-append">
+                                                                    <span class="add-on">£</span>
+                                                                    <input name="tax_income" id="tax_income" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
+                                                                    <span class="add-on">.00</span>
+                                                                </div>                         
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                What are your expected Capital Gains? <font color="red">*</font>          
+                                                                <div class="input-prepend input-append">
+                                                                    <span class="add-on">£</span>
+                                                                    <input name="capital_gain" id="capital_gain" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
+                                                                    <span class="add-on">.00</span>
+                                                                </div>                                
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                How much do you plan to invest ? <font color="red">*</font>           
+                                                                <div class="input-prepend input-append">
+                                                                    <span class="add-on">£</span>
+                                                                    <input name="invest" id="invest" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
+                                                                    <span class="add-on">.00</span>
+                                                                </div>                                
+                                                            </td>                               
+                                                    </tbody>
                                                 </table>
                                                 <hr>                        
-                                                <table width="699" border="0" cellspacing="0" cellpadding="0">
+                                                <table border="0" cellspacing="0" cellpadding="0">
                                                     <tbody><tr>
                                                             <td>
                                                                 The Income Tax that you may save through claiming EIS Income Tax Relief is    
                                                                 <div class="input-prepend input-append">
-                                                                <span class="add-on">£</span>
-                                                                <input name="output_1" id="output_1" type="text" value="" placeholder="0" readonly="true">
-                                                                <span class="add-on">.00</span>
+                                                                    <span class="add-on">£</span>
+                                                                    <input name="output_1" id="output_1" type="text" value="" placeholder="0" readonly="true">
+                                                                    <span class="add-on">.00</span>
                                                                 </div>
                                                             </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            The net cost, after EIS Income Tax relief, of your investment is:
-                                                            <div class="input-prepend input-append">
-                                                            <span class="add-on">£</span>
-                                                            <input name="output_2" id="output_2" type="text" value="" placeholder="0" readonly="true">
-                                                            <span class="add-on">.00</span>
-                                                            </div>                                
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            The Capital Gains Tax that you may save by claiming EIS Reinvestment Relief is:                                
-                                                            <div class="input-prepend input-append">
-                                                            <span class="add-on">£</span>
-                                                            <input name="output_2" id="output_2" type="text" value="" placeholder="0" readonly="true">
-                                                            <span class="add-on">.00</span>
-                                                            </div>                                                                                           
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            The net cost, after tax EIS Income Tax Relief and EIS Reinvestment Relief, of your investment is:                           
-                                                            <div class="input-prepend input-append">
-                                                            <span class="add-on">£</span>
-                                                            <input name="output_4" id="output_4" type="text" value="" placeholder="0" readonly="true">
-                                                            <span class="add-on">.00</span>
-                                                            </div>                                                           
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            On day one the investment is worth to you, as a percentage of your net cost:                                
-                                                            <div class="input-prepend input-append">
-                                                            <span class="add-on">£</span>
-                                                            <input name="output_4" id="output_4" type="text" value="" placeholder="0" readonly="true">
-                                                            <span class="add-on">.00</span>
-                                                            </div>                                                           
-                                                        </td>
-                                                    </tr>
-                                                </tbody></table>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                The net cost, after EIS Income Tax relief, of your investment is:
+                                                                <div class="input-prepend input-append">
+                                                                    <span class="add-on">£</span>
+                                                                    <input name="output_2" id="output_2" type="text" value="" placeholder="0" readonly="true">
+                                                                    <span class="add-on">.00</span>
+                                                                </div>                                
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                The Capital Gains Tax that you may save by claiming EIS Reinvestment Relief is:                                
+                                                                <div class="input-prepend input-append">
+                                                                    <span class="add-on">£</span>
+                                                                    <input name="output_2" id="output_2" type="text" value="" placeholder="0" readonly="true">
+                                                                    <span class="add-on">.00</span>
+                                                                </div>                                                                                           
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                The net cost, after tax EIS Income Tax Relief and EIS Reinvestment Relief, of your investment is:                           
+                                                                <div class="input-prepend input-append">
+                                                                    <span class="add-on">£</span>
+                                                                    <input name="output_4" id="output_4" type="text" value="" placeholder="0" readonly="true">
+                                                                    <span class="add-on">.00</span>
+                                                                </div>                                                           
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                On day one the investment is worth to you, as a percentage of your net cost:                                
+                                                                <div class="input-prepend input-append">
+                                                                    <span class="add-on">£</span>
+                                                                    <input name="output_4" id="output_4" type="text" value="" placeholder="0" readonly="true">
+                                                                    <span class="add-on">.00</span>
+                                                                </div>                                                           
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
                                                 <input name="returns_1_1" id="returns_1_1" type="hidden" value="" placeholder="0" readonly="true">
                                                 <input name="returns_1_2" id="returns_1_2" type="hidden" value="" placeholder="0" readonly="true">
                                                 <input name="returns_1_3" id="returns_1_3" type="hidden" value="" placeholder="0" readonly="true">
@@ -550,18 +542,16 @@
                                                 <input name="returns_6_1" id="returns_6_1" type="hidden" value="" placeholder="0" readonly="true">
                                                 <input name="returns_6_2" id="returns_6_2" type="hidden" value="" placeholder="0" readonly="true">
                                                 <input name="returns_6_3" id="returns_6_3" type="hidden" value="" placeholder="0" readonly="true">
-                                                </div>
                                             </div>
-        </form>
-                                    
-
+                                        </div>
+                                    </form>
                                 </div>
                             </div>                          
                         </div>
                     </div>
                 </div>
                 <!--END EIS CALCULATOR -->                
-                
+
                 <!-- FIFTH DID YOU KNOW -->
                 <div id="fifth" class="Parallax">
                     <div class="ParallaxText">
@@ -569,7 +559,6 @@
                         <div class="clearfix"></div>
                         <blockquote>The Oculus Rift VR Headset announced a Kickstarter campaign to further development of the product. Within four hours, Oculus secured its intended amount of $250,000, less than 36 hours, the campaign surpassed $1m in funding, eventually ending with $2.4m</blockquote>             
                         <div class="clearfix"></div>
-                        <p>source: <a href="http://en.wikipedia.org/wiki/Oculus_Rift" target="_blank">http://en.wikipedia.org/wiki/Oculus_Rift</a></p>
                     </div>
                 </div                
                 
