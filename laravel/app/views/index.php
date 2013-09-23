@@ -28,7 +28,8 @@
         <link rel="shortcut icon" href="icon/favicon.ico">
 	<!-- Start WOWSlider.com HEAD section -->
 	<link rel="stylesheet" type="text/css" href="WOWSlider/css/style.css" />
-	<!-- End WOWSlider.com HEAD section -->        
+	<!-- End WOWSlider.com HEAD section -->                
+        <script src="js/jquery-1.8.2.min.js"></script>
         
         <!-- Start Tabs CSS -->
 	<style>
@@ -159,7 +160,7 @@
                     <div class="ParallaxText">
                         <h2>DID <span>YOU</span> KNOW?</h2>
                         <div class="clearfix"></div>
-                        <blockquote>Apple Passed 45,000,000,000 Total Unique App Downloads At A Rate Of 800 Per Second With Over $9,000,000,000 Paid To Developers</blockquote>             
+                        <blockquote>Apple Passed 45 billion Total Unique App Downloads At A Rate Of 800 Per Second With Over $9 billion Paid To Developers</blockquote>             
                     </div>
                 </div>                
                 <!-- START OF VISION -->
@@ -172,8 +173,8 @@
                             <div class="row-fluid">
                                 <!-- LEFT HAND SIDE TEXT -->
                                 <div class="span6">
-                                    <p>AppBox Media aim to deliver exciting and creative mobile applications and games which embrace users both visually and interactively on a globally connected landscape. 
-                                    <p>It is the vision of the Company to become one of the world’s leading mobile application and game software developers within 5 years. 
+                                    <p>AppBox Media aim to deliver exciting and creative mobile applications and games which embrace users both visually and interactively on a globally connected landscape.</p> 
+                                    <p>It is the vision of the Company to become one of the world’s leading mobile application and game software developers within 5 years. </p>
                                     <p>Our mobile applications and digital games will aim to integrate and feature the following qualities:</p>
                                     <ul>
                                         <li>&middot; Fun/ Entertaining</li>  
@@ -212,9 +213,9 @@
                         <div class="container clearfix">
                             <div class="row-fluid">
                                 <!-- LEFT HAND SIDE TEXT -->
-                                <div class="span6">
+                                <div class="span5">
                                     <p>AppBox Media enters the market at an opportune time. The games industry is worth an estimated $80 billion worldwide, about the same as the global film industry, and the biggest titles comfortably out earn blockbuster movies</p>
-                                    <p>The overall global app economy was worth $53Bn in 2012, and expected to rise to $68Bn in 2013 and forecast to rise to $143Bn in 2016, according to research by Developer Economics. Recent studies by Portio Research indicate app downloads are anticipated to grow at 35% CAGR. </p>
+                                    <p>The overall global app economy was worth $53 Billion in 2012, and expected to rise to $68Bn in 2013 and forecast to rise to $143 Billion in 2016, according to research by Developer Economics. Recent studies by Portio Research indicate app downloads are anticipated to grow at 35% CAGR. </p>
                                     <p>The US and China tower over the next group of top markets by way of countries with greatest number of active IOS  and Android devices by at least five times.  </p>
                                     <p>While the U.S. has added 55 million net active devices since October 2011, China has added 125 million, a figure that totals the sum of the UK, Japan and South Korea’s combined, current active user base.</p> 
                                     <p>China leads the world with an impressive 293% year-over-year growth rate, spurred by the potent combination of its vast population and rapidly growing middle class with plenty of opportunity to achieve further growth.  </p>                                   
@@ -226,34 +227,18 @@
                                 <script type="text/javascript" src="/barchartjs/chart.js"></script>                                
                                 
                                 <!-- RIGHT HAND SIDE GRAPHICS -->
-                                <div class="span6">       
-
+                                <div class="span7">       
                                     <!-- START TABS -->
-                                    <div class="tabs">
-                                        
+                                    <div class="tabs">                                        
                                         <!-- START FIRST TAB -->
                                         <div class="tab">
                                             <input type="radio" id="tab-1" name="tab-group-1" checked>
                                             <label for="tab-1">Room for Growth</label>
-
                                             <div class="content">
-                                                    <div id="demo">
-                                                        <?php /* 
-                                                        <div id="buttons">
-                                                            <button id="data1">Set Data to data 1</button>
-                                                            <button id="data2">Set Data to data 2</button>
-                                                            <br>
-                                                            <button id="random">Make Random Data</button>
-                                                            <input id="num" value=10></input>
-                                                        </div>
-                                                            * 
-                                                            */
-                                                        ?>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="svg"></svg>
-                                                    </div>
-                                                    <script type="text/javascript">
-                                                        init();
-                                                    </script> 
+                                                <!-- START CHART CONTAINER -->
+                                                <div id="chart1" style="width:620px;height:340px;" class='with-3d-shadow with-transitions box'>
+                                                    <svg></svg>
+                                                </div>
                                             </div> 
                                         </div>
                                         <!-- END FIRST TAB -->        
@@ -262,15 +247,15 @@
                                         <div class="tab">
                                             <input type="radio" id="tab-2" name="tab-group-1">
                                             <label for="tab-2">iOS & Android Activations by Country</label>
-
                                             <div class="content">
-                                                <p>Stuff for Tab Two</p>
-
-                                                <img src="http://placekitten.com/200/100">
+                                                <!-- START CHART CONTAINER -->
+                                                <div id="chart2" style="width:620px;height:340px;" class='with-3d-shadow with-transitions box'>
+                                                    <svg></svg>
+                                                </div>
+                                                <!-- END CHART CONTAINER -->
                                             </div> 
                                         </div>
                                         <!-- END SECOND TAB --> 
-
                                     </div>                                    
                                     <!-- END TABS -->
                                 </div>                                
@@ -278,6 +263,91 @@
                         </div>
                     </div>
                 </div>                
+                <!-- INSERT THIS SCRIPT BELOW THE THE GRAPHS -->
+                <script>
+                // inView Code
+                $(document).ready(function() {	
+                    $('#chart1').one('inview', function (event, visible) {
+                        if (visible) {
+                            showGraph1();
+                        }
+                    });
+
+                    $("#tab-1").bind('click', function(){
+                        showGraph1();                        
+                    });
+
+                    $("#tab-2").bind('click', function(){
+                        showGraph2();
+                    });
+
+                });
+                
+                // Function for first graph
+                function showGraph1(){
+                    nv.addGraph(function() {
+                        var chart1 = nv.models.multiBarChart().margin({top: 0, right: 10, bottom: 40, left: 90});
+                            chart1.yAxis.tickFormat(d3.format(',1f'));
+                            d3.select('#chart1 svg')
+                                .datum(
+                                [{
+                                    values: [{x:"USA",y:240000000},{x:"China",y:240000000},{x:"Malaysia",y:20000000},{x:"Canada",y:35000000},{x:"India",y:35000000}],
+                                    key: "Active Devices",
+                                    color: "#46ADDA"
+                                }, {
+                                    values: [{x:"USA",y:300000000},{x:"China",y:1360000000},{x:"Malaysia",y:40000000},{x:"Canada",y:70000000},{x:"India",y:1260000000}],
+                                    key: "Population",
+                                    color: "#E54521"
+                                }])
+                            .transition()
+                            .duration(1500)
+                            .delay(100)
+                            .call(chart1);
+
+                        nv.utils.windowResize(chart1.update);
+
+                        return chart1;
+                    });
+                }
+                // Function for second graph
+                function showGraph2(){
+                    historicalBarChart = [{
+                        key: "Active iOS & Android Devices (millions)",
+                        values: [ 
+                        {"label" : "US","value" : 181,"color" : "#19496E"},
+                        {"label" : "China","value" : 167,"color" : "#19496E"},
+                        {"label" : "UK","value" : 35,"color" : "#19496E"},
+                        {"label" : "Japan","value" : 28,"color" : "#19496E"},
+                        {"label" : "S.Korea","value" : 27,"color" : "#19496E"},
+                        {"label" : "Germany","value" : 22,"color" : "#19496E"},
+                        {"label" : "France","value" : 19,"color" : "#19496E"},
+                        {"label" : "Canada","value" : 19,"color" : "#19496E"},
+                        {"label" : "Brazil","value" : 14,"color" : "#19496E"},
+                        {"label" : "Spain","value" : 14,"color" : "#19496E" }
+                        ]
+                    }];
+                
+                    nv.addGraph(function() {
+                        var chart2 = nv.models.discreteBarChart()
+                            .margin({top: 20, right: 10, bottom: 40, left: 50})
+                            .x(function(d) { return d.label })
+                            .y(function(d) { return d.value })
+                            .showValues(true)
+                            .tooltips(false);
+
+                        d3.select('#chart2 svg')
+                            .datum(historicalBarChart)
+                            .transition()
+                            .duration(1500)
+                            .call(chart2);
+
+                        nv.utils.windowResize(chart2.update);
+
+                        return chart2;
+                    });
+                    
+                }
+                </script>                                
                 <!-- END OF OPPORTUNITIES -->
                 
                 <!-- THIRD DID YOU KNOW -->
@@ -557,7 +627,7 @@
                     <div class="ParallaxText">
                         <h2>DID <span>YOU</span> KNOW?</h2>
                         <div class="clearfix"></div>
-                        <blockquote>The Oculus Rift VR Headset announced a Kickstarter campaign to further development of the product. Within four hours, Oculus secured its intended amount of $250,000, less than 36 hours, the campaign surpassed $1m in funding, eventually ending with $2.4m</blockquote>             
+                        <blockquote>The Oculus Rift VR Headset announced a Kickstarter campaign to further development of the product. Within four hours, Oculus secured its intended amount of $250,000, less than 36 hours, the campaign surpassed $1m in funding, eventually ending with $2.4 million</blockquote>             
                         <div class="clearfix"></div>
                     </div>
                 </div                
@@ -625,7 +695,7 @@
                                         <hr>
                                         <div class="contact-info">
                                             <ul>
-                                                <li><i class="icon-bullhorn" style="margin-right:10px"></i>0203 440 4110</li>
+                                                <li><i class="icon-bullhorn" style="margin-right:10px"></i>0203 440 4110 / 0800 978 8018</li>
                                                 <br>
                                                 <li><i class="icon-envelope" style="margin-right:10px"></i><a target="_blank" href="mailto:hello@appboxmedia.com">hello@appboxmedia.com</a></li>
                                             </ul>
@@ -656,7 +726,7 @@
                             <p><a href="">Terms & Conditions</a> - <a href="">Privacy Policy</a> - <a href="">Important Notice</a> - <a href="">Risk Warning</a></p>
                         </footer>
                     </div>
-                </div>
+                </div>    
                 
             </div>
             <!-- /Row -->
@@ -681,7 +751,6 @@
         
         <!-- Le javascript==================================================-->
         <!-- Placed at the end of the document so the pages load faster -->
-        <script src="js/jquery-1.8.2.min.js"></script>
         <script src="js/lean-slider.min.js"></script><!-- About Slider-->
         <script src="js/my_script.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
@@ -698,6 +767,13 @@
         <!-- WOWSLIDER -->
 	<script type="text/javascript" src="WOWSlider/js/wowslider.js"></script>
 	<script type="text/javascript" src="WOWSlider/js/init.js"></script>        
+        <!-- Start Charts head section -->        
+        <link href="/css/d3.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+        <script type="text/javascript" src="/js/nv.js"></script>
+        <script type="text/javascript" src="/js/inview.js"></script>        
+        <!-- End Charts head section -->        
+        
         <!-- 
         <script>            
             jQuery(function () {
