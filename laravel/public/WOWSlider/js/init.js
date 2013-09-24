@@ -80,10 +80,10 @@ wowReInitor(jQuery("#wowslider-container1"),{
     playPause:false,
     stopOnHover:false,
     loop:false,
-    bullets:true,
+    bullets:false,
     caption:true,
     captionEffect:"move",
-    controls:true,
+    controls:false,
     onBeforeStep:0,
     images:0
 });

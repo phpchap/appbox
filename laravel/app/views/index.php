@@ -67,14 +67,11 @@
             }
             .content > * {
                 opacity: 0;
-
                 -webkit-transform: translate3d(0, 0, 0);
-
                 -webkit-transform: translateX(-100%);
                 -moz-transform:    translateX(-100%);
                 -ms-transform:     translateX(-100%);
                 -o-transform:      translateX(-100%);
-
                 -webkit-transition: all 0.6s ease;
                 -moz-transition:    all 0.6s ease;
                 -ms-transition:     all 0.6s ease;
@@ -90,12 +87,18 @@
             }
             [type=radio]:checked ~ label ~ .content > * {
                 opacity: 1;
-
                 -webkit-transform: translateX(0);
                 -moz-transform:    translateX(0);
                 -ms-transform:     translateX(0);
                 -o-transform:      translateX(0);
             }
+                   
+            .modal-body {
+                position: relative;
+                max-height: 400px;
+                padding: 15px;
+                overflow-y: auto;
+            }                
         </style>        
         <!-- End Tabs CSS -->
     </head>
@@ -723,7 +726,12 @@
                                 </li>
                             </ul>
                             <a href="#Home" class="brand"><img src="/images/logo.png"></a>                            
-                            <p><a href="">Terms & Conditions</a> - <a href="">Privacy Policy</a> - <a href="">Important Notice</a> - <a href="">Risk Warning</a></p>
+                            <p>
+                               <a id="TermsConditionsBtn" data-toggle="modal" href="">Terms & Conditions</a> - 
+                               <a id="PrivacyPolicyBtn" data-toggle="modal" href="">Privacy Policy</a> - 
+                               <a id="ImportantNoticeBtn" data-toggle="modal" href="">Important Notice</a> - 
+                               <a id="RiskWarningBtn" data-toggle="modal" href="">Risk Warning</a>
+                            </p>
                         </footer>
                     </div>
                 </div>    
@@ -734,25 +742,83 @@
         <!-- /container -->
         <div id="toTop">To Top</div>
         
-        <!-- Modal -->
-        <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        
+        <!-- Start Disclaimer modal -->
+        <div id="disclaimerModal" class="modal hide fade" role="dialog" tabindex="-1" role="dialog" aria-labelledby="disclaimerModalLabel" aria-hidden="true">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h3 id="myModalLabel">Modal header</h3>
+                <h3 id="disclaimerModalLabel">Disclaimer</h3>
             </div>
             <div class="modal-body">
-                <p>One fine body…</p>
+                <p>Our website is restricted to a limited number of investors. If you wish to view our investment opportunities please accept that you qualify under one of the following criteria:</p>
+                <p>I understand that this means:</p>
+                <p>(a) I can receive financial promotions that may not have been approved by a person authorised by the Financial Conduct Authority;</p>
+                <p>(b) the content of such financial promotions may not conform to rules issued by the Financial Services Authority;</p>
+                <p>(c) by signing this statement I may lose significant rights;</p>
+                <p>(d) I may have no right to complain to either of the following —</p>
+                <p>i. the Financial Conduct Authority; or ii. the Financial Ombudsman Scheme;</p>
+                <p>(e) I may have no right to seek compensation from the Financial Conduct Compensation Scheme. I am a self-certified sophisticated investor because at least one of the following applies —</p>
+                <p>(a) I am a member of a network or syndicate of business angels and have been so for at least the last six months prior to the date below;</p>
+                <p>(b) I have made more than one investment in an unlisted company in the two years prior to the date below;</p>
+                <p>(c) I am working, or have worked in the two years prior to the date below, in a professional capacity in the private equity sector, or in the provision of finance for small and medium enterprises;</p>
+                <p>(d) I am currently, or have been in the two years prior to the date below, a director of a company with an annual turnover of at least £l million.</p>
+                <p>I accept that I can lose my property and other assets from making investment decisions based on financial promotions. I am aware that it is open to me to seek advice from someone who specialises in advising on investments.</p>
+                <p>I declare that I am a self-certified sophisticated investor for the purposes of the Financial Services and Markets Act (Financial Promotion) Order 2005.</p>
             </div>
             <div class="modal-footer">
-                <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-                <button class="btn btn-primary">Save changes</button>
+                Click agree to confirm&nbsp;
+                <button class="btn btn-primary" data-dismiss="modal">I Agree</button>
             </div>
         </div>
+        <!-- End Disclaimer modal -->
+
+
+        <!-- Start Terms and Conditions Modal -->
+        <div id="TermsAndConditionsModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="TermsAndConditionsModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <h3 id="TermsAndConditionsModalLabel">Terms and Conditions</h3>
+            </div>
+            <div class="modal-body">
+                <p>Terms and conditions copy</p>
+            </div>
+        </div>
+        <!-- End Start Terms and Conditions Modal -->
+        
+        <!-- Start Privacy Policy Modal -->
+        <div id="PrivacyPolicyModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="PrivacyPolicyModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <h3 id="PrivacyPolicyModalLabel">Privacy Policy</h3>
+            </div>
+            <div class="modal-body">
+                <p>Privacy Policy copy</p>
+            </div>
+        </div>
+        <!-- End Privacy Policy Modal -->
+
+        <!-- Start Important Notice Modal -->
+        <div id="ImportantNoticeModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ImportantNoticeModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <h3 id="ImportantNoticeModalLabel">Important Notice</h3>
+            </div>
+            <div class="modal-body">
+                <p>Important Notice copy</p>
+            </div>
+        </div>
+        <!-- End Important Notice Modal -->
+        
+        <!-- Start Risk Warning Modal -->
+        <div id="RiskWarningModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="RiskWarningModalLabel" aria-hidden="true">
+            <div class="modal-header">
+                <h3 id="RiskWarningModalLabel">Risk Warning</h3>
+            </div>
+            <div class="modal-body">
+                <p>Risk Warning copy</p>
+            </div>
+        </div>
+        <!-- End Important Notice Modal -->
         
         <!-- Le javascript==================================================-->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="js/lean-slider.min.js"></script><!-- About Slider-->
-        <script src="js/my_script.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/jquery.easing.1.3.min.js"></script><!-- parallax-->
         <script src="js/modernizr-2.6.1.min.js"></script><!--blur slidShow -->
@@ -761,7 +827,9 @@
         <script src="js/jquery.mobile.customized.min.js"></script><!-- camera Slider-->
 <!--        <script src="js/camera.min.js"></script> -->
         <script src="js/jquery.parallax-1.1.3.min.js"></script><!--  parallax-->
-        <script src="js/jquery.localscroll-1.2.7-min.js"></script><!--  parallax-->
+        <script src="js/jquery.localscroll-1.2.7-min.js"></script><!--  scrollspy -->
+        <script src="js/jquery.scrollspy.js"></script><!--  scrollspy -->                
+        <script src="js/my_script.min.js"></script>        
         <!-- EIS Calculator -->
         <script src="js/jquery.eis.js"></script>
         <!-- WOWSLIDER -->
@@ -772,20 +840,39 @@
         <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
         <script type="text/javascript" src="/js/nv.js"></script>
         <script type="text/javascript" src="/js/inview.js"></script>        
-        <!-- End Charts head section -->        
-        
-        <!-- 
+        <!-- End Charts head section -->                
         <script>            
-            jQuery(function () {
-                jQuery('#camera_wrap_3').camera({
-                    height: '65%',
-                    pagination: false,
-                    thumbnails: true,
-                    imagePath: '../images/'
+            jQuery(function () {     
+                
+                // terms and condition modal
+                jQuery("#TermsConditionsBtn").bind('click', function(){
+                    $('#TermsAndConditionsModal').modal();
                 });
+                
+                // privacy policy modal
+                jQuery("#PrivacyPolicyBtn").bind('click', function(){
+                    $('#PrivacyPolicyModal').modal();                    
+                });
+
+                // important notice modal
+                jQuery("#ImportantNoticeBtn").bind('click', function(){
+                    $('#ImportantNoticeModal').modal();                    
+                });
+
+                // risk warning modal
+                jQuery("#RiskWarningBtn").bind('click', function(){
+                    $('#RiskWarningModal').modal();                    
+                });
+
+                // disclaimer popup display on page load
+                jQuery('#disclaimerModal').modal({
+                    backdrop: 'static',
+                    keyboard: false
+                });                
+
             });
         </script>
-        -->
+
     </body>
 
 </html>
