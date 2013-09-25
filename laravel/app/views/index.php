@@ -681,7 +681,7 @@
                                                 <div class="control-group">
                                                     <label class="control-label" for="input01"></label>
                                                     <div class="controls">
-                                                        <button type="submit" class="btn" rel="tooltip" title="Send Message">Send Message</button>
+                                                        <button type="submit" id="contactForm" class="btn" rel="tooltip" title="Send Message">Send Message</button>
                                                     </div>
                                                 </div>
                                             </fieldset>
