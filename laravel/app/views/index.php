@@ -15,7 +15,11 @@
         <link href="css/about_slider/lean-slider.css" rel="stylesheet" />
         <link rel="stylesheet" href="css/camera.css" />
         <link rel="stylesheet" href="css/blur.css" />
-        <!--blur slidShow -->
+        <!-- start jquery ui -->
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+         
+        <!-- end jquery ui -->
+        <!--blur slideshow -->
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -29,8 +33,8 @@
 	<!-- Start WOWSlider.com HEAD section -->
 	<link rel="stylesheet" type="text/css" href="WOWSlider/css/style.css" />
 	<!-- End WOWSlider.com HEAD section -->                
-        <script src="js/jquery-1.8.2.min.js"></script>
-        
+        <script src="js/jquery-1.8.2.min.js"></script>                
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>        
         <!-- Start Tabs CSS -->
 	<style>
             .tabs {
@@ -95,7 +99,7 @@
                    
             .modal-body {
                 position: relative;
-                max-height: 400px;
+                max-height: 350px;
                 padding: 15px;
                 overflow-y: auto;
             }                
@@ -209,19 +213,112 @@
                 </div>                                                
                 <!-- START OF OPPORTUNITIES -->
                 <div id="Opportunities">
+                    <style>
+#screen{
+	position:relative;
+	height:425px;
+	margin-top:40px;
+}
+	#screen .next, #screen .prev{
+		position:absolute;
+		top:200px;
+	}
+	#screen .prev{
+		left:10px;
+	}
+	#screen .next{
+		right:10px;
+	}
+	#navigation{
+		width:600px;
+		text-align:center;
+		margin-left:62px;
+	}
+		#navigation ul{
+			margin-left:55px !important;
+			margin-left:35px;
+		}
+			#navigation li{
+				float:left;
+				margin:0 20px;
+				padding:10px 20px;
+				background-color:#EEE;
+			}
+				#navigation a{
+					color:#933;
+					font-weight:bolder;
+					text-decoration:none;
+				}
+	
+#sections{
+	overflow:hidden;
+	height:369px;
+	clear:left;
+	margin-left:62px;
+}
+	
+	#sections ul{
+		width:3660px;
+	}
+	
+		#sections li{
+			float:left;
+			padding:11px 30px;
+		}
+
+			#sections p{
+				width:550px;
+				margin:16px 0;
+				font-size:85%;
+				line-height:1.4em;
+			}
+ 			
+			#sections h2{
+				color:#993333;
+				margin:20px 0pt;
+			}
+			#sections a{
+				color:#777;
+				font-weight:bolder;
+				text-decoration:none;
+			}
+
+
+                        
+                    </style>
+                    <script type='text/javascript' src='http://demos.flesler.com/jquery/scrollTo/js/jquery.scrollTo-min.js'></script>
+                    <script type='text/javascript' src='http://demos.flesler.com/jquery/serialScroll/js/jquery.serialScroll-min.js'></script>
+                    <script type='text/javascript' src='/js/scrollText.js'></script>
+                    
                     <div class="container-fluid clearfix Services">
                         <div class="container clearfix TitleSection">
                             <h1>Opportunities</h1> 
                         </div>
                         <div class="container clearfix">
-                            <div class="row-fluid">
+                            <div class="row-fluid">                                
                                 <!-- LEFT HAND SIDE TEXT -->
                                 <div class="span5">
-                                    <p>AppBox Media enters the market at an opportune time. The games industry is worth an estimated $80 billion worldwide, about the same as the global film industry, and the biggest titles comfortably out earn blockbuster movies</p>
-                                    <p>The overall global app economy was worth $53 Billion in 2012, and expected to rise to $68Bn in 2013 and forecast to rise to $143 Billion in 2016, according to research by Developer Economics. Recent studies by Portio Research indicate app downloads are anticipated to grow at 35% CAGR. </p>
-                                    <p>The US and China tower over the next group of top markets by way of countries with greatest number of active IOS  and Android devices by at least five times.  </p>
-                                    <p>While the U.S. has added 55 million net active devices since October 2011, China has added 125 million, a figure that totals the sum of the UK, Japan and South Korea’s combined, current active user base.</p> 
-                                    <p>China leads the world with an impressive 293% year-over-year growth rate, spurred by the potent combination of its vast population and rapidly growing middle class with plenty of opportunity to achieve further growth.  </p>                                   
+                                    <div id="screen">
+                                        <div id="sections">
+                                            <ul>
+                                                <li>
+                                                    <p>AppBox Media enters the market at an opportune time. The games industry is worth an estimated $80 billion worldwide, about the same as the global film industry, and the biggest titles comfortably out earn blockbuster movies</p>
+                                                </li>
+                                                <li>
+                                                    <p>The overall global app economy was worth $53 Billion in 2012, and expected to rise to $68Bn in 2013 and forecast to rise to $143 Billion in 2016, according to research by Developer Economics. Recent studies by Portio Research indicate app downloads are anticipated to grow at 35% CAGR.</p>
+                                                </li>
+                                                <li>
+                                                    <p>The US and China tower over the next group of top markets by way of countries with greatest number of active IOS  and Android devices by at least five times.</p>
+                                                </li>				
+                                                <li>
+                                                    <p>While the U.S. has added 55 million net active devices since October 2011, China has added 125 million, a figure that totals the sum of the UK, Japan and South Korea’s combined, current active user base.</p>
+                                                </li>
+                                                <li>
+                                                    <p>China leads the world with an impressive 293% year-over-year growth rate, spurred by the potent combination of its vast population and rapidly growing middle class with plenty of opportunity to achieve further growth.</p>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>                                                                   
                                 </div>
                                 
                                 <!-- Include Graphs -->                                
@@ -746,10 +843,21 @@
         <!-- Start Disclaimer modal -->
         <div id="disclaimerModal" class="modal hide fade" role="dialog" tabindex="-1" role="dialog" aria-labelledby="disclaimerModalLabel" aria-hidden="true">
             <div class="modal-header">
-                <h3 id="disclaimerModalLabel">Disclaimer</h3>
+                <div style="float:left;">
+                    <h3 id="disclaimerModalLabel">Disclaimer</h3>                    
+                </div>
+                <div style="float:right">
+                    <button style="margin:0;" class="btn btn-primary" data-dismiss="modal">I Agree</button>                                                        
+                </div>
+            <div style="clear:both;height:1px">&nbsp;</div>
             </div>
+
             <div class="modal-body">
-                <p>Our website is restricted to a limited number of investors. If you wish to view our investment opportunities please accept that you qualify under one of the following criteria:</p>
+                
+                <p>Our Website and Placing Document is restricted to a limited number of investors, the website and document can be viewed if you qualify as a sophisticated investor or high net worth individual. If you wish to view our investment opportunity please accept that you qualify under one of the following criteria:</p>
+                
+                <b>STATEMENT FOR SELF-CERTIFIED HIGH NET WORTH INDIVIDUAL</b>
+                
                 <p>I understand that this means:</p>
                 <p>(a) I can receive financial promotions that may not have been approved by a person authorised by the Financial Conduct Authority;</p>
                 <p>(b) the content of such financial promotions may not conform to rules issued by the Financial Services Authority;</p>
@@ -763,10 +871,30 @@
                 <p>(d) I am currently, or have been in the two years prior to the date below, a director of a company with an annual turnover of at least £l million.</p>
                 <p>I accept that I can lose my property and other assets from making investment decisions based on financial promotions. I am aware that it is open to me to seek advice from someone who specialises in advising on investments.</p>
                 <p>I declare that I am a self-certified sophisticated investor for the purposes of the Financial Services and Markets Act (Financial Promotion) Order 2005.</p>
+                
+                <b>STATEMENT FOR SELF-CERTIFIED SOPHISTICATED INVESTOR</b>
+
+                <p>I understand that this means:</p>
+                <p>(a) I can receive financial promotions that may not have been approved by a person authorised by the Financial Conduct Authority;</p>
+                <p>(b) the content of such financial promotions may not conform to rules issued by the Financial Conduct Authority;</p>
+                <p>(c) by signing this statement I may lose significant rights;</p>
+                <p>(d) I may have no right to complain to either of the following —</p>
+                <p>i. the Financial Conduct Authority; or ii. the Financial Ombudsman Scheme;</p>
+                <p>(e) I may have no right to seek compensation from the Financial Conduct Compensation Scheme. I am a self-certified sophisticated </p>
+                <p>investor because at least one of the following applies —</p>
+                <p>(a) I am a member of a network or syndicate of business angels and have been so for at least the last six months prior to the date below;</p>
+                <p>(b) I have made more than one investment in an unlisted company in the two years prior to the date below;</p>
+                <p>(c) I am working, or have worked in the two years prior to the date below, in a professional capacity in the private equity sector, or in the provision of finance for small and medium enterprises;</p>
+                <p>(d) I am currently, or have been in the two years prior to the date below, a director of a company with an annual turnover of at least £l million.</p>
+                <p>I accept that I can lose my property and other assets from making investment decisions based on financial promotions. I am aware that it is open to me to seek advice from someone who specialises in advising on investments.</p>
+                <p>I declare that I am a self-certified sophisticated investor for the purposes of the Financial Services and Markets Act (Financial Promotion) Order 2005.</p>
+                <p>Click agree to confirm.</p>
+
+
             </div>
             <div class="modal-footer">
                 Click agree to confirm&nbsp;
-                <button class="btn btn-primary" data-dismiss="modal">I Agree</button>
+                <button style="margin:0" class="btn btn-primary" data-dismiss="modal">I Agree</button>
             </div>
         </div>
         <!-- End Disclaimer modal -->
