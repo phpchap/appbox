@@ -46,6 +46,9 @@
             .tab {
                 float: left;
             }
+            .tab label:hover {
+                background: white;
+            }
             .tab label {
                 background: #eee; 
                 padding: 10px; 
@@ -103,6 +106,86 @@
                 padding: 15px;
                 overflow-y: auto;
             }                
+            #screen{
+                position:relative;
+                height:425px;
+                margin-top:20px;
+            }
+            #screen .next, #screen .prev{
+                position:absolute;
+                top:200px;
+            }
+            #screen .prev{
+                left:10px;
+            }
+            #screen .next{
+                right:10px;
+            }
+            #navigation{
+                width:600px;
+                text-align:center;
+                margin-left:62px;
+            }
+            #navigation ul{
+                margin-left:55px !important;
+                margin-left:35px;
+            }
+            #navigation li{
+                float:left;
+                margin:0 20px;
+                padding:10px 20px;
+                background-color:#EEE;
+            }
+            #navigation a{
+                color:#933;
+                font-weight:bolder;
+                text-decoration:none;
+            }
+
+            #sections{
+                overflow:hidden;
+                height:369px;
+                clear:left;
+                margin-left:62px;
+            }
+
+            #sections ul{
+                width:3660px;
+            }
+
+            #sections li{
+                float:left;
+            }
+
+            #sections p{
+                font-size: 21px !important;
+                width:409px;
+                line-height:1.4em;
+            }
+
+            #sections h2{
+                color:#993333;
+                margin:20px 0pt;
+            }
+            #sections a{
+                color:#777;
+                font-weight:bolder;
+                text-decoration:none;
+            }            
+
+            #logo_flip {
+                display: block;
+                width: 233px;
+                height: 0px;
+                margin-top: 20px;
+                background: url('/images/flip.png') top no-repeat;
+                text-indent: -99999px;
+            }                    
+
+            #logo_flip:hover {
+                background-position: 10px -34px;
+            }                    
+
         </style>        
         <!-- End Tabs CSS -->
     </head>
@@ -111,7 +194,7 @@
             <div class="navbar-inner">
                 <div class="container">                    
                     <!-- LOGO -->
-                    <a class="brand" href="#Home"><img src="/images/logo.png"/></a>
+                    <a class="brand" id="logo_flip" href="#Home"></a>
                     <!-- START NAVIGATION -->
                     <div class="nav-collapse collapse pull-right">
                         <ul class="nav">
@@ -165,8 +248,6 @@
                 <!-- FIRST DID YOU KNOW -->
                 <div id="first" class="Parallax">
                     <div class="ParallaxText">
-                        <h2>DID <span>YOU</span> KNOW?</h2>
-                        <div class="clearfix"></div>
                         <blockquote>Apple Passed 45 billion Total Unique App Downloads At A Rate Of 800 Per Second With Over $9 billion Paid To Developers</blockquote>             
                     </div>
                 </div>                
@@ -180,19 +261,11 @@
                             <div class="row-fluid">
                                 <!-- LEFT HAND SIDE TEXT -->
                                 <div class="span6">
-                                    <p>AppBox Media aim to deliver exciting and creative mobile applications and games which embrace users both visually and interactively on a globally connected landscape.</p> 
-                                    <p>It is the vision of the Company to become one of the world’s leading mobile application and game software developers within 5 years. </p>
-                                    <p>Our mobile applications and digital games will aim to integrate and feature the following qualities:</p>
-                                    <ul>
-                                        <li>&middot; Fun/ Entertaining</li>  
-                                        <li>&middot; Practical</li>
-                                        <li>&middot; Intuitive</li> 
-                                        <li>&middot; Engaging</li> 
-                                        <li>&middot; Addictive</li> 
-                                        <li>&middot; Cross Cultural</li>
-                                        <li>&middot; Great Graphics</li>
-                                        <li>&middot; High Quality Audio</li>
-                                    </ul>
+                                    <p>AppBox Media Plc aims to deliver exciting and creative mobile applications and digital games which embrace users both visually and interactively on a globally connected landscape.</p>
+                                    <p>It is the vision of the Company to become one of the world’s leading mobile application and game software developers within 5 years.</p>
+                                    <p>The founding shareholders and management agree that AppBox Media can realistically anticipate to achieve £2.5 million in earnings in three years. Subject to market sentiment, they also agree that in three years’ time buyers could be found who would pay up to 10 times earnings for the Company. </p>
+                                    <p>Therefore based on these assumptions, in three years the Company’s worth could be estimated at £25 million.</p>
+                                    <p>The current market capitalisation AppBox Media Plc stands at £3.6 million.</p>
                                 </div>
                                 <!-- RIGHT HAND SIDE IMAGE -->
                                 <div class="span6">
@@ -206,89 +279,11 @@
                 <!-- SECOND DID YOU KNOW -->
                 <div id="second" class="Parallax">
                     <div class="ParallaxText">
-                        <h2>DID <span>YOU</span> KNOW?</h2>
-                        <div class="clearfix"></div>
                         <blockquote>Google Play Exceeds iOS App Store in App Downloads by 10% in Q2 2013. The iOS App Store still generated 2.3x the revenue.</blockquote>             
                     </div>
                 </div>                                                
                 <!-- START OF OPPORTUNITIES -->
                 <div id="Opportunities">
-                    <style>
-#screen{
-	position:relative;
-	height:425px;
-	margin-top:40px;
-}
-	#screen .next, #screen .prev{
-		position:absolute;
-		top:200px;
-	}
-	#screen .prev{
-		left:10px;
-	}
-	#screen .next{
-		right:10px;
-	}
-	#navigation{
-		width:600px;
-		text-align:center;
-		margin-left:62px;
-	}
-		#navigation ul{
-			margin-left:55px !important;
-			margin-left:35px;
-		}
-			#navigation li{
-				float:left;
-				margin:0 20px;
-				padding:10px 20px;
-				background-color:#EEE;
-			}
-				#navigation a{
-					color:#933;
-					font-weight:bolder;
-					text-decoration:none;
-				}
-	
-#sections{
-	overflow:hidden;
-	height:369px;
-	clear:left;
-	margin-left:62px;
-}
-	
-	#sections ul{
-		width:3660px;
-	}
-	
-		#sections li{
-			float:left;
-			padding:11px 30px;
-		}
-
-			#sections p{
-				width:550px;
-				margin:16px 0;
-				font-size:85%;
-				line-height:1.4em;
-			}
- 			
-			#sections h2{
-				color:#993333;
-				margin:20px 0pt;
-			}
-			#sections a{
-				color:#777;
-				font-weight:bolder;
-				text-decoration:none;
-			}
-
-
-                        
-                    </style>
-                    <script type='text/javascript' src='http://demos.flesler.com/jquery/scrollTo/js/jquery.scrollTo-min.js'></script>
-                    <script type='text/javascript' src='http://demos.flesler.com/jquery/serialScroll/js/jquery.serialScroll-min.js'></script>
-                    <script type='text/javascript' src='/js/scrollText.js'></script>
                     
                     <div class="container-fluid clearfix Services">
                         <div class="container clearfix TitleSection">
@@ -301,21 +296,11 @@
                                     <div id="screen">
                                         <div id="sections">
                                             <ul>
-                                                <li>
-                                                    <p>AppBox Media enters the market at an opportune time. The games industry is worth an estimated $80 billion worldwide, about the same as the global film industry, and the biggest titles comfortably out earn blockbuster movies</p>
-                                                </li>
-                                                <li>
-                                                    <p>The overall global app economy was worth $53 Billion in 2012, and expected to rise to $68Bn in 2013 and forecast to rise to $143 Billion in 2016, according to research by Developer Economics. Recent studies by Portio Research indicate app downloads are anticipated to grow at 35% CAGR.</p>
-                                                </li>
-                                                <li>
-                                                    <p>The US and China tower over the next group of top markets by way of countries with greatest number of active IOS  and Android devices by at least five times.</p>
-                                                </li>				
-                                                <li>
-                                                    <p>While the U.S. has added 55 million net active devices since October 2011, China has added 125 million, a figure that totals the sum of the UK, Japan and South Korea’s combined, current active user base.</p>
-                                                </li>
-                                                <li>
-                                                    <p>China leads the world with an impressive 293% year-over-year growth rate, spurred by the potent combination of its vast population and rapidly growing middle class with plenty of opportunity to achieve further growth.</p>
-                                                </li>
+                                                <li><p>At the heart of AppBox media is its team. We hold an ethos of being big enough to take on big projects whilst being compact enough to care about all aspects of those projects.</p></li>
+                                                <li><p>Our app technicians and project managers have designed and managed app builds for: Playboy, Universal Pictures, Motorola and Toshiba. Our programmers have built applications from the ground up for clients that include: SEGA, Fujitsu and Gumtree.</p></li>
+                                                <li><p>The team at AppBox know what it is to work in major billion pound companies. Our accounts team even know how to structure such companies having worked on corporate finance at Nestle.</p></li>
+                                                <li><p>At an academic level we know what it takes to be top achievers having a team that includes 1st class honours graduates and others who have worked on the world stage at the United Nations.</p></li>
+                                                <li><p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p></li>
                                             </ul>
                                         </div>
                                     </div>                                                                   
@@ -453,8 +438,6 @@
                 <!-- THIRD DID YOU KNOW -->
                 <div id="third" class="Parallax">
                     <div class="ParallaxText">
-                        <h2>DID <span>YOU</span> KNOW?</h2>
-                        <div class="clearfix"></div>
                         <blockquote>PlayStation 4 pre orders have already topped PlayStation 3 launch sale. 1.6m Playstation 3’s were sold at launch.</blockquote>             
                     </div>
                 </div>                
@@ -550,7 +533,6 @@
                 <!-- FOURTH DID YOU KNOW -->
                 <div id="fourth" class="Parallax">
                     <div class="ParallaxText">
-                        <h2>DID <span>YOU</span> KNOW?</h2>
                         <blockquote>Smart TV shipments climbed 27% in 2012 to reach 66 million units. By 2015, the smart TVs will make up 55% of the market as global shipments climb to 141 million units.</blockquote>             
                     </div>
                 </div>                                
@@ -563,12 +545,42 @@
                         </div>
                         <div class="container clearfix">
                             <div class="row-fluid">
-                                <div class="span6">
-                                    <p>The Enterprise Investment Scheme (EIS) is designed to encourage individuals to invest in smaller trading companies by offering a range of tax reliefs to individuals who purchase new shares in those companies. </p>
-                                    <p>EIS relief is available where a qualifying company issues new shares. The EIS shares must be subscribed wholly in cash (which includes payment by cheque and other means) and the cash must be paid in full by the time the shares are issued. </p>
-                                    <p>In order to benefit from the relief, the relevant shares must be held for at least three years after issue or, if later, three years after the company begins to trade.</p>
-                                    <p>The individual's income tax liability for the year of the share issue will be reduced by 30% of the amount used to subscribe for shares. In effect, this means that up to 30% of the cost of the individual's share investment will be paid for by HM Revenue & Customs (HMRC).</p>
-                                    <p>EIS relief applies only to individuals over 18 years of age and not, for example, companies or trusts. The individual does not need to be resident and ordinarily resident in the UK for tax purposes when the shares are issued but will need to be liable for UK income tax.</p>
+                                <div class="span6">                                    
+                                    <p>The Enterprise Investment Scheme ("EIS") is a Government scheme that provides a range of tax reliefs for investors who subscribe for qualifying shares in qualifying companies.</p>
+                                    <p>There are five current EIS tax reliefs available to investors in companies qualifying under the EIS, which are summarised below :</p>
+                                    <p>1. Income tax relief</p>
+                                    <ul>
+                                        <li>An individual with no more than a 30% interest in the company can reduce their income tax liability by up to 30% of the amount invested. An EIS qualifying investment must be held for no less than three years from the date of issue, or until three years from commencement of trade, if later.</li>
+                                        <li>There is no minimum subscription per company and the maximum in respect of which a subscriber may obtain income tax relief in any year is £1m. </li>
+                                        <li>Individuals may elect to treat their subscription for EIS shares, up to their maximum annual allowance, as if made in the previous tax year, thereby effectively carrying income tax relief back one year. In other words, up to £2m may be invested of which £1m could be applied to the previous tax year.</li>
+                                        <li>Individuals each have an EIS allowance of £1m, so a married couple could invest up to £2m per tax year.</li>
+                                        <li>Income Tax Relief is limited to the amount which reduces the individual's income tax liability for the year to nil. </li>
+                                    </ul>
+                                    <br/>
+                                    <p>2. CGT Freedom</p>
+                                    <ul>
+                                        <li>No Capital Gains Tax is payable on the disposal of shares after three years, or three years after commencement of trade, if later, provided the EIS initial income tax relief was given and not withdrawn on those shares. However, the shares can be held for much longer, thus potentially permitting CGT free gain to accrue over a longer period. The opportunity for a CGT free gain can be an extremely valuable benefit from subscribing for shares in a successful EIS qualifying company. </li>
+                                    </ul>
+                                    <br/>
+                                    <p>3. Inheritance Tax Relief – ‘IHT’ Relief</p>
+                                    <ul>
+                                        <li>Shares in EIS qualifying companies will generally qualify for Business Property Relief for Inheritance Tax purposes at rates of up to 100% after two years of holding such investment, so that any liability for Inheritance Tax is reduced or eliminated in respect of such shares. For a simple example of the impact of IHT relief. </li>
+                                    </ul>
+                                    <br/>
+                                    <p>4. CGT Deferral Relief</p>
+                                    <ul>
+                                        <li>Tax on capital gains realised on a different asset can be deferred for as long as the EIS qualifying shares are held or even indefinitely, where disposal of that asset was less than 36 months before the date of the issue of shares in the EIS investment or less than 12 months after it.</li>
+                                        <li>Deferral relief is unlimited, in other words, this relief is not limited to investments of £1m per annum and can also be claimed by investors (individuals or trustees) whose interest in the company exceeds 30%. </li>
+                                    </ul>
+                                    <br/>
+                                    <p>5. Loss Relief</p>
+                                    <ul>
+                                        <li>If EIS shares are disposed of at any time at a loss (after taking into account income tax relief), such loss can be set against the investor's capital gains, or his income in the year of disposal or the previous year.</li>
+                                        <li>For losses offset against income, the net effect is to limit the investment exposure to 35p in the £1 for a 50% tax payer, if the shares were to become totally worthless.</li>
+                                        <li>Alternatively the losses can be offset against Capital Gains at the prevailing rate 28% as applicable. </li>
+                                    </ul>
+                                    <br/>
+                                    <p>More detailed information about EIS for Investors and businesses seeking EIS investment can be found by visiting the <a href="http://www.hmrc.gov.uk/eis/" target="_blank">HMRC website</a></p>
                                 </div>
                                 <div class="span6">
                                     <!-- EIS CALCULATOR -->
@@ -725,8 +737,6 @@
                 <!-- FIFTH DID YOU KNOW -->
                 <div id="fifth" class="Parallax">
                     <div class="ParallaxText">
-                        <h2>DID <span>YOU</span> KNOW?</h2>
-                        <div class="clearfix"></div>
                         <blockquote>The Oculus Rift VR Headset announced a Kickstarter campaign to further development of the product. Within four hours, Oculus secured its intended amount of $250,000, less than 36 hours, the campaign surpassed $1m in funding, eventually ending with $2.4 million</blockquote>             
                         <div class="clearfix"></div>
                     </div>
@@ -806,7 +816,6 @@
                         </div>
                     </div>
                 </div>
-                
                 <!-- END OF CONTACT -->                 
                 <div class="container-fluid Footer">
                     <div class="container">
@@ -821,8 +830,14 @@
                                  <li>
                                     <a class="Pinterest" rel="tooltip" href="#" data-original-title="Pinterest">Pinterest</a>
                                 </li>
+                                <li>
+                                    <a data-original-title="Googleplus" href="#" rel="tooltip" class="Googleplus">Googleplus</a>
+                                </li>                                
+                                <li>
+                                    <a data-original-title="Instagram" href="#" rel="tooltip" class="Instagram">Instagram</a>
+                                </li>                                
                             </ul>
-                            <a href="#Home" class="brand"><img src="/images/logo.png"></a>                            
+                            <a class="brand" href="#Home"><img src="/images/logo.png"/></a>                            
                             <p>
                                <a id="TermsConditionsBtn" data-toggle="modal" href="">Terms & Conditions</a> - 
                                <a id="PrivacyPolicyBtn" data-toggle="modal" href="">Privacy Policy</a> - 
@@ -969,6 +984,9 @@
         <script type="text/javascript" src="/js/nv.js"></script>
         <script type="text/javascript" src="/js/inview.js"></script>        
         <!-- End Charts head section -->                
+        <script type='text/javascript' src='http://demos.flesler.com/jquery/scrollTo/js/jquery.scrollTo-min.js'></script>
+        <script type='text/javascript' src='http://demos.flesler.com/jquery/serialScroll/js/jquery.serialScroll-min.js'></script>
+        <script type='text/javascript' src='/js/scrollText.js'></script>        
         <script>            
             jQuery(function () {     
                 
