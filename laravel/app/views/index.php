@@ -16,8 +16,7 @@
         <link rel="stylesheet" href="css/camera.css" />
         <link rel="stylesheet" href="css/blur.css" />
         <!-- start jquery ui -->
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
-         
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />         
         <!-- end jquery ui -->
         <!--blur slideshow -->
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -35,6 +34,7 @@
 	<!-- End WOWSlider.com HEAD section -->                
         <script src="js/jquery-1.8.2.min.js"></script>                
         <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>        
+       
         <!-- Start Tabs CSS -->
 	<style>
             .tabs {
@@ -187,6 +187,24 @@
             }                    
 
         </style>        
+
+        <link rel="stylesheet" href="http://refreshless.com/nouislider/source/jquery.nouislider.css">
+        <script src="http://refreshless.com/nouislider/source/jquery.nouislider.js"></script>
+        
+        <script>
+            $(function(){
+                $('.noUiSlider').noUiSlider({
+                    range: [100000,1000000],
+                    start: [100000],
+                    handles: 1,
+                    slide: function(){
+                        console.log($(this).val());
+                    },
+                    step: 1000
+                });
+            });
+        </script>
+            
         <!-- End Tabs CSS -->
     </head>
     <body class="clearfix" data-spy="scroll" data-target="#navbar" data-offset="10">
@@ -234,7 +252,7 @@
                         <div id="wowslider-container1">
                             <div class="ws_images">
                                 <ul id="homepage_slide_overlay">
-                                    <li><img src="WOWSlider/home_slider/1.jpg" alt="App Box Media" title="AppBox Media PLC is a mobile application and video game software development company for Apple IOS, Google Android, Xbox OS and Orbis operating platforms." id="wows1_0"/></li>
+                                    <li><img src="WOWSlider/home_slider/1_1.jpg" alt="App Box Media" title="AppBox Media PLC is a mobile application and video game software development company for Apple IOS, Google Android, Xbox OS and Orbis operating platforms." id="wows1_0"/></li>
                                     <li><img src="WOWSlider/home_slider/2.jpg" alt="App Box Media" title="The Company’s upcoming release titles will be accessible for instant download on smart phone, tablet, smart TV, PlayStation 4, Xbox One and Google GLΛSS devices. " id="wows1_1"/></li>
                                     <li><img src="WOWSlider/home_slider/3.jpg" alt="App Box Media" title="The Company undertakes the role of the brain child, designer and developer of mobile applications and digital games which demonstrate a high propensity to be monetised via global digital distribution channels. " id="wows1_2"/></li>
                                 </ul>
@@ -260,7 +278,7 @@
                         <div class="container clearfix">
                             <div class="row-fluid">
                                 <!-- LEFT HAND SIDE TEXT -->
-                                <div class="span6">
+                                <div class="span6">                                    
                                     <p>AppBox Media Plc aims to deliver exciting and creative mobile applications and digital games which embrace users both visually and interactively on a globally connected landscape.</p>
                                     <p>It is the vision of the Company to become one of the world’s leading mobile application and game software developers within 5 years.</p>
                                     <p>The founding shareholders and management agree that AppBox Media can realistically anticipate to achieve £2.5 million in earnings in three years. Subject to market sentiment, they also agree that in three years’ time buyers could be found who would pay up to 10 times earnings for the Company. </p>
@@ -524,6 +542,25 @@
                                     </div>                                                                        
                                 </div>
                                 <!-- END OF SECOND ROW -->
+                                
+                                <!-- START OF THIRD ROW -->                                
+                                <div class="span12">
+                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/fujitsu_s.jpg"></div></div>
+                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/gumtree_s.jpg"></div></div>
+                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/motorola_s.jpg"></div></div>
+                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/nestle_s.jpg"></div></div>                                    
+                                </div>                                
+                                <!-- END OF THIRD ROW -->
+
+                                <!-- START OF FOURTH ROW -->                                
+                                <div class="span12" style="margin-top:20px;">
+                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/playboy_s.png"></div></div>
+                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/sega_s.png"></div></div>
+                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/toshiba_s.jpg"></div></div>
+                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/universal_s.jpg"></div></div>                                    
+                                </div>                                
+                                <!-- END OF FOURTH ROW -->
+                                
                             </div>
                         </div>
                     </div>
@@ -623,11 +660,15 @@
                                                 <table border="0" cellspacing="0" cellpadding="0">
                                                     <tbody>
                                                         <tr>
-                                                            <td>
+                                                            <td></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>                                                                
                                                                 What is your Taxable Income? <font color="red">*</font>          
+                                                                <div id="slide_taxable_income" class="noUiSlider"></div>                                                                
                                                                 <div class="input-prepend input-append">
                                                                     <span class="add-on">£</span>
-                                                                    <input name="tax_income" id="tax_income" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
+                                                                    <input name="tax_income" id="tax_income" type="text" value="10000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
                                                                     <span class="add-on">.00</span>
                                                                 </div>                         
                                                             </td>
@@ -635,19 +676,21 @@
                                                         <tr>
                                                             <td>
                                                                 What are your expected Capital Gains? <font color="red">*</font>          
+                                                                <div id="slide_capital_gains" class="noUiSlider"></div>                                                                
                                                                 <div class="input-prepend input-append">
                                                                     <span class="add-on">£</span>
-                                                                    <input name="capital_gain" id="capital_gain" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
+                                                                    <input name="capital_gain" id="capital_gain" type="text" value="10000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
                                                                     <span class="add-on">.00</span>
                                                                 </div>                                
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td>
-                                                                How much do you plan to invest ? <font color="red">*</font>           
+                                                                How much do you plan to invest ? <font color="red">*</font>
+                                                                <div id="slide_investment" class="noUiSlider"></div>                                                                
                                                                 <div class="input-prepend input-append">
                                                                     <span class="add-on">£</span>
-                                                                    <input name="invest" id="invest" type="text" value="" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
+                                                                    <input name="invest" id="invest" type="text" value="10000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
                                                                     <span class="add-on">.00</span>
                                                                 </div>                                
                                                             </td>                               

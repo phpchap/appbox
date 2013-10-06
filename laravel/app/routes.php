@@ -15,7 +15,7 @@ Route::get('/', function(){
     return View::make('index');
 });
 
-Route::get('/contact', function(){
+Route::post('/contact', function(){
 
     // grab the input 
     $input = Input::all();
@@ -30,14 +30,20 @@ Route::get('/contact', function(){
     $message = "AppBox Media Contact Form Message: \r\n";
     $message .= "From: ".$name;    
     $message .= "Message: ".$message."\r\n";
+ 
+    // retrieve the ses client
+    $client = App::make('aws')->get('Ses');
 
     // send the email
-    $sent = mail($email, $subject, $message);
-    
+    $sent = $client->sendEmail(array('Source' => 'noreply@appboxmedia.com',
+                                     'Destination' => array( 'ToAddresses' => array('phpchap@gmail.com', 'bryan@appboxmedia.com', 'dean@appboxmedia.com')),
+                                     'Message' => array('Subject' => array('Data' => 'AppBox Media Website: '.$subject),
+                                     'Body' => array('Html' => array('Data' => $message)))));    
+
     if($sent) {
         return 'OK';
     } else {
         return 'ERROR';
-    }   
+    }
+    
 });
-
