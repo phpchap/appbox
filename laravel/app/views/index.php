@@ -188,7 +188,7 @@
 
         </style>        
 
-        <link rel="stylesheet" href="http://refreshless.com/nouislider/source/jquery.nouislider.css">
+        <link rel="stylesheet" href="/css/jquery.nouislider.css">
         <script src="http://refreshless.com/nouislider/source/jquery.nouislider.js"></script>
         
         <script>
@@ -197,8 +197,8 @@
                     range: [100000,1000000],
                     start: [100000],
                     handles: 1,
-                    slide: function(){
-                        console.log($(this).val());
+                    slide: function(){                        
+                        console.log($(this).val());                        
                     },
                     step: 1000
                 });
@@ -311,17 +311,11 @@
                             <div class="row-fluid">                                
                                 <!-- LEFT HAND SIDE TEXT -->
                                 <div class="span5">
-                                    <div id="screen">
-                                        <div id="sections">
-                                            <ul>
-                                                <li><p>At the heart of AppBox media is its team. We hold an ethos of being big enough to take on big projects whilst being compact enough to care about all aspects of those projects.</p></li>
-                                                <li><p>Our app technicians and project managers have designed and managed app builds for: Playboy, Universal Pictures, Motorola and Toshiba. Our programmers have built applications from the ground up for clients that include: SEGA, Fujitsu and Gumtree.</p></li>
-                                                <li><p>The team at AppBox know what it is to work in major billion pound companies. Our accounts team even know how to structure such companies having worked on corporate finance at Nestle.</p></li>
-                                                <li><p>At an academic level we know what it takes to be top achievers having a team that includes 1st class honours graduates and others who have worked on the world stage at the United Nations.</p></li>
-                                                <li><p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p></li>
-                                            </ul>
-                                        </div>
-                                    </div>                                                                   
+                                    <p>At the heart of AppBox media is its team. We hold an ethos of being big enough to take on big projects whilst being compact enough to care about all aspects of those projects.</p>
+                                    <p>Our app technicians and project managers have designed and managed app builds for: Playboy, Universal Pictures, Motorola and Toshiba. Our programmers have built applications from the ground up for clients that include: SEGA, Fujitsu and Gumtree.</p>
+                                    <p>The team at AppBox know what it is to work in major billion pound companies. Our accounts team even know how to structure such companies having worked on corporate finance at Nestle.</p>
+                                    <p>At an academic level we know what it takes to be top achievers having a team that includes 1st class honours graduates and others who have worked on the world stage at the United Nations.</p>
+                                    <p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p>
                                 </div>
                                 
                                 <!-- Include Graphs -->                                
@@ -471,96 +465,45 @@
                                 <!-- FIRST ROW -->
                                 <div class="span12">
                                     <div class="span6">
-                                        <div class="Team clearfix">
-                                            <div class="round-thumb-container">
-                                                <div class="round-thumb"> <span><img src="images/circlegallery/1.jpg"></span>
-                                                </div>
-                                            </div>
-                                            <h2>Dean Hall</h2>
-                                            <h3>Director of Delivery</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
-                                        </div>
+                                        <p>At the heart of AppBox media is its team. We hold an ethos of being big enough to take on big projects whilst being compact enough to care about all aspects of those projects.</p>
+                                        <p>The team at AppBox know what it is to work in major billion pound companies. Our accounts team even know how to structure such companies having worked on corporate finance at Nestle. At an academic level we know what it takes to be top achievers having a team that includes 1st class honours graduates and others who have worked on the world stage at the United Nations.</p>
+                                        <p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p>                                            
                                     </div>
                                     <div class="span6">
-                                        <div class="Team clearfix">
-                                            <div class="round-thumb-container">
-                                                <div class="round-thumb"> <span><img src="images/circlegallery/2.jpg"></span>
-                                                </div>
-                                            </div>
-                                            <h2>Bryan ???</h2>
-                                            <h3>Director of Business Direction</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
-                                        </div>
+                                        <style>
+                                            
+#fujitsu {
+	display: block;
+	width: 125px;
+	height: 125px;
+	background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0 -140px transparent;
+	text-indent: -99999px;
+}
+#fujitsu:hover {
+	background-position: 0 0;
+}                                            
+                                        </style>
+                                        
+                                        11111
+                                        <img id="fujitsu"></a>
+                                        2222222
+                                        
+                                        
+                                        <p>Our developers and project managers have designed and built applications for: Playboy, Universal Pictures, Motorola, Toshiba, SEGA, Fujitsu and Gumtree.</p>                                        
+                                        <img class="img-polaroid" src="/images/clients/fujitsu_s.jpg">
+                                        
+                                        
+                                        <img class="img-polaroid" style="" id="gumtree" src="/images/clients/gumtree_s.jpg">
+                                        <img class="img-polaroid" src="/images/clients/motorola_s.jpg">
+                                        <img class="img-polaroid" src="/images/clients/nestle_s.jpg"> 
+                                        <div class="clearfix">&nbsp;</div>
+                                        <img class="img-polaroid" src="/images/clients/playboy_s.png">
+                                        <img class="img-polaroid" src="/images/clients/sega_s.png">
+                                        <img class="img-polaroid" src="/images/clients/toshiba_s.jpg">
+                                        <img class="img-polaroid" src="/images/clients/universal_s.jpg">                                                                            
                                     </div>
                                     <!-- END OF FIRST ROW -->                                   
-                                </div>
-                                
-                                <!-- SECOND ROW -->
-                                <div class="span12">                                
-                                    <div class="span3">
-                                        <div class="Team clearfix">
-                                            <div class="round-thumb-container">
-                                                <div class="round-thumb"> <span><img src="images/circlegallery/3.jpg"></span></div>
-                                            </div>
-                                            <h2>Justen Doherty</h2>
-                                            <h3>Head of Web Technologies</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="span3">
-                                        <div class="Team clearfix">
-                                            <div class="round-thumb-container">
-                                                <div class="round-thumb"> <span><img src="images/circlegallery/3.jpg"></span></div>
-                                            </div>
-                                            <h2>Martin Columbia</h2>
-                                            <h3>Head of Projects</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
-                                        </div>
-                                    </div>
-                                    
-                                    <div class="span3">
-                                        <div class="Team clearfix">
-                                            <div class="round-thumb-container">
-                                                <div class="round-thumb"> <span><img src="images/circlegallery/3.jpg"></span></div>
-                                            </div>
-                                            <h2>Polak</h2>
-                                            <h3>Head of Donuts</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
-                                        </div>
-                                    </div>                                    
-                                    
-                                    <div class="span3">
-                                        <div class="Team clearfix">
-                                            <div class="round-thumb-container">
-                                                <div class="round-thumb"> <span><img src="images/circlegallery/3.jpg"></span></div>
-                                            </div>
-                                            <h2>Another Dude</h2>
-                                            <h3>Head of Testing</h3>
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris.</p>
-                                        </div>
-                                    </div>                                                                        
-                                </div>
-                                <!-- END OF SECOND ROW -->
-                                
-                                <!-- START OF THIRD ROW -->                                
-                                <div class="span12">
-                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/fujitsu_s.jpg"></div></div>
-                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/gumtree_s.jpg"></div></div>
-                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/motorola_s.jpg"></div></div>
-                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/nestle_s.jpg"></div></div>                                    
                                 </div>                                
-                                <!-- END OF THIRD ROW -->
-
-                                <!-- START OF FOURTH ROW -->                                
-                                <div class="span12" style="margin-top:20px;">
-                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/playboy_s.png"></div></div>
-                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/sega_s.png"></div></div>
-                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/toshiba_s.jpg"></div></div>
-                                    <div class="span3"><div class="Team clearfix"><img class="img-polaroid" src="/images/clients/universal_s.jpg"></div></div>                                    
-                                </div>                                
-                                <!-- END OF FOURTH ROW -->
-                                
                             </div>
                         </div>
                     </div>
@@ -658,41 +601,41 @@
                                                 <div id="bg_calculator"></div>
                                                 <h2>In the Tax Year ending 5 April 2014:</h2>
                                                 <table border="0" cellspacing="0" cellpadding="0">
-                                                    <tbody>
-                                                        <tr>
-                                                            <td></td>
-                                                        </tr>
+                                                    <tbody>                                                 
                                                         <tr>
                                                             <td>                                                                
                                                                 What is your Taxable Income? <font color="red">*</font>          
-                                                                <div id="slide_taxable_income" class="noUiSlider"></div>                                                                
                                                                 <div class="input-prepend input-append">
                                                                     <span class="add-on">£</span>
-                                                                    <input name="tax_income" id="tax_income" type="text" value="10000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
+                                                                    <input name="tax_income" id="tax_income" type="text" value="100000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
                                                                     <span class="add-on">.00</span>
                                                                 </div>                         
+                                                                <div id="slide_tax_income" class="noUiSlider"></div>                                                                                                                                
+                                                                <hr>                                                                
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td>
                                                                 What are your expected Capital Gains? <font color="red">*</font>          
-                                                                <div id="slide_capital_gains" class="noUiSlider"></div>                                                                
                                                                 <div class="input-prepend input-append">
                                                                     <span class="add-on">£</span>
-                                                                    <input name="capital_gain" id="capital_gain" type="text" value="10000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
+                                                                    <input name="capital_gain" id="capital_gain" type="text" value="100000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
                                                                     <span class="add-on">.00</span>
                                                                 </div>                                
+                                                                <div id="slide_capital_gain" class="noUiSlider"></div>                                                                                                                                
+                                                                <hr>                                                                
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td>
                                                                 How much do you plan to invest ? <font color="red">*</font>
-                                                                <div id="slide_investment" class="noUiSlider"></div>                                                                
                                                                 <div class="input-prepend input-append">
                                                                     <span class="add-on">£</span>
                                                                     <input name="invest" id="invest" type="text" value="10000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
                                                                     <span class="add-on">.00</span>
-                                                                </div>                                
+                                                                </div>                             
+                                                                <div id="slide_invest" class="noUiSlider"></div>                                                                                                                               
+                                                                <hr>
                                                             </td>                               
                                                     </tbody>
                                                 </table>
@@ -748,7 +691,8 @@
                                                                 </div>                                                           
                                                             </td>
                                                         </tr>
-                                                    </tbody></table>
+                                                    </tbody>
+                                                </table>
                                                 <input name="returns_1_1" id="returns_1_1" type="hidden" value="" placeholder="0" readonly="true">
                                                 <input name="returns_1_2" id="returns_1_2" type="hidden" value="" placeholder="0" readonly="true">
                                                 <input name="returns_1_3" id="returns_1_3" type="hidden" value="" placeholder="0" readonly="true">
@@ -889,15 +833,12 @@
                             </p>
                         </footer>
                     </div>
-                </div>    
-                
+                </div>                    
             </div>
             <!-- /Row -->
         </div>
         <!-- /container -->
-        <div id="toTop">To Top</div>
-        
-        
+        <div id="toTop">To Top</div>               
         <!-- Start Disclaimer modal -->
         <div id="disclaimerModal" class="modal hide fade" role="dialog" tabindex="-1" role="dialog" aria-labelledby="disclaimerModalLabel" aria-hidden="true">
             <div class="modal-header">
@@ -907,11 +848,9 @@
                 <div style="float:right">
                     <button style="margin:0;" class="btn btn-primary" data-dismiss="modal">I Agree</button>                                                        
                 </div>
-            <div style="clear:both;height:1px">&nbsp;</div>
+                <div style="clear:both;height:1px">&nbsp;</div>
             </div>
-
-            <div class="modal-body">
-                
+            <div class="modal-body">                
                 <p>Our Website and Placing Document is restricted to a limited number of investors, the website and document can be viewed if you qualify as a sophisticated investor or high net worth individual. If you wish to view our investment opportunity please accept that you qualify under one of the following criteria:</p>
                 
                 <b>STATEMENT FOR SELF-CERTIFIED HIGH NET WORTH INDIVIDUAL</b>
@@ -948,7 +887,6 @@
                 <p>I declare that I am a self-certified sophisticated investor for the purposes of the Financial Services and Markets Act (Financial Promotion) Order 2005.</p>
                 <p>Click agree to confirm.</p>
 
-
             </div>
             <div class="modal-footer">
                 Click agree to confirm&nbsp;
@@ -956,7 +894,6 @@
             </div>
         </div>
         <!-- End Disclaimer modal -->
-
 
         <!-- Start Terms and Conditions Modal -->
         <div id="TermsAndConditionsModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="TermsAndConditionsModalLabel" aria-hidden="true">
@@ -1058,10 +995,7 @@
                     backdrop: 'static',
                     keyboard: false
                 });                
-
             });
         </script>
-
     </body>
-
 </html>

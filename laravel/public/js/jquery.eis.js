@@ -303,3 +303,6 @@ function calculate() {
         $('#returns_6_3').val(0);
     }
 }
+
+calculate();
+
