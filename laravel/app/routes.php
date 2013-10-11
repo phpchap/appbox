@@ -27,18 +27,20 @@ Route::post('/contact', function(){
     $message = $input['message'];
     
     // build the message
-    $message = "AppBox Media Contact Form Message: \r\n";
-    $message .= "From: ".$name;    
-    $message .= "Message: ".$message."\r\n";
+    $msg = "AppBox Media Contact Form Message: <br/>";
+    $msg .= "From: ".$name."<br/>";    
+    $msg .= "Email: ".$email ."<br/>";
+    $msg .= "Subject : ".$subject."<br/>";    
+    $msg .= "Message: ".$message."<br/>";
  
     // retrieve the ses client
     $client = App::make('aws')->get('Ses');
 
     // send the email
-    $sent = $client->sendEmail(array('Source' => 'noreply@appboxmedia.com',
-                                     'Destination' => array( 'ToAddresses' => array('phpchap@gmail.com', 'bryan@appboxmedia.com', 'dean@appboxmedia.com')),
-                                     'Message' => array('Subject' => array('Data' => 'AppBox Media Website: '.$subject),
-                                     'Body' => array('Html' => array('Data' => $message)))));    
+    $sent = $client->sendEmail(array('Source' => 'hello@appboxmedia.com',
+                                     'Destination' => array( 'ToAddresses' => array('hello@appboxmedia.com')),
+                                     'Message' => array('Subject' => array('Data' => 'From AppBox Media Website: '.$subject),
+                                     'Body' => array('Html' => array('Data' => $msg)))));    
 
     if($sent) {
         return 'OK';

@@ -185,6 +185,214 @@
                 background-position: 10px -34px;
             }                    
 
+            /* fujitsu */
+            #fujitsu {
+                width: 125px;
+                height: 125px;
+                background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0 -140px transparent;
+                text-indent: -99999px;
+            }
+            #fujitsu:hover {
+                background-position: 0 0;
+            }                                            
+
+            /* gumtree */
+            #gumtree{
+                width: 125px;
+                height: 125px;
+                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -140px -127px transparent;
+                text-indent: -99999px;    
+            }
+            #gumtree:hover{
+                background-position: -141px 2px;    
+            }
+
+            /* motorola */
+            #motorola{
+                width: 125px;
+                height: 125px;
+                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -270px -130px transparent;
+                text-indent: -99999px;        
+            }
+
+            #motorola:hover{
+                background-position: -270px -1px;        
+            }
+
+            /* nestle */
+            #nestle{
+                width: 125px;
+                height: 125px;
+                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -402px -121px transparent;
+                text-indent: -99999px;        
+            }
+
+            #nestle:hover{
+                background-position: -402px 0px;        
+            }
+
+            /* playboy */
+            #playboy{
+                width: 125px;
+                height: 125px;
+                background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0px -405px transparent;
+                text-indent: -99999px;        
+            }
+
+            #playboy:hover{
+                background-position: 0px -279px;        
+            }
+
+            /* sega */
+            #sega{
+                width: 125px;
+                height: 125px;
+                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -138px -405px transparent;
+                text-indent: -99999px;        
+            }
+
+            #sega:hover{
+                background-position: -140px -279px;        
+            }
+
+            /* toshiba */
+            #toshiba{
+                width: 125px;
+                height: 125px;
+                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -289px -405px transparent;
+                text-indent: -99999px;        
+            }
+
+            #toshiba:hover{
+                background-position: -289px -275px;        
+            }
+
+            /* universal */
+            #universal{
+                width: 125px;
+                height: 125px;
+                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -422px -405px transparent;
+                text-indent: -99999px;        
+            }
+
+            #universal:hover{
+                background-position: -422px -280px;        
+            }
+
+            /* Clearfix */
+            .clearfix:before,
+            .clearfix:after {
+                content: " ";
+                display: table;
+            }
+            .clearfix:after {
+                clear: both;
+            }
+            .clearfix {
+                *zoom: 1;
+            }
+
+
+            .navi {
+                    height: 40px;
+                    width: 100%;
+                    font-size: 20px;
+                    font-weight: bold;
+                    position: relative;
+            }
+            .navi ul {
+                    padding: 0;
+                    margin: 0 auto;
+                    width: 900px;
+            }
+            .navi li {
+                    display: inline;
+                    float: left;
+            }
+            .navi a {
+                    display: inline-block;
+                    padding: 13px 15px;
+                    text-align: center;
+                    text-decoration: none;
+                    line-height: 40px;
+
+            }
+            .navi li a {
+                    box-sizing:border-box;
+                    -moz-box-sizing:border-box;
+                    -webkit-box-sizing:border-box;
+            }
+            .navi li:last-child a {
+                    border-right: 0;
+            }
+            .navi li.active{
+                    background-color: #fff;    
+            }
+            .navi a:hover, nav a:active {
+            }
+            .navi a#pull {
+                    display: none;
+            }
+
+            /*Styles for screen 600px and lower*/
+            @media screen and (max-width: 600px) {
+                    .navi { 
+                            height: auto;
+                    }
+                    .navi ul {
+                            width: 100%;
+                            display: block;
+                            height: auto;
+                    }
+                    .navi li {
+                            width: 50%;
+                            float: left;
+                            position: relative;
+                    }
+                    .navi a {
+                            text-align: left;
+                            width: 100%;
+                            text-indent: 25px;
+                    }
+            }
+
+            /*Styles for screen 515px and lower*/
+            @media only screen and (max-width : 480px) {
+                    .navi {
+                            border-bottom: 0;
+                    }
+                    .navi ul {
+                            display: none;
+                            height: auto;
+                    }
+                    .navi a#pull {
+                        display: block;
+                        width: 100%;
+                        height: 42px;
+                    }
+                    .navi a#pull:after {
+                            content:"";
+                            background: url('http://media02.hongkiat.com/responsive-web-nav/demo/nav-icon.png') no-repeat;  
+                            width: 30px;
+                            height: 30px;
+                            display: inline-block;
+                            position: absolute;
+                            right: 15px;
+                            top: 10px;
+                    }
+            }
+
+            /*Smartphone*/
+            @media only screen and (max-width : 320px) {
+                    .navi li {
+                            display: block;
+                            float: none;
+                            width: 100%;
+                    }
+                    .navi li a {
+                            border-bottom: 1px solid #576979;
+                    }
+            }            
         </style>        
 
         <link rel="stylesheet" href="/css/jquery.nouislider.css">
@@ -192,6 +400,27 @@
         
         <script>
             $(function(){
+                
+                var pull = $('#pull');
+                menu = $('.navi ul');
+                menuHeight = menu.height();
+
+                $(pull).on('click', function(e) {
+                    e.preventDefault();
+                    menu.slideToggle();
+                });
+
+                $(window).resize(function(){
+                    var w = $(window).width();
+                    if(w > 320 && menu.is(':hidden')) {
+                        menu.removeAttr('style');
+                    }
+                });
+
+                $("#toggle").bind('click', function(){
+                    $("#toggler").toggle();
+                });
+                
                 $('.noUiSlider').noUiSlider({
                     range: [100000,1000000],
                     start: [100000],
@@ -208,144 +437,8 @@
                     calculate();
                 });
             });
-        </script>
-        <style>
-
-/* Clearfix */
-.clearfix:before,
-.clearfix:after {
-    content: " ";
-    display: table;
-}
-.clearfix:after {
-    clear: both;
-}
-.clearfix {
-    *zoom: 1;
-}
 
 
-.navi {
-	height: 40px;
-	width: 100%;
-	font-size: 20px;
-	font-weight: bold;
-	position: relative;
-}
-.navi ul {
-	padding: 0;
-	margin: 0 auto;
-	width: 900px;
-}
-.navi li {
-	display: inline;
-	float: left;
-}
-.navi a {
-        display: inline-block;
-        padding: 13px 15px;
-        text-align: center;
-        text-decoration: none;
-        line-height: 40px;
-
-}
-.navi li a {
-	box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
-}
-.navi li:last-child a {
-	border-right: 0;
-}
-.navi li.active{
-	background-color: #fff;    
-}
-.navi a:hover, nav a:active {
-}
-.navi a#pull {
-	display: none;
-}
-
-/*Styles for screen 600px and lower*/
-@media screen and (max-width: 600px) {
-	.navi { 
-  		height: auto;
-  	}
-  	.navi ul {
-  		width: 100%;
-  		display: block;
-  		height: auto;
-  	}
-  	.navi li {
-  		width: 50%;
-  		float: left;
-  		position: relative;
-  	}
-  	.navi a {
-	  	text-align: left;
-	  	width: 100%;
-	  	text-indent: 25px;
-  	}
-}
-
-/*Styles for screen 515px and lower*/
-@media only screen and (max-width : 480px) {
-	.navi {
-		border-bottom: 0;
-	}
-	.navi ul {
-		display: none;
-		height: auto;
-	}
-	.navi a#pull {
-            display: block;
-            width: 100%;
-            height: 42px;
-            background: magenta;
-        }
-	.navi a#pull:after {
-		content:"";
-                background: url('http://media02.hongkiat.com/responsive-web-nav/demo/nav-icon.png') no-repeat;  
-		width: 30px;
-		height: 30px;
-		display: inline-block;
-		position: absolute;
-		right: 15px;
-		top: 10px;
-	}
-}
-
-/*Smartphone*/
-@media only screen and (max-width : 320px) {
-	.navi li {
-		display: block;
-		float: none;
-		width: 100%;
-	}
-	.navi li a {
-		border-bottom: 1px solid #576979;
-	}
-}
-</style>
-<script>
-$(function() {
-    
-    var pull = $('#pull');
-    menu = $('.navi ul');
-    menuHeight	= menu.height();
-
-    $(pull).on('click', function(e) {
-        e.preventDefault();
-        menu.slideToggle();
-    });
-
-    $(window).resize(function(){
-        var w = $(window).width();
-        if(w > 320 && menu.is(':hidden')) {
-            menu.removeAttr('style');
-        }
-    });
-});
 </script>
 
         <!-- End Tabs CSS -->
@@ -611,82 +704,15 @@ $(function() {
                                         <p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p>                                            
                                     </div>
                                     <div class="span6">
-                                        <style>
-                                  
-/* fujitsu */
-#fujitsu {
-    display: block;
-    width: 125px;
-    height: 125px;
-    background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0 -140px transparent;
-    text-indent: -99999px;
-}
-#fujitsu:hover {
-    background-position: 0 0;
-}                                            
-
-/* gumtree */
-#gumtree{
-    display: block;
-    width: 125px;
-    height: 125px;
-    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -140px -127px transparent;
-    text-indent: -99999px;    
-}
-#gumtree:hover{
-    background-position: -141px 2px;    
-}
-
-/* motorola */
-#motorola{
-    display: block;
-    width: 125px;
-    height: 125px;
-    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -270px -130px transparent;
-    text-indent: -99999px;        
-}
-
-#motorola:hover{
-    background-position: -270px 0px;        
-}
-
-/* nestle */
-#nestle{
-    display: block;
-    width: 125px;
-    height: 125px;
-    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -402px -121px transparent;
-    text-indent: -99999px;        
-}
-
-#nestle:hover{
-    background-position: -402px 0px;        
-}
-
-
-                                        </style>
-                                        
-                                        11111
-                                        <img id="fujitsu"></a>
-                                        <img id="gumtree"></a>
-                                        <img id="motorola"></a>                                        
-                                        <img id="nestle"></a>                                        
-                                        
-                                        2222222
-                                        
-                                        
-                                        <p>Our developers and project managers have designed and built applications for: Playboy, Universal Pictures, Motorola, Toshiba, SEGA, Fujitsu and Gumtree.</p>                                        
-                                        <img class="img-polaroid" src="/images/clients/fujitsu_s.jpg">
-                                        
-                                        
-                                        <img class="img-polaroid" src="/images/clients/gumtree_s.jpg">
-                                        <img class="img-polaroid" src="/images/clients/motorola_s.jpg">
-                                        <img class="img-polaroid" src="/images/clients/nestle_s.jpg"> 
-                                        <div class="clearfix">&nbsp;</div>
-                                        <img class="img-polaroid" src="/images/clients/playboy_s.png">
-                                        <img class="img-polaroid" src="/images/clients/sega_s.png">
-                                        <img class="img-polaroid" src="/images/clients/toshiba_s.jpg">
-                                        <img class="img-polaroid" src="/images/clients/universal_s.jpg">                                                                            
+                                        <p>Our developers and project managers have designed and built applications for: Playboy, Universal Pictures, Motorola, Toshiba, SEGA, Fujitsu and Gumtree.</p>                                                                                
+                                        <img id="fujitsu">
+                                        <img id="gumtree">
+                                        <img id="motorola">                                        
+                                        <img id="nestle">                                        
+                                        <img id="playboy">                                        
+                                        <img id="sega">                                        
+                                        <img id="toshiba">                                        
+                                        <img id="universal">                                                                                 
                                     </div>
                                     <!-- END OF FIRST ROW -->                                   
                                 </div>                                
@@ -725,28 +751,32 @@ $(function() {
                                     <br/>
                                     <p>2. CGT Freedom</p>
                                     <ul>
-                                        <li>No Capital Gains Tax is payable on the disposal of shares after three years, or three years after commencement of trade, if later, provided the EIS initial income tax relief was given and not withdrawn on those shares. However, the shares can be held for much longer, thus potentially permitting CGT free gain to accrue over a longer period. The opportunity for a CGT free gain can be an extremely valuable benefit from subscribing for shares in a successful EIS qualifying company. </li>
-                                    </ul>
-                                    <br/>
-                                    <p>3. Inheritance Tax Relief – ‘IHT’ Relief</p>
-                                    <ul>
                                         <li>Shares in EIS qualifying companies will generally qualify for Business Property Relief for Inheritance Tax purposes at rates of up to 100% after two years of holding such investment, so that any liability for Inheritance Tax is reduced or eliminated in respect of such shares. For a simple example of the impact of IHT relief. </li>
                                     </ul>
-                                    <br/>
-                                    <p>4. CGT Deferral Relief</p>
-                                    <ul>
-                                        <li>Tax on capital gains realised on a different asset can be deferred for as long as the EIS qualifying shares are held or even indefinitely, where disposal of that asset was less than 36 months before the date of the issue of shares in the EIS investment or less than 12 months after it.</li>
-                                        <li>Deferral relief is unlimited, in other words, this relief is not limited to investments of £1m per annum and can also be claimed by investors (individuals or trustees) whose interest in the company exceeds 30%. </li>
-                                    </ul>
-                                    <br/>
-                                    <p>5. Loss Relief</p>
-                                    <ul>
-                                        <li>If EIS shares are disposed of at any time at a loss (after taking into account income tax relief), such loss can be set against the investor's capital gains, or his income in the year of disposal or the previous year.</li>
-                                        <li>For losses offset against income, the net effect is to limit the investment exposure to 35p in the £1 for a 50% tax payer, if the shares were to become totally worthless.</li>
-                                        <li>Alternatively the losses can be offset against Capital Gains at the prevailing rate 28% as applicable. </li>
-                                    </ul>
-                                    <br/>
-                                    <p>More detailed information about EIS for Investors and businesses seeking EIS investment can be found by visiting the <a href="http://www.hmrc.gov.uk/eis/" target="_blank">HMRC website</a></p>
+
+                                    <div id="toggler" style="display:none;">
+                                        <br/>
+                                        <p>3. Inheritance Tax Relief – ‘IHT’ Relief</p>
+                                        <ul>
+                                            <li>No Capital Gains Tax is payable on the disposal of shares after three years, or three years after commencement of trade, if later, provided the EIS initial income tax relief was given and not withdrawn on those shares. However, the shares can be held for much longer, thus potentially permitting CGT free gain to accrue over a longer period. The opportunity for a CGT free gain can be an extremely valuable benefit from subscribing for shares in a successful EIS qualifying company. </li>
+                                        </ul>                                    
+                                        <br/>
+                                        <p>4. CGT Deferral Relief</p>
+                                        <ul>
+                                            <li>Tax on capital gains realised on a different asset can be deferred for as long as the EIS qualifying shares are held or even indefinitely, where disposal of that asset was less than 36 months before the date of the issue of shares in the EIS investment or less than 12 months after it.</li>
+                                            <li>Deferral relief is unlimited, in other words, this relief is not limited to investments of £1m per annum and can also be claimed by investors (individuals or trustees) whose interest in the company exceeds 30%. </li>
+                                        </ul>
+                                        <br/>
+                                        <p>5. Loss Relief</p>
+                                        <ul>
+                                            <li>If EIS shares are disposed of at any time at a loss (after taking into account income tax relief), such loss can be set against the investor's capital gains, or his income in the year of disposal or the previous year.</li>
+                                            <li>For losses offset against income, the net effect is to limit the investment exposure to 35p in the £1 for a 50% tax payer, if the shares were to become totally worthless.</li>
+                                            <li>Alternatively the losses can be offset against Capital Gains at the prevailing rate 28% as applicable. </li>
+                                        </ul>
+                                        <br/>
+                                        <p>More detailed information about EIS for Investors and businesses seeking EIS investment can be found by visiting the <a href="http://www.hmrc.gov.uk/eis/" target="_blank">HMRC website</a></p>                                        
+                                    </div>
+                                    <a id="toggle" href="javascript:void(0)">Read more</a>
                                 </div>
                                 <div class="span6">
                                     <!-- EIS CALCULATOR -->
@@ -931,7 +961,7 @@ $(function() {
                             <div class="container">
                                 <div class="span6">
                                     <h2>Get In Touch With Us</h2>
-                                    <div class="well">                 
+                                    <div class="well" id="contact">                 
                                         <form class="form-horizontal" id="registerHere" method='post' action=''>
                                             <fieldset>
                                                 <div class="control-group">
