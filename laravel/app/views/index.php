@@ -4,7 +4,7 @@
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <title>AppBox Media</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
         <meta name="description" content="Mobile Apps Company looking at towards the future">
         <meta name="author" content="">
         <link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'>
@@ -33,8 +33,7 @@
 	<link rel="stylesheet" type="text/css" href="WOWSlider/css/style.css" />
 	<!-- End WOWSlider.com HEAD section -->                
         <script src="js/jquery-1.8.2.min.js"></script>                
-        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>        
-       
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>               
         <!-- Start Tabs CSS -->
 	<style>
             .tabs {
@@ -204,12 +203,291 @@
                 });
             });
         </script>
-            
+        <style>
+/*nav {  
+    height: 40px;  
+    width: 100%;  
+    background: #455868;  
+    font-size: 11pt;  
+    font-family: 'PT Sans', Arial, sans-serif;  
+    font-weight: bold;  
+    position: relative;  
+    border-bottom: 2px solid #283744;  
+}  
+nav ul {  
+    padding: 0;  
+    margin: 0 auto;  
+    width: 600px;  
+    height: 40px;  
+}  
+nav li {  
+    display: inline;  
+    float: left;  
+}  
+.clearfix:before,  
+.clearfix:after {  
+    content: " ";  
+    display: table;  
+}  
+.clearfix:after {  
+    clear: both;  
+}  
+.clearfix {  
+    *zoom: 1;  
+}  
+nav a {  
+    color: #fff;  
+    display: inline-block;  
+    text-align: center;  
+    text-decoration: none;  
+    line-height: 40px;  
+    text-shadow: 1px 1px 0px #283744;  
+}  
+nav li a {  
+    border-right: 1px solid #576979;  
+    box-sizing:border-box;  
+    -moz-box-sizing:border-box;  
+    -webkit-box-sizing:border-box;  
+}  
+nav li:last-child a {  
+    border-right: 0;  
+}  
+nav a:hover, nav a:active {  
+    background-color: #8c99a4;  
+}  
+nav a#pull {  
+    display: none;  
+}   
+@media screen and (max-width: 600px) {  
+    nav {   
+        height: auto;  
+    }  
+    nav ul {  
+        width: 100%;  
+        display: block;  
+        height: auto;  
+    }  
+    nav li {  
+        width: 50%;  
+        float: left;  
+        position: relative;  
+    }  
+    nav li a {  
+        border-bottom: 1px solid #576979;  
+        border-right: 1px solid #576979;  
+    }  
+    nav a {  
+        text-align: left;  
+        width: 100%;  
+        text-indent: 25px;  
+    }  
+}  
+@media only screen and (max-width : 480px) {  
+    nav {  
+        border-bottom: 0;  
+    }  
+    nav ul {  
+        display: none;  
+        height: auto;  
+    }  
+    nav a#pull {  
+        display: block;  
+        background-color: #283744;  
+        width: 100%;  
+        position: relative;  
+    }  
+    nav a#pull:after {  
+        content:"";  
+        background: url('http://media02.hongkiat.com/responsive-web-nav/demo/nav-icon.png') no-repeat;  
+        width: 30px;  
+        height: 30px;  
+        display: inline-block;  
+        position: absolute;  
+        right: 15px;  
+        top: 10px;  
+    }  
+}  
+@media only screen and (max-width : 320px) {  
+    nav li {  
+        display: block;  
+        float: none;  
+        width: 100%;  
+    }  
+    nav li a {  
+        border-bottom: 1px solid #576979;  
+    }  
+}  */
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+
+.navi {
+	height: 40px;
+	width: 100%;
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+}
+.navi ul {
+	padding: 0;
+	margin: 0 auto;
+	width: 900px;
+}
+.navi li {
+	display: inline;
+	float: left;
+}
+.navi a {
+        display: inline-block;
+        padding: 13px 15px;
+        text-align: center;
+        text-decoration: none;
+        line-height: 40px;
+
+}
+.navi li a {
+	box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+}
+.navi li:last-child a {
+	border-right: 0;
+}
+.navi li.active{
+	background-color: #fff;    
+}
+.navi a:hover, nav a:active {
+}
+.navi a#pull {
+	display: none;
+}
+
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 600px) {
+	.navi { 
+  		height: auto;
+  	}
+  	.navi ul {
+  		width: 100%;
+  		display: block;
+  		height: auto;
+  	}
+  	.navi li {
+  		width: 50%;
+  		float: left;
+  		position: relative;
+  	}
+  	.navi a {
+	  	text-align: left;
+	  	width: 100%;
+	  	text-indent: 25px;
+  	}
+}
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 480px) {
+	.navi {
+		border-bottom: 0;
+	}
+	.navi ul {
+		display: none;
+		height: auto;
+	}
+	.navi a#pull {
+            display: block;
+            width: 100%;
+            height: 42px;
+            background: magenta;
+        }
+	.navi a#pull:after {
+		content:"";
+                background: url('http://media02.hongkiat.com/responsive-web-nav/demo/nav-icon.png') no-repeat;  
+		width: 30px;
+		height: 30px;
+		display: inline-block;
+		position: absolute;
+		right: 15px;
+		top: 10px;
+	}
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+	.navi li {
+		display: block;
+		float: none;
+		width: 100%;
+	}
+	.navi li a {
+		border-bottom: 1px solid #576979;
+	}
+}
+</style>
+<script>
+$(function() {
+    
+    var pull = $('#pull');
+    menu = $('.navi ul');
+    menuHeight	= menu.height();
+
+    $(pull).on('click', function(e) {
+        e.preventDefault();
+        menu.slideToggle();
+    });
+
+    $(window).resize(function(){
+        var w = $(window).width();
+        if(w > 320 && menu.is(':hidden')) {
+            menu.removeAttr('style');
+        }
+    });
+});
+</script>
+
         <!-- End Tabs CSS -->
     </head>
     <body class="clearfix" data-spy="scroll" data-target="#navbar" data-offset="10">
         <div id="navbar" class="navbar navbar-fixed-top">
             <div class="navbar-inner">
+                
+<nav class="clearfix navi">  
+    <a class="brand" id="logo_flip" href="#Home"></a>
+    <ul class="nav">
+        <li class="active">
+            <a href="#Home">Home</a>
+        </li>
+        <li>
+            <a href="#Vision">Vision</a>
+        </li>
+        <li>
+            <a href="#Opportunities">Opportunities</a>
+        </li>                            
+        <li>
+            <a href="#Team">Team</a>
+        </li>                                                        
+        <li>
+            <a href="#EISCalculator">EIS Calculator</a>
+        </li>                             
+        <li>
+            <a href="#Contact">Contact</a>
+        </li>
+        <li>
+            <a target="_blank" href="#">Presentation</a>
+        </li>                            
+    </ul>
+    <a href="#" id="pull"></a>  
+</nav>                  
+                <?php /* 
                 <div class="container">                    
                     <!-- LOGO -->
                     <a class="brand" id="logo_flip" href="#Home"></a>
@@ -241,6 +519,9 @@
                     </div>
                     <!--/.nav-collapse -->
                 </div>
+                 * 
+                 */
+                ?>
             </div>
         </div>        
         <div class="container-fluid clearfix">
@@ -363,7 +644,8 @@
                 <!-- INSERT THIS SCRIPT BELOW THE THE GRAPHS -->
                 <script>
                 // inView Code
-                $(document).ready(function() {	
+                $(document).ready(function() {
+                    
                     $('#chart1').one('inview', function (event, visible) {
                         if (visible) {
                             showGraph1();
@@ -471,21 +753,66 @@
                                     </div>
                                     <div class="span6">
                                         <style>
-                                            
+                                  
+/* fujitsu */
 #fujitsu {
-	display: block;
-	width: 125px;
-	height: 125px;
-	background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0 -140px transparent;
-	text-indent: -99999px;
+    display: block;
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0 -140px transparent;
+    text-indent: -99999px;
 }
 #fujitsu:hover {
-	background-position: 0 0;
+    background-position: 0 0;
 }                                            
+
+/* gumtree */
+#gumtree{
+    display: block;
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -140px -127px transparent;
+    text-indent: -99999px;    
+}
+#gumtree:hover{
+    background-position: -141px 2px;    
+}
+
+/* motorola */
+#motorola{
+    display: block;
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -270px -130px transparent;
+    text-indent: -99999px;        
+}
+
+#motorola:hover{
+    background-position: -270px 0px;        
+}
+
+/* nestle */
+#nestle{
+    display: block;
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -402px -121px transparent;
+    text-indent: -99999px;        
+}
+
+#nestle:hover{
+    background-position: -402px 0px;        
+}
+
+
                                         </style>
                                         
                                         11111
                                         <img id="fujitsu"></a>
+                                        <img id="gumtree"></a>
+                                        <img id="motorola"></a>                                        
+                                        <img id="nestle"></a>                                        
+                                        
                                         2222222
                                         
                                         
@@ -493,7 +820,7 @@
                                         <img class="img-polaroid" src="/images/clients/fujitsu_s.jpg">
                                         
                                         
-                                        <img class="img-polaroid" style="" id="gumtree" src="/images/clients/gumtree_s.jpg">
+                                        <img class="img-polaroid" src="/images/clients/gumtree_s.jpg">
                                         <img class="img-polaroid" src="/images/clients/motorola_s.jpg">
                                         <img class="img-polaroid" src="/images/clients/nestle_s.jpg"> 
                                         <div class="clearfix">&nbsp;</div>
