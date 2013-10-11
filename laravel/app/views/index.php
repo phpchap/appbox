@@ -189,7 +189,6 @@
                 display: block;
                 width: 233px;
                 height: 20px;
-                border: 1px solid red;
                 margin-top: 0px;
                 background: url('/images/flip.png') no-repeat;
                 text-indent: -99999px;
@@ -761,8 +760,9 @@
                         </div>
                         <div class="container clearfix">
                             <div class="row-fluid">
-                                <div class="span6">                                    
-                                    <p>The Enterprise Investment Scheme ("EIS") is a Government scheme that provides a range of tax reliefs for investors who subscribe for qualifying shares in qualifying companies.</p>
+                                <div class="span6">         
+                                    <p>EISs are a great tax-efficient way to invest in the new shares of small British businesses</p>
+                                    <p>Investors who invest for a minimum period of three years benefit from 30 per cent tax relief as well as exemption from capital gains tax (CGT) and inheritance tax (IHT)</p>                                    
                                     <p>There are five current EIS tax reliefs available to investors in companies qualifying under the EIS, which are summarised below :</p>
                                     <p>1. Income tax relief</p>
                                     <ul>
@@ -1065,7 +1065,9 @@
                                 </li>                                
                             </ul>
      
-                                                <a class="brand" id="logo_bottom_flip" href="#Home"></a>
+                            <div style="margin:0 auto;width:240px">
+                                <a class="brand" id="logo_bottom_flip" href="#Home"></a>
+                            </div>
                             <p>
                                <a id="TermsConditionsBtn" data-toggle="modal" href="">Terms & Conditions</a> - 
                                <a id="PrivacyPolicyBtn" data-toggle="modal" href="">Privacy Policy</a> - 
