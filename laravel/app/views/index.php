@@ -1144,7 +1144,130 @@
                 <h3 id="TermsAndConditionsModalLabel">Terms and Conditions</h3>
             </div>
             <div class="modal-body">
-                <p>Terms and conditions copy</p>
+                <h4>Terms & Conditions</h4>
+
+                <p>App Box Media Plc ("” or the “Company”) is registered in England & Wales with company number: 07903930 . The Company’s registered and trading address is 2ND FLOOR BERKLEY SQUARE HOUSE, BERKELEY SQUARE, LONDON, UNITED KINGDOM, W1J 6BD.</p>
+                <p>THESE TERMS AND CONDITIONS APPLY TO THE USE OF THIS WEBSITE www.appboxmedia.com</p>
+
+                <p>BY ACCESSING THIS WEBSITE, YOU AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS. </p>
+
+                <p>USING THIS WEBSITE INDICATES THAT YOU ACCEPT THESE TERMS REGARDLESS OF WHETHER OR NOT YOU CHOOSE TO REGISTER WITH US OR ORDER FROM US.</p>
+
+                <p>IF YOU DO NOT ACCEPT THESE TERMS, DO NOT USE THIS WEBSITE OR SERVICE.</p>
+
+                <h4>INTRODUCTION</h4>
+
+                <p>You will be able to access some areas of this Website without registering your details with us. Certain areas of this Website are only open to you if you register.</p>
+
+                <p>1.2 We may revise these terms and conditions at any time by updating this posting. You should check this Website every time you use it, to review the then current terms and conditions, because they are binding on you. Certain provisions of these terms and conditions may be superseded by expressly designated legal notices or terms located on particular pages of this Website. The section titles in the terms and conditions are for convenience only and have no legal or contractual effect. If you do not wish to accept any new terms and conditions after we have given notice, you should not continue to use this Website. If any part of our terms and conditions is unenforceable (including any provision in which we exclude our liability to you) the enforceability of any other part of these conditions will not be affected.  DESCRIPTION OF SERVICE: You acknowledge and agree that the Service is provided "AS IS".</p>
+
+                <h4>2. LICENCE</h4>
+
+                <p>2.1 You are permitted to print and download extracts from this Website for your own use on the following basis:</p>
+                <p>(a) no documents or related graphics on this Website are modified in any way;</p>
+                <p>(b) no graphics on this Website are used separately from accompanying text; and</p>
+                <p>(c) any of our copyright and trade mark notices and this permission notice appear in all copies.</p>
+
+                <h4>3. COPYRIGHT</h4>
+
+                <p>3.1 Unless otherwise stated, the copyright and other intellectual property rights in all material on this Website (including without limitation photographs and graphical images) are owned by us or our licensors. For the purposes of these terms and conditions, any use of extracts from this Website other than in accordance with clause 5.1 above for any purpose is prohibited. If you breach any of the terms in these terms and conditions, your permission to use this Website automatically terminates and you must immediately destroy any downloaded or printed extracts from this Website.</p>
+                <p>3.2 Subject to clause 5.1, no part of this Website may be reproduced or stored in any other website or included in any public or private electronic retrieval system or service without our prior written permission. You may only print or cache temporary copies of the content for your own personal non-commercial use. You may not link to this site or frame it without the express consent of App Box Media Plc.</p>
+                <p>3.3 App Box Media Plc and the App Box Media Plc logo are trademarks registered in the name of App Box Media Plc Ltd in the UK and other parts of the world. Reproduction of these trademarks other than in order to view this website is prohibited.</p>
+                <p>3.4 Any rights not expressly granted in these terms are reserved.</p>
+
+                <h4>4. SERVICE ACCESS</h4>
+
+                <p>4.1 While we endeavour to ensure that this Website is normally available 24 hours a day, we will not be liable if for any reason this Website is unavailable at any time or for any period.</p>
+                <p>4.2 Access to this Website may be suspended temporarily and without notice in the case of system failure, maintenance or repair or for reasons beyond our control.</p>
+
+                <h4>5. VISITOR MATERIAL AND CONDUCT</h4>
+
+                <p>5.1 Other than personally identifiable information, which is covered under the Privacy Policy, any material you transmit or post to this Website will be considered non-confidential and non-proprietary. We will have no obligations with respect to such material. We and our nominees will be free to copy, disclose, distribute, incorporate and otherwise use such material and all data, images, sounds, text and other things embodied therein for any and all commercial or non-commercial purposes.</p>
+                <p>5.2 You are prohibited from posting or transmitting to or from this Website any material:</p>
+                <p>(a) that is threatening, defamatory, obscene, indecent, seditious, offensive, pornographic, abusive, liable to incite racial hatred, discriminatory, menacing, scandalous, inflammatory, blasphemous, in breach of confidence, in breach of privacy or which may cause annoyance or inconvenience;</p>
+                <p>(b) for which you have not obtained all necessary licences and/or approvals;</p>
+                <p>(c) which constitutes or encourages conduct that would be considered a criminal offence, give rise to civil liability, or otherwise be contrary to the law of or infringe the rights of any third party, in the UK or any other country in the world; or</p>
+                <p>(d) which is technically harmful (including, without limitation, computer viruses, logic bombs, Trojan horses, worms, harmful components, corrupted data or other malicious software or harmful data).</p>
+                <p>5.3 You may not misuse the Website (including, without limitation, by hacking). </p>
+                <p>5.4 We will fully co-operate with any law enforcement authorities or court order requesting or directing us to disclose the identity or locate anyone posting any material in breach of clauses 7.2 or 7.3.</p>
+
+                <h4>6. LINKS TO AND FROM OTHER WEBSITES</h4>
+
+                <p>6.1 Links to third party websites on this Website are provided solely for your convenience. If you use these links, you leave this Website. We have not reviewed all of these third party websites and do not control and are not responsible for these websites or their content or availability. We therefore do not endorse or make any representations about them, or any material found there, or any results that may be obtained from using them. If you decide to access any of the third party websites linked to this Website, you do so entirely at your own risk.</p>
+                <p>6.2 If you would like to link to this Website, you may only do so on the basis that you link to, but do not replicate, the home page of this Website, and subject to the following conditions: </p>
+                <p>(a) you do not remove, distort or otherwise alter the size or appearance of the App Box Media Plc logo;</p>
+                <p>(b) you do not create a frame or any other browser or border environment around this Website;</p>
+                <p>(c) you do not in any way imply that we are endorsing any products or services;</p>
+                <p>(d) you do not misrepresent your relationship with us nor present any other false information about us;</p>
+                <p>(e) you do not otherwise use any trade marks displayed on this Website without our express written permission;</p>
+                <p>(f) you do not link from a website that is not owned by you; and</p>
+                <p>(g) your website does not contain content that is distasteful, offensive or controversial, infringes any intellectual property rights or other rights of any other person or otherwise does not comply with all applicable laws and regulations.</p>
+                <p>We expressly reserve the right to revoke the right granted in this clause for breach of these terms and to take any action we deem appropriate.</p>
+                <p>6.3 You shall fully indemnify us for any loss or damage we or any of our group companies may suffer or incur as a result of your breach of clause 8.2.</p>
+
+                <h4>7. REGISTRATION</h4>
+
+                <p>7.1 To register with www.appboxmedia.com you must be over eighteen years of age.</p>
+                <p>7.2 Each registration is for a single user only. We do not permit you to share your user name and password with any other person nor with multiple users on a network.</p>
+                <p>7.3 Responsibility for the security of any passwords issued rests with you and if you know or suspect that someone else knows your password, you should contact us immediately.</p>
+                <p>7.4 We may suspend or cancel your registration immediately at our reasonable discretion or if you breach any of your obligations under these terms and conditions.</p>
+
+                <h4>8. DISCLAIMER</h4>
+
+                <p>8.1 While we endeavour to ensure that the information on this Website is correct, we do not warrant the accuracy and completeness of the material on this Website. We may make changes to the material on this Website, or to the products and prices described in it, at any time without notice. The material on this Website may be out of date, and we make no commitment to update such material.</p>
+                <p>8.2 The material on this Website is provided "as is" without any conditions, warranties or other terms of any kind. Accordingly, to the maximum extent permitted by law, we provide you with this Website on the basis that we exclude all representations, warranties, conditions and other terms (including, without limitation, the conditions implied by law of satisfactory quality, fitness for purpose and the use of reasonable care and skill) which but for these terms and conditions might have effect in relation to this Website. </p>
+                <p>8.3 Nothing on this website shall be regarded or taken as financial advice.</p>
+
+                <h4>9. LIABILITY</h4>
+
+                <p>9.1 We, any other party (whether or not involved in creating, producing, maintaining or delivering this Website), and any of our group companies and the officers, directors, employees, shareholders or agents of any of them, exclude all liability and responsibility for any amount or kind of loss or damage that may result to you or a third party (including without limitation, any direct, indirect, punitive or consequential loss or damages, or any loss of income, profits, goodwill, data, contracts, use of money, or loss or damages arising from or connected in any way to business interruption, and whether in tort (including without limitation negligence), contract or otherwise) in connection with this Website in any way or in connection with the use, inability to use or the results of use of this Website, any websites linked to this Website or the material on such websites, including but not limited to loss or damage due to viruses that may infect your computer equipment, software, data or other property on account of your access to, use of, or browsing this Website or your downloading of any material from this Website or any websites linked to this Website. </p>
+                <p>9.2 Nothing in these terms and conditions shall exclude or limit our liability for (i) death or personal injury caused by negligence (as such term is defined by the Unfair Contract Terms Act 1977); (ii) any liability which cannot be excluded or limited under applicable law.</p>
+                <p>9.21 YOU ACKNOWLEDGE THAT YOU ARE SOLELY RESPONSIBLE FOR THE USE TO WHICH YOU PUT THIS WEBSITE AND ALL THE RESULTS AND INFORMATION YOU OBTAIN FROM IT AND THAT ALL WARRANTIES, CONDITIONS, UNDERTAKINGS, REPRESENTATIONS AND TERMS WHETHER EXPRESSED OR IMPLIED, STATUTORY OR OTHERWISE ARE HEREBY EXCLUDED TO THE FULLEST EXTENT PERMITTED BY LAW.</p>
+                <p>9.22 Save in respect of liability for death or personal injury arising out of negligence or for fraudulent misrepresentation, we and all contributors to this website hereby disclaim to the fullest extent permitted by law all liability for any loss or damage including any consequential or indirect loss or damage incurred by you, whether arising in tort, contract or otherwise, and arising out of or in relation to or in connection with your access to or use of or inability to use this website.</p>
+                <p>9.3 If your use of material on this Website results in the need for servicing, repair or correction of equipment, software or data, you assume all costs thereof.</p>
+                <p>9.4 You agree to indemnify us fully, defend and hold us, and our officers, directors, employees and agents, harmless from and against all claims, liability, damages, losses, costs (including reasonable legal fees) arising out of any breach of the terms and conditions by you, or your use of this Website, or the use by any other person using your registration details.</p>
+                <p>9.5 Although App Box Media Plc publishes the information on this site in good faith, it does not accept responsibility for any descriptions of property or land herein - anyone viewing property or land details is recommended to verify the details with the property owner. Users of this site do so entirely at their own risk and App Box Media Plc shall not be responsible for any loss or costs incurred as a result of using this site.</p>
+                <p>9.6 The information contained on this site is published in good faith but no representation or warranty, express or implied, is made by App Box Media Hostel PLC or by any person as to its accuracy or completeness and it should not be relied on as such. No information on this site constitutes investment, tax, legal or any other advice. Investors should consider all risks carefully prior to investing. If you are unsure about the meaning of any information provided please consult your financial or other professional adviser.</p>
+                <p>9.7 YOU AGREE THAT REGARDLESS OF ANY STATUTE OR LAW TO THE CONTRARY, ANY CLAIM OR CAUSE OF ACTION ARISING OUT OF OR RELATED TO USE OF THE SERVICE OF THESE TERMS OF SERVICE MUST BE FILED WITHIN ONE (1) YEAR AFTER SUCH CLAIM OR CAUSE OF ACTION AROSE OR BE FOREVER BARRED.</p>
+
+                <h4>10. GOVERNING LAW AND JURISDICTION</h4>
+
+                <p>10.1 These terms and conditions and your use of this website are governed exclusively by English law and any disputes arising from or in connection with these terms and conditions and your use of this website shall be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+
+                <p>10.2 We do not warrant that materials/items for sale on the Website are appropriate or available for use outside the United Kingdom. It is prohibited to access the Website from territories where its contents are illegal or unlawful. If you access this Website from locations outside the United Kingdom, you do so at your own risk and you are responsible for compliance with local laws.</p>
+
+                <h4>11. Data Protection Act 1998 (the Act)</h4>
+
+                <p>App Box Media Plc takes the security and privacy of its contacts about whom it holds personal information extremely seriously. The Group follows strict security procedures in the storage and disclosure of personal information given to us in order to prevent unauthorised access. </p>
+
+                <p>Personal Data is held on our contacts and administration database either because of work we have undertaken or are currently engaged in, or because our contacts have indicated that they would be interested in receiving material from us about our business and services. To that end we hold contact details and the history of our contacts relationship. This allows us to manage our relationships effectively and target items of interest so that contacts do not receive unwanted material through the post. </p>
+
+                <p>In accordance with their rights under the Act, contacts may request the amendment of the personal information held and to cease receiving direct marketing materials.</p>
+
+                <p>App Box Media Plc does not sell, rent or otherwise deal in the personal information we hold with third parties. Information may, in the ordinary course of business, move between different companies in the App Box Media Plc group or to our contractors, which may involve the transfer of data outside the European Economic Area.</p>
+
+                <p>Should such transfer prove necessary, we will always ensure that all members of the App Box Media Plc Group abide by security and privacy policies which provide at least the level of protection afforded to data subjects in the United Kingdom.</p>
+
+                <p>We may also want to provide you with related information from third parties which we think may be of interest to you or whose products or services may be of interest to you. If you do not wish to receive this information please inform us at hello@appboxmedia.com</p>
+
+                <h4>12. MISCELLANEOUS</h4>
+
+                <p>12.1 You may not assign, sub-license or otherwise transfer any of your rights under these terms and conditions.</p>
+                <p>12.2 Only the parties to these terms and conditions may seek to enforce them under the Contracts (Rights of Third Parties) Act 1999.</p>
+
+                <h4>13. Governing Law</h4>
+
+                <p>These terms & conditions and any matter relating to the use of this website shall be governed and construed in accordance with the laws of England and Wales. Any dispute relating the use of this website will be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+
+                <p>FURTHER INFORMATION</p>
+
+                <p>14. If You have any questions about Our Privacy Policy, the Terms of Use or any other aspect of this website please contact us at:</p>
+
+                <h4>AppBox Media PLC, 200 Aldersgate, London, EC1A 4HD</h4>
+
+                <p>Telephone: 0800 122 3455</p>
+                <p>E-mail: hello@appboxmedia.com</p> 
+                <p>Office Opening Times: 9.00am - 5.00pm</p>
             </div>
         </div>
         <!-- End Start Terms and Conditions Modal -->
@@ -1155,7 +1278,20 @@
                 <h3 id="PrivacyPolicyModalLabel">Privacy Policy</h3>
             </div>
             <div class="modal-body">
-                <p>Privacy Policy copy</p>
+                <p>App Box Media is committed to preserving the privacy of all visitors to the Website. Please read the following privacy policy to understand how we use and protect the information that you provide to us.</p>
+                <ol>
+                    <li>Should you choose to register on the Website or contact us through the Website, you will be asked to provide certain personal information. We may use your personal information to keep you informed of the different land investments that we promote and market from time to time that we think may be of interest to you and for future email mailings, support, notification of new services, and general correspondence that may relate to you. If you would rather not receive future marketing emails from us please inform us by e-mail at info@App Box Mediahostelsplc.com.</li>
+                    <li>We are registered under the Data Protection Act 1998 and comply with the Act in all our dealings with your personal data. The information you provide will be kept confidential and will be used only to support your customer relationship with us. We will not disclose or sell your information outside our corporate group, except in connection with the proposed or actual sale of the whole or part of the App Box Media business or where we are required to do so by law or a regulatory authority. We never rent or sell your personal information.</li>
+                    <li>The data that we collect from you may be transferred to, and stored at, a destination outside the European Economic Area (“EEA”). It may also be processed by staff operating outside the EEA who work for us or for one of our suppliers. By submitting your personal data, you agree to this transfer, storing or processing. We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this privacy policy.</li>
+                    <li>App Box Media may also collect personal information about your use of the Website by using a cookie file that is stored on the hard drive of your computer. Cookies contain information that is transferred to your computer’s hard drive. They help us to improve the Website and to deliver a better and more personalised service.</li>
+                    <li>You may refuse to accept cookies by activating the setting on your browser that allows you to refuse the setting of cookies. However, if you select this setting you may be unable to access certain parts of the Website. Unless you have adjusted your browser setting so that it will refuse cookies, our system will issue cookies when you log on to our site. For more information about cookies including how to set your internet browser to reject cookies please go to www.allaboutcookies.org</li>
+                    <li>Unfortunately, the transmission of information via the internet is not completely secure. Although App Box Media will do its best to protect your personal data, it cannot guarantee the security of data transmitted to the Website; any transmission is at your own risk.</li>
+                    <li>This Website may contain links to third party websites. App Box Media is not responsible for the data protection or privacy policies of those third parties.</li>
+                    <li>You have a right to ask us to provide a copy of the personal data we hold about you, and where you do we are entitled by law to make a small administrative charge for providing such data.</li>
+                    <li>Any changes to our privacy policy in the future will be posted to the Website.</li>
+                    <li>All comments, queries and requests relating to our use of your information are welcomed and should be addressed to AppBox Media PLC, 200 Aldersgate, London, EC1A 4HD</li>
+                </ol>                
+
             </div>
         </div>
         <!-- End Privacy Policy Modal -->
@@ -1166,7 +1302,68 @@
                 <h3 id="ImportantNoticeModalLabel">Important Notice</h3>
             </div>
             <div class="modal-body">
-                <p>Important Notice copy</p>
+                <p>This website www.appboxmedia.com has been prepared by AppBox Media Plc, a public limited company incorporated in England and Wales whose registered office is at AppBox Media PLC, 200 Aldersgate, London, EC1A 4HD. This website has been prepared for general information purposes only.</p>
+                <p>This website is provided for information purposes only and is in no way intended to replace any such documentation or offer any sort of investment advice. An investment in AppBox Media Plc is to be based upon information in a memorandum of information (“Investment Memorandum”) and not on information contained in this website. If any prospective investor is in any doubt about the contents of any AppBox Media Plc documents they should consult their accountant, legal or professional adviser or financial adviser.</p>
+                <p>The information contained in this website is directed towards experienced and professional investors only and specifically towards:</P
+                <ul>
+                <li>investment professionals (as defined in Regulation 19(5) of the FPO);</li>
+                <li>certified high net worth individuals (as defined in Regulation 48(2) of the FPO);</li>
+                <li>high net worth companies, unincorporated associations, etc. (as defined in Regulation 49(2) of the FPO)</li>
+                <li>certified sophisticated investors (as defined in Regulation 50(1) of the FPO);</li>
+                <li>self-certified sophisticated investors (as defined in Regulation 50A(1) of the FPO); and/or</li>
+                <li>overseas recipients (as defined in Regulation 12(1) of the FPO).</li>
+                </ul>
+
+                <h4>Communications to Investment Professionals</h4>
+                <p>A person is an investment professional if that person is appropriately authorised by the Financial Services Authority, is specifically exempted by the Financial Services Authority for the purposes of the regulated activity to which this document relates, is a person whose ordinary activities involve carrying on the controlled activity to which this document relates or otherwise as defined in Regulation 19(5) of the FPO.</p>
+
+                <h4>Communications to Certified High Net Worth Individuals</h4>
+
+                <p>A person is a certified high net worth individual if that person has signed a statement of high net worth within the period of 12 months before the communication is made which complies with the requirements of Regulation 48(2) and Schedule 5 of the FPO. In particular, a certified high net worth individual is a person who satisfies at least one of the following requirements: </p>
+                <p>(i) during the financial year immediately preceding the date of the statement, had an annual income to the value of £100,000 or more; </p>
+                <p>(ii) throughout the financial year immediately preceding the date of the statement, had net assets to the value of £250,000 or more. Net assets for these purposes do not include – </p>
+                <ul>
+                <li>i. the property which is the recipient’s residence or any loan secured on that residence; </li>
+                <li>ii. any rights under a qualifying contract of insurance within the meaning of the FSMA (Regulated Activities) Order 2000; or </li>
+                <li>iii. any benefits (in the form of pensions or otherwise) which are payable on the termination of service or on death or retirement and to which the recipient is (or the recipient's dependants are), or may be, entitled. </li>
+                </ul>
+                <p>If the recipient is in doubt about the investment to which this communication relates the recipient should consult an authorised person specialising in advising in participation in investments of the kind in question.</p>
+
+                <h4>Communications to High Net Worth Companies, Unincorporated Associations, etc.</h4>
+
+                <p>An entity falls within Regulation 49(2) of the FPO if it is: </p>
+                <p>(i) a body corporate which has, or which is a member of a group in which an undertaking has a called-up share capital or net assets of not less than </p>
+                <ul>
+                <li>i. £500,000, where the body corporate has more than 20 members or is a subsidiary of an undertaking which has more than 20 members; or</li>
+                <li>ii. otherwise, £5 million; </li>
+                <li>(ii) any unincorporated association or partnership which has net assets of not less than £5 million; </li>
+                <li>(iii) the trustee of a high value trust; or </li>
+                <li>(iv) otherwise as defined in Regulation 49(2) of the FPO.</li>
+                </ul>
+
+                <h4>Communications to Certified Sophisticated Investors</h4>
+
+                <p>A sophisticated investor is a person: </p>
+                <ul>
+                <li>(i) who has a current certificate in writing or other legible form signed and dated (within the period of three years ending with the date on which this communication is made) by a person authorised to carry on that regulated activity by the FSA, to the effect that he is sufficiently knowledgeable to understand the risks associated with that description of investment; and </li>
+                <li>(ii) who has signed, within the period of twelve months ending with the day on which the communication is made, a statement in the terms set out in Article 50(1)(b) of the FPO; </li>
+                </ul>
+
+                <p>Reliance on this document for the purpose of engaging in any investment activity may expose the recipient to a significant risk of losing all of the property invested or of incurring additional liability. If the recipient is in any doubt about the investment this Information Memorandum relates to, the recipient should consult an authorised person specialising in advising on investments of the kind in question.</p>
+
+                <h4>Communications to Self-Certified Sophisticated Investors </h4>
+                <p>A self-certified sophisticated investor is an individual who has signed, within the period of twelve months ending with the date on which this communication is made, a statement complying with Part II of Schedule 5 of the FPO. A Self Certified Sophisticated Investor is a person who satisfies at least one of the following requirements: </p>
+                <ul>
+                <li>(i) is a member of a network or syndicate of business angels and has been so for at least the last six months prior to the date of the statement; </li>
+                <li>(ii) has made more than one investment in an unlisted company in the two years prior to the date of the statement; </li>
+                <li>(iii) is working, or has worked in the two years prior to the date below, in a professional capacity in the private equity sector, or in the provision of finance for small and medium enterprises; </li>
+                <li>(iv) is currently, or has been in the two years prior to the date below, a director of a company with an annual turnover of at least £1 million. </li>
+                </ul>
+                <p>If the recipient is in any doubt about the investment to which this communication relates, the recipient should consult an authorised person specialising in advising on investments of the kind in question.</p>
+
+                <h4>Communications to Overseas Recipients</h4>
+                <p>An overseas recipient is a person who receives this communication outside the United Kingdom. </p>
+                <p>The directors of AppBox Media Plc have taken all reasonable care to ensure that the facts stated in these documents are true and accurate in all material respects, and that there are no other facts the omission of which would make misleading any statement in the documents, whether of facts or of opinion. All the directors accept responsibility accordingly.</p>
             </div>
         </div>
         <!-- End Important Notice Modal -->
@@ -1177,7 +1374,10 @@
                 <h3 id="RiskWarningModalLabel">Risk Warning</h3>
             </div>
             <div class="modal-body">
-                <p>Risk Warning copy</p>
+                <p>Risks are attached to every kind of investment. Past performance should not be taken as an indication or guarantee of future performance, and no representation or warranty, express or implied, is made regarding future performance. The value of investments can go down as well as up and you may not get back the money you invested. Rates of exchange may cause the value of investments to go up or down. For your protection, telephone calls maybe recorded for monitoring purposes.</p>
+                <p>Equity investments always carry some element of risk. Investments in unquoted companies should be considered higher risk investments than fully listed securities or shares. Investors should be prepared to take a medium to long term view on these types of investments. Investments that are not readily realisable (INRR), for example, shares issued by unquoted smaller companies involve a potentially higher degree of risk that all or part of your investment will be lost. You may have difficulty selling INRR at a reasonable price and in some cases it may be difficult to sell at any price. Similarly, it may prove difficult for you to obtain reliable information about the value of such an investment, or the risks to which it is exposed.</p>
+                <p>The investments and services contained or referred to in this Website may not be suitable for you and it is recommended that you consult an independent investment advisor if you are in doubt about such investments or investment services. Any research found on these pages has been procured and may have been acted on by Atlas Hostel PLC for its own purposes.</p>
+                <p>This site is operated and issued by Atlas Hostel PLC which is not authorised and regulated by the Financial Services Authority. Atlas Hostel PLC is a company registered in England, No.07903930. Registered Office: 2ND FLOOR BERKLEY SQUARE HOUSE, BERKELEY SQUARE, LONDON, UNITED KINGDOM, W1J 6BD. General enquiries about this website should be sent to hello@appboxmedia.com . This email address should not be used for any enquiries relating to investments.</p>
             </div>
         </div>
         <!-- End Important Notice Modal -->
