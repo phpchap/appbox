@@ -499,7 +499,10 @@
                 <!-- FIRST DID YOU KNOW -->
                 <div id="first" class="Parallax">
                     <div class="ParallaxText">
-                        <blockquote>Apple Passed 45 billion Total Unique App Downloads At A Rate Of 800 Per Second With Over $9 billion Paid To Developers</blockquote>             
+                        <blockquote>Smart device adoption is being adopted 10X faster than that of the 80s PC revolution</blockquote>
+                        <blockquote>Apps are big business, and the biggest app business is games.</blockquote>
+                        <blockquote>Google, Apple, Microsoft and Sony have now made it possible for new developers and mobile app start-ups to thrive.</blockquote>
+                        <blockquote>Thriving in the new mobile app economy is all about engagement and retention.</blockquote>                        
                     </div>
                 </div>                
                 <!-- START OF VISION -->
@@ -530,7 +533,9 @@
                 <!-- SECOND DID YOU KNOW -->
                 <div id="second" class="Parallax">
                     <div class="ParallaxText">
-                        <blockquote>Google Play Exceeds iOS App Store in App Downloads by 10% in Q2 2013. The iOS App Store still generated 2.3x the revenue.</blockquote>             
+                        <blockquote>88% of the top 25 grossing apps in the U.S. iTunes App Store apps are games</blockquote>
+                        <blockquote>Like traditional video game, movie and music industries, the App market is a "hit-driven industry"</blockquote>
+                        <blockquote>After building a mobile application, AppBox Media can distribute its apps on Android instantaneously and, after review by Apple, can be in the App Store within just one week</blockquote>
                     </div>
                 </div>                                                
                 <!-- START OF OPPORTUNITIES -->
@@ -684,7 +689,10 @@
                 <!-- THIRD DID YOU KNOW -->
                 <div id="third" class="Parallax">
                     <div class="ParallaxText">
-                        <blockquote>PlayStation 4 pre orders have already topped PlayStation 3 launch sale. 1.6m Playstation 3’s were sold at launch.</blockquote>             
+                        <blockquote>There are now over 1 billion active smartphones and tablets using apps around the world every month.</blockquote>        
+                        <blockquote>People look at their mobile phones an average of 150 times a day</blockquote>
+                        <blockquote>App consumers spend nearly half their time using Games apps, and a third interacting on Social Networking apps</blockquote>
+                        <blockquote>The world’s number of app connected devices will increase by more than 400 million</blockquote>
                     </div>
                 </div>                
                                 
@@ -724,8 +732,11 @@
                 
                 <!-- FOURTH DID YOU KNOW -->
                 <div id="fourth" class="Parallax">
-                    <div class="ParallaxText">
-                        <blockquote>Smart TV shipments climbed 27% in 2012 to reach 66 million units. By 2015, the smart TVs will make up 55% of the market as global shipments climb to 141 million units.</blockquote>             
+                    <div class="ParallaxText">                        
+                        <blockquote>Gamers form relationships with their games.</blockquote>
+                        <blockquote>In exchange for free content, consumer behavior makes it clear users will accept in-app advertising just as we have in radio, TV and online for decades.</blockquote>
+                        <blockquote>Matching monetization to game type, the competitive nature of Strategy games, and Slots users’ incessant desire for in-game currency, make a solid in-app purchase strategy paramount.</blockquote>
+                        <blockquote>There remains plenty of demand for the wry wit of British games. It is time to exploit it</blockquote>                                                
                     </div>
                 </div>                                
                 
