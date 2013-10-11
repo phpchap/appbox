@@ -176,7 +176,7 @@
                 display: block;
                 width: 233px;
                 height: 0px;
-                margin-top: 20px;
+                margin-top: 5px;
                 background: url('/images/flip.png') top no-repeat;
                 text-indent: -99999px;
             }                    
@@ -185,6 +185,21 @@
                 background-position: 10px -34px;
             }                    
 
+            #logo_bottom_flip {
+                display: block;
+                width: 233px;
+                height: 20px;
+                border: 1px solid red;
+                margin-top: 0px;
+                background: url('/images/flip.png') no-repeat;
+                text-indent: -99999px;
+            }                    
+
+            #logo_bottom_flip:hover {
+                background-position: 0px -34px;
+            }                    
+            
+            
             /* fujitsu */
             #fujitsu {
                 width: 125px;
@@ -445,34 +460,33 @@
     <body class="clearfix" data-spy="scroll" data-target="#navbar" data-offset="10">
         <div id="navbar" class="navbar navbar-fixed-top">
             <div class="navbar-inner">
-                
-<nav class="clearfix navi">  
-    <a class="brand" id="logo_flip" href="#Home"></a>
-    <ul class="nav">
-        <li class="active">
-            <a href="#Home">Home</a>
-        </li>
-        <li>
-            <a href="#Vision">Vision</a>
-        </li>
-        <li>
-            <a href="#Opportunities">Opportunities</a>
-        </li>                            
-        <li>
-            <a href="#Team">Team</a>
-        </li>                                                        
-        <li>
-            <a href="#EISCalculator">EIS Calculator</a>
-        </li>                             
-        <li>
-            <a href="#Contact">Contact</a>
-        </li>
-        <li>
-            <a target="_blank" href="#">Presentation</a>
-        </li>                            
-    </ul>
-    <a href="#" id="pull"></a>  
-</nav>                  
+                <nav class="clearfix navi">  
+                    <a class="brand" id="logo_flip" href="#Home"></a>
+                    <ul class="nav">
+                        <li class="active">
+                            <a href="#Home">Home</a>
+                        </li>
+                        <li>
+                            <a href="#Vision">Vision</a>
+                        </li>
+                        <li>
+                            <a href="#Opportunities">Opportunities</a>
+                        </li>                            
+                        <li>
+                            <a href="#Team">Team</a>
+                        </li>                                                        
+                        <li>
+                            <a href="#EISCalculator">EIS Calculator</a>
+                        </li>                             
+                        <li>
+                            <a href="#Contact">Contact</a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="#">Presentation</a>
+                        </li>                            
+                    </ul>
+                    <a href="#" id="pull"></a>  
+                </nav>                  
             </div>
         </div>        
         <div class="container-fluid clearfix">
@@ -1050,7 +1064,8 @@
                                     <a data-original-title="Instagram" href="#" rel="tooltip" class="Instagram">Instagram</a>
                                 </li>                                
                             </ul>
-                            <a class="brand" href="#Home"><img src="/images/logo.png"/></a>                            
+     
+                                                <a class="brand" id="logo_bottom_flip" href="#Home"></a>
                             <p>
                                <a id="TermsConditionsBtn" data-toggle="modal" href="">Terms & Conditions</a> - 
                                <a id="PrivacyPolicyBtn" data-toggle="modal" href="">Privacy Policy</a> - 
