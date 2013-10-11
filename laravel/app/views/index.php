@@ -314,7 +314,6 @@
                     padding: 13px 15px;
                     text-align: center;
                     text-decoration: none;
-                    line-height: 40px;
 
             }
             .navi li a {
