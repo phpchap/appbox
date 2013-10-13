@@ -43,6 +43,9 @@
 		border: 1px solid #BFBFBF;
 		margin: -3px 0 0 0px;
 	}
+	.noUi-handle:hover {
+		background: #999;
+	}        
 	.noUi-active {
 		background: #E9E9E9;
 	}

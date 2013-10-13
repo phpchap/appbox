@@ -198,6 +198,18 @@
                 background-position: 0px -34px;
             }                    
             
+            #output_4,
+            #invest {
+border-color: rgba(70, 136, 71, 0.8);
+outline: 0;
+outline: thin dotted \9;
+/* IE6-9 */
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 136, 71, .6);
+-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 136, 71, .6);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 136, 71, .6);  
+border-color:rgba(70, 136, 71, 0.8)
+
+            }
             
             /* fujitsu */
             #fujitsu {
@@ -551,8 +563,7 @@
                     </div>
                 </div>                                                
                 <!-- START OF OPPORTUNITIES -->
-                <div id="Opportunities">
-                    
+                <div id="Opportunities">                    
                     <div class="container-fluid clearfix Services">
                         <div class="container clearfix TitleSection">
                             <h1>Opportunities</h1> 
@@ -662,16 +673,16 @@
                     historicalBarChart = [{
                         key: "Active iOS & Android Devices (millions)",
                         values: [ 
-                        {"label" : "US","value" : 181,"color" : "#19496E"},
-                        {"label" : "China","value" : 167,"color" : "#19496E"},
-                        {"label" : "UK","value" : 35,"color" : "#19496E"},
-                        {"label" : "Japan","value" : 28,"color" : "#19496E"},
-                        {"label" : "S.Korea","value" : 27,"color" : "#19496E"},
-                        {"label" : "Germany","value" : 22,"color" : "#19496E"},
-                        {"label" : "France","value" : 19,"color" : "#19496E"},
-                        {"label" : "Canada","value" : 19,"color" : "#19496E"},
+                        {"label" : "Spain","value" : 14,"color" : "#19496E" },
                         {"label" : "Brazil","value" : 14,"color" : "#19496E"},
-                        {"label" : "Spain","value" : 14,"color" : "#19496E" }
+                        {"label" : "Canada","value" : 19,"color" : "#19496E"},
+                        {"label" : "France","value" : 19,"color" : "#19496E"},
+                        {"label" : "Germany","value" : 22,"color" : "#19496E"},
+                        {"label" : "S.Korea","value" : 27,"color" : "#19496E"},
+                        {"label" : "Japan","value" : 28,"color" : "#19496E"},
+                        {"label" : "UK","value" : 35,"color" : "#19496E"},
+                        {"label" : "China","value" : 167,"color" : "#19496E"},
+                        {"label" : "US","value" : 181,"color" : "#19496E"},                        
                         ]
                     }];
                 
@@ -773,14 +784,15 @@
                                         <li>Income Tax Relief is limited to the amount which reduces the individual's income tax liability for the year to nil. </li>
                                     </ul>
                                     <br/>
-                                    <p>2. CGT Freedom</p>
+                                        <p>2. Inheritance Tax Relief – ‘IHT’ Relief</p>
+                                    
                                     <ul>
                                         <li>Shares in EIS qualifying companies will generally qualify for Business Property Relief for Inheritance Tax purposes at rates of up to 100% after two years of holding such investment, so that any liability for Inheritance Tax is reduced or eliminated in respect of such shares. For a simple example of the impact of IHT relief. </li>
                                     </ul>
 
                                     <div id="toggler" style="display:none;">
                                         <br/>
-                                        <p>3. Inheritance Tax Relief – ‘IHT’ Relief</p>
+                                        <p>3. CGT Freedom</p>
                                         <ul>
                                             <li>No Capital Gains Tax is payable on the disposal of shares after three years, or three years after commencement of trade, if later, provided the EIS initial income tax relief was given and not withdrawn on those shares. However, the shares can be held for much longer, thus potentially permitting CGT free gain to accrue over a longer period. The opportunity for a CGT free gain can be an extremely valuable benefit from subscribing for shares in a successful EIS qualifying company. </li>
                                         </ul>                                    
@@ -868,7 +880,7 @@
                                                         </tr>
                                                         <tr>
                                                             <td>
-                                                                How much do you plan to invest ? <font color="red">*</font>
+                                                                How much do you plan to invest? <font color="red">*</font>
                                                                 <div class="input-prepend input-append">
                                                                     <span class="add-on">£</span>
                                                                     <input name="invest" id="invest" type="text" value="10000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
@@ -906,9 +918,19 @@
                                                                 The Capital Gains Tax that you may save by claiming EIS Reinvestment Relief is:                                
                                                                 <div class="input-prepend input-append">
                                                                     <span class="add-on">£</span>
-                                                                    <input name="output_2" id="output_2" type="text" value="" placeholder="0" readonly="true">
+                                                                    <input name="output_3" id="output_3" type="text" value="" placeholder="0" readonly="true">
                                                                     <span class="add-on">.00</span>
                                                                 </div>                                                                                           
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>
+                                                                On day one the investment is worth to you, as a percentage of your net cost:                                
+                                                                <div class="input-prepend input-append">
+                                                                    <span class="add-on">£</span>
+                                                                    <input name="output_5" id="output_5" type="text" value="" placeholder="0" readonly="true">
+                                                                    <span class="add-on">.00</span>
+                                                                </div>                                                           
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -921,16 +943,7 @@
                                                                 </div>                                                           
                                                             </td>
                                                         </tr>
-                                                        <tr>
-                                                            <td>
-                                                                On day one the investment is worth to you, as a percentage of your net cost:                                
-                                                                <div class="input-prepend input-append">
-                                                                    <span class="add-on">£</span>
-                                                                    <input name="output_4" id="output_4" type="text" value="" placeholder="0" readonly="true">
-                                                                    <span class="add-on">.00</span>
-                                                                </div>                                                           
-                                                            </td>
-                                                        </tr>
+                                                        
                                                     </tbody>
                                                 </table>
                                                 <input name="returns_1_1" id="returns_1_1" type="hidden" value="" placeholder="0" readonly="true">
@@ -1029,6 +1042,7 @@
                                         <p>200 Aldersgate</p> 
                                         <p>London</p>
                                         <p>EC1A 4HD</p>
+                                        <p>Company Registration: 08616729</p>                                        
                                         <hr>
                                         <div class="contact-info">
                                             <ul>
@@ -1100,7 +1114,7 @@
                 
                 <p>I understand that this means:</p>
                 <p>(a) I can receive financial promotions that may not have been approved by a person authorised by the Financial Conduct Authority;</p>
-                <p>(b) the content of such financial promotions may not conform to rules issued by the Financial Services Authority;</p>
+                <p>(b) the content of such financial promotions may not conform to rules issued by the Financial Conduct Authority;</p>
                 <p>(c) by signing this statement I may lose significant rights;</p>
                 <p>(d) I may have no right to complain to either of the following —</p>
                 <p>i. the Financial Conduct Authority; or ii. the Financial Ombudsman Scheme;</p>
@@ -1141,12 +1155,13 @@
         <!-- Start Terms and Conditions Modal -->
         <div id="TermsAndConditionsModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="TermsAndConditionsModalLabel" aria-hidden="true">
             <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h3 id="TermsAndConditionsModalLabel">Terms and Conditions</h3>
             </div>
             <div class="modal-body">
                 <h4>Terms & Conditions</h4>
 
-                <p>App Box Media Plc ("” or the “Company”) is registered in England & Wales with company number: 07903930 . The Company’s registered and trading address is 2ND FLOOR BERKLEY SQUARE HOUSE, BERKELEY SQUARE, LONDON, UNITED KINGDOM, W1J 6BD.</p>
+                <p>App Box Media Plc (or the “Company”) is registered in England & Wales with company number: 08616729 . The Company’s registered and trading address is 200 Aldersgate Street, London, England, EC1A 4HD.</p>
                 <p>THESE TERMS AND CONDITIONS APPLY TO THE USE OF THIS WEBSITE www.appboxmedia.com</p>
 
                 <p>BY ACCESSING THIS WEBSITE, YOU AGREE TO BE BOUND BY THESE TERMS AND CONDITIONS. </p>
@@ -1248,7 +1263,7 @@
 
                 <p>Should such transfer prove necessary, we will always ensure that all members of the App Box Media Plc Group abide by security and privacy policies which provide at least the level of protection afforded to data subjects in the United Kingdom.</p>
 
-                <p>We may also want to provide you with related information from third parties which we think may be of interest to you or whose products or services may be of interest to you. If you do not wish to receive this information please inform us at hello@appboxmedia.com</p>
+                <p>We may also want to provide you with related information from third parties which we think may be of interest to you or whose products or services may be of interest to you. If you do not wish to receive this information please inform us at info@appboxmedia.com</p>
 
                 <h4>12. MISCELLANEOUS</h4>
 
@@ -1265,8 +1280,9 @@
 
                 <h4>AppBox Media PLC, 200 Aldersgate, London, EC1A 4HD</h4>
 
-                <p>Telephone: 0800 122 3455</p>
-                <p>E-mail: hello@appboxmedia.com</p> 
+                <p>Company Registration: 08616729</p>
+                <p>Telephone: 0800 978 8018</p>
+                <p>E-mail: info@appboxmedia.com</p> 
                 <p>Office Opening Times: 9.00am - 5.00pm</p>
             </div>
         </div>
@@ -1275,23 +1291,21 @@
         <!-- Start Privacy Policy Modal -->
         <div id="PrivacyPolicyModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="PrivacyPolicyModalLabel" aria-hidden="true">
             <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>                
                 <h3 id="PrivacyPolicyModalLabel">Privacy Policy</h3>
             </div>
             <div class="modal-body">
                 <p>App Box Media is committed to preserving the privacy of all visitors to the Website. Please read the following privacy policy to understand how we use and protect the information that you provide to us.</p>
-                <ol>
-                    <li>Should you choose to register on the Website or contact us through the Website, you will be asked to provide certain personal information. We may use your personal information to keep you informed of the different land investments that we promote and market from time to time that we think may be of interest to you and for future email mailings, support, notification of new services, and general correspondence that may relate to you. If you would rather not receive future marketing emails from us please inform us by e-mail at info@App Box Mediahostelsplc.com.</li>
-                    <li>We are registered under the Data Protection Act 1998 and comply with the Act in all our dealings with your personal data. The information you provide will be kept confidential and will be used only to support your customer relationship with us. We will not disclose or sell your information outside our corporate group, except in connection with the proposed or actual sale of the whole or part of the App Box Media business or where we are required to do so by law or a regulatory authority. We never rent or sell your personal information.</li>
-                    <li>The data that we collect from you may be transferred to, and stored at, a destination outside the European Economic Area (“EEA”). It may also be processed by staff operating outside the EEA who work for us or for one of our suppliers. By submitting your personal data, you agree to this transfer, storing or processing. We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this privacy policy.</li>
-                    <li>App Box Media may also collect personal information about your use of the Website by using a cookie file that is stored on the hard drive of your computer. Cookies contain information that is transferred to your computer’s hard drive. They help us to improve the Website and to deliver a better and more personalised service.</li>
-                    <li>You may refuse to accept cookies by activating the setting on your browser that allows you to refuse the setting of cookies. However, if you select this setting you may be unable to access certain parts of the Website. Unless you have adjusted your browser setting so that it will refuse cookies, our system will issue cookies when you log on to our site. For more information about cookies including how to set your internet browser to reject cookies please go to www.allaboutcookies.org</li>
-                    <li>Unfortunately, the transmission of information via the internet is not completely secure. Although App Box Media will do its best to protect your personal data, it cannot guarantee the security of data transmitted to the Website; any transmission is at your own risk.</li>
-                    <li>This Website may contain links to third party websites. App Box Media is not responsible for the data protection or privacy policies of those third parties.</li>
-                    <li>You have a right to ask us to provide a copy of the personal data we hold about you, and where you do we are entitled by law to make a small administrative charge for providing such data.</li>
-                    <li>Any changes to our privacy policy in the future will be posted to the Website.</li>
-                    <li>All comments, queries and requests relating to our use of your information are welcomed and should be addressed to AppBox Media PLC, 200 Aldersgate, London, EC1A 4HD</li>
-                </ol>                
-
+                <p>Should you choose to register on the Website or contact us through the Website, you will be asked to provide certain personal information. We may use your personal information to keep you informed of the different land investments that we promote and market from time to time that we think may be of interest to you and for future email mailings, support, notification of new services, and general correspondence that may relate to you. If you would rather not receive future marketing emails from us please inform us by e-mail at info@appboxmedia.com.</p>
+                <p>We are registered under the Data Protection Act 1998 and comply with the Act in all our dealings with your personal data. The information you provide will be kept confidential and will be used only to support your customer relationship with us. We will not disclose or sell your information outside our corporate group, except in connection with the proposed or actual sale of the whole or part of the App Box Media business or where we are required to do so by law or a regulatory authority. We never rent or sell your personal information.</p>
+                <p>The data that we collect from you may be transferred to, and stored at, a destination outside the European Economic Area (“EEA”). It may also be processed by staff operating outside the EEA who work for us or for one of our suppliers. By submitting your personal data, you agree to this transfer, storing or processing. We will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this privacy policy.</p>
+                <p>App Box Media may also collect personal information about your use of the Website by using a cookie file that is stored on the hard drive of your computer. Cookies contain information that is transferred to your computer’s hard drive. They help us to improve the Website and to deliver a better and more personalised service.</p>
+                <p>You may refuse to accept cookies by activating the setting on your browser that allows you to refuse the setting of cookies. However, if you select this setting you may be unable to access certain parts of the Website. Unless you have adjusted your browser setting so that it will refuse cookies, our system will issue cookies when you log on to our site. For more information about cookies including how to set your internet browser to reject cookies please go to www.allaboutcookies.org</p>
+                <p>Unfortunately, the transmission of information via the internet is not completely secure. Although App Box Media will do its best to protect your personal data, it cannot guarantee the security of data transmitted to the Website; any transmission is at your own risk.</p>
+                <p>This Website may contain links to third party websites. App Box Media is not responsible for the data protection or privacy policies of those third parties.</p>
+                <p>You have a right to ask us to provide a copy of the personal data we hold about you, and where you do we are entitled by law to make a small administrative charge for providing such data.</p>
+                <p>Any changes to our privacy policy in the future will be posted to the Website.</p>
+                <p>All comments, queries and requests relating to our use of your information are welcomed and should be addressed to AppBox Media PLC, 200 Aldersgate, London, EC1A 4HD</p>
             </div>
         </div>
         <!-- End Privacy Policy Modal -->
@@ -1299,6 +1313,7 @@
         <!-- Start Important Notice Modal -->
         <div id="ImportantNoticeModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ImportantNoticeModalLabel" aria-hidden="true">
             <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>                
                 <h3 id="ImportantNoticeModalLabel">Important Notice</h3>
             </div>
             <div class="modal-body">
@@ -1306,16 +1321,16 @@
                 <p>This website is provided for information purposes only and is in no way intended to replace any such documentation or offer any sort of investment advice. An investment in AppBox Media Plc is to be based upon information in a memorandum of information (“Investment Memorandum”) and not on information contained in this website. If any prospective investor is in any doubt about the contents of any AppBox Media Plc documents they should consult their accountant, legal or professional adviser or financial adviser.</p>
                 <p>The information contained in this website is directed towards experienced and professional investors only and specifically towards:</P
                 <ul>
-                <li>investment professionals (as defined in Regulation 19(5) of the FPO);</li>
-                <li>certified high net worth individuals (as defined in Regulation 48(2) of the FPO);</li>
-                <li>high net worth companies, unincorporated associations, etc. (as defined in Regulation 49(2) of the FPO)</li>
-                <li>certified sophisticated investors (as defined in Regulation 50(1) of the FPO);</li>
-                <li>self-certified sophisticated investors (as defined in Regulation 50A(1) of the FPO); and/or</li>
-                <li>overseas recipients (as defined in Regulation 12(1) of the FPO).</li>
+                    <li>investment professionals (as defined in Regulation 19(5) of the FPO);</li>
+                    <li>certified high net worth individuals (as defined in Regulation 48(2) of the FPO);</li>
+                    <li>high net worth companies, unincorporated associations, etc. (as defined in Regulation 49(2) of the FPO)</li>
+                    <li>certified sophisticated investors (as defined in Regulation 50(1) of the FPO);</li>
+                    <li>self-certified sophisticated investors (as defined in Regulation 50A(1) of the FPO); and/or</li>
+                    <li>overseas recipients (as defined in Regulation 12(1) of the FPO).</li>
                 </ul>
 
                 <h4>Communications to Investment Professionals</h4>
-                <p>A person is an investment professional if that person is appropriately authorised by the Financial Services Authority, is specifically exempted by the Financial Services Authority for the purposes of the regulated activity to which this document relates, is a person whose ordinary activities involve carrying on the controlled activity to which this document relates or otherwise as defined in Regulation 19(5) of the FPO.</p>
+                <p>A person is an investment professional if that person is appropriately authorised by the Financial Conduct Authority, is specifically exempted by the Financial Conduct Authority for the purposes of the regulated activity to which this document relates, is a person whose ordinary activities involve carrying on the controlled activity to which this document relates or otherwise as defined in Regulation 19(5) of the FPO.</p>
 
                 <h4>Communications to Certified High Net Worth Individuals</h4>
 
@@ -1323,9 +1338,9 @@
                 <p>(i) during the financial year immediately preceding the date of the statement, had an annual income to the value of £100,000 or more; </p>
                 <p>(ii) throughout the financial year immediately preceding the date of the statement, had net assets to the value of £250,000 or more. Net assets for these purposes do not include – </p>
                 <ul>
-                <li>i. the property which is the recipient’s residence or any loan secured on that residence; </li>
-                <li>ii. any rights under a qualifying contract of insurance within the meaning of the FSMA (Regulated Activities) Order 2000; or </li>
-                <li>iii. any benefits (in the form of pensions or otherwise) which are payable on the termination of service or on death or retirement and to which the recipient is (or the recipient's dependants are), or may be, entitled. </li>
+                    <li>i. the property which is the recipient’s residence or any loan secured on that residence; </li>
+                    <li>ii. any rights under a qualifying contract of insurance within the meaning of the FSMA (Regulated Activities) Order 2000; or </li>
+                    <li>iii. any benefits (in the form of pensions or otherwise) which are payable on the termination of service or on death or retirement and to which the recipient is (or the recipient's dependants are), or may be, entitled. </li>
                 </ul>
                 <p>If the recipient is in doubt about the investment to which this communication relates the recipient should consult an authorised person specialising in advising in participation in investments of the kind in question.</p>
 
@@ -1334,19 +1349,19 @@
                 <p>An entity falls within Regulation 49(2) of the FPO if it is: </p>
                 <p>(i) a body corporate which has, or which is a member of a group in which an undertaking has a called-up share capital or net assets of not less than </p>
                 <ul>
-                <li>i. £500,000, where the body corporate has more than 20 members or is a subsidiary of an undertaking which has more than 20 members; or</li>
-                <li>ii. otherwise, £5 million; </li>
-                <li>(ii) any unincorporated association or partnership which has net assets of not less than £5 million; </li>
-                <li>(iii) the trustee of a high value trust; or </li>
-                <li>(iv) otherwise as defined in Regulation 49(2) of the FPO.</li>
+                    <li>i. £500,000, where the body corporate has more than 20 members or is a subsidiary of an undertaking which has more than 20 members; or</li>
+                    <li>ii. otherwise, £5 million; </li>
+                    <li>(ii) any unincorporated association or partnership which has net assets of not less than £5 million; </li>
+                    <li>(iii) the trustee of a high value trust; or </li>
+                    <li>(iv) otherwise as defined in Regulation 49(2) of the FPO.</li>
                 </ul>
 
                 <h4>Communications to Certified Sophisticated Investors</h4>
 
                 <p>A sophisticated investor is a person: </p>
                 <ul>
-                <li>(i) who has a current certificate in writing or other legible form signed and dated (within the period of three years ending with the date on which this communication is made) by a person authorised to carry on that regulated activity by the FSA, to the effect that he is sufficiently knowledgeable to understand the risks associated with that description of investment; and </li>
-                <li>(ii) who has signed, within the period of twelve months ending with the day on which the communication is made, a statement in the terms set out in Article 50(1)(b) of the FPO; </li>
+                    <li>(i) who has a current certificate in writing or other legible form signed and dated (within the period of three years ending with the date on which this communication is made) by a person authorised to carry on that regulated activity by the FSA, to the effect that he is sufficiently knowledgeable to understand the risks associated with that description of investment; and </li>
+                    <li>(ii) who has signed, within the period of twelve months ending with the day on which the communication is made, a statement in the terms set out in Article 50(1)(b) of the FPO; </li>
                 </ul>
 
                 <p>Reliance on this document for the purpose of engaging in any investment activity may expose the recipient to a significant risk of losing all of the property invested or of incurring additional liability. If the recipient is in any doubt about the investment this Information Memorandum relates to, the recipient should consult an authorised person specialising in advising on investments of the kind in question.</p>
@@ -1354,10 +1369,10 @@
                 <h4>Communications to Self-Certified Sophisticated Investors </h4>
                 <p>A self-certified sophisticated investor is an individual who has signed, within the period of twelve months ending with the date on which this communication is made, a statement complying with Part II of Schedule 5 of the FPO. A Self Certified Sophisticated Investor is a person who satisfies at least one of the following requirements: </p>
                 <ul>
-                <li>(i) is a member of a network or syndicate of business angels and has been so for at least the last six months prior to the date of the statement; </li>
-                <li>(ii) has made more than one investment in an unlisted company in the two years prior to the date of the statement; </li>
-                <li>(iii) is working, or has worked in the two years prior to the date below, in a professional capacity in the private equity sector, or in the provision of finance for small and medium enterprises; </li>
-                <li>(iv) is currently, or has been in the two years prior to the date below, a director of a company with an annual turnover of at least £1 million. </li>
+                    <li>(i) is a member of a network or syndicate of business angels and has been so for at least the last six months prior to the date of the statement; </li>
+                    <li>(ii) has made more than one investment in an unlisted company in the two years prior to the date of the statement; </li>
+                    <li>(iii) is working, or has worked in the two years prior to the date below, in a professional capacity in the private equity sector, or in the provision of finance for small and medium enterprises; </li>
+                    <li>(iv) is currently, or has been in the two years prior to the date below, a director of a company with an annual turnover of at least £1 million. </li>
                 </ul>
                 <p>If the recipient is in any doubt about the investment to which this communication relates, the recipient should consult an authorised person specialising in advising on investments of the kind in question.</p>
 
@@ -1371,13 +1386,14 @@
         <!-- Start Risk Warning Modal -->
         <div id="RiskWarningModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="RiskWarningModalLabel" aria-hidden="true">
             <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>                
                 <h3 id="RiskWarningModalLabel">Risk Warning</h3>
             </div>
             <div class="modal-body">
                 <p>Risks are attached to every kind of investment. Past performance should not be taken as an indication or guarantee of future performance, and no representation or warranty, express or implied, is made regarding future performance. The value of investments can go down as well as up and you may not get back the money you invested. Rates of exchange may cause the value of investments to go up or down. For your protection, telephone calls maybe recorded for monitoring purposes.</p>
                 <p>Equity investments always carry some element of risk. Investments in unquoted companies should be considered higher risk investments than fully listed securities or shares. Investors should be prepared to take a medium to long term view on these types of investments. Investments that are not readily realisable (INRR), for example, shares issued by unquoted smaller companies involve a potentially higher degree of risk that all or part of your investment will be lost. You may have difficulty selling INRR at a reasonable price and in some cases it may be difficult to sell at any price. Similarly, it may prove difficult for you to obtain reliable information about the value of such an investment, or the risks to which it is exposed.</p>
                 <p>The investments and services contained or referred to in this Website may not be suitable for you and it is recommended that you consult an independent investment advisor if you are in doubt about such investments or investment services. Any research found on these pages has been procured and may have been acted on by Atlas Hostel PLC for its own purposes.</p>
-                <p>This site is operated and issued by Atlas Hostel PLC which is not authorised and regulated by the Financial Services Authority. Atlas Hostel PLC is a company registered in England, No.07903930. Registered Office: 2ND FLOOR BERKLEY SQUARE HOUSE, BERKELEY SQUARE, LONDON, UNITED KINGDOM, W1J 6BD. General enquiries about this website should be sent to hello@appboxmedia.com . This email address should not be used for any enquiries relating to investments.</p>
+                <p>This site is operated and issued by AppBox Media Plc which is not authorised and regulated by the Financial Conduct Authority. AppBox Media PLC is a company registered in England, No.08616729. Registered Office: 200 Aldersgate Street, London, England, EC1A 4HD. General enquiries about this website should be sent to info@appboxmedia.com . This email address should not be used for any enquiries relating to investments.</p>
             </div>
         </div>
         <!-- End Important Notice Modal -->
@@ -1391,7 +1407,6 @@
         <script src="js/jquery.quicksand.min.js"></script>
         <script src="js/jquery.validate.min.js"></script>
         <script src="js/jquery.mobile.customized.min.js"></script><!-- camera Slider-->
-<!--        <script src="js/camera.min.js"></script> -->
         <script src="js/jquery.parallax-1.1.3.min.js"></script><!--  parallax-->
         <script src="js/jquery.localscroll-1.2.7-min.js"></script><!--  scrollspy -->
         <script src="js/jquery.scrollspy.js"></script><!--  scrollspy -->                
