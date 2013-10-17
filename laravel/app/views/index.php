@@ -577,7 +577,8 @@ border-color:rgba(70, 136, 71, 0.8)
                                     <p>At an academic level we know what it takes to be top achievers having a team that includes 1st class honours graduates and others who have worked on the world stage at the United Nations.</p>
                                     <p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p>
                                 </div>
-                                                                
+                                
+                                
                                 <!-- RIGHT HAND SIDE GRAPHICS -->
                                 <div class="span7">       
                                     <!-- START TABS -->
@@ -639,7 +640,6 @@ border-color:rgba(70, 136, 71, 0.8)
                 
                 // Function for first graph
                 function showGraph1(){
-                    
                     nv.addGraph(function() {
                         var chart1 = nv.models.multiBarChart().margin({top: 0, right: 10, bottom: 40, left: 90});
                             chart1.yAxis.tickFormat(d3.format(',1f'));
