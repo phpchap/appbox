@@ -623,6 +623,7 @@ border-color:rgba(70, 136, 71, 0.8)
                     $('#chart1').one('inview', function (event, visible) {
                         if (visible) {
                             showGraph1();
+                            showGraph2();                            
                         }
                     });
 
@@ -638,70 +639,33 @@ border-color:rgba(70, 136, 71, 0.8)
                 
                 // Function for first graph
                 function showGraph1(){
-
-                    historicalBarChart = [{
-                        key: "Active iOS & Android Devices (millions)",
-                        values: [ 
-                        {"label" : "Spain","value" : 14,"color" : "#19496E" },
-                        {"label" : "Brazil","value" : 14,"color" : "#19496E"},
-                        {"label" : "Canada","value" : 19,"color" : "#19496E"},
-                        {"label" : "France","value" : 19,"color" : "#19496E"},
-                        {"label" : "Germany","value" : 22,"color" : "#19496E"},
-                        {"label" : "S.Korea","value" : 27,"color" : "#19496E"},
-                        {"label" : "Japan","value" : 28,"color" : "#19496E"},
-                        {"label" : "UK","value" : 35,"color" : "#19496E"},
-                        {"label" : "China","value" : 167,"color" : "#19496E"},
-                        {"label" : "US","value" : 181,"color" : "#19496E"},                        
-                        ]
-                    }];
-                
+                    
                     nv.addGraph(function() {
-                        var chart1 = nv.models.discreteBarChart()
-                            .margin({top: 20, right: 10, bottom: 40, left: 50})
-                            .x(function(d) { return d.label })
-                            .y(function(d) { return d.value })
-                            .showValues(true)
-                            .tooltips(false);
-
-                        d3.select('#chart1 svg')
-                            .datum(historicalBarChart)
+                        var chart1 = nv.models.multiBarChart().margin({top: 0, right: 10, bottom: 40, left: 90});
+                            chart1.yAxis.tickFormat(d3.format(',1f'));
+                            d3.select('#chart1 svg')
+                                .datum(
+                                [{
+                                    values: [{x:"USA",y:240000000},{x:"China",y:240000000},{x:"Malaysia",y:20000000},{x:"Canada",y:35000000},{x:"India",y:35000000}],
+                                    key: "Active Devices",
+                                    color: "#46ADDA"
+                                }, {
+                                    values: [{x:"USA",y:300000000},{x:"China",y:1360000000},{x:"Malaysia",y:40000000},{x:"Canada",y:70000000},{x:"India",y:1260000000}],
+                                    key: "Population",
+                                    color: "#E54521"
+                                }])
                             .transition()
                             .duration(1500)
+                            .delay(100)
                             .call(chart1);
 
                         nv.utils.windowResize(chart1.update);
 
                         return chart1;
                     });
-
-
-//                    nv.addGraph(function() {
-//                        var chart1 = nv.models.multiBarChart().margin({top: 0, right: 10, bottom: 40, left: 90});
-//                            chart1.yAxis.tickFormat(d3.format(',1f'));
-//                            d3.select('#chart1 svg')
-//                                .datum(
-//                                [{
-//                                    values: [{x:"USA",y:240000000},{x:"China",y:240000000},{x:"Malaysia",y:20000000},{x:"Canada",y:35000000},{x:"India",y:35000000}],
-//                                    key: "Active Devices",
-//                                    color: "#46ADDA"
-//                                }, {
-//                                    values: [{x:"USA",y:300000000},{x:"China",y:1360000000},{x:"Malaysia",y:40000000},{x:"Canada",y:70000000},{x:"India",y:1260000000}],
-//                                    key: "Population",
-//                                    color: "#E54521"
-//                                }])
-//                            .transition()
-//                            .duration(1500)
-//                            .delay(100)
-//                            .call(chart1);
-//
-//                        nv.utils.windowResize(chart1.update);
-//
-//                        return chart1;
-//                    });
                 }
                 // Function for second graph
                 function showGraph2(){
-                    
                     historicalBarChart = [{
                         key: "Active iOS & Android Devices (millions)",
                         values: [ 
