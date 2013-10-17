@@ -66,9 +66,8 @@
                 background: white;
                 right: 0;
                 bottom: 0;
-                padding: 20px;
-                border: 1px solid #ccc; 
-
+                padding: 30px 20px 20px 20px;
+                border: 1px solid #ccc;                 
                 overflow: hidden;
             }
             .content > * {
@@ -578,12 +577,7 @@ border-color:rgba(70, 136, 71, 0.8)
                                     <p>At an academic level we know what it takes to be top achievers having a team that includes 1st class honours graduates and others who have worked on the world stage at the United Nations.</p>
                                     <p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p>
                                 </div>
-                                
-                                <!-- Include Graphs -->                                
-                                <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js"></script>
-                                <script type="text/javascript" src="/data/data.json"></script>        
-                                <script type="text/javascript" src="/barchartjs/chart.js"></script>                                
-                                
+                                                                
                                 <!-- RIGHT HAND SIDE GRAPHICS -->
                                 <div class="span7">       
                                     <!-- START TABS -->
