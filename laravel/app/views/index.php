@@ -571,14 +571,9 @@ border-color:rgba(70, 136, 71, 0.8)
                             <div class="row-fluid">                                
                                 <!-- LEFT HAND SIDE TEXT -->
                                 <div class="span5">
-                                    <p>At the heart of AppBox media is its team. We hold an ethos of being big enough to take on big projects whilst being compact enough to care about all aspects of those projects.</p>
-                                    <p>Our app technicians and project managers have designed and managed app builds for: Playboy, Universal Pictures, Motorola and Toshiba. Our programmers have built applications from the ground up for clients that include: SEGA, Fujitsu and Gumtree.</p>
-                                    <p>The team at AppBox know what it is to work in major billion pound companies. Our accounts team even know how to structure such companies having worked on corporate finance at Nestle.</p>
-                                    <p>At an academic level we know what it takes to be top achievers having a team that includes 1st class honours graduates and others who have worked on the world stage at the United Nations.</p>
-                                    <p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p>
-                                </div>
-                                
-                                
+                                    <p>AppBox Media engages in one of the fastest growing sectors, at a time when the games industry is worth an estimated $80 billion worldwide.  This is approximately equal to the global film industry, and the biggest titles comfortably out earn blockbuster movies. The overall global app economy was worth $ 53Bn in 2012, and expected to rise to $ 68Bn in 2013 and forecast to appreciate to $ 143Bn in 2016.</p>
+                                    <p>The US and China tower over the next group of top markets by way of countries with greatest number of active IOS  and Android devices by at least five times.  While the U.S. has added 55 million net active devices since October 2011, China has added 125 million, a figure that totals the sum of the UK, Japan and South Korea’s combined, current active user base.  China leads the world with an impressive 293% year-over-year growth rate, spurred by the potent combination of its vast population and rapidly growing middle class with plenty of opportunity to achieve further growth.</p>  
+                                </div>                                
                                 <!-- RIGHT HAND SIDE GRAPHICS -->
                                 <div class="span7">       
                                     <!-- START TABS -->
@@ -611,7 +606,7 @@ border-color:rgba(70, 136, 71, 0.8)
                                         <!-- END SECOND TAB --> 
                                     </div>                                    
                                     <!-- END TABS -->
-                                </div>                                
+                                </div>          
                             </div>
                         </div>
                     </div>
@@ -688,7 +683,7 @@ border-color:rgba(70, 136, 71, 0.8)
                             .x(function(d) { return d.label })
                             .y(function(d) { return d.value })
                             .showValues(true)
-                            .tooltips(false);
+                            .tooltips(true);
 
                         d3.select('#chart2 svg')
                             .datum(historicalBarChart)
@@ -732,14 +727,14 @@ border-color:rgba(70, 136, 71, 0.8)
                                     </div>
                                     <div class="span6">
                                         <p>Our developers and project managers have designed and built applications for: Playboy, Universal Pictures, Motorola, Toshiba, SEGA, Fujitsu and Gumtree.</p>                                                                                
-                                        <img id="fujitsu">
-                                        <img id="gumtree">
-                                        <img id="motorola">                                        
-                                        <img id="nestle">                                        
-                                        <img id="playboy">                                        
-                                        <img id="sega">                                        
-                                        <img id="toshiba">                                        
-                                        <img id="universal">                                                                                 
+                                        <div style="float:left;margin:5px;" id="fujitsu"></div>
+                                        <div style="float:left;margin:5px;" id="gumtree"></div>
+                                        <div style="float:left;margin:5px;" id="motorola"></div>                                        
+                                        <div style="float:left;margin:5px;" id="nestle"></div>                                        
+                                        <div style="float:left;margin:5px;" id="playboy"></div>                                        
+                                        <div style="float:left;margin:5px;" id="sega"></div>                                        
+                                        <div style="float:left;margin:5px;" id="toshiba"></div>                                        
+                                        <div style="float:left;margin:5px;" id="universal"></div>                                                                                 
                                     </div>
                                     <!-- END OF FIRST ROW -->                                   
                                 </div>                                
@@ -883,13 +878,13 @@ border-color:rgba(70, 136, 71, 0.8)
                                                                     <span class="add-on">.00</span>
                                                                 </div>                             
                                                                 <div id="slide_invest" class="noUiSlider"></div>                                                                                                                               
-                                                                <hr>
                                                             </td>                               
                                                     </tbody>
                                                 </table>
                                                 <hr>                        
                                                 <table border="0" cellspacing="0" cellpadding="0">
-                                                    <tbody><tr>
+                                                    <tbody>
+                                                        <tr>
                                                             <td>
                                                                 The Income Tax that you may save through claiming EIS Income Tax Relief is    
                                                                 <div class="input-prepend input-append">
@@ -966,6 +961,14 @@ border-color:rgba(70, 136, 71, 0.8)
                                 </div>
                             </div>                          
                         </div>
+                        <!-- DISCLAIMER COPY -->
+                        <div class="container clearfix">                            
+                            <div class="row-fluid">
+                                <div class="span12">
+                                    <p><b>Warning:</b> This limits calculator is for UK tax payers and is indicative only. Do not rely on it in making investment decisions or for calculating your actual tax liabilities. Consult your professional adviser before investing.</p>
+                                </div>
+                            </div>
+                        </div>                                                
                     </div>
                 </div>
                 <!--END EIS CALCULATOR -->                
@@ -973,7 +976,7 @@ border-color:rgba(70, 136, 71, 0.8)
                 <!-- FIFTH DID YOU KNOW -->
                 <div id="fifth" class="Parallax">
                     <div class="ParallaxText">
-                        <blockquote>The Oculus Rift VR Headset announced a Kickstarter campaign to further development of the product. Within four hours, Oculus secured its intended amount of $250,000, less than 36 hours, the campaign surpassed $1m in funding, eventually ending with $2.4 million</blockquote>             
+                        <blockquote>The App Market is the fastest growing market in the history of the world</blockquote>             
                         <div class="clearfix"></div>
                     </div>
                 </div                
@@ -986,7 +989,10 @@ border-color:rgba(70, 136, 71, 0.8)
                         </div>
                         <div class="container clearfix">
                             <div class="container">
-                                <div class="span12" style="margin-top:20px">
+                                <div class="span6">
+                                    <img class="img-polaroid" src="/images/200_aldersgate.jpg"/>
+                                </div>
+                                <div class="span6">
                                     <iframe width="100%" height="374" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=EC1A+4HD&amp;aq=&amp;ie=UTF8&amp;hq=&amp;hnear=EC1A+4HD,+United+Kingdom&amp;t=m&amp;z=18&amp;iwloc=near&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=EC1A+4HD&amp;aq=&amp;sll=37.09024,-95.712891&amp;sspn=38.775203,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=EC1A+4HD,+United+Kingdom&amp;t=m&amp;z=14&amp;iwloc=near&output=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>                                    
                                     <br />
                                 </div>
