@@ -25,12 +25,13 @@ $(function(){
 });
 
 function calculate() {
+    
     //User inputs
     var tax_income = $('#tax_income').val();
     var capital_gain = $('#capital_gain').val();
     var invest = $('#invest').val();
     
-    //alert('called with -  tax_income ' + tax_income + ' capital_gain: ' + capital_gain + ' invest: ' + invest );
+//    alert('called with -  tax_income ' + tax_income + ' capital_gain: ' + capital_gain + ' invest: ' + invest );
     
     /*var difference = "-5";
     difference = Math.abs(difference);

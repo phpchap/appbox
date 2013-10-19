@@ -1,0 +1,379 @@
+.tabs {
+    position: relative;   
+    min-height: 400px; /* This part sucks */
+    clear: both;
+    margin: 25px 0;
+}
+.tab {
+    float: left;
+}
+.tab label:hover {
+    background: white;
+}
+.tab label {
+    background: #eee; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    margin-left: -1px; 
+    position: relative;
+    left: 1px; 
+}
+.tab [type=radio] {
+    display: none;   
+}
+.content {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    background: white;
+    right: 0;
+    bottom: 0;
+    padding: 30px 20px 20px 20px;
+    border: 1px solid #ccc;                 
+    overflow: hidden;
+}
+.content > * {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-transform: translateX(-100%);
+    -moz-transform:    translateX(-100%);
+    -ms-transform:     translateX(-100%);
+    -o-transform:      translateX(-100%);
+    -webkit-transition: all 0.6s ease;
+    -moz-transition:    all 0.6s ease;
+    -ms-transition:     all 0.6s ease;
+    -o-transition:      all 0.6s ease;
+}
+[type=radio]:checked ~ label {
+    background: white;
+    border-bottom: 1px solid white;
+    z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+    z-index: 1;
+}
+[type=radio]:checked ~ label ~ .content > * {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    -moz-transform:    translateX(0);
+    -ms-transform:     translateX(0);
+    -o-transform:      translateX(0);
+}
+
+.modal-body {
+    position: relative;
+    max-height: 350px;
+    padding: 15px;
+    overflow-y: auto;
+}                
+#screen{
+    position:relative;
+    height:425px;
+    margin-top:20px;
+}
+#screen .next, #screen .prev{
+    position:absolute;
+    top:200px;
+}
+#screen .prev{
+    left:10px;
+}
+#screen .next{
+    right:10px;
+}
+#navigation{
+    width:600px;
+    text-align:center;
+    margin-left:62px;
+}
+#navigation ul{
+    margin-left:55px !important;
+    margin-left:35px;
+}
+#navigation li{
+    float:left;
+    margin:0 20px;
+    padding:10px 20px;
+    background-color:#EEE;
+}
+#navigation a{
+    color:#933;
+    font-weight:bolder;
+    text-decoration:none;
+}
+
+#sections{
+    overflow:hidden;
+    height:369px;
+    clear:left;
+    margin-left:62px;
+}
+
+#sections ul{
+    width:3660px;
+}
+
+#sections li{
+    float:left;
+}
+
+#sections p{
+    font-size: 21px !important;
+    width:409px;
+    line-height:1.4em;
+}
+
+#sections h2{
+    color:#993333;
+    margin:20px 0pt;
+}
+#sections a{
+    color:#777;
+    font-weight:bolder;
+    text-decoration:none;
+}            
+
+#logo_flip {
+    display: block;
+    width: 233px;
+    height: 0px;
+    margin-top: 5px;
+    background: url('/images/flip.png') top no-repeat;
+    text-indent: -99999px;
+}                    
+
+#logo_flip:hover {
+    background-position: 10px -34px;
+}                    
+
+#logo_bottom_flip {
+    display: block;
+    width: 233px;
+    height: 20px;
+    margin-top: 0px;
+    background: url('/images/flip.png') no-repeat;
+    text-indent: -99999px;
+}                    
+
+#logo_bottom_flip:hover {
+    background-position: 0px -34px;
+}                    
+
+#output_4,
+#invest {
+    border-color: rgba(70, 136, 71, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    /* IE6-9 */
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 136, 71, .6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 136, 71, .6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 136, 71, .6);  
+    border-color:rgba(70, 136, 71, 0.8)
+}
+
+/* fujitsu */
+#fujitsu {
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0 -140px transparent;
+    text-indent: -99999px;
+}
+#fujitsu:hover {
+    background-position: 0 0;
+}                                            
+
+/* gumtree */
+#gumtree{
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -140px -127px transparent;
+    text-indent: -99999px;    
+}
+#gumtree:hover{
+    background-position: -141px 2px;    
+}
+
+/* motorola */
+#motorola{
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -270px -130px transparent;
+    text-indent: -99999px;        
+}
+
+#motorola:hover{
+    background-position: -270px -1px;        
+}
+
+/* nestle */
+#nestle{
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -402px -121px transparent;
+    text-indent: -99999px;        
+}
+
+#nestle:hover{
+    background-position: -402px 0px;        
+}
+
+/* playboy */
+#playboy{
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0px -405px transparent;
+    text-indent: -99999px;        
+}
+
+#playboy:hover{
+    background-position: 0px -279px;        
+}
+
+/* sega */
+#sega{
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -138px -405px transparent;
+    text-indent: -99999px;        
+}
+
+#sega:hover{
+    background-position: -140px -279px;        
+}
+
+/* toshiba */
+#toshiba{
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -289px -405px transparent;
+    text-indent: -99999px;        
+}
+
+#toshiba:hover{
+    background-position: -289px -275px;        
+}
+
+/* universal */
+#universal{
+    width: 125px;
+    height: 125px;
+    background: url("/images/clients/client_sprite_map.png") no-repeat scroll -422px -405px transparent;
+    text-indent: -99999px;        
+}
+
+#universal:hover{
+    background-position: -422px -280px;        
+}
+
+/* Clearfix */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+.navi {
+        height: 40px;
+        width: 100%;
+        font-size: 20px;
+        font-weight: bold;
+        position: relative;
+}
+.navi ul {
+        padding: 0;
+        margin: 0 auto;
+        width: 900px;
+}
+.navi li {
+        display: inline;
+        float: left;
+}
+.navi a {
+        display: inline-block;
+        padding: 13px 15px;
+        text-align: center;
+        text-decoration: none;
+
+}
+.navi li a {
+        box-sizing:border-box;
+        -moz-box-sizing:border-box;
+        -webkit-box-sizing:border-box;
+}
+.navi li:last-child a {
+        border-right: 0;
+}
+.navi li.active{
+        background-color: #fff;    
+}
+.navi a:hover, nav a:active {
+}
+.navi a#pull {
+        display: none;
+}
+
+/*Styles for screen 600px and lower*/
+@media screen and (max-width: 600px) {
+        .navi { 
+                height: auto;
+        }
+        .navi ul {
+                width: 100%;
+                display: block;
+                height: auto;
+        }
+        .navi li {
+                width: 50%;
+                float: left;
+                position: relative;
+        }
+        .navi a {
+                text-align: left;
+                width: 100%;
+                text-indent: 25px;
+        }
+}
+
+/*Styles for screen 515px and lower*/
+@media only screen and (max-width : 480px) {
+        .navi {
+                border-bottom: 0;
+        }
+        .navi ul {
+                display: none;
+                height: auto;
+        }
+        .navi a#pull {
+            display: block;
+            width: 100%;
+            height: 42px;
+        }
+        .navi a#pull:after {
+                content:"";
+                background: url('http://media02.hongkiat.com/responsive-web-nav/demo/nav-icon.png') no-repeat;  
+                width: 30px;
+                height: 30px;
+                display: inline-block;
+                position: absolute;
+                right: 15px;
+                top: 10px;
+        }
+}
+
+/*Smartphone*/
+@media only screen and (max-width : 320px) {
+        .navi li {
+                display: block;
+                float: none;
+                width: 100%;
+        }
+        .navi li a {
+                border-bottom: 1px solid #576979;
+        }
+}           

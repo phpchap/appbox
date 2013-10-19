@@ -35,393 +35,9 @@
         <script src="js/jquery-1.8.2.min.js"></script>                
         <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>               
         <!-- Start Tabs CSS -->
-	<style>
-            .tabs {
-                position: relative;   
-                min-height: 400px; /* This part sucks */
-                clear: both;
-                margin: 25px 0;
-            }
-            .tab {
-                float: left;
-            }
-            .tab label:hover {
-                background: white;
-            }
-            .tab label {
-                background: #eee; 
-                padding: 10px; 
-                border: 1px solid #ccc; 
-                margin-left: -1px; 
-                position: relative;
-                left: 1px; 
-            }
-            .tab [type=radio] {
-                display: none;   
-            }
-            .content {
-                position: absolute;
-                top: 40px;
-                left: 0;
-                background: white;
-                right: 0;
-                bottom: 0;
-                padding: 30px 20px 20px 20px;
-                border: 1px solid #ccc;                 
-                overflow: hidden;
-            }
-            .content > * {
-                opacity: 0;
-                -webkit-transform: translate3d(0, 0, 0);
-                -webkit-transform: translateX(-100%);
-                -moz-transform:    translateX(-100%);
-                -ms-transform:     translateX(-100%);
-                -o-transform:      translateX(-100%);
-                -webkit-transition: all 0.6s ease;
-                -moz-transition:    all 0.6s ease;
-                -ms-transition:     all 0.6s ease;
-                -o-transition:      all 0.6s ease;
-            }
-            [type=radio]:checked ~ label {
-                background: white;
-                border-bottom: 1px solid white;
-                z-index: 2;
-            }
-            [type=radio]:checked ~ label ~ .content {
-                z-index: 1;
-            }
-            [type=radio]:checked ~ label ~ .content > * {
-                opacity: 1;
-                -webkit-transform: translateX(0);
-                -moz-transform:    translateX(0);
-                -ms-transform:     translateX(0);
-                -o-transform:      translateX(0);
-            }
-                   
-            .modal-body {
-                position: relative;
-                max-height: 350px;
-                padding: 15px;
-                overflow-y: auto;
-            }                
-            #screen{
-                position:relative;
-                height:425px;
-                margin-top:20px;
-            }
-            #screen .next, #screen .prev{
-                position:absolute;
-                top:200px;
-            }
-            #screen .prev{
-                left:10px;
-            }
-            #screen .next{
-                right:10px;
-            }
-            #navigation{
-                width:600px;
-                text-align:center;
-                margin-left:62px;
-            }
-            #navigation ul{
-                margin-left:55px !important;
-                margin-left:35px;
-            }
-            #navigation li{
-                float:left;
-                margin:0 20px;
-                padding:10px 20px;
-                background-color:#EEE;
-            }
-            #navigation a{
-                color:#933;
-                font-weight:bolder;
-                text-decoration:none;
-            }
-
-            #sections{
-                overflow:hidden;
-                height:369px;
-                clear:left;
-                margin-left:62px;
-            }
-
-            #sections ul{
-                width:3660px;
-            }
-
-            #sections li{
-                float:left;
-            }
-
-            #sections p{
-                font-size: 21px !important;
-                width:409px;
-                line-height:1.4em;
-            }
-
-            #sections h2{
-                color:#993333;
-                margin:20px 0pt;
-            }
-            #sections a{
-                color:#777;
-                font-weight:bolder;
-                text-decoration:none;
-            }            
-
-            #logo_flip {
-                display: block;
-                width: 233px;
-                height: 0px;
-                margin-top: 5px;
-                background: url('/images/flip.png') top no-repeat;
-                text-indent: -99999px;
-            }                    
-
-            #logo_flip:hover {
-                background-position: 10px -34px;
-            }                    
-
-            #logo_bottom_flip {
-                display: block;
-                width: 233px;
-                height: 20px;
-                margin-top: 0px;
-                background: url('/images/flip.png') no-repeat;
-                text-indent: -99999px;
-            }                    
-
-            #logo_bottom_flip:hover {
-                background-position: 0px -34px;
-            }                    
-            
-            #output_4,
-            #invest {
-border-color: rgba(70, 136, 71, 0.8);
-outline: 0;
-outline: thin dotted \9;
-/* IE6-9 */
--webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 136, 71, .6);
--moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 136, 71, .6);
-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(70, 136, 71, .6);  
-border-color:rgba(70, 136, 71, 0.8)
-
-            }
-            
-            /* fujitsu */
-            #fujitsu {
-                width: 125px;
-                height: 125px;
-                background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0 -140px transparent;
-                text-indent: -99999px;
-            }
-            #fujitsu:hover {
-                background-position: 0 0;
-            }                                            
-
-            /* gumtree */
-            #gumtree{
-                width: 125px;
-                height: 125px;
-                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -140px -127px transparent;
-                text-indent: -99999px;    
-            }
-            #gumtree:hover{
-                background-position: -141px 2px;    
-            }
-
-            /* motorola */
-            #motorola{
-                width: 125px;
-                height: 125px;
-                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -270px -130px transparent;
-                text-indent: -99999px;        
-            }
-
-            #motorola:hover{
-                background-position: -270px -1px;        
-            }
-
-            /* nestle */
-            #nestle{
-                width: 125px;
-                height: 125px;
-                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -402px -121px transparent;
-                text-indent: -99999px;        
-            }
-
-            #nestle:hover{
-                background-position: -402px 0px;        
-            }
-
-            /* playboy */
-            #playboy{
-                width: 125px;
-                height: 125px;
-                background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0px -405px transparent;
-                text-indent: -99999px;        
-            }
-
-            #playboy:hover{
-                background-position: 0px -279px;        
-            }
-
-            /* sega */
-            #sega{
-                width: 125px;
-                height: 125px;
-                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -138px -405px transparent;
-                text-indent: -99999px;        
-            }
-
-            #sega:hover{
-                background-position: -140px -279px;        
-            }
-
-            /* toshiba */
-            #toshiba{
-                width: 125px;
-                height: 125px;
-                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -289px -405px transparent;
-                text-indent: -99999px;        
-            }
-
-            #toshiba:hover{
-                background-position: -289px -275px;        
-            }
-
-            /* universal */
-            #universal{
-                width: 125px;
-                height: 125px;
-                background: url("/images/clients/client_sprite_map.png") no-repeat scroll -422px -405px transparent;
-                text-indent: -99999px;        
-            }
-
-            #universal:hover{
-                background-position: -422px -280px;        
-            }
-
-            /* Clearfix */
-            .clearfix:before,
-            .clearfix:after {
-                content: " ";
-                display: table;
-            }
-            .clearfix:after {
-                clear: both;
-            }
-            .clearfix {
-                *zoom: 1;
-            }
-
-
-            .navi {
-                    height: 40px;
-                    width: 100%;
-                    font-size: 20px;
-                    font-weight: bold;
-                    position: relative;
-            }
-            .navi ul {
-                    padding: 0;
-                    margin: 0 auto;
-                    width: 900px;
-            }
-            .navi li {
-                    display: inline;
-                    float: left;
-            }
-            .navi a {
-                    display: inline-block;
-                    padding: 13px 15px;
-                    text-align: center;
-                    text-decoration: none;
-
-            }
-            .navi li a {
-                    box-sizing:border-box;
-                    -moz-box-sizing:border-box;
-                    -webkit-box-sizing:border-box;
-            }
-            .navi li:last-child a {
-                    border-right: 0;
-            }
-            .navi li.active{
-                    background-color: #fff;    
-            }
-            .navi a:hover, nav a:active {
-            }
-            .navi a#pull {
-                    display: none;
-            }
-
-            /*Styles for screen 600px and lower*/
-            @media screen and (max-width: 600px) {
-                    .navi { 
-                            height: auto;
-                    }
-                    .navi ul {
-                            width: 100%;
-                            display: block;
-                            height: auto;
-                    }
-                    .navi li {
-                            width: 50%;
-                            float: left;
-                            position: relative;
-                    }
-                    .navi a {
-                            text-align: left;
-                            width: 100%;
-                            text-indent: 25px;
-                    }
-            }
-
-            /*Styles for screen 515px and lower*/
-            @media only screen and (max-width : 480px) {
-                    .navi {
-                            border-bottom: 0;
-                    }
-                    .navi ul {
-                            display: none;
-                            height: auto;
-                    }
-                    .navi a#pull {
-                        display: block;
-                        width: 100%;
-                        height: 42px;
-                    }
-                    .navi a#pull:after {
-                            content:"";
-                            background: url('http://media02.hongkiat.com/responsive-web-nav/demo/nav-icon.png') no-repeat;  
-                            width: 30px;
-                            height: 30px;
-                            display: inline-block;
-                            position: absolute;
-                            right: 15px;
-                            top: 10px;
-                    }
-            }
-
-            /*Smartphone*/
-            @media only screen and (max-width : 320px) {
-                    .navi li {
-                            display: block;
-                            float: none;
-                            width: 100%;
-                    }
-                    .navi li a {
-                            border-bottom: 1px solid #576979;
-                    }
-            }            
-        </style>        
-
         <link rel="stylesheet" href="/css/jquery.nouislider.css">
         <script src="http://refreshless.com/nouislider/source/jquery.nouislider.js"></script>
-        
+        <link rel="stylesheet" href="/css/site.css">        
         <script>
             $(function(){
                 
@@ -445,6 +61,7 @@ border-color:rgba(70, 136, 71, 0.8)
                     $("#toggler").toggle();
                 });
                 
+                /*
                 $('.noUiSlider').noUiSlider({
                     range: [100000,1000000],
                     start: [100000],
@@ -460,12 +77,10 @@ border-color:rgba(70, 136, 71, 0.8)
                 }).change(function(){
                     calculate();
                 });
+                */
             });
-
-
-</script>
-
-        <!-- End Tabs CSS -->
+    </script>
+    <!-- End Tabs CSS -->
     </head>
     <body class="clearfix" data-spy="scroll" data-target="#navbar" data-offset="10">
         <div id="navbar" class="navbar navbar-fixed-top">
@@ -806,6 +421,515 @@ border-color:rgba(70, 136, 71, 0.8)
                                     <a id="toggle" href="javascript:void(0)">Read more</a>
                                 </div>
                                 <div class="span6">
+                                    <form name="eis-calculator" id="eis-calculator" method="GET">
+<style>
+#calculator
+{
+	border: 2px solid #3ABEB4;
+	margin-bottom: 30px;
+	padding: 5px;
+	position: relative;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator
+	{
+		margin-bottom: 0px;
+		padding-top: 75px;
+	}
+}
+#calculator div.calcContainer
+{
+	font-size: 0.875rem;
+	font-size: 14px;
+	margin-left: 8%;
+	padding: 1.5625em;
+	width: 86%;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator div.calcContainer
+	{
+		margin: 4px 0;
+		width: 10%;
+	}
+}
+#calculator div.calcContainer #startAmount
+{
+	display: none;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator div.calcContainer #startAmount
+	{
+		display: block;
+		float: left;
+	}
+}
+#calculator div.calcContainer #totalAmount
+{
+	display: none;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator div.calcContainer #totalAmount
+	{
+		display: block;
+		float: right;
+	}
+}
+@media (min-width: 39.0365em)
+{
+	#calculator div.calcContainer
+	{
+		left: 0;
+		top: 0;
+		width: 93%;
+	}
+}
+#calculator div.amountsContainer
+{
+	position: absolute;
+	top: -90px;
+	width: 100%;
+	z-index: 1;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator div.amountsContainer
+	{
+		right: 4px;
+		top: 4px;
+		width: 38%;
+	}
+}
+@media (min-width: 77.07299em)
+{
+	#calculator div.amountsContainer
+	{
+		width: 32%;
+	}
+}
+#calculator div.amountsContainer #grossQuarterly,#calculator div.amountsContainer #grossAnnual
+{
+	display: inline;
+	display: inline-block;
+	display: -moz-inline-stack;
+	position: relative;
+	vertical-align: auto;
+	vertical-align: middle;
+	width: 49%;
+	zoom: 1;
+}
+#calculator div.amountsContainer .amount
+{
+	font-family: "HelveticaNeueW01-75Bold";
+	font-size: 1.5625rem;
+	font-size: 25px;
+	height: 54px;
+	line-height: 54px;
+	text-align: center;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator div.amountsContainer .amount
+	{
+		font-size: 1.375rem;
+		font-size: 22px;
+		height: 54px;
+		line-height: 54px;
+	}
+}
+@media (min-width: 77.07299em)
+{
+	#calculator div.amountsContainer .amount
+	{
+		font-size: 1.375em;
+	}
+}
+#calculator div.amountsContainer #grossQuarterly .amount
+{
+	background-color: #44c7f5;
+	color: #002c42;
+}
+#calculator div.amountsContainer #grossQuarterly span.arrow
+{
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid #44c7f5;
+	border-top: 10px solid transparent;
+	bottom: 31%;
+	display: block;
+	height: 15px;
+	position: absolute;
+	right: -17px;
+	width: 17px;
+	z-index: 999999;
+}
+#calculator div.amountsContainer #grossAnnual .amount
+{
+	background-color: #002c42;
+	color: #fff;
+}
+#calculator .title
+{
+	font-size: 0.8125rem;
+	font-size: 13px;
+	position: absolute;
+	text-align: center;
+	top: -30px;
+	width: 100%;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator .title
+	{
+		font-size: 0.875rem;
+		font-size: 14px;
+		padding: 0 8px;
+		top: 70px;
+	}
+}
+#calculator .title.invested
+{
+	display: none;
+	left: -10px;
+	top: 75px;
+	width: auto;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator .title.invested
+	{
+		display: block;
+	}
+}
+.noUi-target *
+{
+	box-sizing: border-box;
+	moz-box-sizing: border-box;
+	moz-user-select: none;
+	ms-touch-action: none;
+	ms-user-select: none;
+	webkit-box-sizing: border-box;
+	webkit-touch-callout: none;
+	webkit-user-select: none;
+}
+.noUi-base
+{
+	height: 10px;
+	max-width: 100%;
+	position: relative;
+	width: 100%;
+	z-index: 1;
+}
+#calculator .noUi-handle
+{
+	background: #3ABEB4;
+	color: #002c42;
+	cursor: pointer;
+	font-size: 1.25em;
+	margin: 45px 0 0 -50px;
+	moz-transition: background-color 0.2s ease;
+	o-transition: background-color 0.2s ease;
+	padding: 0.4375em 0;
+	position: relative;
+	text-align: center;
+	transition: background-color 0.2s ease;
+	webkit-transition: background-color 0.2s ease;
+	width: 90px;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator .noUi-handle
+	{
+            color: #fff;
+            font-size: 1.5em;
+            margin: -84px 0 0 0px;
+            width: 110px;
+	}
+}
+@media (min-width: 77.07299em)
+{
+	#calculator .noUi-handle
+	{
+		margin: -75px 0 0 -55px;
+	}
+}
+#calculator .noUi-handle:before
+{
+	background: white;
+	border: 10px solid #002c42;
+	content: "";
+	height: 10px;
+	left: 30px;
+	position: absolute;
+	top: -54px;
+	width: 10px;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator .noUi-handle:before
+	{
+		display: none;
+	}
+}
+#calculator .noUi-handle:after
+{
+	border-bottom: 26px solid #3ABEB4;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	content: "";
+	height: 0px;
+	left: 50%;
+	margin-left: -10px;
+	moz-transition: all 0.2s ease;
+	o-transition: all 0.2s ease;
+	position: absolute;
+	top: -20px;
+	transition: all 0.2s ease;
+	webkit-transition: all 0.2s ease;
+	width: 0px;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator .noUi-handle:after
+	{
+		border-bottom: none;
+		border-left: 0;
+		border-right: 15px solid transparent;
+		border-top: 26px solid #3ABEB4;
+		bottom: -26px;
+		left: 0;
+		margin-left: 0;
+		top: auto;
+	}
+}
+@media (min-width: 77.07299em)
+{
+	#calculator .noUi-handle:after
+	{
+		border-left: 15px solid transparent;
+		border-right: 15px solid transparent;
+		bottom: -23px;
+		left: 50%;
+		margin-left: -15px;
+	}
+}
+@media (min-width: 39.0365em)
+{
+	#calculator .noUi-handle:hover
+	{
+		background: #14b9f2;
+	}
+	#calculator .noUi-handle:hover:after
+	{
+		border-top-color: #14b9f2;
+		bottom: -26px;
+	}
+}
+#calculator .noUi-handle .title
+{
+	width: auto;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator .noUi-handle .title
+	{
+		bottom: auto;
+	}
+}
+#calculator .noUi-handle .title.mobile
+{
+	bottom: -20px;
+	font-size: 0.6875rem;
+	font-size: 11px;
+	top: auto;
+}
+@media (min-width: 39.0365em)
+{
+	#calculator .noUi-handle .title.mobile
+	{
+		display: none;
+	}
+}
+.noUi-connect
+{
+	background: #002c42;
+}
+.noUi-background
+{
+	background: #3ABEB4;
+}
+.noUi-origin
+{
+	bottom: 0;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 0;
+}
+.noUi-origin-upper
+{
+	background: inherit !important;
+}
+.noUi-z-index
+{
+	z-index: 10;
+}
+.noUi-vertical
+{
+	height: 300px;
+	max-height: 100%;
+	width: 40px;
+}
+.noUi-vertical .noUi-origin
+{
+	bottom: 0;
+	left: 0;
+}
+.noUi-vertical .noUi-handle
+{
+	margin: -23px 0 0 -3px;
+}
+.noUi-target[disabled] .noUi-base
+{
+	background: #999;
+}
+.noUi-target[disabled] .noUi-connect
+{
+	background: #BBB;
+}
+.noUi-state-tap .noUi-origin
+{
+	transition: left 0.3s, top 0.3s;
+	webkit-transition: left 0.3s, top 0.3s;
+}
+        
+                                        </style>
+                                        <script>
+
+$(document).ready(function (){
+
+Number.prototype.formatMoney = function(c, d, t){
+    var n = this, 
+        c = isNaN(c = Math.abs(c)) ? 2 : c, 
+        d = d == undefined ? "." : d, 
+        t = t == undefined ? "," : t, 
+        s = n < 0 ? "-" : "", 
+        i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", 
+        j = (j = i.length) > 3 ? j % 3 : 0;
+    return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
+};        
+        
+                                
+    $("#calculatorSlideBar").noUiSlider({
+        range: [100000,1000000],
+        start: [100000],
+        handles: 1,
+        slide: function(){           
+            var current_investment = (Number($(this).val())).formatMoney('0', '.', ',');
+            $(".noUi-handle").html( "£" + current_investment );      
+        },
+        step: 1000
+    }).change(function(){
+        
+        var total_investment = Number( $(this).val() );        
+        var income_tax_relief = Math.round(Number((total_investment / 100) * 30 )); // Income tax relief at 30%                          
+        var capital_gains_percentage = 28;
+        var capital_gains_tax = (total_investment / 100) * capital_gains_percentage;                                
+        var net_cost = total_investment - ( income_tax_relief + capital_gains_tax);
+
+        console.log("---------------------");
+        console.log("total investment: " + total_investment);
+        console.log("net cost: " + net_cost);
+        console.log("income tax relief: " + income_tax_relief);
+        console.log("capital gains tax : " + capital_gains_tax);
+
+        if( income_tax > 300000) {
+            income_tax = 300000;
+        }
+        
+        var format_total_investment = (total_investment).formatMoney('0','.',',');
+        var format_tax_relief = (income_tax_relief).formatMoney('0','.',',');
+        var format_capital_gains_tax = (capital_gains_tax).formatMoney('0','.',',');
+        var format_net_cost = (net_cost).formatMoney('0','.',',');
+
+        $("#invest").val(format_total_investment);
+        $("#income_tax").val(format_tax_relief);
+        $("#capital_gains_tax").val(format_capital_gains_tax);        
+        $("#net_cost").val(format_net_cost);        
+
+    });
+
+    $(".noUi-handle").html("£100,000");      
+
+        
+});
+        
+        
+ 
+        
+                                    </script>
+
+                                        <div id="calculator">
+                                            
+                                            <div class="calcContainer">
+                                                <div id="calculatorSlideBar" class="noUi-target"></div>
+                                                <div id="startAmount">£100,000</div>
+                                                <div id="totalAmount">£1,000,000</div>
+                                                
+                                                <h3 style="margin-top:10px;">How much do you plan on investing</h3>
+
+                                                <br/>
+                                                <hr>
+                                                
+                                                <p>Total Investment: 
+                                                    <div class="input-prepend input-append">
+                                                        <span class="add-on">£</span>
+                                                        <input name="invest" id="invest" type="text" value="100000" class="blue_stroke_text_area" placeholder="0" onchange="calculate()" onblur="calculate()" onkeyup="calculate()">
+                                                        <span class="add-on">.00</span>
+                                                    </div>                                                                             
+                                                </p>
+                                                <p>Income tax relief at 30%: 
+                                                    <div class="input-prepend input-append">
+                                                        <span class="add-on">£</span>
+                                                        <input name="income_tax" id="income_tax" type="text" value="" placeholder="0" readonly="true">
+                                                        <span class="add-on">.00</span>
+                                                    </div>
+                                                </p>
+                                                <p>Capital gains tax deferral: 
+                                                    <div class="input-prepend input-append">
+                                                        <span class="add-on">£</span>
+                                                        <input name="capital_gains_tax" id="capital_gains_tax" type="text" value="" placeholder="0" readonly="true">
+                                                        <span class="add-on">.00</span>
+                                                    </div>                                                   
+                                                </p>
+                                                
+                                                <?php /* 
+                                                
+
+                                                <p>Inheritance Tax relief at 40%: 
+                                                    <div class="input-prepend input-append">
+                                                        <span class="add-on">£</span>
+                                                        <input name="inheritance" id="inheritance" type="text" value="" placeholder="0" readonly="true">
+                                                        <span class="add-on">.00</span>
+                                                    </div>                                                   
+                                                </p>     
+                                                 * 
+                                                 */
+                                                ?>
+                                                <p>Net cost of investment: 
+                                                    <div class="input-prepend input-append">
+                                                        <span class="add-on">£</span>
+                                                        <input name="net_cost" id="net_cost" type="text" value="" placeholder="0" readonly="true">
+                                                        <span class="add-on">.00</span>
+                                                    </div>                                                   
+                                                </p>                                                                                                                                                                            
+                                            </div>
+                                        </div>                                                                                                                        
+                                    </form>
+
+                                    
                                     <!-- EIS CALCULATOR -->
                                     <form name="seis-calculator" id="seis-calculator" method="post">
                                         <!--Assumptions for Tax Year 2012/13: -->
@@ -847,36 +971,17 @@ border-color:rgba(70, 136, 71, 0.8)
                                                     <tbody>                                                 
                                                         <tr>
                                                             <td>                                                                
-                                                                What is your Taxable Income? <font color="red">*</font>          
-                                                                <div class="input-prepend input-append">
-                                                                    <span class="add-on">£</span>
-                                                                    <input name="tax_income" id="tax_income" type="text" value="100000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
-                                                                    <span class="add-on">.00</span>
-                                                                </div>                         
-                                                                <div id="slide_tax_income" class="noUiSlider"></div>                                                                                                                                
-                                                                <hr>                                                                
+                                                                <input name="tax_income" id="tax_income" type="hidden" value="100000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">                                                                    
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td>
-                                                                What are your expected Capital Gains? <font color="red">*</font>          
-                                                                <div class="input-prepend input-append">
-                                                                    <span class="add-on">£</span>
-                                                                    <input name="capital_gain" id="capital_gain" type="text" value="100000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
-                                                                    <span class="add-on">.00</span>
-                                                                </div>                                
-                                                                <div id="slide_capital_gain" class="noUiSlider"></div>                                                                                                                                
-                                                                <hr>                                                                
+                                                                <input name="capital_gain" id="capital_gain" type="hidden" value="100000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
                                                             </td>
                                                         </tr>
                                                         <tr>
                                                             <td>
                                                                 How much do you plan to invest? <font color="red">*</font>
-                                                                <div class="input-prepend input-append">
-                                                                    <span class="add-on">£</span>
-                                                                    <input name="invest" id="invest" type="text" value="10000" class="blue_stroke_text_area" placeholder="0" onblur="calculate()" onkeyup="calculate()">
-                                                                    <span class="add-on">.00</span>
-                                                                </div>                             
                                                                 <div id="slide_invest" class="noUiSlider"></div>                                                                                                                               
                                                             </td>                               
                                                     </tbody>
@@ -887,11 +992,7 @@ border-color:rgba(70, 136, 71, 0.8)
                                                         <tr>
                                                             <td>
                                                                 The Income Tax that you may save through claiming EIS Income Tax Relief is    
-                                                                <div class="input-prepend input-append">
-                                                                    <span class="add-on">£</span>
-                                                                    <input name="output_1" id="output_1" type="text" value="" placeholder="0" readonly="true">
-                                                                    <span class="add-on">.00</span>
-                                                                </div>
+
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -907,11 +1008,7 @@ border-color:rgba(70, 136, 71, 0.8)
                                                         <tr>
                                                             <td>
                                                                 The Capital Gains Tax that you may save by claiming EIS Reinvestment Relief is:                                
-                                                                <div class="input-prepend input-append">
-                                                                    <span class="add-on">£</span>
-                                                                    <input name="output_3" id="output_3" type="text" value="" placeholder="0" readonly="true">
-                                                                    <span class="add-on">.00</span>
-                                                                </div>                                                                                           
+                                                                                                                                                        
                                                             </td>
                                                         </tr>
                                                         <tr>
@@ -927,11 +1024,7 @@ border-color:rgba(70, 136, 71, 0.8)
                                                         <tr>
                                                             <td>
                                                                 The net cost, after tax EIS Income Tax Relief and EIS Reinvestment Relief, of your investment is:                           
-                                                                <div class="input-prepend input-append">
-                                                                    <span class="add-on">£</span>
-                                                                    <input name="output_4" id="output_4" type="text" value="" placeholder="0" readonly="true">
-                                                                    <span class="add-on">.00</span>
-                                                                </div>                                                           
+                                                                                                                        
                                                             </td>
                                                         </tr>
                                                         
@@ -958,6 +1051,7 @@ border-color:rgba(70, 136, 71, 0.8)
                                             </div>
                                         </div>
                                     </form>
+                                    
                                 </div>
                             </div>                          
                         </div>
@@ -1402,16 +1496,16 @@ border-color:rgba(70, 136, 71, 0.8)
         
         <!-- Le javascript==================================================-->
         <!-- Placed at the end of the document so the pages load faster -->
-        <script src="js/lean-slider.min.js"></script><!-- About Slider-->
+        <script src="js/lean-slider.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.easing.1.3.min.js"></script><!-- parallax-->
-        <script src="js/modernizr-2.6.1.min.js"></script><!--blur slidShow -->
+        <script src="js/jquery.easing.1.3.min.js"></script>
+        <script src="js/modernizr-2.6.1.min.js"></script>
         <script src="js/jquery.quicksand.min.js"></script>
         <script src="js/jquery.validate.min.js"></script>
-        <script src="js/jquery.mobile.customized.min.js"></script><!-- camera Slider-->
-        <script src="js/jquery.parallax-1.1.3.min.js"></script><!--  parallax-->
-        <script src="js/jquery.localscroll-1.2.7-min.js"></script><!--  scrollspy -->
-        <script src="js/jquery.scrollspy.js"></script><!--  scrollspy -->                
+        <script src="js/jquery.mobile.customized.min.js"></script>
+        <script src="js/jquery.parallax-1.1.3.min.js"></script>
+        <script src="js/jquery.localscroll-1.2.7-min.js"></script>
+        <script src="js/jquery.scrollspy.js"></script>        
         <script src="js/my_script.min.js"></script>        
         <!-- EIS Calculator -->
         <script src="js/jquery.eis.js"></script>
