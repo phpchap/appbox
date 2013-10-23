@@ -423,6 +423,7 @@
                                 <div class="span6">
                                     <form name="eis-calculator" id="eis-calculator" method="GET">
 <style>
+
 #calculator
 {
 	border: 2px solid #3ABEB4;
@@ -435,16 +436,17 @@
 	#calculator
 	{
 		margin-bottom: 0px;
-		padding-top: 75px;
 	}
 }
 #calculator div.calcContainer
 {
+        float: left;
 	font-size: 0.875rem;
 	font-size: 14px;
 	margin-left: 8%;
-	padding: 1.5625em;
+	padding: 20px 0 0 20px;
 	width: 86%;
+        margin-bottom: 70px;
 }
 @media (min-width: 39.0365em)
 {
@@ -484,13 +486,12 @@
 	{
 		left: 0;
 		top: 0;
-		width: 93%;
+		width: 60%;
 	}
 }
 #calculator div.amountsContainer
 {
-	position: absolute;
-	top: -90px;
+        float: right;
 	width: 100%;
 	z-index: 1;
 }
@@ -499,18 +500,28 @@
 	#calculator div.amountsContainer
 	{
 		right: 4px;
-		top: 4px;
-		width: 38%;
+		top: 7px;
+		width: 20%;
+                padding-bottom: 10px;
 	}
 }
 @media (min-width: 77.07299em)
 {
 	#calculator div.amountsContainer
 	{
-		width: 32%;
+		width: 30%;
 	}
 }
-#calculator div.amountsContainer #grossQuarterly,#calculator div.amountsContainer #grossAnnual
+
+#calculator div.smallTotals{
+    background: #3ABEB4;
+    color: #fff;
+    margin: 5px;
+    padding: 10px;
+}
+
+#calculator div.amountsContainer #grossQuarterly,#calculator div.amountsContainer #grossAnnual,
+#calculator div.incomeContainer, #calculator div.capitalGainsContainer, #calculator div.inheritanceContainer 
 {
 	display: inline;
 	display: inline-block;
@@ -518,33 +529,22 @@
 	position: relative;
 	vertical-align: auto;
 	vertical-align: middle;
-	width: 49%;
 	zoom: 1;
 }
 #calculator div.amountsContainer .amount
 {
-	font-family: "HelveticaNeueW01-75Bold";
-	font-size: 1.5625rem;
-	font-size: 25px;
-	height: 54px;
-	line-height: 54px;
 	text-align: center;
 }
 @media (min-width: 39.0365em)
 {
 	#calculator div.amountsContainer .amount
 	{
-		font-size: 1.375rem;
-		font-size: 22px;
-		height: 54px;
-		line-height: 54px;
 	}
 }
 @media (min-width: 77.07299em)
 {
 	#calculator div.amountsContainer .amount
 	{
-		font-size: 1.375em;
 	}
 }
 #calculator div.amountsContainer #grossQuarterly .amount
@@ -567,7 +567,8 @@
 }
 #calculator div.amountsContainer #grossAnnual .amount
 {
-	background-color: #002c42;
+        padding: 10px;
+	background-color: #3ABEB4;
 	color: #fff;
 }
 #calculator .title
@@ -585,8 +586,8 @@
 	{
 		font-size: 0.875rem;
 		font-size: 14px;
-		padding: 0 8px;
-		top: 70px;
+		top: 35px;
+                color: #fff;
 	}
 }
 #calculator .title.invested
@@ -762,6 +763,7 @@
 }
 .noUi-origin
 {
+        background: #14B9F2;    
 	bottom: 0;
 	position: absolute;
 	right: 0;
@@ -823,41 +825,45 @@ Number.prototype.formatMoney = function(c, d, t){
         
                                 
     $("#calculatorSlideBar").noUiSlider({
-        range: [100000,1000000],
-        start: [100000],
+        range: [10000,1000000],
+        start: [10000],
         handles: 1,
         slide: function(){           
             var current_investment = (Number($(this).val())).formatMoney('0', '.', ',');
             $(".noUi-handle").html( "£" + current_investment );      
         },
-        step: 1000
+        step: 10000
     }).change(function(){
-        
-        var total_investment = Number( $(this).val() );        
-        var income_tax_relief = Math.round(Number((total_investment / 100) * 30 )); // Income tax relief at 30%                          
+ 
+        var income_tax_percentage = 30;
         var capital_gains_percentage = 28;
+        var inheritance_tax_percentage = 40;      
+       
+        var total_investment = Number( $(this).val() );        
+        var income_tax_relief = Math.round(Number((total_investment / 100) * income_tax_percentage )); 
+        var inheritance_tax_relief = Math.round(Number(total_investment / 100) * inheritance_tax_percentage);
         var capital_gains_tax = (total_investment / 100) * capital_gains_percentage;                                
-        var net_cost = total_investment - ( income_tax_relief + capital_gains_tax);
+        var net_cost = total_investment - ( income_tax_relief + capital_gains_tax + inheritance_tax_relief);
 
         console.log("---------------------");
         console.log("total investment: " + total_investment);
         console.log("net cost: " + net_cost);
         console.log("income tax relief: " + income_tax_relief);
         console.log("capital gains tax : " + capital_gains_tax);
-
-        if( income_tax > 300000) {
-            income_tax = 300000;
-        }
+        console.log("inheritance tax relief : " + inheritance_tax_relief);
         
         var format_total_investment = (total_investment).formatMoney('0','.',',');
         var format_tax_relief = (income_tax_relief).formatMoney('0','.',',');
         var format_capital_gains_tax = (capital_gains_tax).formatMoney('0','.',',');
+        var format_inheritance_tax_relief = (inheritance_tax_relief).formatMoney('0','.',',');
+        
         var format_net_cost = (net_cost).formatMoney('0','.',',');
 
         $("#invest").val(format_total_investment);
-        $("#income_tax").val(format_tax_relief);
-        $("#capital_gains_tax").val(format_capital_gains_tax);        
-        $("#net_cost").val(format_net_cost);        
+        $("#income_tax").html("£"+format_tax_relief);
+        $("#capital_gains_tax").html("£"+format_capital_gains_tax);        
+        $("#inheritance_tax").html("£"+format_inheritance_tax_relief);                
+        $("#netcost").html("£" + format_net_cost);        
 
     });
 
@@ -870,19 +876,45 @@ Number.prototype.formatMoney = function(c, d, t){
  
         
                                     </script>
+                                        
+                                        
+                                    <div id="calculator">
+					<div class="amountsContainer">
+                                            <div id="grossAnnual">
+                                                <div class="amount">
+                                                    Net Cost<Br/>
+                                                    <span id="netcost">£10,000</span>
+                                                </div>
+                                            </div>
+					</div>                                        
+					<div class="calcContainer">
+                                            <div id="calculatorSlideBar" class="noUi-target"></div>
+                                            <div id="startAmount">£10,000</div>
+                                            <div id="totalAmount">£1,000,000</div>
+					</div>
 
+                                        <div class="clearfix"></div>
+                                        
+                                        <div class="smallTotals incomeContainer">
+                                            Income Tax Saving <br/><span id="income_tax">£3,000</span>
+                                        </div>
+
+                                        <div class="smallTotals capitalGainsContainer">
+                                            Capital Gains Tax Saving <br/><span id="capital_gains_tax">£2,800</span>
+                                        </div>
+
+                                        <div class="smallTotals inheritanceContainer">
+                                            Inheritance Tax Saving <br/><span id="inheritance_tax">£4,000</span>
+                                        </div>
+                                        
+                                    </div>                                        
+<?php /* 
                                         <div id="calculator">
-                                            
+                                            <h3 style="margin:15px 10px 70px 20px">How much do you plan on investing</h3>                                            
                                             <div class="calcContainer">
                                                 <div id="calculatorSlideBar" class="noUi-target"></div>
                                                 <div id="startAmount">£100,000</div>
                                                 <div id="totalAmount">£1,000,000</div>
-                                                
-                                                <h3 style="margin-top:10px;">How much do you plan on investing</h3>
-
-                                                <br/>
-                                                <hr>
-                                                
                                                 <p>Total Investment: 
                                                     <div class="input-prepend input-append">
                                                         <span class="add-on">£</span>
@@ -903,8 +935,7 @@ Number.prototype.formatMoney = function(c, d, t){
                                                         <input name="capital_gains_tax" id="capital_gains_tax" type="text" value="" placeholder="0" readonly="true">
                                                         <span class="add-on">.00</span>
                                                     </div>                                                   
-                                                </p>                                                
-                                                <?php /*                                                 
+                                                </p>                                                      
                                                 <p>Inheritance Tax relief at 40%: 
                                                     <div class="input-prepend input-append">
                                                         <span class="add-on">£</span>
@@ -912,19 +943,19 @@ Number.prototype.formatMoney = function(c, d, t){
                                                         <span class="add-on">.00</span>
                                                     </div>                                                   
                                                 </p>     
-                                                 */
-                                                ?>
                                                 <p>Net cost of investment: 
                                                     <div class="input-prepend input-append">
                                                         <span class="add-on">£</span>
                                                         <input name="net_cost" id="net_cost" type="text" value="" placeholder="0" readonly="true">
                                                         <span class="add-on">.00</span>
                                                     </div>                                                   
-                                                </p>                                                                                                                                                                            
-                                            </div>
-                                        </div>                                                                                                                        
-                                    </form>
-                                    
+                                                </p>
+                                            </div>                                                           
+                                        </div>    
+ * 
+ */
+?>
+                                    </form>                                  
                                 </div>
                             </div>                          
                         </div>
@@ -1423,6 +1454,15 @@ Number.prototype.formatMoney = function(c, d, t){
                     keyboard: false
                 });                
             });
+            
+            // google analytics
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-45005465-1', 'appboxmedia.com');
+            ga('send', 'pageview');
+            
         </script>
     </body>
 </html>
