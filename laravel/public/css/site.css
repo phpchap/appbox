@@ -342,6 +342,18 @@
 
 /*Styles for screen 515px and lower*/
 @media only screen and (max-width : 480px) {
+        #wowslider-container1 .ws-title{
+            position:absolute;
+            display:block;
+            bottom: 20px;
+            left: 30px; 
+            margin-right: 0px;
+            color:#E9E9E9;
+            z-index: 50;
+            font-size: 0.8em !important;
+            line-height: 1.2em !important;
+            text-transform: uppercase;
+        }    
         label, input, button, select, textarea{
             font-size: 11px;
         }
