@@ -300,7 +300,7 @@
                             .showValues(true)
                             .tooltips(true);
 
-                        d3.select('#chart2 svg')
+                            d3.select('#chart2 svg')
                             .datum(historicalBarChart)
                             .transition()
                             .duration(1500)
@@ -907,65 +907,11 @@ Number.prototype.formatMoney = function(c, d, t){
                                             Inheritance Tax Saving <br/><span id="inheritance_tax">£4,000</span>
                                         </div>                                        
                                     </div>                                        
-<?php /* 
-                                        <div id="calculator">
-                                            <h3 style="margin:15px 10px 70px 20px">How much do you plan on investing</h3>                                            
-                                            <div class="calcContainer">
-                                                <div id="calculatorSlideBar" class="noUi-target"></div>
-                                                <div id="startAmount">£100,000</div>
-                                                <div id="totalAmount">£1,000,000</div>
-                                                <p>Total Investment: 
-                                                    <div class="input-prepend input-append">
-                                                        <span class="add-on">£</span>
-                                                        <input name="invest" id="invest" type="text" value="100000" class="blue_stroke_text_area" placeholder="0" onchange="calculate()" onblur="calculate()" onkeyup="calculate()">
-                                                        <span class="add-on">.00</span>
-                                                    </div>                                                                             
-                                                </p>
-                                                <p>Income tax relief at 30%: 
-                                                    <div class="input-prepend input-append">
-                                                        <span class="add-on">£</span>
-                                                        <input name="income_tax" id="income_tax" type="text" value="" placeholder="0" readonly="true">
-                                                        <span class="add-on">.00</span>
-                                                    </div>
-                                                </p>
-                                                <p>Capital gains tax deferral: 
-                                                    <div class="input-prepend input-append">
-                                                        <span class="add-on">£</span>
-                                                        <input name="capital_gains_tax" id="capital_gains_tax" type="text" value="" placeholder="0" readonly="true">
-                                                        <span class="add-on">.00</span>
-                                                    </div>                                                   
-                                                </p>                                                      
-                                                <p>Inheritance Tax relief at 40%: 
-                                                    <div class="input-prepend input-append">
-                                                        <span class="add-on">£</span>
-                                                        <input name="inheritance" id="inheritance" type="text" value="" placeholder="0" readonly="true">
-                                                        <span class="add-on">.00</span>
-                                                    </div>                                                   
-                                                </p>     
-                                                <p>Net cost of investment: 
-                                                    <div class="input-prepend input-append">
-                                                        <span class="add-on">£</span>
-                                                        <input name="net_cost" id="net_cost" type="text" value="" placeholder="0" readonly="true">
-                                                        <span class="add-on">.00</span>
-                                                    </div>                                                   
-                                                </p>
-                                            </div>                                                           
-                                        </div>    
- * 
- */
-?>
-                                    </form>                                  
+                                    </form>                              
+                                    <small><b>Warning:</b> This limits calculator is for UK tax payers and is indicative only. Do not rely on it in making investment decisions or for calculating your actual tax liabilities. Consult your professional adviser before investing.</small>
                                 </div>
                             </div>                          
                         </div>
-                        <!-- DISCLAIMER COPY -->
-                        <div class="container clearfix">                            
-                            <div class="row-fluid">
-                                <div class="span12">
-                                    <p><b>Warning:</b> This limits calculator is for UK tax payers and is indicative only. Do not rely on it in making investment decisions or for calculating your actual tax liabilities. Consult your professional adviser before investing.</p>
-                                </div>
-                            </div>
-                        </div>                                                
                     </div>
                 </div>
                 <!--END EIS CALCULATOR -->                

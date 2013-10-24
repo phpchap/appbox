@@ -30,7 +30,6 @@
     bottom: 0;
     padding: 30px 20px 20px 20px;
     border: 1px solid #ccc;                 
-    overflow: hidden;
 }
 .content > * {
     opacity: 0;
