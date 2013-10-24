@@ -342,11 +342,14 @@
 
 /*Styles for screen 515px and lower*/
 @media only screen and (max-width : 480px) {
+        label, input, button, select, textarea{
+            font-size: 11px;
+        }
         .navi ul{
             margin-top: 50px;
         }
         .TitleSection h1{
-            font-size: 35px;
+            font-size: 30px;
         }
         .Parallax blockquote{
                 font-size: 1.6em !important;

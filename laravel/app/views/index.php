@@ -199,7 +199,7 @@
                                             <label for="tab-1">Room for Growth</label>
                                             <div class="content">
                                                 <!-- START CHART CONTAINER -->
-                                                <div id="chart1" style="width:620px;height:340px;" class='with-3d-shadow with-transitions box'>
+                                                <div id="chart1" style="width:100%;height:340px;" class='with-3d-shadow with-transitions box'>
                                                     <svg></svg>
                                                 </div>
                                             </div> 
@@ -659,7 +659,7 @@
 #calculator .noUi-handle:before
 {
 	background: white;
-	border: 10px solid #002c42;
+	border: 10px solid #3ABEB4;
 	content: "";
 	height: 10px;
 	left: 30px;
