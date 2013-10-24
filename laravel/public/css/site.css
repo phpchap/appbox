@@ -62,7 +62,7 @@
 
 .modal-body {
     position: relative;
-    max-height: 270px;
+    max-height: 260px;
     padding: 15px;
     overflow-y: auto;
 }                
