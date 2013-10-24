@@ -446,7 +446,7 @@
 	margin-left: 8%;
 	padding: 20px 0 0 20px;
 	width: 86%;
-        margin-bottom: 70px;
+        margin-bottom: 80px;
 }
 @media (min-width: 39.0365em)
 {
@@ -509,7 +509,6 @@
 {
 	#calculator div.amountsContainer
 	{
-		width: 30%;
 	}
 }
 
@@ -567,6 +566,7 @@
 }
 #calculator div.amountsContainer #grossAnnual .amount
 {
+        margin: 5px;
         padding: 10px;
 	background-color: #3ABEB4;
 	color: #fff;
@@ -620,7 +620,7 @@
 	height: 10px;
 	max-width: 100%;
 	position: relative;
-	width: 100%;
+	width: 80%;
 	z-index: 1;
 }
 #calculator .noUi-handle
@@ -629,7 +629,7 @@
 	color: #002c42;
 	cursor: pointer;
 	font-size: 1.25em;
-	margin: 45px 0 0 -50px;
+	margin: 45px 0 0 -43px;
 	moz-transition: background-color 0.2s ease;
 	o-transition: background-color 0.2s ease;
 	padding: 0.4375em 0;
@@ -867,7 +867,7 @@ Number.prototype.formatMoney = function(c, d, t){
 
     });
 
-    $(".noUi-handle").html("£100,000");      
+    $(".noUi-handle").html("£10,000");      
 
         
 });
@@ -883,7 +883,7 @@ Number.prototype.formatMoney = function(c, d, t){
                                             <div id="grossAnnual">
                                                 <div class="amount">
                                                     Net Cost<Br/>
-                                                    <span id="netcost">£10,000</span>
+                                                    <span id="netcost">£200</span>
                                                 </div>
                                             </div>
 					</div>                                        
@@ -905,8 +905,7 @@ Number.prototype.formatMoney = function(c, d, t){
 
                                         <div class="smallTotals inheritanceContainer">
                                             Inheritance Tax Saving <br/><span id="inheritance_tax">£4,000</span>
-                                        </div>
-                                        
+                                        </div>                                        
                                     </div>                                        
 <?php /* 
                                         <div id="calculator">
