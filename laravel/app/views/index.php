@@ -61,23 +61,6 @@
                     $("#toggler").toggle();
                 });
                 
-                /*
-                $('.noUiSlider').noUiSlider({
-                    range: [100000,1000000],
-                    start: [100000],
-                    handles: 1,
-                    slide: function(){                        
-                    
-                        var target_input = $(this).attr('id').replace('slide_','');
-                        var slider_value = Math.round($(this).val());
-
-                        $("#"+target_input).val(slider_value);
-                    },
-                    step: 1000
-                }).change(function(){
-                    calculate();
-                });
-                */
             });
     </script>
     <!-- End Tabs CSS -->
@@ -269,7 +252,7 @@
                             .delay(100)
                             .call(chart1);
 
-                        nv.utils.windowResize(chart1.update);
+                        //nv.utils.windowResize(chart1.update);
 
                         return chart1;
                     });
@@ -292,13 +275,18 @@
                         ]
                     }];
                 
-                    nv.addGraph(function() {
-                        var chart2 = nv.models.discreteBarChart()
+                   var chart2 = nv.addGraph(function() {
+
+			var width = 600, height = 350;
+                        
+			var chart2 = nv.models.discreteBarChart()
                             .margin({top: 20, right: 10, bottom: 40, left: 50})
                             .x(function(d) { return d.label })
                             .y(function(d) { return d.value })
                             .showValues(true)
-                            .tooltips(true);
+                            .tooltips(true)
+			    .width(width)
+  			    .height(height);
 
                             d3.select('#chart2 svg')
                             .datum(historicalBarChart)
@@ -306,11 +294,14 @@
                             .duration(1500)
                             .call(chart2);
 
-                        nv.utils.windowResize(chart2.update);
+                            nv.utils.windowResize(chart2.update);
 
                         return chart2;
                     });
                     
+//alert('call');
+                        //nv.utils.windowResize(chart2.update);
+
                 }
                 </script>                                
                 <!-- END OF OPPORTUNITIES -->
