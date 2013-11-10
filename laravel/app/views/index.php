@@ -843,15 +843,7 @@ Number.prototype.formatMoney = function(c, d, t){
         var income_tax_relief = Math.round(Number((total_investment / 100) * income_tax_percentage )); 
         var inheritance_tax_relief = Math.round(Number(total_investment / 100) * inheritance_tax_percentage);
         var capital_gains_tax = (total_investment / 100) * capital_gains_percentage;                                
-        var net_cost = total_investment - ( income_tax_relief + capital_gains_tax + inheritance_tax_relief);
-
-        console.log("---------------------");
-        console.log("total investment: " + total_investment);
-        console.log("net cost: " + net_cost);
-        console.log("income tax relief: " + income_tax_relief);
-        console.log("capital gains tax : " + capital_gains_tax);
-        console.log("inheritance tax relief : " + inheritance_tax_relief);
-        
+        var net_cost = total_investment - ( income_tax_relief + capital_gains_tax + inheritance_tax_relief);        
         var format_total_investment = (total_investment).formatMoney('0','.',',');
         var format_tax_relief = (income_tax_relief).formatMoney('0','.',',');
         var format_capital_gains_tax = (capital_gains_tax).formatMoney('0','.',',');
