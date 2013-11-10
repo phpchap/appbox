@@ -1070,7 +1070,6 @@ Number.prototype.formatMoney = function(c, d, t){
                 <p>(d) I am currently, or have been in the two years prior to the date below, a director of a company with an annual turnover of at least £l million.</p>
                 <p>I accept that I can lose my property and other assets from making investment decisions based on financial promotions. I am aware that it is open to me to seek advice from someone who specialises in advising on investments.</p>
                 <p>I declare that I am a self-certified sophisticated investor for the purposes of the Financial Services and Markets Act (Financial Promotion) Order 2005.</p>
-                <p>Click agree to confirm.</p>
 
             </div>
             <div class="modal-footer">
@@ -1247,14 +1246,14 @@ Number.prototype.formatMoney = function(c, d, t){
             <div class="modal-body">
                 <p>This website www.appboxmedia.com has been prepared by AppBox Media Plc, a public limited company incorporated in England and Wales whose registered office is at AppBox Media PLC, 200 Aldersgate, London, EC1A 4HD. This website has been prepared for general information purposes only.</p>
                 <p>This website is provided for information purposes only and is in no way intended to replace any such documentation or offer any sort of investment advice. An investment in AppBox Media Plc is to be based upon information in a memorandum of information (“Investment Memorandum”) and not on information contained in this website. If any prospective investor is in any doubt about the contents of any AppBox Media Plc documents they should consult their accountant, legal or professional adviser or financial adviser.</p>
-                <p>The information contained in this website is directed towards experienced and professional investors only and specifically towards:</P
+                <p>The information contained in this website is directed towards experienced and professional investors only and specifically towards:</p>
                 <ul>
-                    <li>investment professionals (as defined in Regulation 19(5) of the FPO);</li>
-                    <li>certified high net worth individuals (as defined in Regulation 48(2) of the FPO);</li>
-                    <li>high net worth companies, unincorporated associations, etc. (as defined in Regulation 49(2) of the FPO)</li>
-                    <li>certified sophisticated investors (as defined in Regulation 50(1) of the FPO);</li>
-                    <li>self-certified sophisticated investors (as defined in Regulation 50A(1) of the FPO); and/or</li>
-                    <li>overseas recipients (as defined in Regulation 12(1) of the FPO).</li>
+                    <li><p>investment professionals (as defined in Regulation 19(5) of the FPO);</p></li>
+                    <li><p>certified high net worth individuals (as defined in Regulation 48(2) of the FPO);</p></li>
+                    <li><p>high net worth companies, unincorporated associations, etc. (as defined in Regulation 49(2) of the FPO)</p></li>
+                    <li><p>certified sophisticated investors (as defined in Regulation 50(1) of the FPO);</p></li>
+                    <li><p>self-certified sophisticated investors (as defined in Regulation 50A(1) of the FPO); and/or</p></li>
+                    <li><p>overseas recipients (as defined in Regulation 12(1) of the FPO).</p></li>
                 </ul>
 
                 <h4>Communications to Investment Professionals</h4>
@@ -1297,10 +1296,10 @@ Number.prototype.formatMoney = function(c, d, t){
                 <h4>Communications to Self-Certified Sophisticated Investors </h4>
                 <p>A self-certified sophisticated investor is an individual who has signed, within the period of twelve months ending with the date on which this communication is made, a statement complying with Part II of Schedule 5 of the FPO. A Self Certified Sophisticated Investor is a person who satisfies at least one of the following requirements: </p>
                 <ul>
-                    <li>(i) is a member of a network or syndicate of business angels and has been so for at least the last six months prior to the date of the statement; </li>
-                    <li>(ii) has made more than one investment in an unlisted company in the two years prior to the date of the statement; </li>
-                    <li>(iii) is working, or has worked in the two years prior to the date below, in a professional capacity in the private equity sector, or in the provision of finance for small and medium enterprises; </li>
-                    <li>(iv) is currently, or has been in the two years prior to the date below, a director of a company with an annual turnover of at least £1 million. </li>
+                    <li><p>(i) is a member of a network or syndicate of business angels and has been so for at least the last six months prior to the date of the statement; </p></li>
+                    <li><p>(ii) has made more than one investment in an unlisted company in the two years prior to the date of the statement; </p></li>
+                    <li><p>(iii) is working, or has worked in the two years prior to the date below, in a professional capacity in the private equity sector, or in the provision of finance for small and medium enterprises; </p></li>
+                    <li><p>(iv) is currently, or has been in the two years prior to the date below, a director of a company with an annual turnover of at least £1 million. </p></li>
                 </ul>
                 <p>If the recipient is in any doubt about the investment to which this communication relates, the recipient should consult an authorised person specialising in advising on investments of the kind in question.</p>
 
