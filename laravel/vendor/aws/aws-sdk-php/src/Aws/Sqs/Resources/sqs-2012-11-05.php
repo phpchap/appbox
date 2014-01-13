@@ -64,6 +64,11 @@ return array (
             'https' => true,
             'hostname' => 'sqs.sa-east-1.amazonaws.com',
         ),
+        'cn-north-1' => array(
+            'http' => true,
+            'https' => true,
+            'hostname' => 'sqs.cn-north-1.amazonaws.com.cn',
+        ),
         'us-gov-west-1' => array(
             'http' => true,
             'https' => true,
@@ -438,21 +443,6 @@ return array (
                     'items' => array(
                         'name' => 'AttributeName',
                         'type' => 'string',
-                        'enum' => array(
-                            'All',
-                            'Policy',
-                            'VisibilityTimeout',
-                            'MaximumMessageSize',
-                            'MessageRetentionPeriod',
-                            'ApproximateNumberOfMessages',
-                            'ApproximateNumberOfMessagesNotVisible',
-                            'CreatedTimestamp',
-                            'LastModifiedTimestamp',
-                            'QueueArn',
-                            'ApproximateNumberOfMessagesDelayed',
-                            'DelaySeconds',
-                            'ReceiveMessageWaitTimeSeconds',
-                        ),
                     ),
                 ),
             ),
