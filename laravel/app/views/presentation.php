@@ -29,9 +29,9 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icon/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="icon/apple-touch-icon-57-precomposed.png">
         <link rel="shortcut icon" href="icon/favicon.ico">
-	<!-- Start WOWSlider.com HEAD section -->
-	<link rel="stylesheet" type="text/css" href="WOWSlider/css/style.css" />
-	<!-- End WOWSlider.com HEAD section -->                
+        <!-- Start WOWSlider.com HEAD section -->
+        <link rel="stylesheet" type="text/css" href="WOWSlider/css/style.css" />
+        <!-- End WOWSlider.com HEAD section -->                
         <script src="js/jquery-1.8.2.min.js"></script>                
         <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>               
         <!-- Start Tabs CSS -->
@@ -40,88 +40,88 @@
         <style>
 
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
+            /* Everything but the jumbotron gets side spacing for mobile first views */
+            .header,
+            .marketing,
+            .footer {
+                padding-left: 15px;
+                padding-right: 15px;
+            }
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-}
+            /* Custom page header */
+            .header {
+                border-bottom: 1px solid #e5e5e5;
+            }
+            /* Make the masthead heading the same height as the navigation */
+            .header h3 {
+                margin-top: 0;
+                margin-bottom: 0;
+                line-height: 40px;
+                padding-bottom: 19px;
+            }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
+            /* Custom page footer */
+            .footer {
+                padding-top: 19px;
+                color: #777;
+                border-top: 1px solid #e5e5e5;
+            }
 
-/* Customize container */
-@media (min-width: 768px) {
-  .container {
-    max-width: 730px;
-  }
-}
-.container-narrow > hr {
-  margin: 30px 0;
-}
+            /* Customize container */
+            @media (min-width: 768px) {
+                .container {
+                    max-width: 730px;
+                }
+            }
+            .container-narrow > hr {
+                margin: 30px 0;
+            }
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
+            /* Main marketing message and sign up button */
+            .jumbotron {
+                text-align: center;
+                border-bottom: 1px solid #e5e5e5;
+            }
+            .jumbotron .btn {
+                font-size: 21px;
+                padding: 14px 24px;
+            }
 
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-}
-.marketing p + h4 {
-  margin-top: 28px;
-}
+            /* Supporting marketing content */
+            .marketing {
+                margin: 40px 0;
+            }
+            .marketing p + h4 {
+                margin-top: 28px;
+            }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
-  }
-}            
-            
-.form-horizontal .control-label {
-    width: 110px;
-}
+            /* Responsive: Portrait tablets and up */
+            @media screen and (min-width: 768px) {
+                /* Remove the padding we set earlier */
+                .header,
+                .marketing,
+                .footer {
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                /* Space out the masthead */
+                .header {
+                    margin-bottom: 30px;
+                }
+                /* Remove the bottom border on the jumbotron for visual effect */
+                .jumbotron {
+                    border-bottom: 0;
+                }
+            }            
 
-.form-horizontal .controls {
-    margin-left: 10px;
-    width: 435px;
-}
+            .form-horizontal .control-label {
+                width: 110px;
+            }
+
+            .form-horizontal .controls {
+                margin-left: 10px;
+                width: 435px;
+            }
         </style>
         <link rel="stylesheet" href="/css/site.css">        
         <script>
@@ -148,8 +148,8 @@
                 });
                 
             });
-    </script>
-    <!-- End Tabs CSS -->
+        </script>
+        <!-- End Tabs CSS -->
     </head>
     <body class="clearfix" data-spy="scroll" data-target="#navbar" data-offset="10">
         <div id="navbar" class="navbar navbar-fixed-top">
@@ -226,122 +226,114 @@
                                         </form>
                                     </div>                                    
                                 </div>               
-                                
-                                
-                                
                             </div>
-                            
                         </div>
-                        
                     </div>
-                    
                 </div>
-                
             </div>
-            
             <!-- /Row -->
         </div>
 
-                        <!-- END OF CONTACT -->                 
-                                <div class="container-fluid Footer">
-                                    <div class="container">
-                                        <footer>
-                                            <ul class="Social">
-                                                <li>
-                                                    <a class="Facebook" rel="tooltip" href="#" data-original-title="Facebook">Facebook</a>
-                                                </li>
-                                                <li>
-                                                    <a class="Twitter" rel="tooltip" href="#" data-original-title="Twitter">Twitter</a>
-                                                </li>
-                                                <li>
-                                                    <a class="Pinterest" rel="tooltip" href="#" data-original-title="Pinterest">Pinterest</a>
-                                                </li>
-                                                <li>
-                                                    <a data-original-title="Googleplus" href="#" rel="tooltip" class="Googleplus">Googleplus</a>
-                                                </li>                                
-                                                <li>
-                                                    <a data-original-title="Instagram" href="#" rel="tooltip" class="Instagram">Instagram</a>
-                                                </li>                                
-                                            </ul>
+        <!-- END OF CONTACT -->                 
+        <div class="container-fluid Footer">
+            <div class="container">
+                <footer>
+                    <ul class="Social">
+                        <li>
+                            <a class="Facebook" rel="tooltip" href="#" data-original-title="Facebook">Facebook</a>
+                        </li>
+                        <li>
+                            <a class="Twitter" rel="tooltip" href="#" data-original-title="Twitter">Twitter</a>
+                        </li>
+                        <li>
+                            <a class="Pinterest" rel="tooltip" href="#" data-original-title="Pinterest">Pinterest</a>
+                        </li>
+                        <li>
+                            <a data-original-title="Googleplus" href="#" rel="tooltip" class="Googleplus">Googleplus</a>
+                        </li>                                
+                        <li>
+                            <a data-original-title="Instagram" href="#" rel="tooltip" class="Instagram">Instagram</a>
+                        </li>                                
+                    </ul>
 
-                                            <div style="margin:0 auto;width:240px">
-                                                <a class="brand" id="logo_bottom_flip" href="#Home"></a>
-                                            </div>
-                                            <p>
-                                            <a id="TermsConditionsBtn" data-toggle="modal" href="">Terms & Conditions</a> - 
-                                            <a id="PrivacyPolicyBtn" data-toggle="modal" href="">Privacy Policy</a> - 
-                                            <a id="ImportantNoticeBtn" data-toggle="modal" href="">Important Notice</a> - 
-                                            <a id="RiskWarningBtn" data-toggle="modal" href="">Risk Warning</a>
-                                            </p>
-                                        </footer>
-                                    </div>
-                                </div>                    
-                            </div>        
-        <!-- Le javascript==================================================-->
-        <!-- Placed at the end of the document so the pages load faster -->
-        <script src="js/lean-slider.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.easing.1.3.min.js"></script>
-        <script src="js/modernizr-2.6.1.min.js"></script>
-        <script src="js/jquery.quicksand.min.js"></script>
-        <script src="js/jquery.validate.min.js"></script>
-        <script src="js/jquery.mobile.customized.min.js"></script>
-        <script src="js/jquery.parallax-1.1.3.min.js"></script>
-        <script src="js/jquery.localscroll-1.2.7-min.js"></script>
-        <script src="js/jquery.scrollspy.js"></script>        
-        <script src="js/my_script.min.js"></script>        
-        <!-- EIS Calculator -->
-        <script src="js/jquery.eis.js"></script>
-        <!-- WOWSLIDER -->
-	<script type="text/javascript" src="WOWSlider/js/wowslider.js"></script>
-	<script type="text/javascript" src="WOWSlider/js/init.js"></script>        
-        <!-- Start Charts head section -->        
-        <link href="/css/d3.css" rel="stylesheet" type="text/css">
-        <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
-        <script type="text/javascript" src="/js/nv.js"></script>
-        <script type="text/javascript" src="/js/inview.js"></script>        
-        <!-- End Charts head section -->                
-        <script type='text/javascript' src='http://demos.flesler.com/jquery/scrollTo/js/jquery.scrollTo-min.js'></script>
-        <script type='text/javascript' src='http://demos.flesler.com/jquery/serialScroll/js/jquery.serialScroll-min.js'></script>
-        <script type='text/javascript' src='/js/scrollText.js'></script>        
-        <script>            
-            jQuery(function () {     
+                    <div style="margin:0 auto;width:240px">
+                        <a class="brand" id="logo_bottom_flip" href="#Home"></a>
+                    </div>
+                    <p>
+                        <a id="TermsConditionsBtn" data-toggle="modal" href="">Terms & Conditions</a> - 
+                        <a id="PrivacyPolicyBtn" data-toggle="modal" href="">Privacy Policy</a> - 
+                        <a id="ImportantNoticeBtn" data-toggle="modal" href="">Important Notice</a> - 
+                        <a id="RiskWarningBtn" data-toggle="modal" href="">Risk Warning</a>
+                    </p>
+                </footer>
+            </div>
+        </div>                    
+    </div>        
+    <!-- Le javascript==================================================-->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/lean-slider.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.min.js"></script>
+    <script src="js/modernizr-2.6.1.min.js"></script>
+    <script src="js/jquery.quicksand.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.mobile.customized.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.min.js"></script>
+    <script src="js/jquery.localscroll-1.2.7-min.js"></script>
+    <script src="js/jquery.scrollspy.js"></script>        
+    <script src="js/my_script.min.js"></script>        
+    <!-- EIS Calculator -->
+    <script src="js/jquery.eis.js"></script>
+    <!-- WOWSLIDER -->
+    <script type="text/javascript" src="WOWSlider/js/wowslider.js"></script>
+    <script type="text/javascript" src="WOWSlider/js/init.js"></script>        
+    <!-- Start Charts head section -->        
+<link href="/css/d3.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript" src="/js/nv.js"></script>
+<script type="text/javascript" src="/js/inview.js"></script>        
+<!-- End Charts head section -->                
+<script type='text/javascript' src='http://demos.flesler.com/jquery/scrollTo/js/jquery.scrollTo-min.js'></script>
+<script type='text/javascript' src='http://demos.flesler.com/jquery/serialScroll/js/jquery.serialScroll-min.js'></script>
+<script type='text/javascript' src='/js/scrollText.js'></script>        
+<script>            
+    jQuery(function () {     
                 
-                // terms and condition modal
-                jQuery("#TermsConditionsBtn").bind('click', function(){
-                    $('#TermsAndConditionsModal').modal();
-                });
+        // terms and condition modal
+        jQuery("#TermsConditionsBtn").bind('click', function(){
+            $('#TermsAndConditionsModal').modal();
+        });
                 
-                // privacy policy modal
-                jQuery("#PrivacyPolicyBtn").bind('click', function(){
-                    $('#PrivacyPolicyModal').modal();                    
-                });
+        // privacy policy modal
+        jQuery("#PrivacyPolicyBtn").bind('click', function(){
+            $('#PrivacyPolicyModal').modal();                    
+        });
 
-                // important notice modal
-                jQuery("#ImportantNoticeBtn").bind('click', function(){
-                    $('#ImportantNoticeModal').modal();                    
-                });
+        // important notice modal
+        jQuery("#ImportantNoticeBtn").bind('click', function(){
+            $('#ImportantNoticeModal').modal();                    
+        });
 
-                // risk warning modal
-                jQuery("#RiskWarningBtn").bind('click', function(){
-                    $('#RiskWarningModal').modal();                    
-                });
+        // risk warning modal
+        jQuery("#RiskWarningBtn").bind('click', function(){
+            $('#RiskWarningModal').modal();                    
+        });
 
-                // disclaimer popup display on page load
-                jQuery('#disclaimerModal').modal({
-                    backdrop: 'static',
-                    keyboard: false
-                });                
-            });
+        // disclaimer popup display on page load
+        jQuery('#disclaimerModal').modal({
+            backdrop: 'static',
+            keyboard: false
+        });                
+    });
             
-            // google analytics
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    // google analytics
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-45005465-1', 'appboxmedia.com');
-            ga('send', 'pageview');
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-45005465-1', 'appboxmedia.com');
+    ga('send', 'pageview');
             
-        </script>
-    </body>
+</script>
+</body>
 </html>
