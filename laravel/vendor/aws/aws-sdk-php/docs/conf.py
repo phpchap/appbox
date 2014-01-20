@@ -38,7 +38,7 @@ sys.path.append(os.path.abspath('_ext/'))
 extensions = ['aws', 'rst2pdf.pdfbuilder']
 
 # index, rst2pdf, title, author
-pdf_documents = [('index', u'aws-sdk-php-guide', u'AWS SDK for PHP 2', u'Amazon Web Services')]
+pdf_documents = [('index', u'aws-sdk-php-guide', u'AWS SDK for PHP', u'Amazon Web Services')]
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -266,5 +266,5 @@ html_theme_options = {
     "project_nav_name": "AWS SDK for PHP",
     "github_user": "aws",
     "github_repo": "aws-sdk-php",
-    "base_url": "http://docs.aws.amazon.com/aws-sdk-php-2/guide/latest/"
+    "base_url": "http://docs.aws.amazon.com/aws-sdk-php/guide/latest/"
 }

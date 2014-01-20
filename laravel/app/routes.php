@@ -11,10 +11,23 @@
 |
 */
 
+// main website
 Route::get('/', function(){    
     return View::make('index');
 });
 
+// presentation
+Route::get('/presentation', function(){
+    return View::make('presentation');
+});
+
+// simple
+Route::get('/simple', function(){
+    return View::make('simple');
+});
+
+
+// contact page AJAX send to Amazon SES
 Route::post('/contact', function(){
 
     // grab the input 
@@ -46,6 +59,5 @@ Route::post('/contact', function(){
         return 'OK';
     } else {
         return 'ERROR';
-    }
-    
+    }    
 });

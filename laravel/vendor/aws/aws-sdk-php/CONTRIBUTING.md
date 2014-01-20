@@ -1,9 +1,8 @@
 # Contributing to the AWS SDK for PHP
 
 We work hard to provide a high-quality and useful SDK, and we greatly value feedback and contributions from our
-community. Whether it's a new feature, correction, or additional documentation, we welcome your pull requests. With
-version 2 of the SDK, we've tried to make our development even more open than before. Please submit any
-[issues][] or [pull requests][pull-requests] through GitHub.
+community. Whether it's a new feature, correction, or additional documentation, we welcome your pull requests.
+Please submit any [issues][] or [pull requests][pull-requests] through GitHub.
 
 ## What you should keep in mind
 
@@ -47,6 +46,21 @@ forums, etc.) Specifically, here are a few things that we would appreciate help 
    would be be happy to help.
 6. If you have some other ideas, please let us know!
 
+## Running the unit tests
+
+The AWS SDK for PHP is unit tested using PHPUnit. You can run the unit tests of the SDK after copying
+phpunit.xml.dist to phpunit.xml:
+
+    cp phpunit.xml.dist phpunit.xml
+
+Next, you need to install the dependencies of the SDK using Composer:
+
+    composer.phar install
+
+Now you're ready to run the unit tests using PHPUnit:
+
+    vendor/bin/phpunit
+
 [issues]: https://github.com/aws/aws-sdk-php/issues
 [pull-requests]: https://github.com/aws/aws-sdk-php/pulls
 [license]: http://aws.amazon.com/apache2.0/
@@ -56,7 +70,7 @@ forums, etc.) Specifically, here are a few things that we would appreciate help 
 [psr-2]: https://github.com/php-fig/fig-standards/blob/master/accepted/PSR-2-coding-style-guide.md
 [php-fig]: http://php-fig.org
 [cs-fixer]: http://cs.sensiolabs.org/
-[user-guide]: http://docs.aws.amazon.com/aws-sdk-php-2/guide/latest/index.html
+[user-guide]: http://docs.aws.amazon.com/aws-sdk-php/guide/latest/index.html
 [sphinx]: http://sphinx-doc.org/
 [restructuredtext]: http://sphinx-doc.org/rest.html
 [docs-readme]: https://github.com/aws/aws-sdk-php/blob/master/docs/README.md
