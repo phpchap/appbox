@@ -26,6 +26,10 @@ Route::get('/simple', function(){
     return View::make('simple');
 });
 
+// advanced
+Route::get('/advanced', function(){
+    return View::make('advanced');
+});
 
 // contact page AJAX send to Amazon SES
 Route::post('/contact', function(){
