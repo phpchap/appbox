@@ -104,7 +104,7 @@
             <h2>THE TEAM</h2>
             <div style="text-align: left; ">
                 <span id="docs-internal-guid-3a126800-87ed-b234-eb2f-f2b2f910bc6e">
-                    <font style="font-size: 25px;">
+                    <font style="font-size: 23px;">
                         <ul style="margin-top: 0pt; margin-bottom: 0pt;">
                             <li>
                                 <font>
@@ -541,7 +541,7 @@
                     <br>
                 </div>
                 <div>
-                    <font style="font-size: 18px;">
+                    <font style="font-size: 15px;">
                         <ul>
                             <li>
                                 <font>
