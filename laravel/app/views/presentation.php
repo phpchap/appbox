@@ -112,7 +112,7 @@
                 .jumbotron {
                     border-bottom: 0;
                 }
-            }            
+            }
 
             .form-horizontal .control-label {
                 width: 110px;
@@ -158,31 +158,31 @@
                     <a class="brand" id="logo_flip" href="#Home"></a>
                     <ul class="nav">
                         <li class="active">
-                            <a href="#Home">Home</a>
+                            <a href="/#Home">Home</a>
                         </li>
                         <li>
-                            <a href="#Vision">Vision</a>
+                            <a href="/#Vision">Vision</a>
                         </li>
                         <li>
-                            <a href="#Opportunities">Opportunities</a>
+                            <a href="/#Opportunities">Opportunities</a>
                         </li>                            
                         <li>
-                            <a href="#Team">Team</a>
+                            <a href="/#Team">Team</a>
                         </li>                                                        
                         <li>
-                            <a href="#EISCalculator">EIS Calculator</a>
+                            <a href="/#EISCalculator">EIS Calculator</a>
                         </li>                             
                         <li>
-                            <a href="#Contact">Contact</a>
+                            <a href="/#Contact">Contact</a>
                         </li>
                         <li>
-                            <a target="_blank" href="#Presentation">Presentation</a>
+                            <a href="#Presentation">Presentation</a>
                         </li>                            
                     </ul>
                     <a href="#" id="pull"></a>  
                 </nav>                  
             </div>
-        </div>        
+        </div>
         <div class="container-fluid clearfix">
             <div class="row-fluid">                
                 <div id="Presentation">
@@ -268,7 +268,9 @@
                 </footer>
             </div>
         </div>                    
-    </div>        
+    </div>
+    <input type="hidden" id="isModern" name="isModern"/>
+
     <!-- Le javascript==================================================-->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/lean-slider.min.js"></script>
@@ -295,10 +297,24 @@
 <!-- End Charts head section -->                
 <script type='text/javascript' src='http://demos.flesler.com/jquery/scrollTo/js/jquery.scrollTo-min.js'></script>
 <script type='text/javascript' src='http://demos.flesler.com/jquery/serialScroll/js/jquery.serialScroll-min.js'></script>
-<script type='text/javascript' src='/js/scrollText.js'></script>        
-<script>            
-    jQuery(function () {     
-                
+<script type='text/javascript' src='/js/scrollText.js'></script>
+<script type='text/javascript' src='/js/modernizer.js'></script>
+<script>
+
+    jQuery(function () {
+
+        // check we have canva support
+        function supports_canvas() {
+            return !!document.createElement('canvas').getContext;
+        }
+
+        // are we on a HTML5 enabled browser?
+        if(supports_canvas() == true) {
+            jQuery("#isModern").val("YES");
+        } else {
+            jQuery("#isModern").val("NO");
+        }
+
         // terms and condition modal
         jQuery("#TermsConditionsBtn").bind('click', function(){
             $('#TermsAndConditionsModal').modal();
