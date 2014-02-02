@@ -4,20 +4,16 @@
     <meta charset="utf-8">
     <title>AppBox Media Presentation</title>
     <meta name="description" content="AppBox Media Presentation">
-
+    <meta name="author" content="Dean and Bryan">
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style"
           content="black-translucent"/>
-
     <meta name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-
     <link rel="stylesheet" href="/js/reveal_js/css/reveal.css">
     <link rel="stylesheet" href="/js/reveal_js/css/theme/default.css" id="theme">
-
     <!-- For syntax highlighting -->
     <link rel="stylesheet" href="/js/reveal_js/lib/css/zenburn.css">
-
     <!--[if lt IE 9]>
     <script src="/js/reveal_js/lib/js/html5shiv.js"></script>
     <![endif]-->

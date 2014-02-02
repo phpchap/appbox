@@ -90,7 +90,7 @@
                             <a href="#Contact">Contact</a>
                         </li>
                         <li>
-                            <a target="_blank" href="#">Presentation</a>
+                            <a target="_blank" href="/presentation">Presentation</a>
                         </li>                            
                     </ul>
                     <a href="#" id="pull"></a>  
@@ -145,6 +145,7 @@
                                 <!-- RIGHT HAND SIDE IMAGE -->
                                 <div class="span6">
                                     <img class="img-polaroid" src="http://www.newscientist.com/blogs/culturelab/Iron3.jpg"/>
+                                    <small>Image courtesy of Marvel Studios</small>
                                 </div>                                
                             </div>
                         </div>

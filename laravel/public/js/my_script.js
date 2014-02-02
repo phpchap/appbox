@@ -148,9 +148,61 @@ $(document).ready(function() {
 
 /**form validate**/
 $(document).ready(function() {
+
+    // presentation
+    $('#presentation input').hover(function() {
+        $(this).popover('show')
+    });
+
+    $("#presentation").validate({
+        rules: {
+            user_name: "required",
+            user_email: {
+                required: true,
+                email: true
+            },
+            pwd: {
+                required: true,
+                minlength: 30
+            },
+            cpwd: {
+                required: false,
+                equalTo: "#pwd"
+            },
+            gender: "required"
+        },
+        messages: {
+            user_name: "Enter your first and last name",
+            user_email: {
+                required: "Enter your email address",
+                email: "Enter valid email address"
+            },
+            pwd: {
+                required: "Enter your Your Subject",
+                minlength: "Your Subject must be minimum 30 characters"
+            },
+            cpwd: {
+                required: "Send Message",
+                equalTo: "Type Your Message"
+            },
+            gender: "Select Gender"
+        },
+        errorClass: "help-inline",
+        errorElement: "span",
+        highlight: function(element, errorClass, validClass) {
+            $(element).parents('.control-group').addClass('error');
+        },
+        unhighlight: function(element, errorClass, validClass) {
+            $(element).parents('.control-group').removeClass('error');
+            $(element).parents('.control-group').addClass('success');
+        }
+    });
+
+    // contact us
     $('#registerHere input').hover(function() {
         $(this).popover('show')
         });
+
     $("#registerHere").validate({
         rules: {
             user_name: "required",
