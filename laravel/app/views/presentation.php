@@ -191,7 +191,8 @@
                             <div class="container">
                                 <div class="jumbotron">
                                     <h1>APPBOX MEDIA PRESENTATION</h1>                                     
-                                    <img src="/images/delorean-back-future-1024x675.jpg" class="img-polaroid">                                    
+                                    <img src="/images/delorean-back-future-1024x675.jpg" class="img-polaroid">
+                                    <small>Image courtesy of Universal Pictures</small>
                                     <h3>We need a few details before we start the presentation</h3>
                                     <div class="well" id="contact">                 
                                         <form class="form-horizontal" id="registerHere" method="post" action="" novalidate="novalidate">

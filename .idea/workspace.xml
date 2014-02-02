@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c48a63-dbc3-40ec-95a3-e46ea3ebe191" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/laravel/app/views/advanced.php" afterPath="$PROJECT_DIR$/laravel/app/views/impress.php" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/laravel/app/views/simple.php" afterPath="$PROJECT_DIR$/laravel/app/views/reveal.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/public/deck.html" afterPath="$PROJECT_DIR$/laravel/public/deck.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/index.php" afterPath="$PROJECT_DIR$/laravel/app/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/public/js/my_script.js" afterPath="$PROJECT_DIR$/laravel/public/js/my_script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/public/js/my_script.min.js" afterPath="$PROJECT_DIR$/laravel/public/js/my_script.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/presentation.php" afterPath="$PROJECT_DIR$/laravel/app/views/presentation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/routes.php" afterPath="$PROJECT_DIR$/laravel/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/public/css/site.css" afterPath="$PROJECT_DIR$/laravel/public/css/site.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="appbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,10 +34,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="42" selection-start="9914" selection-end="9914" vertical-scroll-proportion="0.3584559" vertical-offset="2101" max-vertical-offset="19754">
+            <state line="104" column="58" selection-start="5050" selection-end="5050" vertical-scroll-proportion="-8.936171" vertical-offset="1036" max-vertical-offset="19754">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="presentation.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/presentation.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="194" column="61" selection-start="7973" selection-end="7973" vertical-scroll-proportion="0.2864675" vertical-offset="2553" max-vertical-offset="5054">
               <folding />
             </state>
           </provider>
@@ -79,11 +79,11 @@
         <option value="$PROJECT_DIR$/laravel/public/css/site.css" />
         <option value="$PROJECT_DIR$/laravel/public/js/my_script.js" />
         <option value="$PROJECT_DIR$/laravel/public/deck.html" />
-        <option value="$PROJECT_DIR$/laravel/app/views/presentation.php" />
         <option value="$PROJECT_DIR$/laravel/public/js/my_script.min.js" />
         <option value="$PROJECT_DIR$/laravel/app/views/impress.php" />
         <option value="$PROJECT_DIR$/laravel/app/routes.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/index.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/presentation.php" />
       </list>
     </option>
   </component>
@@ -488,13 +488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/presentation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="71" selection-start="342" selection-end="345" vertical-scroll-proportion="-1.7872341" vertical-offset="0" max-vertical-offset="5040">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/impress.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="641" column="49" selection-start="30041" selection-end="30041" vertical-scroll-proportion="0.48713234" vertical-offset="7897" max-vertical-offset="12628">
@@ -520,7 +513,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="42" selection-start="9914" selection-end="9914" vertical-scroll-proportion="0.3584559" vertical-offset="2101" max-vertical-offset="19754">
+        <state line="104" column="58" selection-start="5050" selection-end="5050" vertical-scroll-proportion="-8.936171" vertical-offset="1036" max-vertical-offset="19754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/presentation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="194" column="61" selection-start="7973" selection-end="7973" vertical-scroll-proportion="0.2864675" vertical-offset="2553" max-vertical-offset="5054">
           <folding />
         </state>
       </provider>
