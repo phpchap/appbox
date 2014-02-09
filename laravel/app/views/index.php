@@ -29,9 +29,9 @@
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="icon/apple-touch-icon-72-precomposed.png">
         <link rel="apple-touch-icon-precomposed" href="icon/apple-touch-icon-57-precomposed.png">
         <link rel="shortcut icon" href="icon/favicon.ico">
-	<!-- Start WOWSlider.com HEAD section -->
-	<link rel="stylesheet" type="text/css" href="WOWSlider/css/style.css" />
-	<!-- End WOWSlider.com HEAD section -->                
+	    <!-- Start WOWSlider.com HEAD section -->
+	    <link rel="stylesheet" type="text/css" href="WOWSlider/css/style.css" />
+	    <!-- End WOWSlider.com HEAD section -->
         <script src="js/jquery-1.8.2.min.js"></script>                
         <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>               
         <!-- Start Tabs CSS -->
@@ -1352,8 +1352,8 @@ Number.prototype.formatMoney = function(c, d, t){
         <!-- EIS Calculator -->
         <script src="js/jquery.eis.js"></script>
         <!-- WOWSLIDER -->
-	<script type="text/javascript" src="WOWSlider/js/wowslider.js"></script>
-	<script type="text/javascript" src="WOWSlider/js/init.js"></script>        
+	    <script type="text/javascript" src="WOWSlider/js/wowslider.js"></script>
+	    <script type="text/javascript" src="WOWSlider/js/init.js"></script>
         <!-- Start Charts head section -->        
         <link href="/css/d3.css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
@@ -1392,15 +1392,15 @@ Number.prototype.formatMoney = function(c, d, t){
                     keyboard: false
                 });                
             });
-            
-            // google analytics
+
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
             })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-45005465-1', 'appboxmedia.com');
+
+            ga('create', 'UA-47895871-2', 'appboxmedia.com');
             ga('send', 'pageview');
-            
+
         </script>
     </body>
 </html>
