@@ -39,6 +39,11 @@ Route::filter('auth', function()
 });
 
 
+Route::filter('getSubdomain', function($route, $request)
+{
+
+});
+
 Route::filter('auth.basic', function()
 {
 	return Auth::basic();

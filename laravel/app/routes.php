@@ -10,6 +10,19 @@
 | and give it the Closure to execute when that URI is requested.
 |
 */
+Route::group(array('before' => 'getSubdomain'), function()
+{
+
+//        if(!empty($_SESSION['redirected']) || $_SESSION['redirected'] != true) {
+//            $host = Request::getHost();
+//            $parts = explode('.', $host);
+//            $subdomain = $parts[0];
+//            $_SESSION['redirected'] = true;
+//            return Redirect::route('presentation');
+//        } else {
+//            die('#');
+//        }
+});
 
 // main website
 Route::get('/', function(){    
@@ -17,9 +30,9 @@ Route::get('/', function(){
 });
 
 // presentation
-Route::get('/presentation', function(){
+Route::get('/presentation', array('as' => 'presentation', function(){
     return View::make('presentation');
-});
+}));
 
 // simple presentation
 Route::get('/reveal', function(){
@@ -99,3 +112,4 @@ Route::post('/contact', function(){
         return 'ERROR';
     }    
 });
+
