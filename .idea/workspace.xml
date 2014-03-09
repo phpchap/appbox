@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c48a63-dbc3-40ec-95a3-e46ea3ebe191" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/filters.php" afterPath="$PROJECT_DIR$/laravel/app/filters.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/impress.php" afterPath="$PROJECT_DIR$/laravel/app/views/impress.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/index.php" afterPath="$PROJECT_DIR$/laravel/app/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/public/js/modernizer.js" afterPath="$PROJECT_DIR$/laravel/public/js/modernizer.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/presentation.php" afterPath="$PROJECT_DIR$/laravel/app/views/presentation.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/reveal.php" afterPath="$PROJECT_DIR$/laravel/app/views/reveal.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/routes.php" afterPath="$PROJECT_DIR$/laravel/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="appbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,10 +37,8 @@
       <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.14973262" vertical-offset="0" max-vertical-offset="1568">
-              <folding>
-                <element signature="e#7#392#0" expanded="false" />
-              </folding>
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.024955437" vertical-offset="0" max-vertical-offset="1358">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -930,10 +921,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="455" selection-end="455" vertical-scroll-proportion="0.14973262" vertical-offset="0" max-vertical-offset="1568">
-          <folding>
-            <element signature="e#7#392#0" expanded="false" />
-          </folding>
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.024955437" vertical-offset="0" max-vertical-offset="1358">
+          <folding />
         </state>
       </provider>
     </entry>
