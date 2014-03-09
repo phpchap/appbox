@@ -992,10 +992,10 @@ Number.prototype.formatMoney = function(c, d, t){
                         <footer>
                             <ul class="Social">
                                 <li>
-                                    <a class="Facebook" rel="tooltip" href="#" data-original-title="Facebook">Facebook</a>
+                                    <a class="Facebook" rel="tooltip" href="https://www.facebook.com/AppBoxMedia" target="_blank" data-original-title="Facebook">Facebook</a>
                                 </li>
                                 <li>
-                                    <a class="Twitter" rel="tooltip" href="#" data-original-title="Twitter">Twitter</a>
+                                    <a class="Twitter" rel="tooltip" href="https://twitter.com/AppboxMedia" target="_blank" data-original-title="Twitter">Twitter</a>
                                 </li>
                                  <li>
                                     <a class="Pinterest" rel="tooltip" href="#" data-original-title="Pinterest">Pinterest</a>
