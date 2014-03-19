@@ -89,9 +89,11 @@
                         <li>
                             <a href="#Contact">Contact</a>
                         </li>
+<?php /*
                         <li>
                             <a target="_blank" href="/presentation">Presentation</a>
-                        </li>                            
+                        </li>            
+*/ ?>                
                     </ul>
                     <a href="#" id="pull"></a>  
                 </nav>                  
@@ -817,13 +819,9 @@ Number.prototype.formatMoney = function(c, d, t){
         
                                 
     $("#calculatorSlideBar").noUiSlider({
-        range: [10000,1000000],
+        range: {'min': 10000, 'max':1000000},
         start: [10000],
         handles: 1,
-        slide: function(){           
-            var current_investment = (Number($(this).val())).formatMoney('0', '.', ',');
-            $(".noUi-handle").html( "£" + current_investment );      
-        },
         step: 10000
     }).change(function(){
  
@@ -849,6 +847,11 @@ Number.prototype.formatMoney = function(c, d, t){
         $("#inheritance_tax").html("£"+format_inheritance_tax_relief);                
         $("#netcost").html("£" + format_net_cost);        
 
+    }).on({
+        slide: function(){
+            var current_investment = (Number($(this).val())).formatMoney('0', '.', ',');
+            $(".noUi-handle").html( "£" + current_investment );      
+        }
     });
 
     $(".noUi-handle").html("£10,000");      
