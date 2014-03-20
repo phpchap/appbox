@@ -63,6 +63,25 @@
                 
             });
     </script>
+    <style>
+
+        .video-unit {
+            margin: 0 auto 0 auto;
+            font-size: 18px;
+            font-weight: 200;
+            line-height: 30px;
+            background-color: #eee;
+            border-radius: 6px;
+            padding: 30px;
+        }
+
+
+        .video-unit video {
+            width: 100%;
+        }
+
+
+    </style>
     <!-- End Tabs CSS -->
     </head>
     <body class="clearfix" data-spy="scroll" data-target="#navbar" data-offset="10">
@@ -168,6 +187,48 @@
                         <div class="container clearfix TitleSection">
                             <h1>Opportunities</h1> 
                         </div>
+                        <div class="container clearfix">
+                            <div class="row-fluid">
+                                <div class="span12">
+                                    <div class="video-unit">
+                                        <video id='video-player' preload='metadata' controls>
+                                            <source src="http://m.wsj.net/video/20130303/030313appstats/030313appstats_1500k.mp4" type="video/mp4">
+                                            <?php /*
+                                            <source src="http://twofuckingdevelopers.com/examples/videogular/examples/assets/videos/oceans-clip.mp4" type="video/mp4">
+                                            <source src="http://twofuckingdevelopers.com/examples/videogular/examples/assets/videos/oceans-clip.webm" type="video/webm">
+                                            <source src="http://twofuckingdevelopers.com/examples/videogular/examples/assets/videos/oceans-clip.ogv" type="video/ogg">
+                                             */ ?>
+                                        </video>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br/>
+                        <script type="text/javascript">
+                            $(document).ready(function(){
+                                    var video = $("#video-player");
+                                    var windowObj = $(window);
+
+                                    function onResizeWindow() {
+                                        resizeVideo(video[0]);
+                                    }
+
+                                    function onLoadMetaData(e) {
+                                        resizeVideo(e.target);
+                                    }
+
+                                    function resizeVideo(videoObject) {
+                                        var percentWidth = videoObject.clientWidth * 100 / videoObject.videoWidth;
+                                        var videoHeight = videoObject.videoHeight * percentWidth / 100;
+                                        video.height(videoHeight);
+                                    }
+
+                                    video.on("loadedmetadata", onLoadMetaData);
+                                    windowObj.resize(onResizeWindow);
+                                }
+                            );
+
+                        </script>
                         <div class="container clearfix">
                             <div class="row-fluid">                                
                                 <!-- LEFT HAND SIDE TEXT -->
