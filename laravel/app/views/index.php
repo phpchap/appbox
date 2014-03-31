@@ -1,10 +1,16 @@
+<?php
+$landing = false;
+if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing')) {
+    $landing = true;
+}
+?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
     <head>
         <meta http-equiv="content-type" content="text/html; charset=UTF-8">
         <meta charset="utf-8">
         <title>AppBox Media</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
         <meta name="description" content="Mobile Apps Company looking at towards the future">
         <meta name="author" content="">
         <link href='http://fonts.googleapis.com/css?family=Kelly+Slab' rel='stylesheet' type='text/css'>
@@ -16,7 +22,7 @@
         <link rel="stylesheet" href="css/camera.css" />
         <link rel="stylesheet" href="css/blur.css" />
         <!-- start jquery ui -->
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />         
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
         <!-- end jquery ui -->
         <!--blur slideshow -->
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -32,15 +38,15 @@
 	    <!-- Start WOWSlider.com HEAD section -->
 	    <link rel="stylesheet" type="text/css" href="WOWSlider/css/style.css" />
 	    <!-- End WOWSlider.com HEAD section -->
-        <script src="js/jquery-1.8.2.min.js"></script>                
-        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>               
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
         <!-- Start Tabs CSS -->
         <link rel="stylesheet" href="/css/jquery.nouislider.css">
         <script src="http://refreshless.com/nouislider/source/jquery.nouislider.js"></script>
-        <link rel="stylesheet" href="/css/site.css">        
+        <link rel="stylesheet" href="/css/site.css">
         <script>
             $(function(){
-                
+
                 var pull = $('#pull');
                 menu = $('.navi ul');
                 menuHeight = menu.height();
@@ -60,7 +66,7 @@
                 $("#toggle").bind('click', function(){
                     $("#toggler").toggle();
                 });
-                
+
             });
     </script>
     <style>
@@ -87,7 +93,7 @@
     <body class="clearfix" data-spy="scroll" data-target="#navbar" data-offset="10">
         <div id="navbar" class="navbar navbar-fixed-top">
             <div class="navbar-inner">
-                <nav class="clearfix navi">  
+                <nav class="clearfix navi">
                     <a class="brand" id="logo_flip" href="#Home"></a>
                     <ul class="nav">
                         <li class="active">
@@ -98,31 +104,31 @@
                         </li>
                         <li>
                             <a href="#Opportunities">Opportunities</a>
-                        </li>                            
+                        </li>
                         <li>
                             <a href="#Team">Team</a>
-                        </li>                                                        
+                        </li>
                         <li>
                             <a href="#EISCalculator">EIS Calculator</a>
-                        </li>                             
+                        </li>
                         <li>
                             <a href="#Contact">Contact</a>
                         </li>
 <?php /*
                         <li>
                             <a target="_blank" href="/presentation">Presentation</a>
-                        </li>            
-*/ ?>                
+                        </li>
+*/ ?>
                     </ul>
-                    <a href="#" id="pull"></a>  
-                </nav>                  
+                    <a href="#" id="pull"></a>
+                </nav>
             </div>
-        </div>        
+        </div>
         <div class="container-fluid clearfix">
-            <div class="row-fluid">                
+            <div class="row-fluid">
                 <!-- START HOME -->
                 <div id="Home">
-                    <div class="container-fluid clearfix" style="padding:0; overflow:hidden">                        
+                    <div class="container-fluid clearfix" style="padding:0; overflow:hidden">
                         <!-- Start WOWSlider.com BODY section -->
                         <div id="wowslider-container1">
                             <div class="ws_images">
@@ -134,7 +140,7 @@
                             </div>
                             <div class="ws_shadow"></div>
                         </div>
-                        <!-- End WOWSlider.com BODY section -->                            
+                        <!-- End WOWSlider.com BODY section -->
                     </div>
                 </div>
                 <!-- END HOME -->
@@ -144,19 +150,19 @@
                         <blockquote>Smart device adoption is being adopted 10X faster than that of the 80s PC revolution</blockquote>
                         <blockquote>Apps are big business, and the biggest app business is games.</blockquote>
                         <blockquote>Google, Apple, Microsoft and Sony have now made it possible for new developers and mobile app start-ups to thrive.</blockquote>
-                        <blockquote>Thriving in the new mobile app economy is all about engagement and retention.</blockquote>                        
+                        <blockquote>Thriving in the new mobile app economy is all about engagement and retention.</blockquote>
                     </div>
-                </div>                
+                </div>
                 <!-- START OF VISION -->
                 <div id="Vision">
                     <div class="container-fluid clearfix Services">
                         <div class="container clearfix TitleSection">
-                            <h1>Vision</h1> 
+                            <h1>Vision</h1>
                         </div>
                         <div class="container clearfix">
                             <div class="row-fluid">
                                 <!-- LEFT HAND SIDE TEXT -->
-                                <div class="span6">                                    
+                                <div class="span6">
                                     <p>AppBox Media Plc aims to deliver exciting and creative mobile applications and digital games which embrace users both visually and interactively on a globally connected landscape.</p>
                                     <p>It is the vision of the Company to become one of the world’s leading mobile application and game software developers within 5 years.</p>
                                     <p>The founding shareholders and management agree that AppBox Media can realistically anticipate to achieve £2.5 million in earnings in three years. Subject to market sentiment, they also agree that in three years’ time buyers could be found who would pay up to 10 times earnings for the Company. </p>
@@ -167,12 +173,12 @@
                                 <div class="span6">
                                     <img class="img-polaroid" src="http://www.newscientist.com/blogs/culturelab/Iron3.jpg"/>
                                     <small>Image courtesy of Marvel Studios</small>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>                
-                <!-- END OF VISION -->                                                
+                </div>
+                <!-- END OF VISION -->
                 <!-- SECOND DID YOU KNOW -->
                 <div id="second" class="Parallax">
                     <div class="ParallaxText">
@@ -180,12 +186,12 @@
                         <blockquote>Like traditional video game, movie and music industries, the App market is a "hit-driven industry"</blockquote>
                         <blockquote>After building a mobile application, AppBox Media can distribute its apps on Android instantaneously and, after review by Apple, can be in the App Store within just one week</blockquote>
                     </div>
-                </div>                                                
+                </div>
                 <!-- START OF OPPORTUNITIES -->
-                <div id="Opportunities">                    
+                <div id="Opportunities">
                     <div class="container-fluid clearfix Services">
                         <div class="container clearfix TitleSection">
-                            <h1>Opportunities</h1> 
+                            <h1>Opportunities</h1>
                         </div>
                         <div class="container clearfix">
                             <div class="row-fluid">
@@ -230,16 +236,16 @@
 
                         </script>
                         <div class="container clearfix">
-                            <div class="row-fluid">                                
+                            <div class="row-fluid">
                                 <!-- LEFT HAND SIDE TEXT -->
                                 <div class="span5">
                                     <p>AppBox Media engages in one of the fastest growing sectors, at a time when the games industry is worth an estimated $80 billion worldwide.  This is approximately equal to the global film industry, and the biggest titles comfortably out earn blockbuster movies. The overall global app economy was worth $ 53Bn in 2012, and expected to rise to $ 68Bn in 2013 and forecast to appreciate to $ 143Bn in 2016.</p>
-                                    <p>The US and China tower over the next group of top markets by way of countries with greatest number of active IOS  and Android devices by at least five times.  While the U.S. has added 55 million net active devices since October 2011, China has added 125 million, a figure that totals the sum of the UK, Japan and South Korea’s combined, current active user base.  China leads the world with an impressive 293% year-over-year growth rate, spurred by the potent combination of its vast population and rapidly growing middle class with plenty of opportunity to achieve further growth.</p>  
-                                </div>                                
+                                    <p>The US and China tower over the next group of top markets by way of countries with greatest number of active IOS  and Android devices by at least five times.  While the U.S. has added 55 million net active devices since October 2011, China has added 125 million, a figure that totals the sum of the UK, Japan and South Korea’s combined, current active user base.  China leads the world with an impressive 293% year-over-year growth rate, spurred by the potent combination of its vast population and rapidly growing middle class with plenty of opportunity to achieve further growth.</p>
+                                </div>
                                 <!-- RIGHT HAND SIDE GRAPHICS -->
-                                <div class="span7">       
+                                <div class="span7">
                                     <!-- START TABS -->
-                                    <div class="tabs">                                        
+                                    <div class="tabs">
                                         <!-- START FIRST TAB -->
                                         <div class="tab">
                                             <input type="radio" id="tab-1" name="tab-group-1" checked>
@@ -249,11 +255,11 @@
                                                 <div id="chart1" style="width:100%;height:340px;" class='with-3d-shadow with-transitions box'>
                                                     <svg></svg>
                                                 </div>
-                                            </div> 
+                                            </div>
                                         </div>
-                                        <!-- END FIRST TAB -->        
+                                        <!-- END FIRST TAB -->
 
-                                        <!-- START SECOND TAB -->       
+                                        <!-- START SECOND TAB -->
                                         <div class="tab">
                                             <input type="radio" id="tab-2" name="tab-group-1">
                                             <label for="tab-2">iOS & Android Activations by Country</label>
@@ -263,30 +269,30 @@
                                                     <svg></svg>
                                                 </div>
                                                 <!-- END CHART CONTAINER -->
-                                            </div> 
+                                            </div>
                                         </div>
-                                        <!-- END SECOND TAB --> 
-                                    </div>                                    
+                                        <!-- END SECOND TAB -->
+                                    </div>
                                     <!-- END TABS -->
-                                </div>          
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>                
+                </div>
                 <!-- INSERT THIS SCRIPT BELOW THE THE GRAPHS -->
                 <script>
                 // inView Code
                 $(document).ready(function() {
-                    
+
                     $('#chart1').one('inview', function (event, visible) {
                         if (visible) {
                             showGraph1();
-                            showGraph2();                            
+                            showGraph2();
                         }
                     });
 
                     $("#tab-1").bind('click', function(){
-                        showGraph1();                        
+                        showGraph1();
                     });
 
                     $("#tab-2").bind('click', function(){
@@ -294,7 +300,7 @@
                     });
 
                 });
-                
+
                 // Function for first graph
                 function showGraph1(){
                     nv.addGraph(function() {
@@ -325,7 +331,7 @@
                 function showGraph2(){
                     historicalBarChart = [{
                         key: "Active iOS & Android Devices (millions)",
-                        values: [ 
+                        values: [
                         {"label" : "Spain","value" : 14,"color" : "#19496E" },
                         {"label" : "Brazil","value" : 14,"color" : "#19496E"},
                         {"label" : "Canada","value" : 19,"color" : "#19496E"},
@@ -335,14 +341,14 @@
                         {"label" : "Japan","value" : 28,"color" : "#19496E"},
                         {"label" : "UK","value" : 35,"color" : "#19496E"},
                         {"label" : "China","value" : 167,"color" : "#19496E"},
-                        {"label" : "US","value" : 181,"color" : "#19496E"},                        
+                        {"label" : "US","value" : 181,"color" : "#19496E"},
                         ]
                     }];
-                
+
                    var chart2 = nv.addGraph(function() {
 
 			var width = 600, height = 350;
-                        
+
 			var chart2 = nv.models.discreteBarChart()
                             .margin({top: 20, right: 10, bottom: 40, left: 50})
                             .x(function(d) { return d.label })
@@ -362,30 +368,30 @@
 
                         return chart2;
                     });
-                    
+
 //alert('call');
                         //nv.utils.windowResize(chart2.update);
 
                 }
-                </script>                                
+                </script>
                 <!-- END OF OPPORTUNITIES -->
-                
+
                 <!-- THIRD DID YOU KNOW -->
                 <div id="third" class="Parallax">
                     <div class="ParallaxText">
-                        <blockquote>There are now over 1 billion active smartphones and tablets using apps around the world every month.</blockquote>        
+                        <blockquote>There are now over 1 billion active smartphones and tablets using apps around the world every month.</blockquote>
                         <blockquote>People look at their mobile phones an average of 150 times a day</blockquote>
                         <blockquote>App consumers spend nearly half their time using Games apps, and a third interacting on Social Networking apps</blockquote>
                         <blockquote>The world’s number of app connected devices will increase by more than 400 million</blockquote>
                     </div>
-                </div>                
-                                
+                </div>
+
                 <!-- START OF TEAM -->
                 <div id="Team">
                     <div class="container-fluid clearfix About">
                         <div class="container clearfix">
-                            <div class="container clearfix TitleSection">                                
-                                <h1>Team</h1>         
+                            <div class="container clearfix TitleSection">
+                                <h1>Team</h1>
                             </div>
                             <div class="container clearfix">
                                 <!-- FIRST ROW -->
@@ -393,48 +399,48 @@
                                     <div class="span6">
                                         <p>At the heart of AppBox media is its team. We hold an ethos of being big enough to take on big projects whilst being compact enough to care about all aspects of those projects.</p>
                                         <p>The team at AppBox know what it is to work in major billion pound companies. Our accounts team even know how to structure such companies having worked on corporate finance at Nestle. At an academic level we know what it takes to be top achievers having a team that includes 1st class honours graduates and others who have worked on the world stage at the United Nations.</p>
-                                        <p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p>                                            
+                                        <p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p>
                                     </div>
                                     <div class="span6">
-                                        <p>Our developers and project managers have designed and built applications for: Playboy, Universal Pictures, Motorola, Toshiba, SEGA, Fujitsu and Gumtree.</p>                                                                                
+                                        <p>Our developers and project managers have designed and built applications for: Playboy, Universal Pictures, Motorola, Toshiba, SEGA, Fujitsu and Gumtree.</p>
                                         <div style="float:left;margin:5px;" id="fujitsu"></div>
                                         <div style="float:left;margin:5px;" id="gumtree"></div>
-                                        <div style="float:left;margin:5px;" id="motorola"></div>                                        
-                                        <div style="float:left;margin:5px;" id="nestle"></div>                                        
-                                        <div style="float:left;margin:5px;" id="playboy"></div>                                        
-                                        <div style="float:left;margin:5px;" id="sega"></div>                                        
-                                        <div style="float:left;margin:5px;" id="toshiba"></div>                                        
-                                        <div style="float:left;margin:5px;" id="universal"></div>                                                                                 
+                                        <div style="float:left;margin:5px;" id="motorola"></div>
+                                        <div style="float:left;margin:5px;" id="nestle"></div>
+                                        <div style="float:left;margin:5px;" id="playboy"></div>
+                                        <div style="float:left;margin:5px;" id="sega"></div>
+                                        <div style="float:left;margin:5px;" id="toshiba"></div>
+                                        <div style="float:left;margin:5px;" id="universal"></div>
                                     </div>
-                                    <!-- END OF FIRST ROW -->                                   
-                                </div>                                
+                                    <!-- END OF FIRST ROW -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- END OF TEAM -->
-                
+
                 <!-- FOURTH DID YOU KNOW -->
                 <div id="fourth" class="Parallax">
-                    <div class="ParallaxText">                        
+                    <div class="ParallaxText">
                         <blockquote>Gamers form relationships with their games.</blockquote>
                         <blockquote>In exchange for free content, consumer behavior makes it clear users will accept in-app advertising just as we have in radio, TV and online for decades.</blockquote>
                         <blockquote>Matching monetization to game type, the competitive nature of Strategy games, and Slots users’ incessant desire for in-game currency, make a solid in-app purchase strategy paramount.</blockquote>
-                        <blockquote>There remains plenty of demand for the wry wit of British games. It is time to exploit it</blockquote>                                                
+                        <blockquote>There remains plenty of demand for the wry wit of British games. It is time to exploit it</blockquote>
                     </div>
-                </div>                                
-                
+                </div>
+
                 <!--START EIS CALCULATOR -->
                 <div id="EISCalculator">
                     <div class="container-fluid clearfix Services">
                         <div class="container clearfix TitleSection">
-                            <h1>EIS Calculator</h1> 
+                            <h1>EIS Calculator</h1>
                         </div>
                         <div class="container clearfix">
                             <div class="row-fluid">
-                                <div class="span6">         
+                                <div class="span6">
                                     <p>EISs are a great tax-efficient way to invest in the new shares of small British businesses</p>
-                                    <p>Investors who invest for a minimum period of three years benefit from 30 per cent tax relief as well as exemption from capital gains tax (CGT) and inheritance tax (IHT)</p>                                    
+                                    <p>Investors who invest for a minimum period of three years benefit from 30 per cent tax relief as well as exemption from capital gains tax (CGT) and inheritance tax (IHT)</p>
                                     <p>There are five current EIS tax reliefs available to investors in companies qualifying under the EIS, which are summarised below :</p>
                                     <p>1. Income tax relief</p>
                                     <ul>
@@ -446,7 +452,7 @@
                                     </ul>
                                     <br/>
                                         <p>2. Inheritance Tax Relief – ‘IHT’ Relief</p>
-                                    
+
                                     <ul>
                                         <li>Shares in EIS qualifying companies will generally qualify for Business Property Relief for Inheritance Tax purposes at rates of up to 100% after two years of holding such investment, so that any liability for Inheritance Tax is reduced or eliminated in respect of such shares. For a simple example of the impact of IHT relief. </li>
                                     </ul>
@@ -456,7 +462,7 @@
                                         <p>3. CGT Freedom</p>
                                         <ul>
                                             <li>No Capital Gains Tax is payable on the disposal of shares after three years, or three years after commencement of trade, if later, provided the EIS initial income tax relief was given and not withdrawn on those shares. However, the shares can be held for much longer, thus potentially permitting CGT free gain to accrue over a longer period. The opportunity for a CGT free gain can be an extremely valuable benefit from subscribing for shares in a successful EIS qualifying company. </li>
-                                        </ul>                                    
+                                        </ul>
                                         <br/>
                                         <p>4. CGT Deferral Relief</p>
                                         <ul>
@@ -471,7 +477,7 @@
                                             <li>Alternatively the losses can be offset against Capital Gains at the prevailing rate 28% as applicable. </li>
                                         </ul>
                                         <br/>
-                                        <p>More detailed information about EIS for Investors and businesses seeking EIS investment can be found by visiting the <a href="http://www.hmrc.gov.uk/eis/" target="_blank">HMRC website</a></p>                                        
+                                        <p>More detailed information about EIS for Investors and businesses seeking EIS investment can be found by visiting the <a href="http://www.hmrc.gov.uk/eis/" target="_blank">HMRC website</a></p>
                                     </div>
                                     <a id="toggle" href="javascript:void(0)">Read more</a>
                                 </div>
@@ -575,7 +581,7 @@
 }
 
 #calculator div.amountsContainer #grossQuarterly,#calculator div.amountsContainer #grossAnnual,
-#calculator div.incomeContainer, #calculator div.capitalGainsContainer, #calculator div.inheritanceContainer 
+#calculator div.incomeContainer, #calculator div.capitalGainsContainer, #calculator div.inheritanceContainer
 {
 	display: inline;
 	display: inline-block;
@@ -818,7 +824,7 @@
 }
 .noUi-origin
 {
-        background: #14B9F2;    
+        background: #14B9F2;
 	bottom: 0;
 	position: absolute;
 	right: 0;
@@ -861,71 +867,71 @@
 	transition: left 0.3s, top 0.3s;
 	webkit-transition: left 0.3s, top 0.3s;
 }
-        
+
                                         </style>
                                         <script>
 
 $(document).ready(function (){
 
 Number.prototype.formatMoney = function(c, d, t){
-    var n = this, 
-        c = isNaN(c = Math.abs(c)) ? 2 : c, 
-        d = d == undefined ? "." : d, 
-        t = t == undefined ? "," : t, 
-        s = n < 0 ? "-" : "", 
-        i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "", 
+    var n = this,
+        c = isNaN(c = Math.abs(c)) ? 2 : c,
+        d = d == undefined ? "." : d,
+        t = t == undefined ? "," : t,
+        s = n < 0 ? "-" : "",
+        i = parseInt(n = Math.abs(+n || 0).toFixed(c)) + "",
         j = (j = i.length) > 3 ? j % 3 : 0;
     return s + (j ? i.substr(0, j) + t : "") + i.substr(j).replace(/(\d{3})(?=\d)/g, "$1" + t) + (c ? d + Math.abs(n - i).toFixed(c).slice(2) : "");
-};        
-        
-                                
+};
+
+
     $("#calculatorSlideBar").noUiSlider({
         range: {'min': 10000, 'max':1000000},
         start: [10000],
         handles: 1,
         step: 10000
     }).change(function(){
- 
+
         var income_tax_percentage = 30;
         var capital_gains_percentage = 28;
-        var inheritance_tax_percentage = 40;      
-       
-        var total_investment = Number( $(this).val() );        
-        var income_tax_relief = Math.round(Number((total_investment / 100) * income_tax_percentage )); 
+        var inheritance_tax_percentage = 40;
+
+        var total_investment = Number( $(this).val() );
+        var income_tax_relief = Math.round(Number((total_investment / 100) * income_tax_percentage ));
         var inheritance_tax_relief = Math.round(Number(total_investment / 100) * inheritance_tax_percentage);
-        var capital_gains_tax = (total_investment / 100) * capital_gains_percentage;                                
-        var net_cost = total_investment - ( income_tax_relief + capital_gains_tax + inheritance_tax_relief);        
+        var capital_gains_tax = (total_investment / 100) * capital_gains_percentage;
+        var net_cost = total_investment - ( income_tax_relief + capital_gains_tax + inheritance_tax_relief);
         var format_total_investment = (total_investment).formatMoney('0','.',',');
         var format_tax_relief = (income_tax_relief).formatMoney('0','.',',');
         var format_capital_gains_tax = (capital_gains_tax).formatMoney('0','.',',');
         var format_inheritance_tax_relief = (inheritance_tax_relief).formatMoney('0','.',',');
-        
+
         var format_net_cost = (net_cost).formatMoney('0','.',',');
 
         $("#invest").val(format_total_investment);
         $("#income_tax").html("£"+format_tax_relief);
-        $("#capital_gains_tax").html("£"+format_capital_gains_tax);        
-        $("#inheritance_tax").html("£"+format_inheritance_tax_relief);                
-        $("#netcost").html("£" + format_net_cost);        
+        $("#capital_gains_tax").html("£"+format_capital_gains_tax);
+        $("#inheritance_tax").html("£"+format_inheritance_tax_relief);
+        $("#netcost").html("£" + format_net_cost);
 
     }).on({
         slide: function(){
             var current_investment = (Number($(this).val())).formatMoney('0', '.', ',');
-            $(".noUi-handle").html( "£" + current_investment );      
+            $(".noUi-handle").html( "£" + current_investment );
         }
     });
 
-    $(".noUi-handle").html("£10,000");      
+    $(".noUi-handle").html("£10,000");
 
-        
+
 });
-        
-        
- 
-        
+
+
+
+
                                     </script>
-                                        
-                                        
+
+
                                     <div id="calculator">
 					<div class="amountsContainer">
                                             <div id="grossAnnual">
@@ -934,7 +940,7 @@ Number.prototype.formatMoney = function(c, d, t){
                                                     <span id="netcost">£200</span>
                                                 </div>
                                             </div>
-					</div>                                        
+					</div>
 					<div class="calcContainer">
                                             <div id="calculatorSlideBar" class="noUi-target"></div>
                                             <div id="startAmount">£10,000</div>
@@ -942,7 +948,7 @@ Number.prototype.formatMoney = function(c, d, t){
 					</div>
 
                                         <div class="clearfix"></div>
-                                        
+
                                         <div class="smallTotals incomeContainer">
                                             Income Tax Saving <br/><span id="income_tax">£3,000</span>
                                         </div>
@@ -953,30 +959,30 @@ Number.prototype.formatMoney = function(c, d, t){
 
                                         <div class="smallTotals inheritanceContainer">
                                             Inheritance Tax Saving <br/><span id="inheritance_tax">£4,000</span>
-                                        </div>                                        
-                                    </div>                                        
-                                    </form>                              
+                                        </div>
+                                    </div>
+                                    </form>
                                     <small><b>Warning:</b> This limits calculator is for UK tax payers and is indicative only. Do not rely on it in making investment decisions or for calculating your actual tax liabilities. Consult your professional adviser before investing.</small>
                                 </div>
-                            </div>                          
+                            </div>
                         </div>
                     </div>
                 </div>
-                <!--END EIS CALCULATOR -->                
+                <!--END EIS CALCULATOR -->
 
                 <!-- FIFTH DID YOU KNOW -->
                 <div id="fifth" class="Parallax">
                     <div class="ParallaxText">
-                        <blockquote>The App Market is the fastest growing market in the history of the world</blockquote>             
+                        <blockquote>The App Market is the fastest growing market in the history of the world</blockquote>
                         <div class="clearfix"></div>
                     </div>
-                </div                
-                
+                </div
+
                 <!-- START OF CONTACT -->
                 <div id="Contact">
                     <div class="container-fluid clearfix Contact">
                         <div class="container clearfix TitleSection">
-                            <h1>CONTACT US</h1> 
+                            <h1>CONTACT US</h1>
                         </div>
                         <div class="container clearfix">
                             <div class="container">
@@ -984,14 +990,14 @@ Number.prototype.formatMoney = function(c, d, t){
                                     <img class="img-polaroid" src="/images/200_aldersgate.jpg"/>
                                 </div>
                                 <div class="span6">
-                                    <iframe width="100%" height="374" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=EC1A+4HD&amp;aq=&amp;ie=UTF8&amp;hq=&amp;hnear=EC1A+4HD,+United+Kingdom&amp;t=m&amp;z=18&amp;iwloc=near&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=EC1A+4HD&amp;aq=&amp;sll=37.09024,-95.712891&amp;sspn=38.775203,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=EC1A+4HD,+United+Kingdom&amp;t=m&amp;z=14&amp;iwloc=near&output=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>                                    
+                                    <iframe width="100%" height="374" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=EC1A+4HD&amp;aq=&amp;ie=UTF8&amp;hq=&amp;hnear=EC1A+4HD,+United+Kingdom&amp;t=m&amp;z=18&amp;iwloc=near&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=EC1A+4HD&amp;aq=&amp;sll=37.09024,-95.712891&amp;sspn=38.775203,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=EC1A+4HD,+United+Kingdom&amp;t=m&amp;z=14&amp;iwloc=near&output=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
                                     <br />
                                 </div>
                             </div>
                             <div class="container">
                                 <div class="span6">
                                     <h2>Get In Touch With Us</h2>
-                                    <div class="well" id="contact">                 
+                                    <div class="well" id="contact">
                                         <form class="form-horizontal" id="registerHere" method='post' action=''>
                                             <fieldset>
                                                 <div class="control-group">
@@ -1003,7 +1009,7 @@ Number.prototype.formatMoney = function(c, d, t){
                                                 <div class="control-group">
                                                     <label class="control-label" for="input01">Email</label>
                                                     <div class="controls">
-                                                        <input type="text" class="input-xlarge" id="user_email" name="user_email">
+                                                        <input type="text" class="input-xlarge" id="user_email" name="user_email" value="<?php echo $email; ?>">
                                                     </div>
                                                 </div>
                                                 <div class="control-group">
@@ -1032,10 +1038,10 @@ Number.prototype.formatMoney = function(c, d, t){
                                     <h2>Contact</h2>
                                     <div class="well">
                                         <p>AppBox Media PLC</p>
-                                        <p>200 Aldersgate</p> 
+                                        <p>200 Aldersgate</p>
                                         <p>London</p>
                                         <p>EC1A 4HD</p>
-                                        <p>Company Registration: 08616729</p>                                        
+                                        <p>Company Registration: 08616729</p>
                                         <hr>
                                         <div class="contact-info">
                                             <ul>
@@ -1045,12 +1051,12 @@ Number.prototype.formatMoney = function(c, d, t){
                                             </ul>
                                         </div>
                                     </div>
-                                </div>                                
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- END OF CONTACT -->                 
+                <!-- END OF CONTACT -->
                 <div class="container-fluid Footer">
                     <div class="container">
                         <footer>
@@ -1066,45 +1072,45 @@ Number.prototype.formatMoney = function(c, d, t){
                                 </li>
                                 <li>
                                     <a data-original-title="Googleplus" href="#" rel="tooltip" class="Googleplus">Googleplus</a>
-                                </li>                                
+                                </li>
                                 <li>
                                     <a data-original-title="Instagram" href="#" rel="tooltip" class="Instagram">Instagram</a>
-                                </li>                                
+                                </li>
                             </ul>
-     
+
                             <div style="margin:0 auto;width:240px">
                                 <a class="brand" id="logo_bottom_flip" href="#Home"></a>
                             </div>
                             <p>
-                               <a id="TermsConditionsBtn" data-toggle="modal" href="">Terms & Conditions</a> - 
-                               <a id="PrivacyPolicyBtn" data-toggle="modal" href="">Privacy Policy</a> - 
-                               <a id="ImportantNoticeBtn" data-toggle="modal" href="">Important Notice</a> - 
+                               <a id="TermsConditionsBtn" data-toggle="modal" href="">Terms & Conditions</a> -
+                               <a id="PrivacyPolicyBtn" data-toggle="modal" href="">Privacy Policy</a> -
+                               <a id="ImportantNoticeBtn" data-toggle="modal" href="">Important Notice</a> -
                                <a id="RiskWarningBtn" data-toggle="modal" href="">Risk Warning</a>
                             </p>
                         </footer>
                     </div>
-                </div>                    
+                </div>
             </div>
             <!-- /Row -->
         </div>
         <!-- /container -->
-        <div id="toTop">To Top</div>               
+        <div id="toTop">To Top</div>
         <!-- Start Disclaimer modal -->
         <div id="disclaimerModal" class="modal hide fade" role="dialog" tabindex="-1" role="dialog" aria-labelledby="disclaimerModalLabel" aria-hidden="true">
             <div class="modal-header">
                 <div style="float:left;">
-                    <h3 id="disclaimerModalLabel">Disclaimer</h3>                    
+                    <h3 id="disclaimerModalLabel">Disclaimer</h3>
                 </div>
                 <div style="float:right">
-                    <button style="margin:0;" class="btn btn-primary" data-dismiss="modal">I Agree</button>                                                        
+                    <button style="margin:0;" class="btn btn-primary" data-dismiss="modal">I Agree</button>
                 </div>
                 <div style="clear:both;height:1px">&nbsp;</div>
             </div>
-            <div class="modal-body">                
+            <div class="modal-body">
                 <p>Our Website and Placing Document is restricted to a limited number of investors, the website and document can be viewed if you qualify as a sophisticated investor or high net worth individual. If you wish to view our investment opportunity please accept that you qualify under one of the following criteria:</p>
-                
+
                 <b>STATEMENT FOR SELF-CERTIFIED HIGH NET WORTH INDIVIDUAL</b>
-                
+
                 <p>I understand that this means:</p>
                 <p>(a) I can receive financial promotions that may not have been approved by a person authorised by the Financial Conduct Authority;</p>
                 <p>(b) the content of such financial promotions may not conform to rules issued by the Financial Conduct Authority;</p>
@@ -1118,7 +1124,7 @@ Number.prototype.formatMoney = function(c, d, t){
                 <p>(d) I am currently, or have been in the two years prior to the date below, a director of a company with an annual turnover of at least £l million.</p>
                 <p>I accept that I can lose my property and other assets from making investment decisions based on financial promotions. I am aware that it is open to me to seek advice from someone who specialises in advising on investments.</p>
                 <p>I declare that I am a self-certified sophisticated investor for the purposes of the Financial Services and Markets Act (Financial Promotion) Order 2005.</p>
-                
+
                 <b>STATEMENT FOR SELF-CERTIFIED SOPHISTICATED INVESTOR</b>
 
                 <p>I understand that this means:</p>
@@ -1274,16 +1280,16 @@ Number.prototype.formatMoney = function(c, d, t){
 
                 <p>Company Registration: 08616729</p>
                 <p>Telephone: 0800 978 8018</p>
-                <p>E-mail: info@appboxmedia.com</p> 
+                <p>E-mail: info@appboxmedia.com</p>
                 <p>Office Opening Times: 9.00am - 5.00pm</p>
             </div>
         </div>
         <!-- End Start Terms and Conditions Modal -->
-        
+
         <!-- Start Privacy Policy Modal -->
         <div id="PrivacyPolicyModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="PrivacyPolicyModalLabel" aria-hidden="true">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>                
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h3 id="PrivacyPolicyModalLabel">Privacy Policy</h3>
             </div>
             <div class="modal-body">
@@ -1305,7 +1311,7 @@ Number.prototype.formatMoney = function(c, d, t){
         <!-- Start Important Notice Modal -->
         <div id="ImportantNoticeModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="ImportantNoticeModalLabel" aria-hidden="true">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>                
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h3 id="ImportantNoticeModalLabel">Important Notice</h3>
             </div>
             <div class="modal-body">
@@ -1374,11 +1380,11 @@ Number.prototype.formatMoney = function(c, d, t){
             </div>
         </div>
         <!-- End Important Notice Modal -->
-        
+
         <!-- Start Risk Warning Modal -->
         <div id="RiskWarningModal" role="dialog" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="RiskWarningModalLabel" aria-hidden="true">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>                
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                 <h3 id="RiskWarningModalLabel">Risk Warning</h3>
             </div>
             <div class="modal-body">
@@ -1389,7 +1395,7 @@ Number.prototype.formatMoney = function(c, d, t){
             </div>
         </div>
         <!-- End Important Notice Modal -->
-        
+
         <!-- Le javascript==================================================-->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="js/lean-slider.min.js"></script>
@@ -1401,50 +1407,52 @@ Number.prototype.formatMoney = function(c, d, t){
         <script src="js/jquery.mobile.customized.min.js"></script>
         <script src="js/jquery.parallax-1.1.3.min.js"></script>
         <script src="js/jquery.localscroll-1.2.7-min.js"></script>
-        <script src="js/jquery.scrollspy.js"></script>        
-        <script src="js/my_script.min.js"></script>        
+        <script src="js/jquery.scrollspy.js"></script>
+        <script src="js/my_script.min.js"></script>
         <!-- EIS Calculator -->
         <script src="js/jquery.eis.js"></script>
         <!-- WOWSLIDER -->
 	    <script type="text/javascript" src="WOWSlider/js/wowslider.js"></script>
 	    <script type="text/javascript" src="WOWSlider/js/init.js"></script>
-        <!-- Start Charts head section -->        
+        <!-- Start Charts head section -->
         <link href="/css/d3.css" rel="stylesheet" type="text/css">
         <script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
         <script type="text/javascript" src="/js/nv.js"></script>
-        <script type="text/javascript" src="/js/inview.js"></script>        
-        <!-- End Charts head section -->                
+        <script type="text/javascript" src="/js/inview.js"></script>
+        <!-- End Charts head section -->
         <script type='text/javascript' src='http://demos.flesler.com/jquery/scrollTo/js/jquery.scrollTo-min.js'></script>
         <script type='text/javascript' src='http://demos.flesler.com/jquery/serialScroll/js/jquery.serialScroll-min.js'></script>
-        <script type='text/javascript' src='/js/scrollText.js'></script>        
-        <script>            
-            jQuery(function () {     
-                
+        <script type='text/javascript' src='/js/scrollText.js'></script>
+        <script>
+            jQuery(function () {
+
                 // terms and condition modal
                 jQuery("#TermsConditionsBtn").bind('click', function(){
                     $('#TermsAndConditionsModal').modal();
                 });
-                
+
                 // privacy policy modal
                 jQuery("#PrivacyPolicyBtn").bind('click', function(){
-                    $('#PrivacyPolicyModal').modal();                    
+                    $('#PrivacyPolicyModal').modal();
                 });
 
                 // important notice modal
                 jQuery("#ImportantNoticeBtn").bind('click', function(){
-                    $('#ImportantNoticeModal').modal();                    
+                    $('#ImportantNoticeModal').modal();
                 });
 
                 // risk warning modal
                 jQuery("#RiskWarningBtn").bind('click', function(){
-                    $('#RiskWarningModal').modal();                    
+                    $('#RiskWarningModal').modal();
                 });
 
-                // disclaimer popup display on page load
-                jQuery('#disclaimerModal').modal({
-                    backdrop: 'static',
-                    keyboard: false
-                });                
+                <?php if($landing==false) { ?>
+                    // disclaimer popup display on page load
+                    jQuery('#disclaimerModal').modal({
+                        backdrop: 'static',
+                        keyboard: false
+                    });
+                <?php } ?>
             });
 
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

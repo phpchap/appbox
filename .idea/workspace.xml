@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="27c48a63-dbc3-40ec-95a3-e46ea3ebe191" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/index.php" afterPath="$PROJECT_DIR$/laravel/app/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/routes.php" afterPath="$PROJECT_DIR$/laravel/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="appbox.iws" />
@@ -26,19 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="filters.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/filters.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="999" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1350">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="1455">
+            <state line="7" column="14" selection-start="113" selection-end="119" vertical-scroll-proportion="-2.0851064" vertical-offset="0" max-vertical-offset="1596">
               <folding />
             </state>
           </provider>
@@ -47,10 +39,11 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="205" column="29" selection-start="12322" selection-end="12322" vertical-scroll-proportion="0.60023177" vertical-offset="2497" max-vertical-offset="21930">
+            <state line="1453" column="23" selection-start="93519" selection-end="93519" vertical-scroll-proportion="0.6678832" vertical-offset="19976" max-vertical-offset="20636">
               <folding>
+                <element signature="e#4810#4959#0" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#11539#12092#0" expanded="true" />
+                <element signature="e#11112#11665#0" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -72,6 +65,26 @@
                 <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#button#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="landing.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/landing.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="38" selection-start="2849" selection-end="2849" vertical-scroll-proportion="-17.863636" vertical-offset="419" max-vertical-offset="980">
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HomeController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/controllers/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="33" selection-start="685" selection-end="685" vertical-scroll-proportion="-12.727273" vertical-offset="0" max-vertical-offset="462">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,6 +120,7 @@
         <option value="$PROJECT_DIR$/laravel/public/js/modernizer.js" />
         <option value="$PROJECT_DIR$/laravel/app/views/presentation.php" />
         <option value="$PROJECT_DIR$/laravel/app/filters.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/landing.php" />
         <option value="$PROJECT_DIR$/laravel/app/routes.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/index.php" />
       </list>
@@ -114,10 +128,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="24" />
-    <option name="width" value="1615" />
-    <option name="height" value="1026" />
+    <option name="x" value="-1" />
+    <option name="y" value="22" />
+    <option name="width" value="1368" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -145,7 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -214,18 +227,30 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
+  </component>
+  <component name="PublishConfig">
+    <servers>
+      <server id="2e6bd3a9-958b-46ea-8dc9-66db73e18650">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </server>
+    </servers>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -253,21 +278,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="24" width="1615" height="1026" extended-state="6" />
+    <frame x="-1" y="22" width="1368" height="746" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2489164" sideWeight="0.67105263" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.67105263" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -275,7 +300,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -295,25 +320,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/app/filters.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="999" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1350">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1455">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/public/js/reveal_js/css/reveal.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="565" column="20" selection-start="11693" selection-end="11693" vertical-scroll-proportion="0.5057851" vertical-offset="7604" max-vertical-offset="26404" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/public/js/jquery.validate.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="535" />
@@ -339,29 +345,9 @@
         <state line="964" column="6" selection-start="3351" selection-end="45889" vertical-scroll-proportion="-20.818182" vertical-offset="13038" max-vertical-offset="13608" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/BaseController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/public/js/my_script.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="143" column="20" selection-start="4805" selection-end="4805" vertical-scroll-proportion="0.0" vertical-offset="1784" max-vertical-offset="2394" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/reveal.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="731" column="8" selection-start="46891" selection-end="46891" vertical-scroll-proportion="0.7189781" vertical-offset="9840" max-vertical-offset="10486" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/impress.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="981" column="7" selection-start="47292" selection-end="47292" vertical-scroll-proportion="0.9489051" vertical-offset="13214" max-vertical-offset="13818" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/public/js/modernizer.js">
@@ -369,31 +355,71 @@
         <state line="3" column="11147" selection-start="11485" selection-end="11485" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="126" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/presentation.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="219" column="68" selection-start="9034" selection-end="9034" vertical-scroll-proportion="0.332696" vertical-offset="2892" max-vertical-offset="6874" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/filters.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="999" selection-end="1063" vertical-scroll-proportion="0.0" vertical-offset="675" max-vertical-offset="1350">
+        <state line="45" column="0" selection-start="999" selection-end="1063" vertical-scroll-proportion="-0.122994654" vertical-offset="573" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/presentation.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="219" column="68" selection-start="9034" selection-end="9034" vertical-scroll-proportion="-139.36363" vertical-offset="0" max-vertical-offset="6874">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/reveal.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="731" column="8" selection-start="46891" selection-end="46891" vertical-scroll-proportion="0.7189781" vertical-offset="9840" max-vertical-offset="10486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/impress.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="951" column="47" selection-start="0" selection-end="47292" vertical-scroll-proportion="-5.5" vertical-offset="11905" max-vertical-offset="12530">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/landing.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="38" selection-start="2849" selection-end="2849" vertical-scroll-proportion="-17.863636" vertical-offset="419" max-vertical-offset="980">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="33" selection-start="685" selection-end="685" vertical-scroll-proportion="-12.727273" vertical-offset="0" max-vertical-offset="462">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625" vertical-offset="0" max-vertical-offset="1455">
+        <state line="7" column="14" selection-start="113" selection-end="119" vertical-scroll-proportion="-2.0851064" vertical-offset="0" max-vertical-offset="1596">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="205" column="29" selection-start="12322" selection-end="12322" vertical-scroll-proportion="0.60023177" vertical-offset="2497" max-vertical-offset="21930">
+        <state line="1453" column="23" selection-start="93519" selection-end="93519" vertical-scroll-proportion="0.6678832" vertical-offset="19976" max-vertical-offset="20636">
           <folding>
+            <element signature="e#4810#4959#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#11539#12092#0" expanded="true" />
+            <element signature="e#11112#11665#0" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />

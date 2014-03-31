@@ -1,14 +1,31 @@
 <?php
 
 // main website
-Route::get('/', function(){    
-    return View::make('index');
+Route::get('/', function(){
+        $email = "";
+
+    if(Session::has('email')) {
+        $email = Session::get('email');
+    }
+
+    return View::make('index', array('email' => $email));
 });
 
 // presentation
 Route::get('/presentation', array('as' => 'presentation', function(){
     return View::make('presentation');
 }));
+
+// presentation
+Route::get('/landing', function(){
+
+    if(!empty($_GET['e']) && $_GET['e']) {
+        Session::set('email', $_GET['e']);
+    }
+
+    return View::make('landing');
+});
+
 
 // simple presentation
 Route::get('/reveal', function(){
