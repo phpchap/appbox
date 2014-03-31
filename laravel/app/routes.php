@@ -80,14 +80,15 @@ Route::post('/contact', function(){
     // build the email details
     $name = $input['name']; 
     $email = $input['email']; 
-    $subject = $input['subject']; 
     $message = $input['message'];
-    
+    $title = $input['title'];
+
     // build the message
     $msg = "AppBox Media Contact Form Message: <br/>";
-    $msg .= "From: ".$name."<br/>";    
+
+    $msg .= "Title: ".$title."<br/>";
+    $msg .= "From: ".$name."<br/>";
     $msg .= "Email: ".$email ."<br/>";
-    $msg .= "Subject : ".$subject."<br/>";    
     $msg .= "Message: ".$message."<br/>";
  
     // retrieve the ses client
@@ -96,9 +97,8 @@ Route::post('/contact', function(){
     // send the email
     $sent = $client->sendEmail(array('Source' => 'hello@appboxmedia.com',
                                      'Destination' => array( 'ToAddresses' => array('hello@appboxmedia.com')),
-                                     'Message' => array('Subject' => array('Data' => 'From AppBox Media Website: '.$subject),
-                                     'Body' => array('Html' => array('Data' => $msg)))));    
-
+                                     'Message' => array('Subject' => array('Data' => 'From AppBox Media Website'),
+                                     'Body' => array('Html' => array('Data' => $msg)))));
     if($sent) {
         return 'OK';
     } else {

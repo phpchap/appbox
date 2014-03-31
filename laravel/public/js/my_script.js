@@ -210,9 +210,8 @@ $(document).ready(function() {
                 required: true,
                 email: true
             },
-            pwd: {
-                required: true,
-                minlength: 30
+            title: {
+                required: true
             },
             cpwd: {
                 required: false,
@@ -225,10 +224,6 @@ $(document).ready(function() {
             user_email: {
                 required: "Enter your email address",
                 email: "Enter valid email address"
-            },
-            pwd: {
-                required: "Enter your Your Subject",
-                minlength: "Your Subject must be minimum 30 characters"
             },
             cpwd: {
                 required: "Send Message",

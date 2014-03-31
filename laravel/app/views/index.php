@@ -1001,6 +1001,17 @@ Number.prototype.formatMoney = function(c, d, t){
                                         <form class="form-horizontal" id="registerHere" method='post' action=''>
                                             <fieldset>
                                                 <div class="control-group">
+                                                    <label class="control-label" for="input01">Title</label>
+                                                    <div class="controls">
+                                                        <select name="title" id="title">
+                                                            <option value="Mr">Mr</option>
+                                                            <option value="Dr">Dr</option>
+                                                            <option value="Mrs">Mrs</option>
+                                                            <option value="Ms">Ms</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="control-group">
                                                     <label class="control-label" for="input01">Name</label>
                                                     <div class="controls">
                                                         <input type="text" class="input-xlarge" id="user_name" name="user_name">
@@ -1012,12 +1023,7 @@ Number.prototype.formatMoney = function(c, d, t){
                                                         <input type="text" class="input-xlarge" id="user_email" name="user_email" value="<?php echo $email; ?>">
                                                     </div>
                                                 </div>
-                                                <div class="control-group">
-                                                    <label class="control-label" for="input01">Subject</label>
-                                                    <div class="controls">
-                                                        <input type="text" class="input-xlarge" id="pwd" name="pwd">
-                                                    </div>
-                                                </div>
+
                                                 <div class="control-group">
                                                     <label class="control-label" for="input01">Your Message</label>
                                                     <div class="controls">
