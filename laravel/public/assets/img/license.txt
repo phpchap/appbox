@@ -1,0 +1,97 @@
+
+License of images by http://dribbble.com/
+
+MIT License (MIT)
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+
+
+////////////////////////////////////////////////////////////////////////////
+
+
+License of images by http://www.flickr.com
+
+Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)
+
+
+You are free to:
+
+Share — copy and redistribute the material in any medium or format
+Adapt — remix, transform, and build upon the material
+for any purpose, even commercially.
+
+The licensor cannot revoke these freedoms as long as you follow the license terms.
+
+Under the following terms:
+
+Attribution — You must give appropriate credit, provide a link to the license, 
+and indicate if changes were made. You may do so in any reasonable manner, 
+but not in any way that suggests the licensor endorses you or your use.
+
+ShareAlike — If you remix, transform, or build upon the material, you must 
+distribute your contributions under the same license as the original.
+
+No additional restrictions — You may not apply legal terms or technological 
+measures that legally restrict others from doing anything the license permits.
+
+
+
+////////////////////////////////////////////////////////////////////////////
+
+
+Attributions:
+
+- Seven (http://dribbble.com/shots/1344785-Seven) by Ben Johnson (http://dribbble.com/bjohnson).
+
+- Top Secret (http://dribbble.com/shots/1268965-Top-Secret-Mobile-View) by Ben Johnson (http://dribbble.com/bjohnson).
+
+- mxm relaunch devices (http://dribbble.com/shots/617147-mxm-relaunch-devices) by Patrick Lauterburg (http://dribbble.com/lauterburgp).
+
+- SDBB Pitch questionnaire result page (http://dribbble.com/shots/540223-SDBB-Pitch-questionnaire-result-page) by Patrick Lauterburg (http://dribbble.com/lauterburgp).
+
+- Start Interface iPhone Game (http://dribbble.com/shots/221515-Start-Interface-iPhone-Game) by Patrick Lauterburg (http://dribbble.com/lauterburgp).
+
+- maxomedia.ch relaunch live! (http://dribbble.com/shots/715498-maxomedia-ch-relaunch-live) by Patrick Lauterburg (http://dribbble.com/lauterburgp).
+
+- Profile Tasks View - iOS/iPhone (http://dribbble.com/shots/575893-Profile-Tasks-View-iOS-iPhone) by Jason Wu (http://dribbble.com/jasonwu).
+
+- Zendesk - iPhone - UI/UX/iOS (http://dribbble.com/shots/177541-Zendesk-iPhone-UI-UX-iOS) by Jason Wu (http://dribbble.com/jasonwu).
+
+- Book now for iPhone (http://dribbble.com/shots/172143-Book-now-for-iPhone) by Jason Wu (http://dribbble.com/jasonwu).
+
+- Zendesk - iPad - UI/UX/iOS (http://dribbble.com/shots/158587-Zendesk-iPad-UI-UX-iOS) by Jason Wu (http://dribbble.com/jasonwu).
+
+- Menu (http://dribbble.com/shots/1031425-Menu) by Frantisek Kusovsky (http://dribbble.com/blackyeti).
+
+- Landing page (http://dribbble.com/shots/1225039-Landing-page-wip) by Frantisek Kusovsky (http://dribbble.com/blackyeti).
+
+- Mailbox (http://dribbble.com/shots/1219082-Mailbox) by Frantisek Kusovsky (http://dribbble.com/blackyeti).
+
+- All messages (http://dribbble.com/shots/1016706-All-messages-wip) by Frantisek Kusovsky (http://dribbble.com/blackyeti).
+
+- Jill Pringle (http://www.flickr.com/photos/kk/5442616515/) by Kris Krug (http://www.flickr.com/photos/kk/).
+
+- Elias (http://www.flickr.com/photos/liako/4005621303/) by Elias Bizannes (http://www.flickr.com/photos/liako/).
+
+- Biting lip (http://www.flickr.com/photos/leehaywood/6163609387/) by Lee Haywood (http://www.flickr.com/photos/leehaywood/).
+
+
+Important! All trademarks and registered trademarks used on this theme as well as all logos are property of their respective owners.
+
