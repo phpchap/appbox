@@ -32,7 +32,6 @@
     <![endif]-->
 
     <script src="js/jquery-1.8.2.min.js"></script>
-
     <style>
         .arrow-down {
             width: 0;
@@ -41,7 +40,167 @@
             border-right: 20px solid transparent;
             border-top: 20px solid #f00;
         }
+        .video-unit {
+            margin: 0 auto 0 auto;
+            font-size: 18px;
+            font-weight: 200;
+            line-height: 30px;
+            background-color: #eee;
+            border-radius: 6px;
+            padding: 30px;
+        }
+        .video-unit video {
+            width: 100%;
+        }
+
+        div#up {
+            width:0px;
+            height:0px;
+            border-left:5px solid transparent;  /* left arrow slant */
+            border-right:5px solid transparent; /* right arrow slant */
+            border-bottom:5px solid #2f2f2f; /* bottom, add background color here */
+        }
+        div#down {
+            width:0px;
+            height:0px;
+            border-left:20px solid transparent;  /* left arrow slant */
+            border-right:20px solid transparent; /* right arrow slant */
+            border-top:20px solid #f00; /* top, add background color here */
+        }
+        div#right {
+            width:0px;
+            height:0px;
+            border-top:60px solid transparent;  /* left arrow slant */
+            border-bottom:60px solid transparent; /* right arrow slant */
+            border-left:60px solid green; /* top, add background color here */
+        }
+        div#left {
+            width:0px;
+            height:0px;
+            border-top:10px solid transparent;  /* left arrow slant */
+            border-bottom:10px solid transparent; /* right arrow slant */
+            border-right:10px solid yellow; /* top, add background color here */
+        }
+
+        /* base CSS element */
+        .tip {
+            background: #eee;
+            border: 1px solid #ccc;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            position: relative;
+            width: 200px;
+        }
+
+        /* arrows - :before and :after */
+        .tip:before {
+            position: absolute;
+            display: inline-block;
+            border-top: 7px solid transparent;
+            border-right: 7px solid #eee;
+            border-bottom: 7px solid transparent;
+            border-right-color: rgba(0, 0, 0, 0.2);
+            left: -8px;
+            top: 20px;
+            content: '';
+        }
+
+        .tip:after {
+            position: absolute;
+            display: inline-block;
+            border-top: 6px solid transparent;
+            border-right: 6px solid #eee;
+            border-bottom: 6px solid transparent;
+            left: -6px;
+            top: 21px;
+            content: '';
+        }
+
+        #fujitsu {
+            background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0 -140px rgba(0, 0, 0, 0);
+            height: 125px;
+            text-indent: -99999px;
+            width: 125px;
+        }
+        #fujitsu:hover {
+            background-position: 0 0;
+        }
+        #gumtree {
+            background: url("/images/clients/client_sprite_map.png") no-repeat scroll -140px -127px rgba(0, 0, 0, 0);
+            height: 125px;
+            text-indent: -99999px;
+            width: 125px;
+        }
+        #gumtree:hover {
+            background-position: -141px 2px;
+        }
+        #motorola {
+            background: url("/images/clients/client_sprite_map.png") no-repeat scroll -270px -130px rgba(0, 0, 0, 0);
+            height: 125px;
+            text-indent: -99999px;
+            width: 125px;
+        }
+        #motorola:hover {
+            background-position: -270px -1px;
+        }
+        #nestle {
+            background: url("/images/clients/client_sprite_map.png") no-repeat scroll -402px -121px rgba(0, 0, 0, 0);
+            height: 125px;
+            text-indent: -99999px;
+            width: 125px;
+        }
+        #nestle:hover {
+            background-position: -402px 0;
+        }
+        #playboy {
+            background: url("/images/clients/client_sprite_map.png") no-repeat scroll 0 -405px rgba(0, 0, 0, 0);
+            height: 125px;
+            text-indent: -99999px;
+            width: 125px;
+        }
+        #playboy:hover {
+            background-position: 0 -279px;
+        }
+        #sega {
+            background: url("/images/clients/client_sprite_map.png") no-repeat scroll -138px -405px rgba(0, 0, 0, 0);
+            height: 125px;
+            text-indent: -99999px;
+            width: 125px;
+        }
+        #sega:hover {
+            background-position: -140px -279px;
+        }
+        #toshiba {
+            background: url("/images/clients/client_sprite_map.png") no-repeat scroll -289px -405px rgba(0, 0, 0, 0);
+            height: 125px;
+            text-indent: -99999px;
+            width: 125px;
+        }
+        #toshiba:hover {
+            background-position: -289px -275px;
+        }
+        #universal {
+            background: url("/images/clients/client_sprite_map.png") no-repeat scroll -422px -405px rgba(0, 0, 0, 0);
+            height: 125px;
+            text-indent: -99999px;
+            width: 125px;
+        }
+        #universal:hover {
+            background-position: -422px -280px;
+        }
+        .panel-default > .panel-heading {
+            background-color: #82027E;
+            transition: all 0.2s ease-in-out 0.2s;
+        }
+
+        .btn-custom.disabled:hover, .btn-custom.disabled:focus, .btn-custom.disabled:active, .btn-custom.disabled.active, .btn-custom[disabled]:hover, .btn-custom[disabled]:focus, .btn-custom[disabled]:active, .btn-custom.active[disabled], fieldset[disabled] .btn-custom:hover, fieldset[disabled] .btn-custom:focus, fieldset[disabled] .btn-custom:active, fieldset[disabled] .btn-custom.active {
+            background-color: rgba(255, 255, 255, 0);
+            border: 1px solid rgba(255, 255, 255, 0.5);
+            color: #52CDBF;
+        }
     </style>
+
 </head>
 
 <body>
@@ -52,11 +211,11 @@
 <section id="call-to-action">
     <div class="container">
         <div class="row clearfix">
-            <div class="col-xs-4 col-sm-4 col-md-4">
+            <div class="col-xs-4 col-sm-4 col-md-4" style="margin-top: 30px;">
                 <img src="/images/logo.png"/>
             </div>
             <div class="col-xs-8 col-sm-8 col-md-8">
-                <h1>Invest in the next <span>big mobile company!</span></h1>
+                <h1>30% of investment paid back in <span>first year.</span></h1>
             </div>
         </div>
     </div>
@@ -67,56 +226,68 @@
         <div class="row clearfix">
             <!-- .video -->
             <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 video">
-                <iframe src="http://player.vimeo.com/video/80255970?title=0&amp;portrait=0&amp;byline=0&amp;badge=0" width="500" height="281" allowfullscreen></iframe>
+                <img src="/images/video_overlay.png" style="width: 100%" id="video_overlay"/>
+                <video id='video-player' preload='metadata' controls style="width: 100%;display: none">
+                    <source src="http://m.wsj.net/video/20130303/030313appstats/030313appstats_1500k.mp4" type="video/mp4">
+                </video>
+                <h4 style="color:#fff;">Wall Street Journal video about fast growing mobile apps economy</h4>
             </div><!-- /.video -->
             <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
-                <!-- .form-subscribe -->
 
-                <div class="form-subscribe">
-                    <h1>Lets talk! </h1>
-                    <?php /*
-                    <h1>Find out more<span style="  background: url('/images/arrow.png') no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-                        display: inline-block;
-                        height: 196px;
-                        left: 168px;
-                        position: absolute;
-                        top: -132px;
-                        width: 169px;
-                        text-indent: -9999px;
-                        z-index: 999;">aa</span> */ ?> </h1>
-                    <p></p>
-                    <div id="message"></div>
-                    <form class="form-horizontal" id="signup" role="form">
-
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <label>Name</label>
-                                <input type="text" class="form-control" id="name" name="name">
-                            </div>
+                <?php if (Session::get('display_video') == false) { ?>
+                    <!-- .form-subscribe -->
+                    <div class="form-subscribe" style="background: rgba(130, 2, 126, 0.5);border:0;">
+                        <div id="position:relative;" style="background: #f00;margin-bottom: -10px;">
+                            <h1 style="padding:10px;font-weight: 500; font-size: 1.7em; color:#fff;background:#f00">Get your free report today</h1>
                         </div>
-
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <label>Email</label>
-                                <input type="email" class="form-control" id="email" name="email">
-                            </div>
+                        <div id="down">
+                            &nbsp;
                         </div>
-
-                        <div class="form-group">
-                            <div class="col-sm-12">
-                                <label>Phone</label>
-                                <input type="text" class="form-control" id="phone" name="phone">
+                        <form class="form-horizontal" id="signup" role="form" action="/landing" method="POST">
+                            <div class="form-group">
+                                <div class="col-sm-4">
+                                    <label>Title</label>
+                                    <select class="form-control"  name="t">
+                                        <option <?php if($t == "") { echo "SELECTED"; } ?> value="Mr">Mr</option>
+                                        <option <?php if($t == "") { echo "SELECTED"; } ?> value="Dr">Dr</option>
+                                        <option <?php if($t == "") { echo "SELECTED"; } ?> value="Ms">Ms</option>
+                                        <option <?php if($t == "") { echo "SELECTED"; } ?> value="Mrs">Mrs</option>
+                                    </select>
+                                </div>
+                                <div class="col-sm-8">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" id="name" name="n" value="<?php if($n != "") { echo $n; } ?>">
+                                </div>
                             </div>
-                        </div>
 
-                        <div class="form-group">
-                            <div class="div-center col-sm-12">
-                                <button type="submit" id="SendButton" name="submit" class="btn btn-custom">Send me more information <i class="fa fa-check"></i></button>
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <label>Email</label>
+                                    <input type="email" class="form-control" id="email" name="e" value="<?php if($e != "") { echo $e; } ?>">
+                                </div>
                             </div>
-                        </div>
-                    </form>
 
-                </div><!-- /.form-subscribe -->
+                            <div class="form-group">
+                                <div class="col-sm-12">
+                                    <label>Phone</label>
+                                    <input type="text" class="form-control" id="phone" name="p" value="<?php if($p != "") { echo $p; } ?>">
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="div-center col-sm-12">
+                                    <button type="submit" id="SendButton" name="submit" class="btn btn-custom">Send me more information <i class="fa fa-check"></i></button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div><!-- /.form-subscribe -->
+                <?php } else { ?>
+                <div class="form-subscribe" style="background: rgba(130, 2, 126, 0.5);border:0;">
+                    <h1>We will be in touch shortly with more information</h1>
+                    </div>
+                <?php } ?>
+
             </div>
         </div>
     </div>
@@ -165,15 +336,18 @@
 <section id="faqs-screenshots">
     <div class="container">
         <div class="row clearfix">
+
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 screenshots">
-                <h2>About App Box Media</h2>
-                <p>AppBox Media PLC is a mobile application and video game software development company for Apple iOS, Google Android, Xbox and Orbis operating systems. The companies upcoming release titles will be available for instant download on smart phone, tablet, SmartTV, PlayStation 4, Xbox One and Google Glass devices.</p>
+                <h2>The Team at AppBox Media</h2>
+                <p>At the heart of AppBox media is its team. We hold an ethos of being big enough to take on big projects whilst being compact enough to care about all aspects of those projects.</p>
+                <p>The team at AppBox know what it is to work in major billion pound companies. Our accounts team even know how to structure such companies having worked on corporate finance at Nestle. At an academic level we know what it takes to be top achievers having a team that includes 1st class honours graduates and others who have worked on the world stage at the United Nations.</p>               <p>Our developers and project managers have designed and built applications for: Playboy, Universal Pictures, Motorola, Toshiba, SEGA, Fujitsu and Gumtree.</p>
+                <p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p>
             </div>
+
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="chart1">
                 <!-- .faq-cat-tabs -->
                 <ul class="nav nav-tabs faq-cat-tabs">
-                    <li class="active"><a href="#faq-cat-1" data-toggle="tab"><i class="fa  fa-check-circle"></i> Room for Growth</a></li>
-                    <li><a href="#faq-cat-2" data-toggle="tab"><i class="fa fa-question-circle"></i> iOS and Android Activations by Country</a></li>
+                    <li class="active"><a href="#faq-cat-1" data-toggle="tab"><i class="fa  fa-check-circle"></i> iOS and Android Activations by Country</a></li>
                 </ul><!-- /.faq-cat-tabs -->
 
                 <!-- .faq-cat-content -->
@@ -181,19 +355,12 @@
                     <!-- #faq-cat-1 -->
                     <div class="tab-pane active in fade" id="faq-cat-1">
                         <div class="panel-group" id="accordion-cat-1">
-                            <div id="chart1" style="width:100%;height:340px;" class='with-3d-shadow with-transitions box'>
-                                <svg></svg>
-                            </div>
-                        </div>
-                    </div><!-- /#faq-cat-1 -->
-                    <!-- #faq-cat-2 -->
-                    <div class="tab-pane fade" id="faq-cat-2">
-                        <div class="panel-group" id="accordion-cat-2">
                             <div id="chart2" style="width:100%;height:340px;" class='with-3d-shadow with-transitions box'>
                                 <svg></svg>
                             </div>
                         </div>
-                    </div><!-- /#faq-cat-2 -->
+                    </div><!-- /#faq-cat-1 -->
+
                 </div><!-- /.faq-cat-content -->
             </div>
         </div>
@@ -206,9 +373,49 @@
     // inView Code
     $(document).ready(function() {
 
+        <?php if (Session::get('display_video') == false) { ?>
+            $("#video-player").hide();
+            $("#video_overlay").show();
+        <?php } else { ?>
+            $("#video-player").show();
+            $("#video_overlay").hide();
+            var v = document.getElementsByTagName("video")[0];
+            v.play();
+        <?php } ?>
+
+        $("#video_overlay").click(function(){
+            <?php if (Session::get('display_video') == false) { ?>
+                alert('Please fill in your details before watching video');
+            <?php } else { ?>
+                var v = document.getElementsByTagName("video")[0];
+                v.play();
+            <?php } ?>
+
+
+        });
+
+        var video = $("#video-player");
+        var windowObj = $(window);
+
+        function onResizeWindow() {
+            resizeVideo(video[0]);
+        }
+
+        function onLoadMetaData(e) {
+            resizeVideo(e.target);
+        }
+
+        function resizeVideo(videoObject) {
+            var percentWidth = videoObject.clientWidth * 100 / videoObject.videoWidth;
+            var videoHeight = videoObject.videoHeight * percentWidth / 100;
+            video.height(videoHeight);
+        }
+
+        video.on("loadedmetadata", onLoadMetaData);
+        windowObj.resize(onResizeWindow);
+
         $('#chart1').one('inview', function (event, visible) {
             if (visible) {
-                showGraph1();
                 showGraph2();
             }
         });
@@ -290,19 +497,92 @@
 
             return chart2;
         });
-
-//alert('call');
-        //nv.utils.windowResize(chart2.update);
-
     }
 </script>
 <!-- END OF OPPORTUNITIES -->
-
 
 <!-- #toTop -->
 <div id="toTop">
     <i class="fa fa-angle-up"></i>
 </div><!-- /#toTop -->
+<section id="brands">
+    <div class="container">
+        <div class="row clearfix">
+            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+                <div class="item-customer">
+                    <div id="fujitsu" style="float:left;margin:5px;"></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+                <div class="item-customer">
+                    <div id="sega" style="float:left;margin:5px;"></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+                <div class="item-customer">
+                    <div id="gumtree" style="float:left;margin:5px;"></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+                <div class="item-customer">
+                    <div id="playboy" style="float:left;margin:5px;"></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+                <div class="item-customer">
+                    <div id="toshiba" style="float:left;margin:5px;"></div>
+                </div>
+            </div>
+            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-2">
+                <div class="item-customer">
+                    <div id="universal" style="float:left;margin:5px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- footer -->
+<footer>
+    <div class="container">
+        <!-- .items-footer -->
+        <div class="row clearfix items-footer">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h3>About Us</h3>
+                <p>AppBox Media PLC is a mobile application and video game software development company for Apple iOS, Google Android, Xbox and Orbis operating systems. The companies upcoming release titles will be available for instant download on smart phone, tablet, SmartTV, PlayStation 4, Xbox One and Google Glass devices.</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h3>Company Details</h3>
+                <h4><i class="fa fa-map-marker"></i> Address</h4>
+                <p>200 Aldersgate</p>
+                <p>London</p>
+                <p>EC1A 4HD</p>
+                <p>Company Registration: 08616729</p>
+            </div>
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <h3>Contact Us</h3>
+                <h4><i class="fa fa-envelope"></i> Email</h4>
+                <p><a href="mailto:investorrelations@appboxmedia.com">investorrelations@appboxmedia.com</a></p>
+                <h4><i class="fa fa-phone"></i> Telephone Number</h4>
+                <p>0203 440 4110</p>
+                <p>0800 978 8018</p>
+                <p></p>
+            </div>
+        </div><!-- /.items-footer -->
+        <!-- .copyright -->
+        <div class="row clearfix copyright">
+            <!-- .social-icon -->
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 social-icon">
+                <ul class="list-unstyled list-inline">
+                    <li><a href="http://www.facebook.com/AppBoxMedia" class="icon-facebook"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="http://www.twitter.com/AppBoxMedia" class="icon-twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="icon-google-plus"><i class="fa fa-google-plus"></i></a></li>
+                    <li><a href="#" class="icon-skype"><i class="fa fa-skype"></i></a></li>
+                </ul>
+            </div><!-- /.social-icon -->
+
+        </div><!-- /.copyright -->
+    </div>
+</footer><!-- /footer -->
 </div><!-- /#main_container -->
 
 <!-- JavaScript -->
@@ -313,7 +593,6 @@
 <script src="assets/js/fluidvids.js"></script>
 <script src="assets/js/jquery.prettyPhoto.min.js"></script>
 <script src="assets/js/switcher/switcher.js"></script>
-<script src="php/mcapi-subscribe/js/mailing-list.js"></script>
 
 <!-- Start Charts head section -->
 <link href="/css/d3.css" rel="stylesheet" type="text/css">
@@ -321,5 +600,14 @@
 <script type="text/javascript" src="/js/nv.js"></script>
 <script type="text/javascript" src="/js/inview.js"></script>
 
+<script type="text/javascript">
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-47895871-2', 'appboxmedia.com');
+    ga('send', 'pageview');
+</script>
 </body>
 </html>

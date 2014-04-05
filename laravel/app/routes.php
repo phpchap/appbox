@@ -17,13 +17,42 @@ Route::get('/presentation', array('as' => 'presentation', function(){
 }));
 
 // presentation
-Route::get('/landing', function(){
+Route::any('/landing', function(){
 
-    if(!empty($_GET['e']) && $_GET['e']) {
-        Session::set('email', $_GET['e']);
+    Session::set('display_video', false);
+
+    // grab the input
+    $input = $_POST;
+
+    if(!empty($input)) {
+        Session::set('display_video', true);
     }
 
-    return View::make('landing');
+    $e = "";
+    if(!empty($_GET['e']) && $_GET['e']) {
+        Session::set('email', $_GET['e']);
+        $e = $_GET['e'];
+    }
+
+    $n = "";
+    if(!empty($_GET['n']) && $_GET['n']) {
+        Session::set('number', $_GET['n']);
+        $n = $_GET['n'];
+    }
+
+    $p = "";
+    if(!empty($_GET['p']) && $_GET['p']) {
+        Session::set('phone', $_GET['p']);
+        $p = $_GET['p'];
+    }
+
+    $t = "";
+    if(!empty($_GET['t']) && $_GET['t']) {
+        Session::set('title', $_GET['t']);
+        $t = $_GET['t'];
+    }
+
+    return View::make('landing', array('e' => $e, 'n' => $n, 'p' => $p, 't' => $t));
 });
 
 

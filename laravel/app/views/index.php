@@ -199,11 +199,6 @@ if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing
                                     <div class="video-unit">
                                         <video id='video-player' preload='metadata' controls>
                                             <source src="http://m.wsj.net/video/20130303/030313appstats/030313appstats_1500k.mp4" type="video/mp4">
-                                            <?php /*
-                                            <source src="http://twofuckingdevelopers.com/examples/videogular/examples/assets/videos/oceans-clip.mp4" type="video/mp4">
-                                            <source src="http://twofuckingdevelopers.com/examples/videogular/examples/assets/videos/oceans-clip.webm" type="video/webm">
-                                            <source src="http://twofuckingdevelopers.com/examples/videogular/examples/assets/videos/oceans-clip.ogv" type="video/ogg">
-                                             */ ?>
                                         </video>
                                     </div>
                                 </div>
