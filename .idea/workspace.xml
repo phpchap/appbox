@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27c48a63-dbc3-40ec-95a3-e46ea3ebe191" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css" afterPath="$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/landing.php" afterPath="$PROJECT_DIR$/laravel/app/views/landing.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/routes.php" afterPath="$PROJECT_DIR$/laravel/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="appbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,19 +50,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="blue.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="blue.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="239" selection-start="3372" selection-end="3372" vertical-scroll-proportion="0.0" vertical-offset="622" max-vertical-offset="1554">
+            <state line="79" column="65" selection-start="4551" selection-end="4551" vertical-scroll-proportion="0.8491228" vertical-offset="622" max-vertical-offset="1554">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="226" column="0" selection-start="7635" selection-end="7635" vertical-scroll-proportion="0.40875912" vertical-offset="2940" max-vertical-offset="4592">
+            <state line="226" column="0" selection-start="7635" selection-end="7635" vertical-scroll-proportion="-10.181818" vertical-offset="2940" max-vertical-offset="4592">
               <folding>
                 <element signature="e#7#2132#0" expanded="true" />
               </folding>
@@ -104,9 +101,9 @@
         <option value="$PROJECT_DIR$/laravel/public/js/my_script.js" />
         <option value="$PROJECT_DIR$/laravel/public/js/my_script.min.js" />
         <option value="$PROJECT_DIR$/laravel/app/views/index.php" />
-        <option value="$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css" />
         <option value="$PROJECT_DIR$/laravel/app/views/landing.php" />
         <option value="$PROJECT_DIR$/laravel/app/routes.php" />
+        <option value="$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css" />
       </list>
     </option>
   </component>
@@ -445,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="239" selection-start="3372" selection-end="3372" vertical-scroll-proportion="0.0" vertical-offset="622" max-vertical-offset="1554">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/landing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="228" column="54" selection-start="8325" selection-end="8325" vertical-scroll-proportion="-2.8085105" vertical-offset="3060" max-vertical-offset="8974">
@@ -477,10 +467,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="226" column="0" selection-start="7635" selection-end="7635" vertical-scroll-proportion="0.40875912" vertical-offset="2940" max-vertical-offset="4592">
+        <state line="226" column="0" selection-start="7635" selection-end="7635" vertical-scroll-proportion="-10.181818" vertical-offset="2940" max-vertical-offset="4592">
           <folding>
             <element signature="e#7#2132#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="79" column="65" selection-start="4551" selection-end="4551" vertical-scroll-proportion="0.8491228" vertical-offset="622" max-vertical-offset="1554">
+          <folding />
         </state>
       </provider>
     </entry>
