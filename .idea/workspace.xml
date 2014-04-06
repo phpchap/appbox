@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c48a63-dbc3-40ec-95a3-e46ea3ebe191" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/index.php" afterPath="$PROJECT_DIR$/laravel/app/views/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css" afterPath="$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/landing.php" afterPath="$PROJECT_DIR$/laravel/app/views/landing.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/routes.php" afterPath="$PROJECT_DIR$/laravel/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -28,12 +28,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="landing.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="landing.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/views/landing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="609" column="27" selection-start="25793" selection-end="25793" vertical-scroll-proportion="0.9464627" vertical-offset="8031" max-vertical-offset="8666">
+            <state line="228" column="54" selection-start="8325" selection-end="8325" vertical-scroll-proportion="-2.8085105" vertical-offset="3060" max-vertical-offset="8974">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -53,20 +53,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
+      <file leaf-file-name="blue.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1465" column="0" selection-start="93360" selection-end="93828" vertical-scroll-proportion="-18.545454" vertical-offset="20046" max-vertical-offset="20594">
+            <state line="58" column="239" selection-start="3372" selection-end="3372" vertical-scroll-proportion="0.0" vertical-offset="622" max-vertical-offset="1554">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="0" selection-start="485" selection-end="561" vertical-scroll-proportion="-6.4468083" vertical-offset="103" max-vertical-offset="2002">
-              <folding />
+            <state line="226" column="0" selection-start="7635" selection-end="7635" vertical-scroll-proportion="0.40875912" vertical-offset="2940" max-vertical-offset="4592">
+              <folding>
+                <element signature="e#7#2132#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -89,7 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/laravel/public/js/reveal_js/index.html" />
         <option value="$PROJECT_DIR$/laravel/public/js/reveal_js/css/reveal.css" />
         <option value="$PROJECT_DIR$/laravel/app/views/simple.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/advanced.php" />
@@ -103,8 +104,9 @@
         <option value="$PROJECT_DIR$/laravel/public/js/my_script.js" />
         <option value="$PROJECT_DIR$/laravel/public/js/my_script.min.js" />
         <option value="$PROJECT_DIR$/laravel/app/views/index.php" />
-        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
+        <option value="$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css" />
         <option value="$PROJECT_DIR$/laravel/app/views/landing.php" />
+        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
       </list>
     </option>
   </component>
@@ -141,6 +143,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -187,7 +190,85 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appbox" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="colors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -208,14 +289,9 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -268,7 +344,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2469697" sideWeight="0.9012739" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25075758" sideWeight="0.9012739" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -302,11 +378,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/public/css/site.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="282" column="21" selection-start="5795" selection-end="5795" vertical-scroll-proportion="0.6430868" vertical-offset="3748" max-vertical-offset="5698" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/public/deck.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="964" column="6" selection-start="3351" selection-end="45889" vertical-scroll-proportion="-20.818182" vertical-offset="13038" max-vertical-offset="13608" />
@@ -364,30 +435,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/public/landing_/elite-landing-page/video.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="378" column="27" selection-start="20066" selection-end="22358" vertical-scroll-proportion="-19.818182" vertical-offset="4856" max-vertical-offset="6790">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="485" selection-end="561" vertical-scroll-proportion="-6.4468083" vertical-offset="103" max-vertical-offset="2002">
-          <folding />
-        </state>
+        <state line="378" column="27" selection-start="20066" selection-end="22358" vertical-scroll-proportion="-19.818182" vertical-offset="4856" max-vertical-offset="6790" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1465" column="0" selection-start="93360" selection-end="93828" vertical-scroll-proportion="-18.545454" vertical-offset="20046" max-vertical-offset="20594">
+        <state line="1440" column="55" selection-start="92772" selection-end="92772" vertical-scroll-proportion="-2.6363637" vertical-offset="20046" max-vertical-offset="20594">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="239" selection-start="3372" selection-end="3372" vertical-scroll-proportion="0.0" vertical-offset="622" max-vertical-offset="1554">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/landing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="609" column="27" selection-start="25793" selection-end="25793" vertical-scroll-proportion="0.9464627" vertical-offset="8031" max-vertical-offset="8666">
+        <state line="228" column="54" selection-start="8325" selection-end="8325" vertical-scroll-proportion="-2.8085105" vertical-offset="3060" max-vertical-offset="8974">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#video#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -402,6 +471,15 @@
             <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#4;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#5;n#div#0;n#div#0;n#section#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="0" selection-start="7635" selection-end="7635" vertical-scroll-proportion="0.40875912" vertical-offset="2940" max-vertical-offset="4592">
+          <folding>
+            <element signature="e#7#2132#0" expanded="true" />
           </folding>
         </state>
       </provider>

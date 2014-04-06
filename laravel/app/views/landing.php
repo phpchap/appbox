@@ -65,7 +65,7 @@
             height:0px;
             border-left:20px solid transparent;  /* left arrow slant */
             border-right:20px solid transparent; /* right arrow slant */
-            border-top:20px solid #f00; /* top, add background color here */
+            border-top:20px solid #2DB2EA; /* top, add background color here */
         }
         div#right {
             width:0px;
@@ -211,10 +211,10 @@
 <section id="call-to-action">
     <div class="container">
         <div class="row clearfix">
-            <div class="col-xs-4 col-sm-4 col-md-4" style="margin-top: 30px;">
+            <div class="col-xs-12 col-sm-4 col-md-4" style="margin-top: 30px;">
                 <img src="/images/logo.png"/>
             </div>
-            <div class="col-xs-8 col-sm-8 col-md-8">
+            <div class="col-xs-12 col-sm-8 col-md-8">
                 <h1>30% of investment paid back in <span>first year.</span></h1>
             </div>
         </div>
@@ -226,6 +226,7 @@
         <div class="row clearfix">
             <!-- .video -->
             <div class="col-xs-12 col-sm-7 col-md-8 col-lg-8 video">
+                <h1 style="color:#fff;font-weight: 400">Profit from the app sector</h1>
                 <img src="/images/video_overlay.png" style="width: 100%" id="video_overlay"/>
                 <video id='video-player' preload='metadata' controls style="width: 100%;display: none">
                     <source src="http://m.wsj.net/video/20130303/030313appstats/030313appstats_1500k.mp4" type="video/mp4">
@@ -238,32 +239,53 @@
                     <!-- .form-subscribe -->
                     <div class="form-subscribe" style="background: rgba(130, 2, 126, 0.5);border:0;">
                         <div id="position:relative;" style="background: #f00;margin-bottom: -10px;">
-                            <h1 style="padding:10px;font-weight: 500; font-size: 1.7em; color:#fff;background:#f00">Get your free report today</h1>
+                            <h1 style="padding:10px;font-weight: 500; font-size: 1.7em; color:#fff;background:#2DB2EA">Get your free report today</h1>
                         </div>
                         <div id="down">
                             &nbsp;
                         </div>
+
+                        <?php if(count($err) > 0) { ?>
+                            <div id="message">
+                                <div class="alert alert-danger">
+                                    <ul>
+                                    <?php foreach($err as $er) { ?>
+                                        <li><?php echo $er; ?></li>
+                                    <?php } ?>
+                                    </ul>
+                                </div>
+                            </div>
+                        <?php } ?>
+
                         <form class="form-horizontal" id="signup" role="form" action="/landing" method="POST">
                             <div class="form-group">
                                 <div class="col-sm-4">
                                     <label>Title</label>
                                     <select class="form-control"  name="t">
-                                        <option <?php if($t == "") { echo "SELECTED"; } ?> value="Mr">Mr</option>
-                                        <option <?php if($t == "") { echo "SELECTED"; } ?> value="Dr">Dr</option>
-                                        <option <?php if($t == "") { echo "SELECTED"; } ?> value="Ms">Ms</option>
-                                        <option <?php if($t == "") { echo "SELECTED"; } ?> value="Mrs">Mrs</option>
+                                        <option <?php if($t == "Mr") { echo "SELECTED"; } ?> value="Mr">Mr</option>
+                                        <option <?php if($t == "Dr") { echo "SELECTED"; } ?> value="Dr">Dr</option>
+                                        <option <?php if($t == "Miss") { echo "SELECTED"; } ?> value="Miss">Miss</option>
+                                        <option <?php if($t == "Mrs") { echo "SELECTED"; } ?> value="Mrs">Mrs</option>
+                                        <option <?php if($t == "Other") { echo "SELECTED"; } ?> value="Other">Other</option>
                                     </select>
                                 </div>
-                                <div class="col-sm-8">
-                                    <label>Name</label>
-                                    <input type="text" class="form-control" id="name" name="n" value="<?php if($n != "") { echo $n; } ?>">
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-sm-6">
+                                    <label>First Name</label>
+                                    <input type="text" class="form-control" id="email" name="f" value="<?php if($f != "") { echo $f; } ?>">
+                                </div>
+                                <div class="col-sm-6">
+                                    <label>Last Name</label>
+                                    <input type="text" class="form-control" id="email" name="s" value="<?php if($s != "") { echo $s; } ?>">
                                 </div>
                             </div>
 
                             <div class="form-group">
                                 <div class="col-sm-12">
                                     <label>Email</label>
-                                    <input type="email" class="form-control" id="email" name="e" value="<?php if($e != "") { echo $e; } ?>">
+                                    <input type="text" class="form-control" id="email" name="e" value="<?php if($e != "") { echo $e; } ?>">
                                 </div>
                             </div>
 
@@ -283,11 +305,11 @@
 
                     </div><!-- /.form-subscribe -->
                 <?php } else { ?>
-                <div class="form-subscribe" style="background: rgba(130, 2, 126, 0.5);border:0;">
-                    <h1>We will be in touch shortly with more information</h1>
+                    <div class="form-subscribe" style="background: rgba(130, 2, 126, 0.5);border:0;">
+                    <h1>Thanks for registering your interest</h1>
+                    <p>We will be in touch shortly with more information</p>
                     </div>
                 <?php } ?>
-
             </div>
         </div>
     </div>
