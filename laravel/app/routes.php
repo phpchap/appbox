@@ -151,12 +151,12 @@ Route::any('/landing', function(){
     $input = $_POST;
 
     $err = array();
-    $e = "";
-    $n = "";
-    $p = "";
-    $t = "";
-    $f = "";
-    $s = "";
+    $e = (!empty($_GET['e'])) ? $_GET['e'] : "";
+    $n = (!empty($_GET['n'])) ? $_GET['n'] : "";
+    $p = (!empty($_GET['p'])) ? $_GET['p'] : "";
+    $t = (!empty($_GET['t'])) ? $_GET['t'] : "";
+    $f = (!empty($_GET['f'])) ? $_GET['f'] : "";
+    $s = (!empty($_GET['s'])) ? $_GET['s'] : "";
 
     if(!empty($input)) {
 
