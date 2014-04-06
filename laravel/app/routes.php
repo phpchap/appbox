@@ -222,7 +222,7 @@ Route::any('/landing', function(){
 
             // send the email
             $sent = $client->sendEmail(array('Source' => 'phpchap@gmail.com',
-                                             'Destination' => array( 'ToAddresses' => array('hello@appboxmedia.com','phpchap@gmail.com','bryan@appboxmedia.com','dean@appboxmedia.com','investorrelations@appboxmedia.com')),
+                                             'Destination' => array( 'ToAddresses' => array('investorrelations@appboxmedia.com')),
                                              'Message' => array('Subject' => array('Data' => 'From AppBox Media Website'),
                                                                 'Body' => array('Html' => array('Data' => $msg)))));
 
