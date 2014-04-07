@@ -443,7 +443,7 @@
         });
 
         $("#faq-cat-1").bind('click', function(){
-            showGraph1();
+            showGraph2();
         });
 
         $("#faq-cat-2").bind('click', function(){
