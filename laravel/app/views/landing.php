@@ -323,14 +323,14 @@
                 <!-- .panel -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title"><i class="fa fa-check"></i> Investment Opportunity</h3>
+                        <h3 class="panel-title"><i class="fa fa-check"></i> Investment Opportunity:</h3>
                     </div>
                     <div class="panel-body">
                         <ul>
                             <li>35% Forecast CAGR</li>
-                            <li>30% of Investment paid back in first year</li>
                             <li>App Sector grew 115% in 2013</li>
                             <li>Exponential growth opportunities in India, China and Africa</li>
+                            <li>Defined Exit Strategies</li>
                         </ul>
                     </div>
                 </div><!-- /.panel -->
@@ -339,14 +339,14 @@
                 <!-- .panel -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title"><i class="fa fa-check"></i> Business Overview</h3>
+                        <h3 class="panel-title"><i class="fa fa-check"></i> Investment Benefits:</h3>
                     </div>
                     <div class="panel-body">
                         <ul>
-                            <li>Generous tax breaks; EIS, SEIS and Capital Gains Tax relief</li>
-                            <li>HMRC Approved</li>
-                            <li>Risk Protection through SEIS and EIS</li>
-                            <li>Defined exit strategies</li>
+                            <li>30% income tax relief</li>
+                            <li>Tax Free Growth</li>
+                            <li>Loss Relief</li>
+                            <li>100% relief from Inheritance tax</li>
                         </ul>
                     </div>
                 </div><!-- /.panel -->
@@ -570,7 +570,7 @@
         <div class="row clearfix items-footer">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <h3>About Us</h3>
-                <p>AppBox Media PLC is a mobile application and video game software development company for Apple iOS, Google Android, Xbox and Orbis operating systems. The companies upcoming release titles will be available for instant download on smart phone, tablet, SmartTV, PlayStation 4, Xbox One and Google Glass devices.</p>
+                <p>AppBox Media PLC is a mobile application and video game software development company. The company’s upcoming release titles will be available for instant download on Apple IPhone, Tablet devices, Samsung Smart TV, Sony PlayStation 4, Microsoft Xbox One and Google Glass devices.</p>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <h3>Company Details</h3>

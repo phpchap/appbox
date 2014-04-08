@@ -29,28 +29,8 @@
       <file leaf-file-name="landing.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/views/landing.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="469" column="22" selection-start="20184" selection-end="20184" vertical-scroll-proportion="0.9489051" vertical-offset="6046" max-vertical-offset="8974">
+            <state line="573" column="0" selection-start="24088" selection-end="24088" vertical-scroll-proportion="0.6328872" vertical-offset="7691" max-vertical-offset="8974">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blue.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="65" selection-start="4551" selection-end="4551" vertical-scroll-proportion="0.0" vertical-offset="622" max-vertical-offset="1554">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="0" selection-start="7305" selection-end="7305" vertical-scroll-proportion="-119.90909" vertical-offset="414" max-vertical-offset="4592">
-              <folding>
-                <element signature="e#7#2132#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -125,6 +105,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -295,7 +276,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,7 +328,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25454545" sideWeight="0.9012739" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18181819" sideWeight="0.9012739" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -449,23 +429,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/public/assets/css/colors/blue.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="65" selection-start="4551" selection-end="4551" vertical-scroll-proportion="0.0" vertical-offset="622" max-vertical-offset="1554">
-          <folding />
-        </state>
+        <state line="79" column="65" selection-start="4551" selection-end="4551" vertical-scroll-proportion="0.8491228" vertical-offset="622" max-vertical-offset="1554" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="0" selection-start="7305" selection-end="7305" vertical-scroll-proportion="-119.90909" vertical-offset="414" max-vertical-offset="4592">
-          <folding>
-            <element signature="e#7#2132#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="217" column="0" selection-start="7255" selection-end="7255" vertical-scroll-proportion="4.702317" vertical-offset="400" max-vertical-offset="4592" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/landing.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="469" column="22" selection-start="20184" selection-end="20184" vertical-scroll-proportion="0.9489051" vertical-offset="6046" max-vertical-offset="8974">
+        <state line="573" column="0" selection-start="24088" selection-end="24088" vertical-scroll-proportion="0.6328872" vertical-offset="7691" max-vertical-offset="8974">
           <folding />
         </state>
       </provider>
