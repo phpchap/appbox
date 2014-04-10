@@ -323,14 +323,15 @@
                 <!-- .panel -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title"><i class="fa fa-check"></i> Investment Opportunity:</h3>
+                        <h3 class="panel-title">Investment Opportunity:</h3>
                     </div>
                     <div class="panel-body">
-                        <ul>
-                            <li>35% Forecast CAGR</li>
-                            <li>App Sector grew 115% in 2013</li>
-                            <li>Exponential growth opportunities in India, China and Africa</li>
-                            <li>Defined Exit Strategies</li>
+                        <ul style="list-style: none">
+                            <li><i class="fa fa-check"></i> Unlimited Upside Capital Growth Potential</li>
+                            <li><i class="fa fa-check"></i> 35% Forecast CAGR</li>
+                            <li><i class="fa fa-check"></i> App Sector Grows 115% in 2013</li>
+                            <li><i class="fa fa-check"></i> Exponential Growth Opportunities in India, China and Africa</li>
+                            <li><i class="fa fa-check"></i> Defined Exit Strategies – Including FTSE AIM All-Share Index</li>
                         </ul>
                     </div>
                 </div><!-- /.panel -->
@@ -339,14 +340,15 @@
                 <!-- .panel -->
                 <div class="panel panel-default">
                     <div class="panel-heading">
-                        <h3 class="panel-title"><i class="fa fa-check"></i> Investment Benefits:</h3>
+                        <h3 class="panel-title">EIS Investment Benefits:</h3>
                     </div>
                     <div class="panel-body">
-                        <ul>
-                            <li>30% income tax relief</li>
-                            <li>Tax Free Growth</li>
-                            <li>Loss Relief</li>
-                            <li>100% relief from Inheritance tax</li>
+                        <ul style="list-style: none">
+                            <li><i class="fa fa-check"></i> 30% Income Tax Relief via the Enterprise Investment Scheme</li>
+                            <li><i class="fa fa-check"></i> Tax Free Capital Growth</li>
+                            <li><i class="fa fa-check"></i> Nil Stamp Duty Payable</li>
+                            <li><i class="fa fa-check"></i> Loss Relief</li>
+                            <li><i class="fa fa-check"></i> 100% Relief from Inheritance tax</li>
                         </ul>
                     </div>
                 </div><!-- /.panel -->
@@ -366,24 +368,8 @@
                 <p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6" id="chart1">
-                <!-- .faq-cat-tabs -->
-                <ul class="nav nav-tabs faq-cat-tabs">
-                    <li class="active"><a href="#faq-cat-1" data-toggle="tab"><i class="fa  fa-check-circle"></i> iOS and Android Activations by Country</a></li>
-                </ul><!-- /.faq-cat-tabs -->
-
-                <!-- .faq-cat-content -->
-                <div class="tab-content faq-cat-content">
-                    <!-- #faq-cat-1 -->
-                    <div class="tab-pane active in fade" id="faq-cat-1">
-                        <div class="panel-group" id="accordion-cat-1">
-                            <div id="chart2" style="width:100%;height:340px;" class='with-3d-shadow with-transitions box'>
-                                <svg></svg>
-                            </div>
-                        </div>
-                    </div><!-- /#faq-cat-1 -->
-
-                </div><!-- /.faq-cat-content -->
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                <img src="/images/graph.png" class="img-responsive" alt="Responsive image">
             </div>
         </div>
     </div>
@@ -570,7 +556,9 @@
         <div class="row clearfix items-footer">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <h3>About Us</h3>
-                <p>AppBox Media PLC is a mobile application and video game software development company. The company’s upcoming release titles will be available for instant download on Apple IPhone, Tablet devices, Samsung Smart TV, Sony PlayStation 4, Microsoft Xbox One and Google Glass devices.</p>
+                <p>AppBox Media Plc is a mobile application and video game software development company. The Company’s upcoming release titles will be available for instant download on Apple IPhone, Google Tablet devices and Samsung Smart TV.</p>
+                <p>Our developers and project managers have designed and built applications for: Playboy, Universal Pictures, Motorola, Toshiba, SEGA, Fujitsu and Gumtree.</p>
+                <p>In 2014 it is estimated that app downloads will continue to grow to exceed 200 billion per year by the end of full year 2017, and revenues in 2017 will reach 63.5 billion US dollars. Much of this growth will derive from Africa and Asia.</p>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <h3>Company Details</h3>
@@ -601,8 +589,8 @@
                     <li><a href="#" class="icon-skype"><i class="fa fa-skype"></i></a></li>
                 </ul>
             </div><!-- /.social-icon -->
-
         </div><!-- /.copyright -->
+        <small style="font-size: 8px;">DISCLAIMER: This email has been sent to you on the basis that you are reasonably believed to be such a person as is described in Article 19 (Investment professionals), Article 48 (Certified high net worth individuals), Article 49 (High net worth companies, unincorporated associations etc.), Article 50 (Sophisticated investors), Article 50A (Self-certified sophisticated investors) and Article 51 (Associations of high net worth or sophisticated investors) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005, or you are a person to whom this email may otherwise lawfully be sent. If you do not fall within such descriptions then you should not act upon the information contained in this website.</small>
     </div>
 </footer><!-- /footer -->
 </div><!-- /#main_container -->
