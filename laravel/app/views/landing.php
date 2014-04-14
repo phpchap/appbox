@@ -326,7 +326,7 @@
                         <h3 class="panel-title">Investment Opportunity:</h3>
                     </div>
                     <div class="panel-body">
-                        <ul style="list-style: none">
+                        <ul style="list-style: none; padding-left: 0px">
                             <li><i class="fa fa-check"></i> Unlimited Upside Capital Growth Potential</li>
                             <li><i class="fa fa-check"></i> 35% Forecast CAGR</li>
                             <li><i class="fa fa-check"></i> App Sector Grows 115% in 2013</li>
@@ -343,7 +343,7 @@
                         <h3 class="panel-title">EIS Investment Benefits:</h3>
                     </div>
                     <div class="panel-body">
-                        <ul style="list-style: none">
+                        <ul style="list-style: none; padding-left: 0px">
                             <li><i class="fa fa-check"></i> 30% Income Tax Relief via the Enterprise Investment Scheme</li>
                             <li><i class="fa fa-check"></i> Tax Free Capital Growth</li>
                             <li><i class="fa fa-check"></i> Nil Stamp Duty Payable</li>
@@ -362,14 +362,16 @@
         <div class="row clearfix">
 
             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 screenshots">
-                <h2>The Team at AppBox Media</h2>
-                <p>At the heart of AppBox media is its team. We hold an ethos of being big enough to take on big projects whilst being compact enough to care about all aspects of those projects.</p>
-                <p>The team at AppBox know what it is to work in major billion pound companies. Our accounts team even know how to structure such companies having worked on corporate finance at Nestle. At an academic level we know what it takes to be top achievers having a team that includes 1st class honours graduates and others who have worked on the world stage at the United Nations.</p>               <p>Our developers and project managers have designed and built applications for: Playboy, Universal Pictures, Motorola, Toshiba, SEGA, Fujitsu and Gumtree.</p>
-                <p>We are proud of our individual achievements, but we shall be even prouder of our team achievements and what we intend to achieve with AppBox Media. At the core of AppBox is the knowledge that the team have achieved fantastic results in larger institutions.</p>
+                <h2>AppBox Media</h2>
+                <p style="font-size: 16px">AppBox Media Plc is a mobile application and video game software development company. The company's upcoming release titles will be available for instant download on Apple IPhone, Google Tablet devices and Samsung Smart TV.</p>
+                <p style="font-size: 16px">Our developers and project managers have designed and built applications for: Playboy, Universal Pictures, Motorola, Toshiba, SEGA, Fujitsu and Gumtree.</p>
+                <p style="font-size: 16px">In 2014 it is estimated that app downloads will continue to grow to exceed 200 billion per year by the end of full year 2017, and revenues in 2017 will reach 63.5 billion US dollars. Much of this growth will derive from Africa and Asia.</p>
             </div>
 
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                <img src="/images/graph.png" class="img-responsive" alt="Responsive image">
+            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 screenshots" style="text-align: center">
+                <h2 style="text-align: left">Room for Growth</h2>
+                <img src="/images/graph2.png" class="img-responsive" alt="graph">
+                <small style="font-size: 10px;">Flurry Analytics for April 2013 for active devices. Worldbank 2011 for population.</small>
             </div>
         </div>
     </div>
@@ -555,10 +557,8 @@
         <!-- .items-footer -->
         <div class="row clearfix items-footer">
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <h3>About Us</h3>
-                <p>AppBox Media Plc is a mobile application and video game software development company. The Company’s upcoming release titles will be available for instant download on Apple IPhone, Google Tablet devices and Samsung Smart TV.</p>
-                <p>Our developers and project managers have designed and built applications for: Playboy, Universal Pictures, Motorola, Toshiba, SEGA, Fujitsu and Gumtree.</p>
-                <p>In 2014 it is estimated that app downloads will continue to grow to exceed 200 billion per year by the end of full year 2017, and revenues in 2017 will reach 63.5 billion US dollars. Much of this growth will derive from Africa and Asia.</p>
+                <h3>Our Office</h3>
+                <img src="/images/200_aldersgate.jpg" class="img-responsive">
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
                 <h3>Company Details</h3>
@@ -590,7 +590,7 @@
                 </ul>
             </div><!-- /.social-icon -->
         </div><!-- /.copyright -->
-        <small style="font-size: 8px;">DISCLAIMER: This email has been sent to you on the basis that you are reasonably believed to be such a person as is described in Article 19 (Investment professionals), Article 48 (Certified high net worth individuals), Article 49 (High net worth companies, unincorporated associations etc.), Article 50 (Sophisticated investors), Article 50A (Self-certified sophisticated investors) and Article 51 (Associations of high net worth or sophisticated investors) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005, or you are a person to whom this email may otherwise lawfully be sent. If you do not fall within such descriptions then you should not act upon the information contained in this website.</small>
+        <small style="font-size: 9px;">DISCLAIMER: This email has been sent to you on the basis that you are reasonably believed to be such a person as is described in Article 19 (Investment professionals), Article 48 (Certified high net worth individuals), Article 49 (High net worth companies, unincorporated associations etc.), Article 50 (Sophisticated investors), Article 50A (Self-certified sophisticated investors) and Article 51 (Associations of high net worth or sophisticated investors) of the Financial Services and Markets Act 2000 (Financial Promotion) Order 2005, or you are a person to whom this email may otherwise lawfully be sent. If you do not fall within such descriptions then you should not act upon the information contained in this website.</small>
     </div>
 </footer><!-- /footer -->
 </div><!-- /#main_container -->

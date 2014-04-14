@@ -84,7 +84,7 @@ header { padding: 10px 0 15px 0; background-color:#ffffff; border-bottom:1px sol
 .nav > li > a:hover, .nav > li > a:focus { background-color: #f8f8f8; color: #333333; }
 .faq-cat-content { margin-top: 25px; }
 #faqs-screenshots .panel-title { font-family: 'Oswald', sans-serif; }
-.panel { font-weight:400; font-family: 'Lato', sans-serif; font-size: 17px }
+.panel { font-weight:bold; font-family: 'Lato', sans-serif; font-size: 16px }
 .faq-cat-tabs li a { font-family: 'Oswald', sans-serif; padding: 15px 10px 15px 10px; background-color: #ffffff; border: 1px solid #eeeeee; color: #777777; }
 .nav-tabs li a:focus, .panel-heading a:focus { outline: none; color: #333333; }
 .panel-heading a, .panel-heading a:hover, .panel-heading a:focus { text-decoration: none; color: #ffffff; }
