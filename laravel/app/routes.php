@@ -147,6 +147,8 @@ Route::any('/landing', function(){
 
     Session::set('display_video', false);
 
+    global $paths;
+
     // grab the input
     $input = $_POST;
 
@@ -203,6 +205,7 @@ Route::any('/landing', function(){
 
         if(empty($err)) {
 
+
             Session::set('display_video', true);
 
             $t = $_REQUEST['t'];
@@ -226,6 +229,16 @@ Route::any('/landing', function(){
                                              'Message' => array('Subject' => array('Data' => 'From AppBox Media Website'),
                                                                 'Body' => array('Html' => array('Data' => $msg)))));
 
+            $emailDir = __DIR__."/storage/emails/";
+
+            if(!$emailDir) {
+                mkdir($emailDir, 777);
+            }
+
+            $emailFile = $emailDir."emails.txt";
+            $fp = fopen($emailFile, 'w+');
+            fwrite($fp, $msg);
+            fclose($fp);
 
         }
     }
