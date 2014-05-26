@@ -42,7 +42,7 @@ if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing
         <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
         <!-- Start Tabs CSS -->
         <link rel="stylesheet" href="/css/jquery.nouislider.css">
-        <script src="http://refreshless.com/nouislider/source/jquery.nouislider.js"></script>
+        <script src="/js/noUiSlider/jquery.nouislider.js"></script>
         <link rel="stylesheet" href="/css/site.css">
         <script>
             $(function(){
