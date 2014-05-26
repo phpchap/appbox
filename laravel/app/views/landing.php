@@ -272,13 +272,9 @@
                             </div>
 
                             <div class="form-group">
-                                <div class="col-sm-6">
-                                    <label>First Name</label>
-                                    <input type="text" class="form-control" id="email" name="f" value="<?php if($f != "") { echo $f; } ?>">
-                                </div>
-                                <div class="col-sm-6">
-                                    <label>Last Name</label>
-                                    <input type="text" class="form-control" id="email" name="s" value="<?php if($s != "") { echo $s; } ?>">
+                                <div class="col-sm-12">
+                                    <label>Name</label>
+                                    <input type="text" class="form-control" id="name" name="n" value="<?php if ($n != "") { echo $n; } ?>">
                                 </div>
                             </div>
 

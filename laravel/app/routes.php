@@ -64,20 +64,13 @@ function checkUKTelephone (&$strTelephoneNumber) {
         return false;
     }
 
-    // Don't allow country codes to be included (assumes a leading "+")
-    if (preg_match('/^(\+)[\s]*(.*)$/',$strTelephoneNumberCopy)) {
-        $intError = 2;
-        $strError = 'UK telephone number without the country code, please';
-        return false;
-    }
-
     // Remove hyphens - they are not part of a telephone number
     $strTelephoneNumberCopy = str_replace ('-', '', $strTelephoneNumberCopy);
 
     // Now check that all the characters are digits
-    if (!preg_match('/^[0-9]{10,11}$/',$strTelephoneNumberCopy)) {
+    if (strlen($strTelephoneNumberCopy) < 10) {
         $intError = 3;
-        $strError = 'UK telephone numbers should contain 10 or 11 digits';
+        $strError = 'Telephone numbers length invalid';
         return false;
     }
 
@@ -85,36 +78,6 @@ function checkUKTelephone (&$strTelephoneNumber) {
     if (!preg_match('/^0[0-9]{9,10}$/',$strTelephoneNumberCopy)) {
         $intError = 4;
         $strError = 'The telephone number should start with a 0';
-        return false;
-    }
-
-    // Check the string against the numbers allocated for dramas
-
-    // Expression for numbers allocated to dramas
-
-    $tnexp[0] =  '/^(0113|0114|0115|0116|0117|0118|0121|0131|0141|0151|0161)(4960)[0-9]{3}$/';
-    $tnexp[1] =  '/^02079460[0-9]{3}$/';
-    $tnexp[2] =  '/^01914980[0-9]{3}$/';
-    $tnexp[3] =  '/^02890180[0-9]{3}$/';
-    $tnexp[4] =  '/^02920180[0-9]{3}$/';
-    $tnexp[5] =  '/^01632960[0-9]{3}$/';
-    $tnexp[6] =  '/^07700900[0-9]{3}$/';
-    $tnexp[7] =  '/^08081570[0-9]{3}$/';
-    $tnexp[8] =  '/^09098790[0-9]{3}$/';
-    $tnexp[9] =  '/^03069990[0-9]{3}$/';
-
-    foreach ($tnexp as $regexp) {
-        if (preg_match($regexp,$strTelephoneNumberCopy, $matches)) {
-            $intError = 5;
-            $strError = 'The telephone number is either invalid or inappropriate';
-            return false;
-        }
-    }
-
-    // Finally, check that the telephone number is appropriate.
-    if (!preg_match('/^(01|02|03|05|070|071|072|073|074|075|07624|077|078|079)[0-9]+$/',$strTelephoneNumberCopy)) {
-        $intError = 5;
-        $strError = 'The telephone number is either invalid or inappropriate';
         return false;
     }
 
@@ -169,18 +132,11 @@ Route::any('/landing', function(){
             $err[] = "title is empty";
         }
 
-        if(!empty($_REQUEST['f']) && $_REQUEST['f']) {
-            Session::set('firstname', $_REQUEST['f']);
-            $f = $_REQUEST['f'];
+        if(!empty($_REQUEST['n']) && $_REQUEST['n']) {
+            Session::set('name', $_REQUEST['n']);
+            $n = $_REQUEST['n'];
         } else {
-            $err[] = "first name is empty";
-        }
-
-        if(!empty($_REQUEST['s']) && $_REQUEST['s']) {
-            Session::set('lastname', $_REQUEST['s']);
-            $s = $_REQUEST['s'];
-        } else {
-            $err[] = "last name is empty";
+            $err[] = "Name is empty";
         }
 
         if(!empty($_REQUEST['e']) && $_REQUEST['e']) {
@@ -200,7 +156,7 @@ Route::any('/landing', function(){
                 $err[] = "phone number is invalid";
             }
         } else {
-            $err[] = "phone is empty";
+            $err[] = "phone number is empty";
         }
 
         if(empty($err)) {
@@ -209,14 +165,13 @@ Route::any('/landing', function(){
             Session::set('display_video', true);
 
             $t = $_REQUEST['t'];
-            $f = $_REQUEST['f'];
-            $s = $_REQUEST['s'];
+            $n = $_REQUEST['n'];
             $e = $_REQUEST['e'];
             $p = $_REQUEST['p'];
 
             // build the message
             $msg = "AppBox Media Landing Page Message: <br/>";
-            $msg .= "From: ".$t." ".$f." ".$s."<br/>";
+            $msg .= "From: ".$t." ".$n."<br/>";
             $msg .= "Email: ".$e ."<br/>";
             $msg .= "Phone Number : ".$p."<br/>";
 
@@ -225,7 +180,7 @@ Route::any('/landing', function(){
 
             // send the email
             $sent = $client->sendEmail(array('Source' => 'phpchap@gmail.com',
-                                             'Destination' => array( 'ToAddresses' => array('investorrelations@appboxmedia.com')),
+                                             'Destination' => array('ToAddresses' => array('investorrelations@appboxmedia.com')),
                                              'Message' => array('Subject' => array('Data' => 'From AppBox Media Website'),
                                                                 'Body' => array('Html' => array('Data' => $msg)))));
 
