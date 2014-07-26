@@ -254,7 +254,7 @@ Route::post('/send', function(){
 
 
 // contact page AJAX send to Amazon SES
-Route::any('/contact', function(){
+Route::get('/contact', function(){
 
     // grab the input
     $input = Input::all();

@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c48a63-dbc3-40ec-95a3-e46ea3ebe191" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/config/packages/aws/aws-sdk-php-laravel/config.php" afterPath="$PROJECT_DIR$/laravel/app/config/packages/aws/aws-sdk-php-laravel/config.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/routes.php" afterPath="$PROJECT_DIR$/laravel/app/routes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="appbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="routes.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="254" column="0" selection-start="8190" selection-end="8190" vertical-scroll-proportion="0.11764706" vertical-offset="3250" max-vertical-offset="3861">
+            <state line="256" column="10" selection-start="8241" selection-end="8241" vertical-scroll-proportion="0.61764705" vertical-offset="3055" max-vertical-offset="3861">
               <folding>
                 <element signature="e#7#2132#0" expanded="true" />
               </folding>
@@ -354,7 +352,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="254" column="0" selection-start="8190" selection-end="8190" vertical-scroll-proportion="0.11764706" vertical-offset="3250" max-vertical-offset="3861">
+        <state line="256" column="10" selection-start="8241" selection-end="8241" vertical-scroll-proportion="0.61764705" vertical-offset="3055" max-vertical-offset="3861">
           <folding>
             <element signature="e#7#2132#0" expanded="true" />
           </folding>
