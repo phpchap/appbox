@@ -254,14 +254,14 @@ Route::post('/send', function(){
 
 
 // contact page AJAX send to Amazon SES
-Route::post('/contact', function(){
+Route::any('/contact', function(){
 
-    // grab the input 
+    // grab the input
     $input = Input::all();
-    
+
     // build the email details
-    $name = $input['name']; 
-    $email = $input['email']; 
+    $name = $input['name'];
+    $email = $input['email'];
     $message = $input['message'];
     $title = $input['title'];
 
@@ -272,15 +272,16 @@ Route::post('/contact', function(){
     $msg .= "From: ".$name."<br/>";
     $msg .= "Email: ".$email ."<br/>";
     $msg .= "Message: ".$message."<br/>";
- 
+
     // retrieve the ses client
     $client = App::make('aws')->get('Ses');
 
     // send the email
     $sent = $client->sendEmail(array('Source' => 'hello@appboxmedia.com',
-                                     'Destination' => array( 'ToAddresses' => array('hello@appboxmedia.com')),
+                                     'Destination' => array( 'ToAddresses' => array('phpchap@gmail.com')),
                                      'Message' => array('Subject' => array('Data' => 'From AppBox Media Website'),
                                      'Body' => array('Html' => array('Data' => $msg)))));
+
     if($sent) {
         return 'OK';
     } else {

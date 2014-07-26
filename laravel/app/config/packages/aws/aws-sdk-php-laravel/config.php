@@ -31,9 +31,10 @@ return array(
     | more information see http://docs.aws.amazon.com/aws-sdk-php-2/guide/latest/configuration.html
     |
     */
-    'key'    => '1RYS2GC04Y36FCEC2VG2',
-    'secret' => '+NVdtJbR5YhidsDZE9szJclz0nFrTtqC2bE0344q',
-
+    // 'key'    => '1RYS2GC04Y36FCEC2VG2',
+    // 'secret' => '+NVdtJbR5YhidsDZE9szJclz0nFrTtqC2bE0344q',
+    'key'    => 'AKIAIEVWQRSGB5CZS2FA',
+    'secret' => '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',
     /*
     |--------------------------------------------------------------------------
     | AWS Region
