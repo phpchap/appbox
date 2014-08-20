@@ -105,6 +105,16 @@ Route::get('/presentation', array('as' => 'presentation', function(){
     return View::make('presentation');
 }));
 
+// cricket game
+Route::get('/cricket',array('before' => 'auth.basic', function() {
+    return View::make('cricket');
+}));
+
+// frenzy fox
+Route::get('/frenzy-fox', function() {
+    return View::make('frenzy-fox');
+});
+
 // presentation
 Route::any('/landing', function(){
 
