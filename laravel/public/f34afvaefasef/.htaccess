@@ -1,0 +1,7 @@
+AuthName "Restricted Area" 
+AuthType Basic 
+AuthUserFile /var/www/appbox/laravel/.htpasswd 
+AuthGroupFile /dev/null 
+<Files /var/www/appbox/laravel/public/CricketWebDemo/index.html>
+require valid-user
+</Files>
