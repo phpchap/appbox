@@ -109,16 +109,14 @@ if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing
                             <a href="#Team">Team</a>
                         </li>
                         <li>
+                            <a href="#Games">Games</a>
+                        </li>
+                        <li>
                             <a href="#EISCalculator">EIS Calculator</a>
                         </li>
                         <li>
                             <a href="#Contact">Contact</a>
                         </li>
-<?php /*
-                        <li>
-                            <a target="_blank" href="/presentation">Presentation</a>
-                        </li>
-*/ ?>
                     </ul>
                     <a href="#" id="pull"></a>
                 </nav>
@@ -376,8 +374,6 @@ if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing
                     <div class="ParallaxText">
                         <blockquote>There are now over 1 billion active smartphones and tablets using apps around the world every month.</blockquote>
                         <blockquote>People look at their mobile phones an average of 150 times a day</blockquote>
-                        <blockquote>App consumers spend nearly half their time using Games apps, and a third interacting on Social Networking apps</blockquote>
-                        <blockquote>The world’s number of app connected devices will increase by more than 400 million</blockquote>
                     </div>
                 </div>
 
@@ -410,6 +406,51 @@ if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing
                                     <!-- END OF FIRST ROW -->
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END OF TEAM -->
+
+                <!-- THIRD DID YOU KNOW -->
+                <div id="third" class="Parallax">
+                    <div class="ParallaxText">
+                        <blockquote>App consumers spend nearly half their time using Games apps, and a third interacting on Social Networking apps</blockquote>
+                        <blockquote>The world’s number of app connected devices will increase by more than 400 million</blockquote>
+                    </div>
+                </div>
+
+
+                <!-- START OF GAMES -->
+                <div id="Games">
+                    <div class="container-fluid clearfix About">
+                        <div class="container clearfix">
+                            <div class="container clearfix TitleSection">
+                                <h1>Games</h1>
+                            </div>
+                            <div class="container clearfix">
+                                <!-- FIRST ROW -->
+                                <div class="span12">
+                                    <p>We are focused on building addictive games that engage audiences across the world and allow our players to share their achievements on social networks.</p>
+                                    <p>Our games are in constant development so check back to see the latest titles or <a href="#Contact">contact us</a> to find out whats coming up!</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="container clearfix">
+                                <div class="span2">
+                                    <a href="/frenzy-fox"><img style="padding: 10px 0;float: right" class="img-responsive" src="/img/FrenzyFox.png"/></a><br/>
+                                </div>
+                                <div class="span10">
+                                    <a href="/frenzy-fox"><h2>Frenzy Fox</h2></a>
+                                    <p>Free to play infinitely challenging jungle based running game. Challenge your reflexes as your collect fruit for bonus multipliers, clear obstacles and get that high score, share with friends and brag about who’s the king of the forest.</p>
+                                </div>
+                            </div>
+                            <div class="container clearfix">
+                                <div class="span12" style="text-align: center">
+                                    <a href="https://play.google.com/store/apps/details?id=com.AppBoxMedia.FrenzyFox" target="_blank"><img style="padding: 10px 0;height:90px;" class="img-responsive" src="/img/download-googleplay.png"/></a>
+                                    <a href="https://itunes.apple.com/us/app/frenzy-fox/id901192377?mt=8" target="_blank"><img style="padding: 10px 0;height:95px;" class="img-responsive" src="/img/download-appstore.png"/></a>
+                                </div>
+                            </div>
+                            <hr>
                         </div>
                     </div>
                 </div>

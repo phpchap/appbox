@@ -265,6 +265,34 @@ h1 {
     display: block;
     font-size: 25px;
 }
+.fox {
+    float: right;
+}
+#link {
+    margin:0 auto;width:240px;
+}
+.Social {
+    height: 40px;
+    width: 227px;
+    margin: 0 auto;
+}
+ul.Social li {
+    float: left;
+    height: 40px;
+    margin: 0 5px;
+    width: 32px;
+}
+ul.Social li a {
+    display: block;
+    float: left;
+    height: 40px;
+    opacity: 0.7;
+    text-indent: -9999px;
+    width: 32px;
+}
+ul.Social li a:hover {
+    opacity: 1;
+}
 .gradient-line {
     /*
     TODO: нормальный градиент
@@ -408,7 +436,44 @@ h1 {
         margin-bottom: 30px;
     }
 }
+@media (max-width: 480px) {
+    .iphone-landscape.iphone-4s .iphone-screen {
+        left: 40px;
+    }
+    .iphone-4s.iphone-landscape.iphone-white .iphone {
+        background-image: none;
+    }
+
+    .iphone-landscape.iphone-4s .iphone-screen {
+        text-align: center;
+    }
+    .iphone-landscape .description .feature, .features-facts .feature {
+        width: 100%;
+    }
+    .Social {
+        width: 227px;
+        margin: 0 auto;
+    }
+    .fox {
+        float: left;
+    }
+    #link {
+        width: 237px;
+    }
+
+}
+@media (max-width: 479px) {
+    .iphone-landscape.iphone-4s .iphone-screen {
+        left: -10px;
+    }
+}
+
 @media (max-width: 768px) {
+
+    .iphone-landscape.iphone-4s .iphone-screen {
+/*        left: 50px; */
+    }
+
     .response-line {
         width: 100%;
     }
@@ -447,10 +512,18 @@ h1 {
         float: none;
     }
     .iphone-landscape .description .feature, .features-facts .feature {
-        width: 50%;
+        /*width: 50%;*/
         float: left;
     }
 }
+@media (max-width: 320px) {
+    #link {
+        width: 275px;
+    }
+}
+
+
+
 ol, ul {
     list-style: none outside none;
 }
@@ -465,27 +538,7 @@ ol, ul {
 #logo_bottom_flip:hover {
     background-position: 0 -34px;
 }
-.Social {
-    height: 40px;
-    margin: 10px 23% !important;
-}
-ul.Social li {
-    float: left;
-    height: 40px;
-    margin: 0 5px;
-    width: 32px;
-}
-ul.Social li a {
-    display: block;
-    float: left;
-    height: 40px;
-    opacity: 0.7;
-    text-indent: -9999px;
-    width: 32px;
-}
-ul.Social li a:hover {
-    opacity: 1;
-}
+
 .Rss {
     background: url("../icon/social/rss.png") no-repeat scroll 0 6px transparent;
 }

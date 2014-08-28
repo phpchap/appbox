@@ -7,10 +7,6 @@ body {
   margin: 0;
   max-height: 100%;
 }
-  a {
-    text-decoration: none;
-    color: #FE8A59;
-  }
 
 .container{
     height: 100%;

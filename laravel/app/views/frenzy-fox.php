@@ -55,9 +55,9 @@
 </div>
 
 <div class="row">
-    <div class="span4"><img style="padding: 10px 0;float: right" class="img-responsive" src="/img/FrenzyFox.png"/></div>
-    <div class="span4"><img style="padding: 10px 0" class="img-responsive" src="/img/download-googleplay.png"/></div>
-    <div class="span4"><img style="padding: 10px 0;height:120px;" class="img-responsive" src="/img/download-appstore.png"/></div>
+    <div class="span4"><img  class="img-responsive fox" src="/img/FrenzyFox.png"/></div>
+    <div class="span4"><a href="https://play.google.com/store/apps/details?id=com.AppBoxMedia.FrenzyFox" target="_blank"><img style="padding: 10px 0;height:90px;" class="img-responsive" src="/img/download-googleplay.png"/></a></div>
+    <div class="span4"><a href="https://itunes.apple.com/us/app/frenzy-fox/id901192377?mt=8" target="_blank"><img style="padding: 10px 0;height:95px;" class="img-responsive" src="/img/download-appstore.png"/></a></div>
 </div>
 
 <div class="gradient-line gradient-line-before"></div>
@@ -80,13 +80,11 @@
                 <li>
                     <a class="Instagram" rel="tooltip" href="#" data-original-title="Instagram">Instagram</a>
                 </li>
-                <li>
-                    <div style="margin:0 auto;width:240px">
-                        <a href="#Home" id="logo_bottom_flip" class="brand"></a>
-                    </div>
-                </li>
-
             </ul>
+            <div style="clear: both" id="link">
+
+                <a href="#Home" id="logo_bottom_flip" class="brand"></a>
+            </div>
 
         </footer>
     </div>
