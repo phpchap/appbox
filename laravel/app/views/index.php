@@ -460,7 +460,7 @@ if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing
                                     <p>Inspired by cricket and baseball all stars, we challenge you to a smash all of the targets from the unpredictable bowler and achieve a huge score.</p>
                                 </div>
                                 <div class="span2">
-                                    <a href="/frenzy-fox"><img style="padding: 10px 0;float: right" class="img-responsive" src="/img/FrenzyFox.png"/></a><br/>
+                                    <a href="/frenzy-fox"><img style="padding: 10px 0;float: right" class="img-responsive" src="/img/swingandsmashcover.png"/></a><br/>
                                 </div>
 
                             </div>
