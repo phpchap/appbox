@@ -115,6 +115,11 @@ Route::get('/frenzy-fox', function() {
     return View::make('frenzy-fox');
 });
 
+// swing and smash cricket
+Route::get('/swing-and-smash-cricket', function() {
+    return View::make('swing-and-smash-cricket');
+});
+
 // presentation
 Route::any('/landing', function(){
 

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c48a63-dbc3-40ec-95a3-e46ea3ebe191" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/frenzy-fox.php" afterPath="$PROJECT_DIR$/laravel/app/views/frenzy-fox.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/index.php" afterPath="$PROJECT_DIR$/laravel/app/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/public/css/iphoneapp.css" afterPath="$PROJECT_DIR$/laravel/public/css/iphoneapp.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Exception/resources/pretty-page.css" afterPath="$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Exception/resources/pretty-page.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/routes.php" afterPath="$PROJECT_DIR$/laravel/app/routes.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="appbox.iws" />
@@ -29,10 +27,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="iphoneapp.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/laravel/public/css/iphoneapp.css">
+      <file leaf-file-name="cricket.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/cricket.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="469" column="0" selection-start="11481" selection-end="11481" vertical-scroll-proportion="0.95866454" vertical-offset="5494" max-vertical-offset="7644">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="55.18182" vertical-offset="1214" max-vertical-offset="1833">
+              <folding>
+                <marker date="1408561117809" expanded="true" signature="152:4682" placeholder="..." />
+                <marker date="1408561117809" expanded="true" signature="159:3729" placeholder="..." />
+                <marker date="1408561117809" expanded="true" signature="442:819" placeholder="..." />
+                <marker date="1408561117809" expanded="true" signature="855:2513" placeholder="..." />
+                <marker date="1408561117809" expanded="true" signature="891:996" placeholder="{&quot;width&quot;: 960...}" />
+                <marker date="1408561117809" expanded="true" signature="1067:2486" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="1336:2393" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="1384:2379" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="1488:1701" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="1885:2098" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="2541:3721" placeholder="..." />
+                <marker date="1408561117809" expanded="true" signature="2569:2739" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="2766:2802" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="2829:2865" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="2883:2924" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="2947:2989" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="3007:3050" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="3071:3134" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="3175:3292" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="3337:3430" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="3479:3521" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="3541:3579" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="3604:3697" placeholder="{...}" />
+                <marker date="1408561117809" expanded="true" signature="3736:4674" placeholder="..." />
+                <marker date="1408561117809" expanded="true" signature="3820:4543" placeholder="..." />
+                <marker date="1408561117809" expanded="true" signature="3847:4536" placeholder="..." />
+                <marker date="1408561117809" expanded="true" signature="3877:4147" placeholder="..." />
+                <marker date="1408561117809" expanded="true" signature="3969:4132" placeholder="..." />
+                <marker date="1408561117809" expanded="true" signature="4176:4525" placeholder="..." />
+                <marker date="1408561117809" expanded="true" signature="4304:4510" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/child/home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="182">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="458" column="61" selection-start="26788" selection-end="26788" vertical-scroll-proportion="-20.454546" vertical-offset="5504" max-vertical-offset="19994">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="117" column="26" selection-start="3872" selection-end="3872" vertical-scroll-proportion="-17.045454" vertical-offset="496" max-vertical-offset="3406">
               <folding />
             </state>
           </provider>
@@ -41,11 +103,22 @@
       <file leaf-file-name="frenzy-fox.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laravel/app/views/frenzy-fox.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="28" selection-start="2341" selection-end="2341" vertical-scroll-proportion="-3.93617" vertical-offset="556" max-vertical-offset="1352">
+            <state line="44" column="37" selection-start="1723" selection-end="1723" vertical-scroll-proportion="-14.090909" vertical-offset="262" max-vertical-offset="1352">
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swing-and-smash-cricket.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laravel/app/views/swing-and-smash-cricket.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="33" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.89499193" vertical-offset="213" max-vertical-offset="1352">
+              <folding>
+                <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,18 +158,19 @@
         <option value="$PROJECT_DIR$/laravel/app/views/landing.php" />
         <option value="$PROJECT_DIR$/laravel/app/config/packages/aws/aws-sdk-php-laravel/config.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/cricket.php" />
-        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
         <option value="$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Exception/resources/pretty-page.css" />
+        <option value="$PROJECT_DIR$/laravel/public/css/iphoneapp.css" />
         <option value="$PROJECT_DIR$/laravel/app/views/index.php" />
         <option value="$PROJECT_DIR$/laravel/app/views/frenzy-fox.php" />
-        <option value="$PROJECT_DIR$/laravel/public/css/iphoneapp.css" />
+        <option value="$PROJECT_DIR$/laravel/app/routes.php" />
+        <option value="$PROJECT_DIR$/laravel/app/views/swing-and-smash-cricket.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1439" />
-    <option name="y" value="128" />
+    <option name="x" value="-1" />
+    <option name="y" value="-4" />
     <option name="width" value="1282" />
     <option name="height" value="773" />
   </component>
@@ -172,46 +246,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbox" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="laravel" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -245,7 +279,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../wedo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="options.lastSelected" value="editor" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -284,24 +318,24 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1439" y="128" width="1282" height="773" extended-state="6" />
+    <frame x="-1" y="-4" width="1282" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36578172" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19453125" sideWeight="0.9012739" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20625" sideWeight="0.9012739" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="MagicentoScripts" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36578172" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -326,147 +360,79 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/laravel/public/css/iphoneapp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="45" selection-start="4266" selection-end="4266" vertical-scroll-proportion="0.0" vertical-offset="1159" max-vertical-offset="3991">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/template/ff/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="62" selection-start="0" selection-end="6571" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1950">
-          <folding />
-        </state>
+        <state line="469" column="0" selection-start="11481" selection-end="11481" vertical-scroll-proportion="0.0" vertical-offset="5494" max-vertical-offset="7644" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/frenzy-fox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1378">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/public/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="89648">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="977" column="32" selection-start="42104" selection-end="42119" vertical-scroll-proportion="0.0" vertical-offset="12701" max-vertical-offset="19175">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#10;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#small#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#12;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#12;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#12;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#div#13;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/public/css/iphoneapp.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="14" selection-start="5702" selection-end="5702" vertical-scroll-proportion="0.0" vertical-offset="3289" max-vertical-offset="6955">
-          <folding />
-        </state>
+        <state line="57" column="28" selection-start="2341" selection-end="2341" vertical-scroll-proportion="0.0" vertical-offset="556" max-vertical-offset="1352" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="45" selection-start="4266" selection-end="4266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3991">
-          <folding />
-        </state>
+        <state line="132" column="45" selection-start="4266" selection-end="4266" vertical-scroll-proportion="0.0" vertical-offset="1159" max-vertical-offset="3991" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/template/ff/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="62" selection-start="0" selection-end="6571" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1950">
-          <folding />
-        </state>
+        <state line="30" column="62" selection-start="0" selection-end="6571" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1950" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/frenzy-fox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="0" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1378">
-          <folding />
-        </state>
+        <state line="61" column="0" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1378" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/public/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="89648">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="89648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="977" column="32" selection-start="42104" selection-end="42119" vertical-scroll-proportion="0.0" vertical-offset="12701" max-vertical-offset="19175">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#10;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#small#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#12;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#12;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#12;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#div#13;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
+        <state line="977" column="32" selection-start="42104" selection-end="42119" vertical-scroll-proportion="0.0" vertical-offset="12701" max-vertical-offset="19175" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/public/css/iphoneapp.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="253" column="14" selection-start="5702" selection-end="5702" vertical-scroll-proportion="0.0" vertical-offset="3289" max-vertical-offset="6955">
-          <folding />
-        </state>
+        <state line="253" column="14" selection-start="5702" selection-end="5702" vertical-scroll-proportion="0.0" vertical-offset="3289" max-vertical-offset="6955" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="10" selection-start="8241" selection-end="8241" vertical-scroll-proportion="0.0" vertical-offset="3055" max-vertical-offset="3861">
-          <folding />
-        </state>
+        <state line="132" column="45" selection-start="4266" selection-end="4266" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3991" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/ff/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="62" selection-start="0" selection-end="6571" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1950" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/frenzy-fox.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="0" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.0" vertical-offset="314" max-vertical-offset="1378" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="89648" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="977" column="32" selection-start="42104" selection-end="42119" vertical-scroll-proportion="0.0" vertical-offset="12701" max-vertical-offset="19175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/css/iphoneapp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="253" column="14" selection-start="5702" selection-end="5702" vertical-scroll-proportion="0.0" vertical-offset="3289" max-vertical-offset="6955" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="256" column="10" selection-start="8241" selection-end="8241" vertical-scroll-proportion="0.0" vertical-offset="3055" max-vertical-offset="3861" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/config/packages/aws/aws-sdk-php-laravel/config.php">
@@ -549,11 +515,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="893" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="33" selection-start="685" selection-end="685" vertical-scroll-proportion="0.28446388" vertical-offset="0" max-vertical-offset="914" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/landing.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="211" column="27" selection-start="7649" selection-end="7649" vertical-scroll-proportion="0.014840183" vertical-offset="2730" max-vertical-offset="8125" />
@@ -564,11 +525,6 @@
         <state line="36" column="59" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.0" vertical-offset="468" max-vertical-offset="962" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/views/cricket.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6383" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/presentation.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="240" column="27" selection-start="9827" selection-end="9827" vertical-scroll-proportion="0.38082558" vertical-offset="2834" max-vertical-offset="6383" />
@@ -576,68 +532,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/template/ff/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="62" selection-start="0" selection-end="6571" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1950">
-          <folding />
-        </state>
+        <state line="30" column="62" selection-start="0" selection-end="6571" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="1950" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/public/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="89648">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="89648" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/vendor/laravel/framework/src/Illuminate/Exception/resources/pretty-page.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.096059114" vertical-offset="78" max-vertical-offset="4030">
+        <state line="9" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.096059114" vertical-offset="78" max-vertical-offset="4030" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/public/css/iphoneapp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="469" column="0" selection-start="11481" selection-end="11481" vertical-scroll-proportion="0.92201835" vertical-offset="5494" max-vertical-offset="7644" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/cricket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="55.18182" vertical-offset="1214" max-vertical-offset="1833">
+          <folding>
+            <marker date="1408561117809" expanded="true" signature="152:4682" placeholder="..." />
+            <marker date="1408561117809" expanded="true" signature="159:3729" placeholder="..." />
+            <marker date="1408561117809" expanded="true" signature="442:819" placeholder="..." />
+            <marker date="1408561117809" expanded="true" signature="855:2513" placeholder="..." />
+            <marker date="1408561117809" expanded="true" signature="891:996" placeholder="{&quot;width&quot;: 960...}" />
+            <marker date="1408561117809" expanded="true" signature="1067:2486" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="1336:2393" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="1384:2379" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="1488:1701" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="1885:2098" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="2541:3721" placeholder="..." />
+            <marker date="1408561117809" expanded="true" signature="2569:2739" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="2766:2802" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="2829:2865" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="2883:2924" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="2947:2989" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="3007:3050" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="3071:3134" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="3175:3292" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="3337:3430" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="3479:3521" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="3541:3579" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="3604:3697" placeholder="{...}" />
+            <marker date="1408561117809" expanded="true" signature="3736:4674" placeholder="..." />
+            <marker date="1408561117809" expanded="true" signature="3820:4543" placeholder="..." />
+            <marker date="1408561117809" expanded="true" signature="3847:4536" placeholder="..." />
+            <marker date="1408561117809" expanded="true" signature="3877:4147" placeholder="..." />
+            <marker date="1408561117809" expanded="true" signature="3969:4132" placeholder="..." />
+            <marker date="1408561117809" expanded="true" signature="4176:4525" placeholder="..." />
+            <marker date="1408561117809" expanded="true" signature="4304:4510" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/child/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="641">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="449" column="104" selection-start="26322" selection-end="26381" vertical-scroll-proportion="0.8739903" vertical-offset="5296" max-vertical-offset="19708">
+        <state line="458" column="61" selection-start="26788" selection-end="26788" vertical-scroll-proportion="-20.454546" vertical-offset="5504" max-vertical-offset="19994">
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#4;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#6;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#10;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#small#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#12;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#12;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#i#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#12;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#footer#0;n#div#0;n#div#13;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#div#2;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#4;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
+    <entry file="file://$PROJECT_DIR$/laravel/app/controllers/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="23" selection-start="3777" selection-end="3788" vertical-scroll-proportion="0.49050632" vertical-offset="509" max-vertical-offset="3341">
+        <state line="16" column="35" selection-start="608" selection-end="608" vertical-scroll-proportion="0.32911393" vertical-offset="0" max-vertical-offset="632">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/frenzy-fox.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="28" selection-start="2341" selection-end="2341" vertical-scroll-proportion="-3.93617" vertical-offset="556" max-vertical-offset="1352">
+        <state line="44" column="37" selection-start="1723" selection-end="1723" vertical-scroll-proportion="-14.090909" vertical-offset="262" max-vertical-offset="1352">
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#2;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -646,10 +626,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/laravel/public/css/iphoneapp.css">
+    <entry file="file://$PROJECT_DIR$/laravel/app/routes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="469" column="0" selection-start="11481" selection-end="11481" vertical-scroll-proportion="0.95866454" vertical-offset="5494" max-vertical-offset="7644">
+        <state line="117" column="26" selection-start="3872" selection-end="3872" vertical-scroll-proportion="-17.045454" vertical-offset="496" max-vertical-offset="3406">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laravel/app/views/swing-and-smash-cricket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="33" selection-start="2689" selection-end="2689" vertical-scroll-proportion="0.89499193" vertical-offset="213" max-vertical-offset="1352">
+          <folding>
+            <element signature="n#style#0;n#img#0;n#h1#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

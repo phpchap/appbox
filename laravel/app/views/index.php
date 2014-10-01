@@ -435,6 +435,7 @@ if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing
                                 </div>
                             </div>
                             <hr>
+
                             <div class="container clearfix">
                                 <div class="span2">
                                     <a href="/frenzy-fox"><img style="padding: 10px 0;float: right" class="img-responsive" src="/img/FrenzyFox.png"/></a><br/>
@@ -451,6 +452,27 @@ if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing
                                 </div>
                             </div>
                             <hr>
+
+
+                            <div class="container clearfix">
+                                <div class="span10">
+                                    <a href="/swing-and-smash"><h2>Swing and Smash Cricket</h2></a>
+                                    <p>Inspired by cricket and baseball all stars, we challenge you to a smash all of the targets from the unpredictable bowler and achieve a huge score.</p>
+                                </div>
+                                <div class="span2">
+                                    <a href="/frenzy-fox"><img style="padding: 10px 0;float: right" class="img-responsive" src="/img/FrenzyFox.png"/></a><br/>
+                                </div>
+
+                            </div>
+                            <div class="container clearfix">
+                                <div class="span12" style="text-align: center">
+                                    <a href="https://play.google.com/store/apps/details?id=com.AppBoxMedia.FrenzyFox" target="_blank"><img style="padding: 10px 0;height:90px;" class="img-responsive" src="/img/download-googleplay.png"/></a>
+                                    <a href="https://itunes.apple.com/us/app/frenzy-fox/id901192377?mt=8" target="_blank"><img style="padding: 10px 0;height:95px;" class="img-responsive" src="/img/download-appstore.png"/></a>
+                                </div>
+                            </div>
+                            <hr>
+
+
                         </div>
                     </div>
                 </div>
