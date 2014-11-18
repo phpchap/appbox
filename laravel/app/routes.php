@@ -115,6 +115,11 @@ Route::get('/frenzy-fox', function() {
     return View::make('frenzy-fox');
 });
 
+// rage quit monkey
+Route::get('/rage-quit-monkey', function() {
+    return View::make('rage-quit');
+});
+
 // swing and smash cricket
 Route::get('/swing-and-smash-cricket', function() {
     return View::make('swing-and-smash-cricket');

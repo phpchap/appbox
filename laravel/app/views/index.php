@@ -471,6 +471,23 @@ if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing
                             </div>
                             <hr>
 
+                            <div class="container clearfix">
+                                <div class="span2">
+                                    <a href="/rage-quit-monkey"><img style="padding: 10px 0;float: right" class="img-responsive" src="/rage_quit_monkey.png"/></a><br/>
+                                </div>
+                                <div class="span10">
+                                    <a href="/frenzy-fox"><h2>Rage Quit Monkey</h2></a>
+                                    <p>Keep calm and carry on high scoring!</p>
+                                </div>
+                            </div>
+                            <div class="container clearfix">
+                                <div class="span12" style="text-align: center">
+                                    <a href="https://play.google.com/store/apps/details?id=com.appboxmedia.ragequitmonkey" target="_blank"><img style="padding: 10px 0;height:90px;" class="img-responsive" src="/img/download-googleplay.png"/></a>
+                                    <a href="https://itunes.apple.com/gb/app/rage-quit-monkey/id934652786?mt=8" target="_blank"><img style="padding: 10px 0;height:95px;" class="img-responsive" src="/img/download-appstore.png"/></a>
+                                </div>
+                            </div>
+                            <hr>
+
 
                         </div>
                     </div>
