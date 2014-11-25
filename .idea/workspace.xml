@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="27c48a63-dbc3-40ec-95a3-e46ea3ebe191" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/laravel/app/views/index.php" afterPath="$PROJECT_DIR$/laravel/app/views/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="appbox.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,12 +28,12 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="38" selection-start="9373" selection-end="9373" vertical-scroll-proportion="0.46464646" vertical-offset="1973" max-vertical-offset="20215">
+            <state line="468" column="0" selection-start="27751" selection-end="27751" vertical-scroll-proportion="0.530303" vertical-offset="5769" max-vertical-offset="20202">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1416949681797" expanded="true" signature="27657:27685" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -308,8 +307,8 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1416949681797" expanded="true" signature="27657:27685" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -546,12 +545,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laravel/app/views/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="38" selection-start="9373" selection-end="9373" vertical-scroll-proportion="0.46464646" vertical-offset="1973" max-vertical-offset="20215">
+        <state line="468" column="0" selection-start="27751" selection-end="27751" vertical-scroll-proportion="0.530303" vertical-offset="5769" max-vertical-offset="20202">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#5;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#1;n#div#0;n#div#5;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#6;n#div#0;n#div#0;n#div#8;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1416949681797" expanded="true" signature="27657:27685" placeholder="..." />
           </folding>
         </state>
       </provider>
