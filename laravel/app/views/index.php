@@ -165,7 +165,7 @@ if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing
                                     <p>It is the vision of the Company to become one of the world’s leading mobile application and game software developers within 5 years.</p>
                                     <p>The founding shareholders and management agree that AppBox Media can realistically anticipate to achieve £2.5 million in earnings in three years. Subject to market sentiment, they also agree that in three years’ time buyers could be found who would pay up to 10 times earnings for the Company. </p>
                                     <p>Therefore based on these assumptions, in three years the Company’s worth could be estimated at £25 million.</p>
-                                    <p>The current market capitalisation AppBox Media Plc stands at £3.6 million.</p>
+                                    <p>The current market capitalisation AppBox Media Plc stands at £6.45 million.</p>
                                 </div>
                                 <!-- RIGHT HAND SIDE IMAGE -->
                                 <div class="span6">
@@ -465,8 +465,9 @@ if(!empty($_SERVER['HTTP_REFERER']) && stripos($_SERVER['HTTP_REFERER'],'landing
                             </div>
                             <div class="container clearfix">
                                 <div class="span12" style="text-align: center">
-                                    <a href="https://play.google.com/store/apps/details?id=com.AppBoxMedia.FrenzyFox" target="_blank"><img style="padding: 10px 0;height:90px;" class="img-responsive" src="/img/download-googleplay.png"/></a>
-                                    <a href="https://itunes.apple.com/us/app/frenzy-fox/id901192377?mt=8" target="_blank"><img style="padding: 10px 0;height:95px;" class="img-responsive" src="/img/download-appstore.png"/></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.AppBoxMedia.Cricket" target="_blank"><img style="padding: 10px 0;height:90px;" class="img-responsive" src="/img/download-googleplay.png"/></a>
+                                    <a href="https://play.google.com/store/apps/details?id=com.AppBoxMedia.Cricket" target="_blank"><img style="padding: 10px 0;height:90px;" class="img-responsive" src="/img/download-googleplay.png"/></a>
+                                    <a href="https://itunes.apple.com/app/id917061642" target="_blank"><img style="padding: 10px 0;height:95px;" class="img-responsive" src="/img/download-appstore.png"/></a>
                                 </div>
                             </div>
                             <hr>
